@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: TESIS_MCIC.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: ARQUITECTURA/organizacion.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: ARQUITECTURA/motivacion.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: ARQUITECTURA/estrategica.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: ARQUITECTURA/negocio.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: ARQUITECTURA/aplicacion.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: ARQUITECTURA/tecnologia.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: ARQUITECTURA/implementacion.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+Database file #1: REFERENCIAS/articulos.bib
+Warning--entry type for "Shafique2014" isn't style-file defined
+--line 1241 of file REFERENCIAS/articulos.bib
+Repeated entry---line 1299 of file REFERENCIAS/articulos.bib
+ : @article{Rollins2015
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--can't use both author and editor fields in Brunicardi2010
+Warning--empty booktitle in Safhi2019
+Warning--empty journal in Pacheco2014
+Warning--there's a number but no volume in Shen2019
+Warning--empty author in Turin2020
+Warning--empty publisher in ArchiMate3.0.1
+You've used 70 entries,
+            1791 wiz_defined-function locations,
+            906 strings with 18718 characters,
+and the built_in function-call counts, 16372 in all, are:
+= -- 1280
+> -- 1083
+< -- 8
++ -- 390
+- -- 320
+* -- 1246
+:= -- 2791
+add.period$ -- 208
+call.type$ -- 70
+change.case$ -- 64
+chr.to.int$ -- 0
+cite$ -- 76
+duplicate$ -- 652
+empty$ -- 1419
+format.name$ -- 320
+if$ -- 3500
+int.to.chr$ -- 0
+int.to.str$ -- 70
+missing$ -- 73
+newline$ -- 348
+num.names$ -- 69
+pop$ -- 178
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 278
+stack$ -- 0
+substring$ -- 846
+swap$ -- 116
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 137
+width$ -- 72
+write$ -- 743
+(There was 1 error message)

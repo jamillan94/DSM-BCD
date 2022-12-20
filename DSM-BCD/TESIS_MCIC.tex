@@ -1,0 +1,121 @@
+%--------------------PAQUETES-------------------------------------
+\documentclass[openany,12pt,letterpaper]{book}
+\usepackage[a4paper]{geometry}
+\geometry{left=3cm}
+\geometry{right=3cm}
+\usepackage[spanish,es-tabla]{babel}
+%\usepackage{geometry} % Used to adjust the document margins
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[inline]{enumitem} 
+\usepackage[normalem]{ulem}
+\usepackage{easylist}
+\usepackage{bbding}
+\useunder{\uline}{\ul}{}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{bbding}
+\usepackage{standalone}
+\setlength{\parskip}{0.5em}
+\usepackage[breakable]{tcolorbox}
+\usepackage{upquote} % Upright quotes for verbatim code
+\usepackage{fancyvrb} % verbatim replacement that allows latex
+\usepackage{upquote} % Upright quotes for verbatim code
+\usepackage{grffile} % extends the file name processing of package graphics 
+\usepackage{longtable} % longtable support required by pandoc >1.10
+\usepackage{booktabs}  % table support for pandoc > 1.12.2
+\usepackage{float}
+\floatplacement{figure}{H} % forces figures to be placed at the correct location
+\usepackage{xcolor} % Allow colors to be defined
+\usepackage{geometry} % Used to adjust the document margins
+\usepackage{amsmath} % Equations
+\usepackage{amssymb} % Equations
+\usepackage{textcomp} % defines textquotesingle
+\usepackage{grffile} % to support a larger range
+\usepackage{booktabs}  % table support for pandoc > 1.12.2
+\usepackage[normalem]{ulem}
+\usepackage[pdftex]{hyperref}
+\usepackage{mathrsfs}
+\usepackage{multicol}
+\usepackage{threeparttable}
+\usepackage[bottom]{footmisc}
+
+
+%------------------VISITADOR-------------------------------------------------
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=cyan,
+	bookmarks=true,
+	citecolor=blue
+}
+
+%--------------------AUTORES--------------------------------------
+\title{METODOLOGÍA PARA LA APLICACIÓN DE LA CIENCIA DE DATOS EN EL DIAGNÓSTICO DEL CÁNCER DE MAMA }
+\author{Jorge Armando Millán Gomez}
+
+%--------------------TABLAS---------------------------------------
+\begin{document}
+	\maketitle
+	%titlepage
+	\thispagestyle{empty}
+	\begin{center}
+		\begin{minipage}{0.75\linewidth}
+			\centering
+			%University logo
+			\includegraphics[width=0.3\linewidth]{IMAGENES/LogoUdistrital}
+			\par\vspace{2cm}
+			%Thesis title
+			{\uppercase{\Large METODOLOGÍA PARA LA APLICACIÓN DE LA CIENCIA DE DATOS EN EL DIAGNÓSTICO DEL CÁNCER DE MAMA \par}}
+			\vspace{3cm}
+			%Author's name
+			{\Large Jorge Armando Millán Gómez \par}
+			\vspace{3cm}
+			%Degree
+			{\Large Maestría en Ciencias de la Información y las Comunicaciones énfasis en Ingeniería de Software\par}
+			\vspace{3cm}
+			%Date
+			{\Large \today}
+		\end{minipage}
+	\end{center}
+	\clearpage
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	%--------------------[I]PROYECTO----------------------------------
+	\part{TESIS DE INVESTIGACIÓN}
+	\input{TESIS/INTRODUCCION}
+	\input{TESIS/ESTADO_ARTE}
+	\input{TESIS/DISEÑO_METODOLOGICO}
+	\input{TESIS/PROPUESTA}
+	\clearpage
+	
+	%--------------------[II] DESARROLLO--------------------------------
+	\part{DESARROLLO DE LA INVESTIGACIÓN}
+	\input{TESIS/DESARROLLO}
+	
+	%--------------------[III] ARQUITECTURA EMPRESARIAL----------------
+	\part{ARQUITECTURA Y DISEÑO}
+	\include{ARQUITECTURA/organizacion}
+	\include{ARQUITECTURA/motivacion}
+	\include{ARQUITECTURA/estrategica}
+	\include{ARQUITECTURA/negocio}
+	\include{ARQUITECTURA/aplicacion}
+	\include{ARQUITECTURA/tecnologia}
+	\include{ARQUITECTURA/implementacion}
+
+	\part{ANÁLISIS Y RESULTADOS}
+	\input{TESIS/ANALISIS}
+	\input{TESIS/RESULTADOS}
+
+	%--------------------[III] REFLEXIONES------------------------------
+	%\part{REFLEXIONES}
+	%\include{REFLEXIONES/resultados}
+	
+	%--------------------[IV]BIBLIOGRAFIA-------------------------------
+	\bibliographystyle{unsrt}
+	\bibliography{REFERENCIAS/articulos}
+	%\include{PROYECTO/Desarrollo}
+	
+	
+\end{document}

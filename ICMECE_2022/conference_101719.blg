@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: conference_101719.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: REFERENCES/articulos.bib
+Warning--entry type for "InternationalAgencyforResearchonCancer2020" isn't style-file defined
+--line 3 of file REFERENCES/articulos.bib
+Warning--entry type for "Turin2020" isn't style-file defined
+--line 183 of file REFERENCES/articulos.bib
+Repeated entry---line 1289 of file REFERENCES/articulos.bib
+ : @article{Rollins2015
+ :                     ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in Sauer2019
+Warning--edition ordinal word "Novena" may be too high (or improper) for conversion in Brunicardi2010
+
+Done.
+You've used 29 entries,
+            4087 wiz_defined-function locations,
+            1039 strings with 14515 characters,
+and the built_in function-call counts, 22392 in all, are:
+= -- 1704
+> -- 756
+< -- 150
++ -- 401
+- -- 161
+* -- 1105
+:= -- 3313
+add.period$ -- 59
+call.type$ -- 29
+change.case$ -- 29
+chr.to.int$ -- 339
+cite$ -- 31
+duplicate$ -- 1604
+empty$ -- 1722
+format.name$ -- 178
+if$ -- 5196
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 315
+newline$ -- 124
+num.names$ -- 31
+pop$ -- 783
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 4
+skip$ -- 1682
+stack$ -- 0
+substring$ -- 836
+swap$ -- 1315
+text.length$ -- 37
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 29
+warning$ -- 2
+while$ -- 85
+width$ -- 31
+write$ -- 306
+(There was 1 error message)

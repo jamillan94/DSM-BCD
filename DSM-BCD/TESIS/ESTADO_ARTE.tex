@@ -1,0 +1,161 @@
+\newpage
+\chapter{Estado del arte y Marco Teórico}
+
+\section{Marco teórico}
+
+El eje central esta investigación está basada principalmente en metodologías en ciencia de datos y las técnicas que la componen, tales como:  Machine Learning (ML), Deep Learning (DL), Inteligencia Artificial (IA) y los diferentes métodos estadísticos para comprobación de la hipótesis con base a la diagnosis del cáncer de mama. Dado lo anterior, a continuación se describen los conceptos teóricos relacionados con el tema de estudio:   
+
+\subsection{Detección y diagnóstico del cáncer de mama}
+El cáncer de mama, con su causa incierta, ha capturado la atención de los cirujanos en todas las épocas. A pesar de siglos de laberintos teóricos y preguntas científicas, el cáncer de mama aún es una de las enfermedades humanas más temibles \cite{Bland2009}. Según \cite{Fatima2020}, el cáncer de mama se origina a través de tumores malignos, cuando el crecimiento de la célula se descontrola provocando que muchos tejidos grasos y fibrosos de la mama inicien un crecimiento anormal, lo cual tiene como consecuencia que las células cancerosas se diseminen por los tumores causando las diferentes etapas del cáncer. \cite{Fatima2020} exponen que existen diferentes tipos de cáncer de mama \cite{Sun2017}, que se producen cuando las células afectadas y tejidos diseminados se esparcen por todo el cuerpo. Pongamos por caso, el primer tipo de cáncer denominado \textit{Carcinoma ductal in situ (DCIS)} el cual es un tipo de cáncer no invasivo \cite{Hou2020}, que se produce cuando las células anormales se propagan fuera de la mama. El segundo tipo de cáncer es el \textit{Carcinoma ductal invasivo (IDC)}, también conocido como carcinoma ductal infiltrante \cite{Chaudhury2011}. Este tipo de cáncer ocurre cuando las células anormales de la mama se diseminan por todos los tejidos mamarios. Generalmente este tipo de cáncer se encuentra en los hombres \cite{Page1982}. El tercer tipo de cáncer es el cáncer de \textit{Tumores mixtos (MTBC)} también conocido como cáncer de mama invasivo \cite{Tuck1997} causado por las células anormales de los conductos y las células lobulillares \cite{Lee2017}. El cuarto tipo de cáncer es el cáncer de mama \textit{Lobulillar (LBC)} \cite{Masciari2007} que ocurre dentro del lóbulo y aumenta las posibilidades de otros cánceres invasivos. El quinto tipo cáncer es el cáncer de mama \textit{mucinoso (MBC)} o de \textit{mama coloide} \cite{Memis2000} que ocurre debido a las células ductales invasivas cuando los tejidos anormales se extienden alrededor del conducto \cite{Gradilone2011}. El sexto y ultimo tipo de cáncer es el cáncer de mama \textit{inflamatorio (IBC)}, el cual causa hinchazón y enrojecimiento del pecho. Este tipo de cáncer de mama es de rápido crecimiento, y comienza a aparecer cuando los vasos linfáticos se obstruyen en células rotas \cite{Robertson2010}.
+
+Según \cite{Brunicardi2010}, en la mayoría de casos detectados la mujer descubre una tumoración en su mama. Otros signos y síntomas que se presentan menos a menudo comprenden: crecimiento o asimetría de la mama, alteraciones y retracción del pezón o telorrea, ulceración o eritema de la piel de la mama, una masa axilar y molestia musculoesquelética. Cabe señalar, que si se detectan alguno de los síntomas anteriores este tipo de cáncer puede ser diagnosticado por medio de los procedimientos basados en \textit{Exploración Física}, \textit{Técnicas de imagen} y \textit{Biopsias}. 
+
+A nivel de \textit{Exploración física}, el cáncer de mama puede ser detectado por el oncólogo por medio de los métodos de \textit{Inspección} y \textit{Palpación}. Con estos métodos, se registran la simetría, el tamaño y la forma de la mama, así como cualquier evidencia de edema (piel de naranja), retracción del pezón o de la piel y eritema .
+
+En la actualidad, muchas \textit{Técnicas de imagen} se utilizan ampliamente para proporcionar un diagnóstico preciso de las lesiones mamarias\cite{Tamam2021}, entre estas técnicas las mas relevantes son las siguientes: \textit{La Mamografía} que hace uso de una unidad mamográfica que consta de un tubo de rayos X que encapsula un cátodo y un ánodo. La mama se coloca sobre el detector y se comprime mediante un dispositivo de placas paralelas, el cual mantiene la mama inmóvil y evita el desenfoque por movimiento, esto con el propósito de reducir el grosor del tejido que deben atravesar los rayos x \cite{Ebrahimi2019}; \textit{La ductografía} que identifica de lesiones en pacientes con secreción del pezón. Este método es eficaz para localizar e identificar las lesiones intraductales por medio de un examen mamográfico realizado tras el llenado retrógrado de los conductos galactóforos con material de contraste \cite{Hirose2007}; \textit{La Ecografía} que permite obtener imágenes de alta resolución por medio de un pequeño transductor (sonda) de alta frecuencia que envía ondas sonoras inaudibles al interior de la mama y recibe el eco de las ondas procedentes de los órganos internos, los fluidos y los tejidos \cite{Hasan2019}; y \textit{La Resonancia Magnética (MRI)}que es utilizada cuando las lesiones en la mama no se pueden evaluar fácilmente mediante otras técnicas. Para lograrlo, utiliza bobinas receptoras de radiofrecuencia (RF) para detectar una señal emitida por los tejidos tras la excitación de un campo electromagnético que obliga a los protones alinearse a la anatomía de la zona de interés en tamaño y forma \cite{Tse2014}.
+
+Hay que mencionar, además que actualmente existen dos modalidades para obtener un diagnóstico por \textit{Biopsia} para un paciente que presenta una anomalía mamaria. Por un lado tenemos, la biopsia para mamas con \textit{lesiones palbables} tambien denominada \textit{percutánea} o \textit{mínimamente invasiva}. Estas biopsias incluyen la aspiración con aguja fina (FNA) y con con aguja gruesa (CNB). Las biopsias quirúrgicas abiertas se denominan a veces biopsias por escisión o biopsias por incisión. La biopsia por \textit {escisión} indica la extirpación completa de la lesión, mientras que la biopsia por \textit {incisión} indica la extirpación de parte de la lesión \cite{Greenfield2012}. En el caso de las \textit{lesiones no palpables}, las modalidades de imagen como la ecografía (US), la mamografía y la resonancia magnética (MRI) son complementos útiles para identificar y localizar la lesión de interés. La decisión de cuándo realizar una biopsia de mama depende de los antecedentes del paciente, los hallazgos de la exploración física y las imágenes radiológicas. El objetivo principal de la biopsia es obtener un diagnóstico tisular que pueda ayudar a dictar el tratamiento y la planificación preoperatoria, si está indicado. Por lo tanto, es imprescindible elegir una técnica de biopsia que optimice las posibilidades de obtener un diagnóstico preciso y que, al mismo tiempo, minimice los costes, limite las molestias del paciente y reduzca la necesidad de repetir el procedimiento \cite{Samilia2018}.
+
+\newpage
+\subsection{Ciencia de Datos}
+La ciencia, en el lenguaje del método científico,es:
+\begin{itemize}
+	\item Formular hipótesis o conjeturas sobre cómo funciona el mundo, basadas en observaciones del mundo que nos rodea.
+	\item Validar o invalidar esas hipótesis mediante la realización de experimentos.
+\end{itemize}                   
+Sin embargo, a diferencia de las ciencias puras, trabajar con datos no requiere necesariamente realizar experimentos. Más bien, muchas veces los datos ya han sido recopilados y organizados previamente. Entonces, el método científico, aplicado a los datos, se puede resumir como: \textit{“Formular hipótesis basadas en el mundo que nos rodea y luego analizar los datos relevantes para validar o invalidar dichas hipótesis”}. 
+
+\subsection{Machine Learning(ML)}
+Aprender significa: \textit{“Adquirir conocimientos o habilidades en algo a través de la experiencia”}.  Por lo tanto, se podría enmarcar al ML cómo la manera en la cual una máquina gana o adquiere conocimiento a través de la experiencia. Pero ¿Cómo adquiere experiencia una máquina? Todas las entradas de una máquina son esencialmente cadenas binarias de 0 y 1, que en el dominio de las ciencias de la computación dichos binarios son simple y llanamente Datos. Por consiguiente, el ML es realmente la forma en que una computadora adquiere conocimiento a través de los datos.  
+
+La ciencia de datos es fundamentalmente un proceso, mientras que el Machine Learning es una herramienta que puede ser inmensamente útil para llevar a cabo el proceso dicho proceso\cite{Pillai2020}. Por supuesto, esto no da ninguna idea del como en absoluto; simplemente se resume el proceso como algo que se hace con los datos de entrada para generar este conocimiento como salida. Para hacer una analogía matemática, el ML es una función $f$ tal que:
+
+\begin{equation}
+	Conocimiento=f(Datos)
+\end{equation}
+
+Entonces, $f$ podría ser tan mecánico como una simple función matemática. Más específicamente, el ML es mecánico en el sentido de que la forma en que estos algoritmos aprenden se basa estrictamente en principios matemáticos. Por ejemplo, la regresión lineal es un algoritmo que aprende ajustando los coeficientes de los datos de entrada para predecir mejor un valor de salida. La forma en que cambian los coeficientes se basa completamente en protocolos matemáticos (en este caso, los gradientes de los datos de entrada)\cite{Pillai2020}. Y en la práctica, esta es la esencia de la mayoría de los algoritmos comunes de ML, los cuales se clasifican en:
+
+\subsubsection{Aprendizaje Supervisado}
+Se refiere a un tipo de modelos de Machine Learning que se entrenan con un conjunto de ejemplos en los que los resultados de salida son conocidos. Los modelos aprenden de esos resultados y realizan ajustes en sus parámetros interiores para adaptarse a los datos de entrada. Una vez el modelo es entrenado adecuadamente, y los parámetros internos son coherentes con los datos de entrada y los resultados del conjunto datos de entrenamiento, el modelo podrá realizar predicciones adecuadas ante nuevos datos no procesados previamente\cite{Roman2019}. Este tipo de aprendizaje está conformado de las siguientes técnicas:
+
+\begin{enumerate}[label=\textbf{\arabic*})]
+	
+	\item \textbf{Regresión}
+	
+	La regresión se utiliza para asignar categorías a datos sin etiquetar. En este tipo de aprendizaje tenemos un número de variables predictoras (explicativas) y una variable de respuesta continua (resultado), y se tratará de encontrar una relación entre dichas variables que nos proporcione un resultado continuo\cite{Roman2019}. Los modelos de Regresión más conocidos son los siguientes:
+	\begin{enumerate}[label=\textbf{(\alph*)}]
+		\item \textit{\textbf{Regresión Lineal:}}
+		Se utiliza para estimar los valores reales (costo de las viviendas, el número de llamadas, ventas totales, etc.) basados en variables continuas. La idea es tratar de establecer la relación entre las variables independientes y dependientes por medio de ajustar una mejor línea recta con respecto a los puntos\cite{BriegaLopez2015}. 
+		
+		\item \textit{\textbf{Regresión Logística:}}
+		Los modelos lineales, también pueden ser utilizados para clasificaciones; es decir, que primero ajustamos el modelo lineal a la probabilidad de que una cierta clase o categoría ocurra y, a luego, utilizamos una función para crear un umbral en el cual especificamos el resultado de una de estas clases o categorías. La función que utiliza este modelo es denominada regresión logística\cite{BriegaLopez2015}.  
+	\end{enumerate}
+	
+	\newpage
+	\item \textbf{Clasificación}
+	
+	La Clasificación es una sub-categoría de aprendizaje supervisado en la que el objetivo es predecir las clases categóricas con base a un conjunto de datos existentes\cite{BriegaLopez2015}. Los modelos de clasificación más conocidos son los siguientes:
+	
+	\begin{enumerate}[label=\textbf{(\alph*)}]
+		\item \textit{\textbf{Árboles de decisión:}}
+		Los árboles de decisión (DT\footnote{Decision Tree}) son diagramas con construcciones lógicas, muy similares a los sistemas de predicción basados en reglas, que sirven para representar y categorizar una serie de condiciones que ocurren de forma sucesiva, para la resolución de un problema\cite{Roman2019}. 
+		
+		\item \textit{\textbf{Bosque aleatorio:}}
+		La idea central detrás del algoritmo de Bosque aleatorio(RF\footnote{Random Forest}) es construir una gran cantidad de árboles de decisión y luego seleccionar y comparar la categoría que cada árbol eligió\cite{Roman2019}. 
+		
+		\item \textit{\textbf{Vecinos más cercanos:}}
+		Los vecinos mas cercanos (KNN\footnote{K-Nearest Neighborhood}) es un método de clasificación no paramétrico, que estima el valor de la probabilidad a posteriori de que un elemento $x$ pertenezca a una clase en particular a partir de la información proporcionada por un conjunto de datos .Cuando se requiere un resultado para una nueva instancia de datos, el algoritmo KNN recorre dicho conjunto para encontrar las $k$ instancias más cercanas a la nueva instancia, o el número $k$ de instancias más similares al nuevo registro, y luego genera la media de los resultados (para un problema de regresión) o la moda para un problema de clasificación\cite{Shaw2019}.
+		
+		\item \textit{\textbf{Máquinas de vectores de soporte:}}La maquina de vectores de soporte (SVM\footnote{Support Vector Machine}) es clasificador discriminativo definido formalmente por un hiperplano separador que dados los datos de entrenamiento conocidos genera un hiperplano óptimo que categoriza nuevos registros. En un espacio bidimensional, este hiperplano es una línea que divide un plano en dos partes, donde en cada clase se encuentra a cada lado. En otras palabras, las máquinas de vectores de soporte calculan un límite de margen máximo que conduce a una partición homogénea de todos los puntos de datos\cite{Patel2017}. 
+	\end{enumerate}
+	
+\end{enumerate}
+
+\subsubsection{Aprendizaje No supervisado}
+En el aprendizaje No supervisado, se trabaja con datos sin etiquetar cuya estructura es desconocida. El objetivo será la extracción de información significativa, sin la referencia de variables de salida conocidas, y mediante la exploración de la estructura de dichos datos sin etiquetar\cite{BriegaLopez2015}.Este tipo de aprendizaje está conformado de las siguientes técnicas:
+
+\begin{enumerate}[label=\textbf{\arabic*})]
+	
+	\item \textbf{Agrupamiento(Clustering)}
+	
+	El agrupamiento es una técnica exploratoria de análisis de datos, que se usa para organizar información en grupos sin tener conocimiento previo de su estructura. Cada grupo es un conjunto de objetos similares que se diferencia de los objetos de otros grupos. El objetivo es obtener un número de grupos de características similares\cite{BriegaLopez2015}. Los modelos de Clustering más conocidos son los siguientes:
+	
+	\begin{enumerate}[label=\textbf{(\alph*)}]
+		\item \textit{\textbf{K-means :}}
+		Es un algoritmo diseñado para dividir datos no etiquetados en un cierto número ($k$) de agrupaciones distintas. En otras palabras, k-means encuentra observaciones que comparten características importantes, las une y las clasifica en grupos\cite{Jeffares2019}. 
+		
+		\item \textit{\textbf{K-modes:}}
+		El algoritmo de agrupación de k-modes es una extensión del algoritmo k-means. Este algoritmo fue diseñado para agrupar grandes conjuntos de datos categóricos, y tiene como objetivo obtener las k modas que representan a un conjunto de datos determinado\cite{Ramirez2020}.
+	\end{enumerate}
+	
+	\item \textbf{Reducción dimensional}
+	
+	Es común trabajar con datos en los que cada observación se presenta con alto número de características, en otras palabras, que tienen alta dimensionalidad. Este hecho es un reto para la capacidad de procesamiento y el rendimiento computacional de los algoritmos de Machine Learning. La reducción dimensional es una de las técnicas usadas para mitigar este efecto. Este modelo funciona encontrando correlaciones entre las características, lo que implica que existe información redundante, ya que alguna característica puede explicarse parcialmente con otras. Estas técnicas eliminan ruido de los datos, y comprimen los datos en un sub-espacio más reducido, al tiempo que retienen la mayoría de la información relevante\cite{BriegaLopez2015}. El modelos de Reducción Dimensional más conocido es el siguientes:
+	
+	\begin{enumerate}[label=\textbf{(\alph*)}]
+		\item \textit{\textbf{Análisis de componentes principales:}}
+		El análisis de componentes principales (PCA\footnote{Principal Component Analysis}) se utiliza para facilitar la exploración y visualización de los datos al reducir el número de variables. Esto se hace capturando la varianza máxima en los datos en un nuevo sistema de coordenadas con ejes llamados componentes principales. Cada componente es una combinación lineal de las variables originales y es ortogonal entre sí. La ortogonalidad entre componentes indica que la correlación entre estos componentes es cero\cite{Shaw2019}.
+	\end{enumerate}
+	
+\end{enumerate}
+
+\subsubsection{Aprendizaje por Refuerzo}
+
+El aprendizaje por refuerzo es una de las ramas más importantes del aprendizaje profundo. El objetivo es construir un modelo con un agente que mejora su rendimiento, basándose en la recompensa obtenida del entorno con cada interacción que se realiza. La recompensa es una medida de lo correcta que ha sido una acción para obtener un objetivo determinado. El agente utiliza esta recompensa para ajustar su comportamiento futuro, con el objetivo de obtener la recompensa máxima\cite{BriegaLopez2015}. 
+
+\newpage
+\subsection{Deep Learning(DL)}
+
+El aprendizaje profundo o Deep Learning, es un sub-campo del ML, que usa una estructura jerárquica de Redes Neuronales Artificiales(ANN\footnote{Artificial Neural Network}), que se construyen de una forma similar a la estructura neuronal del cerebro humano. Esta arquitectura permite abordar el análisis de datos de forma no lineal\cite{BriegaLopez2015}.  Las técnicas utilizadas en el aprendizaje profundo son los siguientes:
+
+\subsubsection{Redes Neuronales}
+Al igual que el cerebro humano, las Redes Neuronales constan de neuronas. Cada neurona recibe señales como entrada, las multiplica por pesos, las suma y aplica una función no lineal. Estas neuronas se apilan una al lado de la otra y se organizan en capas\cite{Karagiannakos2020}. La primera capa de la red neuronal toma datos en bruto como entrada, los procesa, extrae información y la transfiere a la siguiente capa como salida. Este proceso se repite en las siguientes capas, cada capa procesa la información proporcionada por la capa anterior, y así sucesivamente hasta que los datos llegan a la capa final, que es donde se obtiene la predicción. Esta predicción se compara con el resultado conocido, y así por análisis inverso el modelo es capaz de aprender los factores que conducen a salidas adecuadas\cite{BriegaLopez2015}.  Las Redes Neuronales se componen de los siguientes algoritmos:
+
+\begin{enumerate}[label=\textbf{\arabic*})]
+	
+	\item \textbf{Backpropagation}
+	
+	Las Redes Neuronales pueden aprender una función deseada utilizando grandes cantidades de datos y un algoritmo iterativo llamado \textit{Backpropagation}.  En este caso se alimenta la red con datos, se produce una salida, se compara esa salida con la deseada (usando una función de pérdida) y se reajustan los pesos en función de la diferencia\cite{Karagiannakos2020}.
+	
+	\item \textbf{Redes Neuronales Feedforward }
+	
+	Las Redes Neuronales Feedforward (FNN\footnote{Feedforward Neural Network}) suelen estar completamente conectadas , lo que significa que cada neurona de una capa está conectada con todas las demás neuronas de las siguientes capas. La estructura descrita se llama perceptrón multicapa y se originó en 1958. El perceptrón de una sola capa solo puede aprender patrones linealmente separables, pero un perceptrón multicapa es capaz de aprender relaciones no lineales entre los datos. Son excepcionalmente buenos en tareas como clasificación y regresión. A diferencia de otros algoritmos de ML, no convergen tan fácilmente. Cuantos más datos tengan, mayor será su precisión\cite{Karagiannakos2020}.
+	
+	\item \textbf{Redes Neuronales Convolucionales}
+	
+	Las Redes Neuronales Convolucionales(CNN\footnote{Convolutional Neural Network}) emplean una función llamada convolución. El funcionamiento de este tipo de redes consiste en que en lugar de conectar cada neurona con todas las siguientes, se conectan con solo con una parte de ella denominada campo receptivo. En cierto modo se intenta regularizar a las redes de retro-alimentación para evitar el sobre-ajuste. Esta característica hace que esta red sea muy buena para identificar relaciones espaciales entre los datos. Es por eso que su caso de uso principal es la visión por computadora y aplicaciones como clasificación de imágenes, reconocimiento de vídeo, y análisis de imágenes médicas\cite{Karagiannakos2020}.
+	
+	\item \textbf{Redes Neuronales Recurrentes}
+	
+	Las Redes Neuronales Recurrentes(RNN\footnote{Recurrent Neural Network}) se utilizan para datos relacionados con el tiempo. La retro-alimentación se maneja en forma de bucle desde la salida a la entrada para pasar información a la red. Por lo tanto, son capaces de recordar datos pasados y utilizar esa información en su predicción. Para lograr un mejor rendimiento, los investigadores han modificado la neurona original en estructuras más complejas, como unidades GRU\footnote{Gated Recurrent Units} y unidades LSTM\footnote{Long Short-Term Memory}. Las unidades LSTM se han utilizado ampliamente en el procesamiento del lenguaje natural en tareas como traducción de idiomas, generación de voz y síntesis de texto a voz\cite{Karagiannakos2020}.
+	
+	\item \textbf{Redes Neuronales Recursivas}
+	
+	Las Redes Neuronales Recursivas (RNR\footnote{Recursive Neural Network}) son otra forma de redes recurrentes con la diferencia de que están estructuradas en forma de árbol. Como resultado, pueden modelar estructuras jerárquicas en el conjunto de datos de entrenamiento. Se utilizan tradicionalmente en aplicaciones como la transcripción de audio a texto y el análisis de sentimientos debido a sus vínculos con árboles binarios, contextos y analizadores basados en lenguaje natural. Sin embargo, su desempeño tiende a ser mucho más lento en comparación que las redes recurrentes\cite{Karagiannakos2020}.
+\end{enumerate}
+
+\subsection{Prueba de Hipótesis}
+Una prueba de hipótesis es una prueba estadística que se utiliza para determinar si hay suficiente evidencia en una muestra de datos para inferir que una determinada condición es verdadera para toda la población. Lo que hace la prueba de hipótesis es proporcionar un camino a seguir por el cual se puede probar la hipótesis planteada de manera efectiva. Una prueba de hipótesis examina dos hipótesis opuestas sobre una población: la hipótesis nula y la hipótesis alternativa\cite{Aggarwal2018}. 
+
+
+\subsubsection{Hipótesis nula ($H_{0}$)}
+
+La hipótesis nula establece que un parámetro de población es igual a un valor. La hipótesis nula es a menudo una afirmación inicial que los investigadores especifican utilizando investigaciones o conocimientos previos\cite{Aggarwal2018}.
+
+\subsubsection{Hipótesis alternativa ($H_{1}$)}
+
+La hipótesis alternativa establece que el parámetro de población es diferente al valor del parámetro en la hipótesis nula. La hipótesis alternativa es lo que se podría creer que es cierto o esperar que sea cierto. Según los datos de la muestra, la prueba determina si se rechaza la hipótesis nula. Utiliza un valor p para hacer la determinación. Si el valor p es menor o igual que el nivel de significancia, que es un punto de corte definido, entonces se puede rechazar la hipótesis nula\cite{Aggarwal2018}.
+
+\newpage
+\section{Marco de referencia}
+El proposito de esta investigación es proponer una metodología en ciencia de datos y no una técnica de ML y DL. De acuerdo con lo anterior, en la literatura científica no existe información de metodologías para la aplicación de la ciencia de datos en el diagnostico del cáncer de mama, sin embargo se encontraron metodologías cuyas etapas pueden ser utilizadas en proyectos enfocados en las ciencias de la salud. Por otra parte, en las investigaciones analizadas se encontró bastante información de técnicas de ML y DL para el diagnostico esta enfermedad. Por esta razón, a continuación se presentan las metodologías en ciencia de datos relevantes para el tema de estudio y las técnicas en ML y DL mas destacadas en la comunidad científica.  
+
+\subsection{Metodologías en ciencia de datos}
+A continuación se encuentra una síntesis de los resultados obtenidos de cada una de las metodologías que se consideraron relevantes para la investigación. Cabe resaltar, que ninguna de las metodologías analizadas se enfoca directamente en el cáncer de mama, sin embargo hacen un gran énfasis en el entendimiento del dominio y su importancia en la definición de metas claras y alcanzables para dar valor a los datos:
+\input{TESIS/METODOLOGIAS}
+
+\newpage
+\subsection{Técnicas del ML y DL}
+Las siguientes investigaciones basadas en técnicas de ML y DL fueron seleccionadas por su relevancia y aporte para el diagnostico del cáncer de mama debido a que brindan una gran cantidad de información y son un punto de partida importante para aplicar la ciencia de datos con dicho fin. Las investigaciones seleccionadas como referentes a nivel de técnicas se muestran a continuación:
+\input{TESIS/TECNICAS}

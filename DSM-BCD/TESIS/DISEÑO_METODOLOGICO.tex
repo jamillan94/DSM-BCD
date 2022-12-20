@@ -1,0 +1,66 @@
+\chapter{Elementos principales de la investigación}
+%---------------------IDENTFICACION------------------------------
+\section{Identificación del Problema}
+\subsection{Planteamiento del Problema}
+Según el informe de la organización mundial de la salud del año 2020 los casos detectados de cáncer de mama en Colombia fueron 15.509 de los cuales 4.411 casos terminaron en muerte ocupando el primer puesto de la tasa de letalidad sobre los demás tipos de cáncer\cite{InternationalAgencyforResearchonCancer2020}. Si no se tiene un diagnóstico a tiempo que detecte los aspectos más significativos que caracterizan el cáncer de mama es posible que la cifra de muertes en Colombia sea mucho mayor en los años posteriores. Una alternativa para disminuir esta tasa de mortalidad es poder predecir e identificar, con base al análisis de un conjunto de datos obtenidos de exámenes realizados por diversos métodos médicos al individuo, que probabilidad tiene de contraer el cáncer de mama y cual son las variables que más influyen en el padecimiento de esta enfermedad,  y según estos resultados brindar un tratamiento preventivo que permita combatir el cáncer antes de que el mismo haga metástasis o que llegue a un estado avanzado en donde sea más difícil de tratar. Debido a que la ciencia de datos es un campo multidisciplinario el cual incorpora herramientas computacionales que permite dar valor a los datos y aprender de los mismos para poder tomar una decisión que valide la veracidad de una hipótesis planteada, es la mejor opción para generar un diagnóstico significativo en la detección de esta enfermedad. En consecuencia, es necesario desarrollar una metodología que facilite abordar el análisis y la selección de técnicas a aplicar en el diagnóstico de dicho cáncer.
+
+\subsection{Formulación del Problema}
+
+\begin{itemize}
+	\item ¿Una metodología aplicada a técnicas en ciencias de datos para el diagnóstico de cáncer de mama mejora y facilita el análisis de patrones característicos en cada individuo para apoyar errores en el diagnostico? 
+\end{itemize}
+
+%---------------------OBJETIVOS-----------------------------------
+\section{Objetivos}
+\subsection{Objetivo General}
+
+Diseñar una metodología para diagnosticar el padecimiento del cáncer mama aplicando la ciencia de datos. 
+
+\subsection{Objetivos Específicos}
+\begin{itemize}
+	\item Evaluar Data-Sets con la información obtenida de técnicas médicas para la detección del cáncer de mama y realizar el Análisis exploratorio de Datos (EDA) de los mismos.	
+	
+	\item Proponer una metodología para el diagnóstico del cáncer de mama a partir de técnicas de Machine Learning (ML), Deep Learning (DL) e Inteligencia artificial (IA).
+	
+	\item Validar la exactitud de la metodología con base en la aplicación de la ciencia de datos para el diagnóstico del cáncer de mama.
+\end{itemize}
+
+\newpage
+%---------------------JUSTIFICACION-------------------------------
+\section{Justificación de la investigación}
+La presente investigación se enfoca en aplicar la ciencia de datos en el diagnóstico del cáncer de mama partiendo de la recopilación de un conjunto de datos complejos obtenidos de la valoración médica realizada a diversos pacientes clasificados en un estadio clínico determinado. Una de las ventajas de aplicar la ciencia de datos y los métodos de IA es que estos se basan en Data-Sets y no están sujetos a conocimientos biológicos previos, lo que permite un descubrimiento novedoso e imparcial a partir de datos experimentales\cite{Troyanskaya2020}. La IA tiene el potencial de aprovechar los datos y proporcionar nuevas formas de comprender, diagnosticar y tratar el cáncer, esto gracias al análisis y reconocimiento eficiente de patrones cuando se exponen a nuevos conjuntos de datos, detectando características que serían imperceptibles para la percepción humana\cite{Turin2020}. 
+Colombia presenta limitaciones con respecto al acceso de la detección y el diagnóstico temprano del cáncer, provocado en la mayoría de los casos por factores como el estrato socio-económico, la cobertura del seguro de salud, el origen y la accesibilidad. En promedio, el tiempo de espera de un paciente es de 90 días desde la aparición de los síntomas hasta el diagnóstico de dicho cáncer. La primera acción para reducir la tasa de mortalidad por cáncer de mama debe estar enfocada en la agilidad del diagnóstico y el acceso oportuno a la atención\cite{Duarte2021}. El análisis obtenido por medio de la ciencia de datos permite detectar el cáncer en un menor tiempo, debido a que los algoritmos de clasificación de ML y DL impactan claramente en los estudios exploratorios que tienen como objetivo identificar los principios biológicos de la enfermedad lo que puede beneficiar a pacientes y médicos al acelerar el diagnóstico y brindar apoyo para tomar mejores y más rápidas decisiones a nivel clínico\cite{Turin2020}. 
+La motivación principal de esta investigación es generar nuevo conocimiento basado en el uso de la ciencia de datos en el diagnóstico del cáncer de mama para colaborar en años posteriores en la disminución del número de muertes por esta enfermedad el cual asciende a los 4.411 en Colombia\cite{InternationalAgencyforResearchonCancer2020} y los 684.996 en todo el mundo\cite{InternationalAgencyGlobal2020}.
+
+\newpage
+\section{Planteamiento de la Hipótesis}
+\begin{itemize}
+	\item Una metodología para comparar técnicas y grandes cantidades de datos que contienen información de resultados diagnósticos de pacientes particulares con los datos característicos de pacientes que padecen de cáncer de mama, permite hallar la similitud del comportamiento de los datos y predice de manera correcta el padecimiento de este tipo de cáncer de los pacientes particulares e identifica las variables que más influyen para contraer dicha enfermedad. 
+\end{itemize}
+
+\newpage
+\section{Alcance y limitaciones}
+\subsection{Alcance}
+La presente investigación propondrá una metodología en ciencias de datos que con base a los diagnósticos realizados a través de técnicas médicas para la detección del cáncer de mama permita pronosticar e identificar,a partir de algoritmos de ML, DL y métodos estadísticos, el padecimiento y las variables que más influyen en el desarrollo de esta enfermedad.
+
+\subsection{Limitaciones}
+Las limitaciones principales de la investigación están relacionadas principalmente a la calidad y cantidad de los datos obtenidos de las diversas técnicas médicas para la detección del cáncer de mama. En el caso de las técnicas de detección por imagen como es el caso de las Mamografías, Ductografías, Resonancias magnéticas e imágenes de diapositivas completas (WSI) la resolución esperada debe ser de al menos de $1000$ x $1000$ píxeles  a $4000$ x $3000$ píxeles para el entrenamiento de las Redes Neuronales Convolucionales (CNN), así como se debe tener al menos de 300 imágenes de diagnósticos malignos y benignos para comprobar el rendimiento del algoritmo. 
+
+Para las técnicas de detección por Biopsia como es el caso de la aspiración por aguja Fina (FNA) y aspiración por aguja gruesa (CNB) y las técnicas basadas en el análisis de receptores de estrógeno en datos metabolómicos, la cantidad de variables relacionadas a diagnósticos malignos y benignos debe ser de al menos 500 pacientes para que posterior al entrenamiento de los métodos de ML se pueda medir la sensibilidad y especificidad  de la precisión de clasificar verdaderos positivos y verdaderos negativos. Ademas, se debe contar con una maquina con al menos las siguientes características:
+
+
+\begin{itemize}
+	\item \textbf{Procesador:} AMD Ryzen ó Intel Core con una frecuencia de 3.5 a 4.4 GHz.
+	\item \textbf{Tarjeta de video:} NVIDIA GeForce con una memoria de 4GB a 8GB. 
+	\item \textbf{Memoria RAM:} DDR4 de 16 GB a 32 GB.
+	\item \textbf{Disco duro HDD:} 2 TB a 4 TB para almacenamiento.
+	\item \textbf{Disco SSD}: 480 GB a 960 GB para sistema operativo.
+\end{itemize} 
+
+\newpage
+\section{Apropiación Social}
+
+Una vez la investigación denominada \textit{Metodología para la aplicación de la ciencia de datos en el diagnostico del cáncer de mama } sea culminada,es decir, los objetivos y resultados con base al alcance sean solucionados satisfactoriamente, se va a realizar un \textit{articulo científico} dirigido a la comunidad científica especializada que incluirá en detalle la construcción y aplicación del método propuesto, en donde, la discusión cognitiva generada permitirá examinar rigurosamente las relaciones entre las variables y el nido conceptual que permitió inferir las conclusiones y el nuevo conocimiento. Ahora bien, según la naturaleza en todo el espectro de la población al cual vaya dirigido el documento sera plausible marcar lo interesante para ellos hasta llegar a un informe sustancial pero somero para el publico general.
+
+
+

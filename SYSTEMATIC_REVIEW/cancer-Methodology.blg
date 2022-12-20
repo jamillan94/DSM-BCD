@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: cancer-Methodology.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: apj.bst
+Illegal, another \bibstyle command---line 107 of file cancer-Methodology.aux
+ : \bibstyle
+ :          {apalike}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+Database file #1: REFERENCIAS/articulos.bib
+Warning--entry type for "Shafique2014" isn't style-file defined
+--line 1233 of file REFERENCIAS/articulos.bib
+Repeated entry---line 1291 of file REFERENCIAS/articulos.bib
+ : @article{Rollins2015
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in Turin2020
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Warning--empty author in Turin2020
+Warning--can't use both author and editor fields in Brunicardi2010
+Warning--empty journal in Pacheco2014
+Warning--no book title in Safhi2019
+`booktitle' is a missing field, not a string, for entry Safhi2019
+while executing---line 1671 of file apj.bst
+You've used 59 entries,
+            3087 wiz_defined-function locations,
+            1078 strings with 19939 characters,
+and the built_in function-call counts, 29317 in all, are:
+= -- 2399
+> -- 2273
+< -- 20
++ -- 775
+- -- 833
+* -- 2549
+:= -- 5540
+add.period$ -- 59
+call.type$ -- 59
+change.case$ -- 426
+chr.to.int$ -- 65
+cite$ -- 66
+duplicate$ -- 1139
+empty$ -- 1710
+format.name$ -- 895
+if$ -- 5764
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 55
+newline$ -- 181
+num.names$ -- 233
+pop$ -- 503
+preamble$ -- 1
+purify$ -- 424
+quote$ -- 0
+skip$ -- 897
+stack$ -- 0
+substring$ -- 1092
+swap$ -- 31
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 516
+warning$ -- 5
+while$ -- 213
+width$ -- 0
+write$ -- 591
+(There were 3 error messages)

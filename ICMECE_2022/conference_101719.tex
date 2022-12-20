@@ -1,0 +1,84 @@
+\documentclass[conference]{IEEEtran}
+
+\makeatletter
+\usepackage{float}
+\def\ps@IEEEtitlepagestyle{%
+  \def\@oddfoot{\mycopyrightnotice}%
+  \def\@evenfoot{}%
+}
+\def\mycopyrightnotice{%
+  {\footnotesize 978-1-6654-6159-7/22/\$31.00~\copyright2022 IEEE\hfill}% <--- Change here
+  \gdef\mycopyrightnotice{}
+}
+%\copyrightnotice{978-1-6654-6159-7/22/$31.00 ©2022 IEEE}
+
+\usepackage{blindtext}
+\usepackage{eso-pic}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+    
+\usepackage{eso-pic}
+\newcommand\AtPageUpperMyright[1]{\AtPageUpperLeft{%
+ \put(\LenToUnit{0.17\paperwidth},\LenToUnit{-2cm}){%
+     \parbox{0.9\textwidth}{\raggedleft\fontsize{8}{11}\selectfont #1}}%
+ }}%
+\newcommand{\conf}[1]{%
+\AddToShipoutPictureBG*{%
+\AtPageUpperMyright{#1}
+}
+}    
+    
+    
+\begin{document}
+\title{\vspace*{1cm} Methodology for the application of data science in breast cancer diagnosis\\
+%{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
+%should not be used}
+%\thanks{Identify applicable funding agency here. If none, delete this.}
+}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} Jorge Millán}
+	\IEEEauthorblockA{\textit{Facultad de ingeniería} \\
+		\textit{Universidad Distrital}\\
+		Bogotá, Colombia  \\
+		jamillang@correo.udistrital.edu.co}
+	\and
+	\IEEEauthorblockN{2\textsuperscript{nd} Edith Aparicio}
+	\IEEEauthorblockA{\textit{Facultad de ingeniería} \\
+		\textit{Universidad Distrital}\\
+		Bogotá, Colombia \\
+		eaparicio@udistrital.edu.co}
+}
+
+
+
+\maketitle
+\conf{\textit{  Proc. of the Interdisciplinary Conference on Mechanics, Computers and Electrics (ICMECE 2022)  \\ 
+6-7 October 2022, Barcelona, Spain}}
+\begin{abstract}
+In 2020 the detected cases of breast cancer in Colombia were 15,509 of which 4,411 ended in death. The anticipate prognosis of this disease has become a research need because it can facilitate preventive treatment to avoid its lethality in an advanced stage. This paper proposes the DSM-BCD methodology (Data science methodology for breast cancer diagnosis) designed to speed up the diagnosis of breast cancer through the continuous improvement of Machine Learning and Deep Learning techniques based on the insight of the oncology specialist and the feedback of knowledge according to the behavior of the data in the various techniques for the detection of breast cancer. 
+\end{abstract}
+
+%\copyrightnotice{978-1-6654-6159-7/22/$31.00 ©2022 IEEE}
+
+
+\begin{IEEEkeywords}
+Methodology, Data Science, Breast Cancer, Diagnostics, Machine Learning, Deep Learning, Deep Learning
+\end{IEEEkeywords}
+
+
+\input{ICMECE/INTRODUCTION}
+\input{ICMECE/DEFINITION}
+\input{ICMECE/METODOLOGY}
+\input{ICMECE/CONCLUSIONS}
+
+\bibliographystyle{IEEEtran}
+\bibliography{REFERENCES/articulos}
+\end{document}

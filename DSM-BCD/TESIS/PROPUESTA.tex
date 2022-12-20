@@ -1,0 +1,373 @@
+\chapter{Consideraciones para el diseño de la metodología}
+Con base en el marco referencial, en la tabla \ref{metodologias} se encuentra una síntesis de cada una de las  metodologías que se consideraron relevantes para la revisión sistemática. Cabe resaltar, que ninguna de las metodologías analizadas se enfoca directamente en el cáncer de mama, sin embargo hacen un gran énfasis en el entendimiento del dominio y su importancia en la definición de metas claras y alcanzables para dar valor a los datos. 
+
+Según los resultados obtenidos, se infiere que en la información revisada no existe una metodología en ciencia de datos definida para el diagnóstico del cáncer de mama.  En efecto, la mayoría de la literatura científica apunta directamente al uso de técnicas de ML y DL para el diagnóstico o pronostico del cáncer de mama exponiendo el nivel de precisión, cantidad de falsos positivos, gasto computacional y modelos algorítmicos utilizados para determinar el posible padecimiento de esta enfermedad. Y aunque estas investigaciones, brindan información valiosa para mejorar la precisión, sensibilidad y especificidad de las técnicas de ML y DL en el diagnóstico del cáncer, carecen de una metodología clara en donde la idea principal gire entorno de la comprensión del dominio y la toma de decisiones por parte de los oncólogos. En particular, la mayoría de investigaciones llegan a resultados en términos de precisión y exactitud, pero no profundizan en el valor real que el especialista en oncología atribuye a los datos para tomar una decisión y el impacto que dicha decisión tiene en la usabilidad del modelo generado, a sabiendas que el experto a través de su perspicacia medica es quien finalmente evalúa si los resultados obtenidos por los algoritmos son veraces y permiten diagnosticar el cáncer de forma ágil, generando un valor agregado que cumpla con los objetivos de las ciencias de la salud. 
+
+\begin{table*} [!htb]
+	\footnotesize
+	\begin{threeparttable}
+		\caption{Características de las metodologías en ciencia de datos revisadas.}
+		\label{metodologias}
+		\begin{tabular}{p{1cm} p{2cm} p{5cm} p{6.5cm}} \toprule	
+			\begin{center}Autor\end{center}   
+			&\begin{center}Metodología\end{center}             
+			&\begin{center}Fases\end{center}      
+			&\begin{center}Resultados\end{center}  
+			\\ \hline	
+			%-----------------------------------------------------------------------------------
+			\cite{Schroer2021}
+			&CRISP-DM
+			& \begin{enumerate}
+				\item Comprensión del negocio
+				\item Comprensión de datos
+				\item Preparación de datos
+				\item Modelado
+				\item Evaluación
+				\item Despliegue 
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Es una de las metodologías en ciencia de datos más usada para proyectos de análisis, minería de datos y ciencia de datos.
+				\item Esta metodología no explica cómo deben organizarse equipos de trabajo para llevar a cabo procesos de gestión que se alineen con el software.
+			\end{enumerate}
+			\\ \hline
+			%--------------------------------------------------------------------------------
+			\cite{Mladenic2012}
+			&RAMSYS
+			& \begin{enumerate}
+				\item Gestión del negocio
+				\item Libertad para resolver problemas
+				\item Empezar en cualquier momento
+				\item Parar en cualquier momento
+				\item Intercambio de conocimientos en línea 
+				\item Seguridad
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología se basa en la metodología CRISP-DM y permite la colaboración para proyectos de minería de datos desde diferentes ubicaciones por medio de una herramienta basada en la web.
+				\item Esta metodología permite el trabajo colaborativo de científicos de datos ubicados de forma remota de una manera disciplinada en lo que respecta al flujo de información.
+			\end{enumerate}
+			\\ \hline
+			%--------------------------------------------------------------------------------
+			\cite{Microsoft2022}
+			&Microsoft TDSP
+			& \begin{enumerate}
+				\item Comprensión empresarial
+				\item Adquisición y comprensión de datos 
+				\item Modelado
+				\item Implementación
+				\item Aceptación del cliente
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología ayuda a mejorar la colaboración y el aprendizaje en equipo.
+				\item Esta metodología se preocupa por definir objetivos SMART (Específicos, medibles, alcanzables, relevante, con límite de tiempo).
+				\item Esta metodología aborda la debilidad de la falta de definición del equipo de CRISP-DM mediante la creación de roles y sus responsabilidades durante cada fase del ciclo de vida del proyecto.
+			\end{enumerate}
+			\\ \hline
+			%--------------------------------------------------------------------------------
+			\cite{Martinez2021}
+			&Domino DS Lifecycle
+			& \begin{enumerate}
+				\item Ideación
+				\item Adquisición y exploración de datos
+				\item Investigación y desarrollo
+				\item Validación
+				\item Entrega
+				\item Monitoreo
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología se basa en la metodología CRISP-DM y en el manifiesto ágil.
+				\item Esta metodología propone establecer un seguimiento para las entregas de la información y de los KPI comerciales.
+				\item Esta metodología hace uso de grupos de control en modelos de producción para realizar un seguimiento del desempeño del modelo y la creación de valor para la empresa.
+			\end{enumerate}
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
+
+\begin{table*} [!htb]
+	\footnotesize
+	\begin{threeparttable}	
+		\begin{tabular}{p{1cm} p{2cm} p{5cm} p{6.5cm}} \toprule
+			%--------------------------------------------------------------------------------
+			\cite{Larson2016}
+			&Agile Delivery Framework
+			&  \begin{enumerate}
+				\item Alcance
+				\item Adquisición de datos
+				\item Análisis
+				\item Desarrollo de modelos
+				\item Validación
+				\item Implementación 
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología está diseñada para fomentar la colaboración exitosa entre las empresas y las partes interesadas del proyecto.
+				\item Esta metodología separa completamente el mundo de la inteligencia empresarial y el del análisis de datos. De hecho, propone dos metodologías que evolucionan en paralelo y mediante métodos ágiles promete una colaboración eficaz entre estas dos partes.
+			\end{enumerate}
+			\\ \hline
+			%--------------------------------------------------------------------------------
+			\cite{Maass2021}
+			&Conceptual modeling with ML
+			&  \begin{enumerate}
+				\item Entendimiento del problema
+				\item Recopilación de datos
+				\item Ingeniería de datos
+				\item Entrenamiento del modelo
+				\item Optimización del modelo
+				\item Integración del modelo
+				\item Evaluación del modelo
+				\item Toma de decisiones analíticas   
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología determina si los datos de entrenamiento de un modelo de ML son representativos del dominio.
+				\item Esta metodología permite que la toma de decisiones tenga un soporte solido en los datos para generar estrategias claves en la transformación digital.
+				\item Esta metodología considera que la unión del modelado conceptual con el ML contribuye en la mejora de la interpretabilidad de los algoritmos de aprendizaje automático mediante el uso de modelos conceptuales.
+			\end{enumerate}
+			\\ \hline
+			
+			%--------------------------------------------------------------------------------
+			\cite{Grady2017}
+			&Data Science Edge (DSE)
+			&  \begin{enumerate}
+				\item Planificar
+				\item Recopilar
+				\item Seleccionar
+				\item Analizar
+				\item Actuar
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología se alinea con los nuevos cambios tecnológicos e implementa la agilidad en el ciclo de vida del análisis avanzado y el desarrollo de sistemas de ML.
+				\item Esta metodología permite la retroalimentación constante con los interesados del proyecto de ciencia de datos para validar el estado actual e influir en su evolución hacia un estado final que cumpla con los requerimientos y objetivos de un dominio específico.
+				\item Esta metodología proporciona una guía de las actividades que son fundamentales para generar de forma eficiente un producto mínimo viable para los interesados en un proyecto basado en ciencia de datos.
+			\end{enumerate}
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
+
+\begin{table*}[!htb]
+	\footnotesize
+	\begin{threeparttable}	
+		\begin{tabular}{p{1cm} p{2cm} p{5cm} p{6.5cm}} \toprule
+			%--------------------------------------------------------------------------------
+			\cite{Sfaxi2020}
+			&DECIDE
+			&  \begin{enumerate}
+				\item Identificación y motivación
+				\item Definición de los objetivos
+				\item Diseño y desarrollo
+				\item Demostración
+				\item Evaluación
+				\item Comunicación
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología se fundamenta en un diseño ágil basado en eventos y datos para proyectos decisionales de Big Data. 
+				\item Esta metodología ayuda a las organizaciones a determinar los objetivos comerciales y analíticos deseados según la toma de decisiones con base al análisis de datos.
+			\end{enumerate}
+			\\ \hline
+			%--------------------------------------------------------------------------------
+			\cite{Pacheco2014}
+			&MIDANO
+			&  \begin{enumerate}
+				\item Conocimiento de la organización
+				\item Preparación y tratamiento de datos
+				\item Desarrollo de herramientas de MD
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología es utilizada para el desarrollo de aplicaciones de Minería de Datos (MD) basados en el análisis organizacional.
+				\item Esta metodología pretende abarcar el dominio de conocimiento que puede encontrarse en una organización e integrarlo una vista mineable operativa (VMO) y una vista mineable conceptual (VMC).
+				\item Esta metodología tiene como objetivo detallar las variables relevantes de diversos problemas de estudio, a partir de escenarios futuros definidos en el dominio de la organización.
+			\end{enumerate}
+			\\ \hline
+			
+			%--------------------------------------------------------------------------------
+			\cite{Costa2020}
+			&POST-DS
+			&  \begin{enumerate}
+				\item Comprensión del negocio
+				\item Comprensión de los datos
+				\item Preparación de los datos
+				\item Modelado
+				\item Evaluación 
+				\item Implementación 
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología está basada en la metodología CRISP-DM, pero con la diferencia de que permite la identificación de procesos, organización, programación y herramientas para la gestión de proyectos de ciencia de datos a través de componentes específicos.
+				\item Esta metodología ejecuta cada una de las fases tradicionales de un proceso en ciencia de datos teniendo como eje cada una de las fases necesarias para la gestión de proyectos.
+				\item Esta metodología tiene como componentes claves el cumplimiento de actividades establecidas en un cronograma base generado a través del alcance y costos de un proyecto en ciencia de datos.
+			\end{enumerate}
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
+
+\begin{table*}[!htb]
+	\footnotesize
+	\begin{threeparttable}	
+		\begin{tabular}{ p{1cm} p{2cm} p{5cm} p{6.5cm}   } \toprule
+			%--------------------------------------------------------------------------------
+			\cite{Watson2017}
+			&SANZU
+			&  \begin{enumerate}
+				\item Recopilación de datos
+				\item Manipulación de datos
+				\item Análisis estadístico
+				\item Retroalimentación
+				\item Toma de decisiones 
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología sirve como punto de referencia para evaluar el rendimiento de las operaciones individuales que impactan en el análisis de datos.
+				\item Esta metodología permite representar casos de uso del mundo real para modelar las aplicaciones cuyos dominios ejecutan un flujo de trabajo específico.
+			\end{enumerate}
+			\\ \hline
+			%--------------------------------------------------------------------------------
+			\cite{Saltz2019}
+			&SKI
+			&  \begin{enumerate}
+				\item Crear
+				\item Observar
+				\item Analizar
+			\end{enumerate}
+			& \begin{enumerate}
+				\item En esta metodología las etapas crear, observar y analizar garantizan que el trabajo que se requiere para la recopilación y el análisis de datos se incorpore directamente a las tareas de un equipo para una iteración de una tarea determinada.  
+				\item Esta metodología en comparación con SCRUM, define una iteración centrada en la capacidad y no basada en el tiempo para brindarle a un equipo de análisis de datos la capacidad de ejecutar pequeñas iteraciones lógicas con una duración desconocida
+				\item Esta metodología proporciona una guía clara que permite a los equipos de análisis de datos aprovechar al máximo los beneficios de Kanban de manera más fácil y confiable.
+			\end{enumerate}
+			\\ \hline
+			%--------------------------------------------------------------------------------
+			\cite{Safhi2019}
+			& KDD
+			&  \begin{enumerate}
+				\item Selección de datos  
+				\item Pre-procesamiento de datos 
+				\item Transformación de datos
+				\item Minera de datos 
+				\item Evaluación/Interpretación
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología permite extracción de conocimiento oculto en una gran volumen de datos. 
+				\item Esta metodología requiere un conocimiento previo relevante, una breve comprensión del dominio y la definición de los principales objetivos a cumplir con el análisis de datos. 
+			\end{enumerate}
+			\\ \hline
+			%--------------------------------------------------------------
+			\cite{Shafique2014}
+			& SEMMA
+			&  \begin{enumerate}
+				\item Muestreo 
+				\item Exploración
+				\item Modificación
+				\item Modelado
+				\item Evaluación
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología fue desarrollada por la compañía SAS para comprender, organizar, desarrollar y mantener proyectos de minería de datos.
+				\item Esta metodología proporciona las soluciones a los problemas basados en objetivos definidos en el ámbito empresarial dependiendo de su dominio.
+			\end{enumerate}
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
+
+\begin{table*}[!htb]
+	\footnotesize
+	\begin{threeparttable}	
+		\begin{tabular}{p{1cm} p{2cm} p{5cm} p{6.5cm}} \toprule
+			%--------------------------------------------------------------------------------
+			\cite{Lei2020}
+			& Agile data science in healthcare 
+			&  \begin{enumerate}
+				\item Definición de preguntas clínicas 
+				\item Adquisición y validación de datos
+				\item Desarrollo del Modelo predictivo
+				\item Retroalimentación medica
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología fomenta el despliegue continuo de modelos predictivos en entornos clínicos durante el cual los científicos de datos pueden reunirse con los médicos y recibir comentarios sobre el rendimiento del modelo.
+				\item Esta metodología utiliza la perspicacia del médico unida a la ciencia de datos para determinar si los resultados del modelo son creíbles
+			\end{enumerate}
+			\\ \hline
+			%--------------------------------------------------------------------------------
+			\cite{Rollins2015}
+			& IBM Foundational Methodology for Data Science
+			&  \begin{enumerate}
+				\item Comprensión del negocio
+				\item Enfoque analítico
+				\item Requisitos de datos
+				\item Recopilación de datos
+				\item Comprensión de datos
+				\item Preparación de datos
+				\item Modelado
+				\item Evaluación
+				\item Implementación
+				\item Retroalimentación
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología tiene algunas similitudes con las metodologías reconocidas para la minería de datos, pero pone el énfasis en varias de las nuevas prácticas en la ciencia de datos.
+				\item Esta metodología los modelos se mejoran y se adaptan constantemente a las condiciones cambiantes a través de retroalimentación, ajustes y re-implementaciones. De esta manera, tanto el modelo como su trabajo pueden proporcionar un valor continuo a la organización mientras la solución sea necesaria.
+			\end{enumerate}
+			\\ \hline
+			%---------------------------------------------------------------
+			\cite{Dastgerdi2021}
+			& DataOps Manifesto
+			&  \begin{enumerate}
+				\item Ideación
+				\item Iniciación
+				\item investigación/desarrollo
+				\item Transición/producción
+				\item Retirada
+			\end{enumerate}
+			& \begin{enumerate}
+				\item En esta metodología las etapas son adaptables al contexto y el dominio de la organización para ayudar a los equipos de análisis de datos a ser más colaborativos en los ciclos de retroalimentación para lograr resultados más eficaces. 
+				\item Esta metodología se basa en la experiencia laboral de varias organizaciones y los problemas tradicionales al momento de entregar tiempos de ciclo rápidos para una alta gama de análisis de datos con un manifiesto de calidad válido.
+			\end{enumerate}
+			\\ \hline
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
+
+\begin{table*}[!htb]
+	\footnotesize
+	\begin{threeparttable}	
+		\begin{tabular}{p{1cm} p{2cm} p{5cm} p{6.5cm}} \toprule
+			%---------------------------------------------------------------
+			\cite{Chen2016}
+			& AABA
+			&  \begin{enumerate}
+				\item Catálogo de diseño conceptual
+				\item Arquitectura BDD 
+				\item Implementación
+				\item Pruebas
+				\item Despliegue/retroalimentación 
+				\item Descubrimiento del valor
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología ofrece una heurística que permite que la arquitectura sea exhaustiva para todas las partes interesadas , en donde el equipo de ingeniería se centre en las tareas importantes, como la validación del valor y la anticipación del cambio.
+				\item Esta metodología abarca aspectos importantes como: la planificación, la estimación, el coste , el calendario, el apoyo a la experimentación y el uso de la metodología DevOps para la entrega rápida y continua de un producto de valor.
+			\end{enumerate}
+			\\ \hline
+			%---------------------------------------------------------------
+			\cite{Li2016}
+			& KDDA
+			&  \begin{enumerate}
+				\item Formulación del problema
+				\item Comprensión empresarial
+				\item Comprensión de datos
+				\item Preparación de datos
+				\item Modelado
+				\item Evaluación
+				\item Despliegue 
+				\item Mantenimiento
+			\end{enumerate}
+			& \begin{enumerate}
+				\item Esta metodología estructura su proceso en el diseño de la concha de caracol y asimila tanto las bases de conocimientos de KDD existentes como la experiencia analítica del mundo real de los investigadores. 
+				\item Esta metodología enmarca las diferencias entre los proyectos tradicionales de minería de datos en un entorno de toma de decisiones impulsado por big data identificando los pasos que faltan en la metodología KDD.
+				\item Esta metodología hereda la representación del ciclo de vida del proyecto de la metodología CRISP-DM con la diferencia de que no existen  secuencias estrictamente definidas entre las fases, por lo que cada fase incluye diferentes tareas, y el resultado de cada tarea determina la fase o tareas particulares a realizar en una fase determinada. 
+			\end{enumerate}
+			\\ \hline
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
+
+\clearpage
+Llegados a este punto, aunque las metodologías seleccionadas en la revisión sistemática no giren en torno al cáncer, proponen etapas que abarcan aspectos relevantes en la organización, a nivel de planteamiento y ejecución de un proyecto en ciencia de datos que tenga como eje el dominio basado en la prevención, el diagnóstico y el tratamiento del cáncer de mama. Cabe resaltar que las metodologías CRISP-DM y KDD fueron seleccionadas debido a que comprenden todas las fases básicas que debe cumplir cualquier proyecto que tenga en su contexto el análisis de datos, además de que son bastante utilizadas por una cantidad considerable de investigadores, sin embargo aunque sean las metodologías más utilizadas, carecen de lineamientos que profundicen en la organización de los equipos de trabajo para llevar a cabo procesos de gestión que se alienen con el software y las metodologías de desarrollo ágiles. Además, autores como \cite{Martinez2021} sugieren que para ofrecer una solución integral para la ejecución exitosa de una metodología en ciencia de datos se deben cubrir estrictamente tres áreas: gestión de proyectos, gestión de equipos y gestión de datos e información. 
+
+Dicho lo anterior, según lo analizado en la revisión sistemática de la literatura científica de diversas metodologías se observa que aunque abarcan el proceso necesario para el análisis de datos, no generan el valor suficiente para la solución de un problema determinado. Por esta razón, autores como \cite{Martinez2021} consideran que aunque la comunidad de investigación en ciencia de datos está creciendo día a día, está explorando nuevos dominios, creando nuevos roles especializados y adicional está realizando un gran esfuerzo de investigación para desarrollar análisis avanzados, mejorar modelos y generar nuevos algoritmos apoyados de los campos de las matemáticas, la estadística y la informática, estas habilidades no son suficientes para su aplicación en proyectos reales, puesto que la mayoría de proyectos basados en datos presentan problemas organizativos y socio-técnicos, tales como: una falta de visión y claridad en los objetivos, un énfasis sesgado en cuestiones técnicas y ambigüedad de roles. Y aunque estos problemas existen en proyectos de ciencia de datos del mundo real, la comunidad no se ha preocupado demasiado por ellos y no se ha escrito lo suficiente sobre las soluciones para abordar estos problemas.
+
+\newpage
+Por consiguiente, tras el esfuerzo por integrar los resultados analizados en este trabajo, parece bastante plausible afirmar que no existe una metodología puntual en ciencia de datos que se enfoque en el diagnóstico del cáncer de mama, sin embargo, diversos autores proponen metodologías que permiten la aplicación de esta ciencia en el dominio de las ciencias de la salud, teniendo como eje principal la comprensión de aspectos como: la comunicación constante con los interesados, el uso del enfoque ágil, la definición de roles y funciones, el valor agregado de los datos, la retroalimentación continua y la aceptación del experto en oncología para la posterior toma de decisiones que ayude a reducir de manera eficaz la morbilidad causada por esta enfermedad. 
+
+Es por esto que se propone la metodología DSM-BCD (Data Science Methodology for Breast Cancer Diagnosis) diseñada para agilizar el diagnostico del cáncer de mama a través de la mejora continua de las técnicas de Machine Learning y Deep Learning teniendo como base la perspicacia del especialista en oncología y la retroalimentación  de conocimiento según el comportamiento de los datos en las diversas técnicas para la detección del cáncer de mama.
