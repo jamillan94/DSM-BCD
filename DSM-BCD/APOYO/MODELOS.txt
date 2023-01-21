@@ -1,0 +1,21 @@
+### K-Modes Clustering	
+
+kmodes = create_model('kmodes')
+
+plot_model(kmodes,plot='cluster')
+
+plot_model(kmodes, plot = 'elbow')
+
+plot_model(kmodes, plot = 'silhouette')
+
+plot_model(kmodes, plot = 'tsne')
+
+plot_model(kmodes, plot = 'distance')
+
+plot_model(kmodes, plot = 'distribution')
+
+kmodes_results = assign_model(kmodes)
+kmodes_results
+kmodes_results.groupby("Cluster").describe()
+
+

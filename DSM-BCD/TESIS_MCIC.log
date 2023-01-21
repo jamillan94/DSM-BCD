@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  20 DEC 2022 18:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  20 JAN 2023 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2041,8 +2041,8 @@ Package rerunfilecheck Info: File `TESIS_MCIC.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  28256 strings out of 478552
- 525120 string characters out of 2851753
- 848171 words of memory out of 3000000
+ 523266 string characters out of 2851753
+ 848161 words of memory out of 3000000
  45131 multiletter control sequences out of 15000+600000
  481951 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2057,7 +2057,7 @@ ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmti12.pfb>
-Output written on TESIS_MCIC.pdf (149 pages, 5039162 bytes).
+Output written on TESIS_MCIC.pdf (149 pages, 5039276 bytes).
 PDF statistics:
  2400 PDF objects out of 2487 (max. 8388607)
  722 named destinations out of 1000 (max. 500000)

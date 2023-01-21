@@ -1,0 +1,193 @@
+-----------------------------------------------
+PAGINAS DE CONSULTAS
+-----------------------------------------------
+https://ieeexplore.ieee.org/Xplore/home.jsp
+https://www.ncbi.nlm.nih.gov/pmc/
+https://www.ncbi.nlm.nih.gov/pmc/?term=deep+learning+and+breast+cancer
+https://ajp.amjpathol.org/article/S0002-9440(18)31121-0/fulltext
+https://www.elsevier.com/solutions/embase-biomedical-research
+http://bases.unal.edu.co/subjects/databases.php
+https://www.infocancer.co/portal/#!/referencias/
+https://epubs.siam.org/journal/sjmdaq
+https://www.bmj.com/
+https://www.elsevier.com/
+https://iopscience-iop-org.ezproxy.unal.edu.co/nsearch?terms=breast+cancer
+https://www.cancer.org/es/cancer/cancer-de-seno/acerca/que-es-el-cancer-de-seno.html
+https://www.nature.com/natcancer/
+https://www.nature.com/search?q=breast%20cancer%20deep%20learning&order=relevance
+Expert Systems with Applications
+ACM, IEEE, Research Gate and Science Direct
+-----------------------------------------------
+CANCER GLOBCAN
+-----------------------------------------------
+https://gco.iarc.fr/today/home
+https://gco.iarc.fr/
+https://gco.iarc.fr/today/fact-sheets-cancers
+https://gco.iarc.fr/today/data/factsheets/cancers/20-Breast-fact-sheet.pdf
+https://gco.iarc.fr/today/data/factsheets/populations/170-colombia-fact-sheets.pdf
+https://portal.gdc.cancer.gov/projects/TCGA-BRCA --->DATA-SET BREAST CANCER
+http://tupac.tue-image.nl/node/3
+
+-----------------------------------------------
+TERMINOS DE BUSQUEDA
+-----------------------------------------------
+data science and breast cancer diagnosis
+deep learning and breast cancer
+cancer diagnosis data-set
+artificial intelligence and breast cancer
+deep learning and breast cancer
+deep learning and breast cancer diagnosis
+deep learning and Core needle biopsy
+deep learning and Fine needle aspiration
+data science and Core needle biopsy
+data science and Fine needle aspiration
+breast cancer Biopsy and data science
+breast cancer Biopsy and machine Learning
+breast cancer Biopsy and deep learning
+breast cancer Biopsy artificial intelligence
+Breast cancer in Colombia
+breast cancer diagnosis deep learning
+detecting breast cancer deep learning
+detecting breast cancer artificial intelligence
+detecting breast cancer Machine Learning
+Data science algorithms and  breast cancer 
+
+-----------------------------------------
+CURSO DE TELEMEDICINA Y TELESALUD
+-----------------------------------------
+METOLODOGIA PARA APLICAR CIENCIA DE DATOS
+METODOLOGY FOR DATA SCIENCE
+METODOLOGIA EN CIENCIA DE DATOS EN SALUD Y EN DIAGNOSTICOS
+METODOLOGIA PARA DIAGNOSTICAR CANCER
+METODOLOGIA PARA DIAGNOSTICAR CANCER DE MAMA
+DOCUMENTAR--> ESTA BUSQUEDA ARROJO ESTA INFORMACION
+PRISMA PURO--> YO LE VOY A ENTREGAR LO QUE HAY DE CIENCIA DE DATOS
+DISEÑAR CUADRO PRISMA
+COMO-->[HISTORIA]
+CON QUE-->[ANALIZAR HASTA DONDE HAY TECNOLOGIA]
+-RELACIONAR CIENCIA DE DATOS CON CANCER DE MAMA
+
+-DOCUMENTAR LA BUSQUEDA POR PALABRAS CLAVES
+¿QUE ES UNA METOLOGIA, QUE ES UN METODO Y QUE ES UN MODELO.?
+
+https://www-nature-com.ezproxy.unal.edu.co/search/advanced?q=methodology%20AND%20data%20AND%20science&order=relevance&journal=natcomputsci,natmachintell,srep&author=methodology%20AND%20data%20science&title=methodology%20AND%20data%20science
+
+--------------------------------------------------------
+CURSO DE TELEMEDICINA Y TELESALUD 02092021
+--------------------------------------------------------
+----------------------------------
+CAPITULO 1:DISEÑO Y ESTADO DEL ARTE 
+-----------------------------------
+	A. ¿QUE METODOLOGIAS SE HAN APLICADO PARA LA CIENCIA DE DATOS?
+	B. ¿COMO HAN HECHO CIENCIA DE DATOS PARA EL DIAGNOSTICO DE CANCER DE MAMA?
+	C. ¿QUE HERRAMIENTAS EN CIENCIA DE DATOS SE HAN UTILIZADO
+		PARA EL DIAGNOSTICO DEL CANCER DE MAMA?
+	D. SINTESIS CONCRETA Y ESPECIFICA SOBRE METODOLOGIAS Y HERRAMIENTAS EN 
+		CIENCIA DE DATOS PARA LA DETECCION DEL CANCER, OTRAS ENFERMEDADES Y 
+		LUEGO ESPECIFICA AL CANCER DE MAMA.
+	E. EXPLICAR POR QUE SE DESCARTAN ARTICULOS Y POR QUE SE SELECCIONAN OTROS
+--------------------------------------------------
+CAPITULO 2:CONSIDERACIONES PARA EL DISEÑO DE LA METODOLOGIA
+---------------------------------------------------
+   A. ¿CUALES SON LOS PARAMETROS QUE SE TIENEN EN CUENTA PARA DIAGNOSTICAR 
+	   EL CANCER DE MAMA?
+   B. ¿EXTRAER CUALES SON LAS VARIABLES QUE SE TRABAJAN EN EL DIAGNOSTICO DEL
+	   CANCER DE MAMA Y COMO SE HAN MANIPULADO CON CIENCIA DE DATOS?
+   D. EXPLICAR CON BASE AL ESTADO DEL ARTE COMO JUEGAN UN PAPEL IMPORTANTE 
+       LAS HERRAMIENTAS PERO TAMBIEN EL PAPEL DE LOS ONCOLOGOS.
+   E. ¿QUE DETALLES DEL ESTADO DEL ARTE SE TUVIERON EN CUENTA PARA EL DISEÑO DE LA
+	    METODOLOGIA PARA EL DIAGNOSTICO DE CANCER DE MAMA?
+   F. CON BASE A LO ANTERIOR, TENIENDO EN CUENTA ESTOS PARAMETROS DE BUSQUEDA
+      SISTEMICA TENEMOS EN CUENTA QUE LAS METODOLOGIAS A,B,C APLICAN TALES
+	  COSAS YO TENGO EN CUENTA ESTA POR UN LADO COMPLEMENTADO CON LAS VARIABLES
+	  QUE SE MANEJAN EN EL DIAGNOSTICO Y TENIENDO EN CUENTA QUE ESTE EL COMPORTAMIENTO
+	  Y SUS RELACONES ENTRE ESTAS VARIABLES SE HA DECIDO TOMAR DE ESTE MODELO A UNA COSA,
+	  DE ESTE MODELO B OTRA COSA, MAS ESTO Y ESTE ES EL MODELO QUE YO PROPONGO.
+
+-----------------------------------------
+CAPITULO 3:DESARROLLO DE LA TESIS
+------------------------------------------	  
+	  
+
+---------------------------------
+30 DE OCTUBRE O 30 DE NOVIEMBRE.
+----------------------------------
+1.TENEMOS QUE HABER BUSCADO EL ONCOLOGO
+2.ESTUDIOS ONCOLOGICOS EN CANCER DE MAMA
+3.FINALIZACION CAPITULO 2
+
+30 DE OCTUBRE O 30 DE NOVIEMBRE.
+-----------------------------------------------
+ARTICULOS
+-----------------------------------------------
+Schwartz. Principios de Cirugía, 11e 
+
+https://accessmedicina.mhmedical.com/content.aspx?bookid=2958&sectionid=249859282#249859405
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6589178/
+https://acsjournals.onlinelibrary.wiley.com/action/doSearch?AllField=Breast+Cancer&SeriesKey=15424863
+https://es.pdfdrive.com/schwartz-principios-de-cirug%C3%ADa-d176424865.html
+------------------------------------------------
+BUSQUEDA REFERENCIAS
+------------------------------------------------
+www.scopus.com
+https://www.scimagojr.com/
+https://sci-hub.se/ --->Desbloquear Articulos
+https://scihubtw.tw/
+https://es.pdfdrive.com/ -->PDF GRATIS
+
+------------------------------------------------
+AUTORES POR CITACIONES
+------------------------------------------------
+Jagsi, Reshma       https://www.scopus.com/authid/detail.uri?authorId=6602764751         Citations by 8495 documents
+Liu, Li             https://www.scopus.com/authid/detail.uri?authorId=56168963500        Citations by 1144 documents
+Sabolch, Aaron N.   https://www.scopus.com/authid/detail.uri?authorId=57216608351        Citations by 955 documents
+Pillai, Natesh S    https://www.scopus.com/authid/detail.uri?authorId=16025710700        Citations by 794 documents
+Baker, Darrol J.    https://www.scopus.com/authid/detail.uri?authorId=56168671600        Citations by 40 documents
+------------------------------------------------
+REVISTAS POR CITACIONES
+------------------------------------------------
+IEEE Access          https://www.scimagojr.com/journalsearch.php?q=21100374601&tip=sid&clean=0       Q1
+Medical radiology    https://www.scimagojr.com/journalsearch.php?q=19400158140&tip=sid&clean=0       Q4
+
+-----------------------------------------------
+TERMINOS MEDICOS 
+-----------------------------------------------
+Core needle biopsy
+Fine needle aspiration
+
+
+-----------------------------------------------
+TERMINOS COMPUTACIONALES
+-----------------------------------------------
+BI-RAS https://www.cancer.org/es/cancer/cancer-de-seno/pruebas-de-deteccion-y-deteccion-temprana-del-cancer-de-seno/mamogramas/como-entender-su-informe-de-mamograma.html
+https://ichi.pro/es/introduccion-a-fast-caracteristicas-de-la-prueba-de-segmento-acelerada-86669183053157
+
+----------------------------------------------
+OTROS
+----------------------------------------------
+Breast Cancer Recurrence Prediction in Biopsy Using Machine Learning Framework-Advances in Communication and Computational Technology
+https://itelligent.es/es/pln-clasificacion-automatica-documentos/#:~:text=La%20extracci%C3%B3n%20de%20caracter%C3%ADsticas%20(features,el%20conjunto%20de%20datos%20original.
+
+
+http://www.image-net.org/
+
+
+
+OBB
+https://sg.com.mx/content/view/448
+
+
+
+https://www.cienciadedatos.net/documentos/pystats04-bootstrapping-python.html
+https://fhernanb.github.io/Manual-de-R/ph.html
+https://fhernanb.github.io/Manual-de-R/ic.html
+https://rpubs.com/Joaquin_AR/218468
+https://rpubs.com/Joaquin_AR/218468
+https://relopezbriega.github.io/blog/2016/06/29/distribuciones-de-probabilidad-con-python/
+http://halweb.uc3m.es/esp/Personal/personas/jmmarin/esp/ManualR/contrastes.html
+https://www.greelane.com/es/ciencia-tecnolog%C3%ADa-matem%C3%A1ticas/mates/variance-and-standard-deviation-3026711
+http://unbarquero.blogspot.com/2009/05/r-distribucion-de-poisson.html
+311
+
+https://spartangeek.com/blog/data-science-las-mejores-computadoras-para-la-ciencia-de-datos
+https://www.lage.com.mx/blog/que-es-una-workstation-y-para-que-sirve
