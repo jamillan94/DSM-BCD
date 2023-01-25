@@ -11,16 +11,17 @@ https://www.cbioportal.org/study/clinicalData?id=brca_tcga
 ----------------------------------
 • Invasive ductal carcinoma (IDC)
 ----------------------------------
-https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images  [USANDO]
+[IMPORTANTE]
+https://www.cbioportal.org/study/summary?id=brca_tcga_pub2015 
+
+https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images 
 https://www.kaggle.com/code/allunia/breast-cancer/data
 
-https://www.cbioportal.org/study/summary?id=brca_tcga_pub2015 [IMPORTANTE]
 
 ----------------------------------
 • Lobular Carcinoma (ILBC)
 ----------------------------------
 https://zenodo.org/record/4991993#.Y6JsIHaZNaZ
-
 
 
 ----------------------------------

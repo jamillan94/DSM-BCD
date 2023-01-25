@@ -1,22 +1,27 @@
 \chapter{Metodología DSM-BCD}
 
-Dado los problemas presentados de los proyectos basados en datos, y el estudio de diversas metodologías propuestas por varios autores, se propone la metodología \textit{DSM-BCD (Data Science Methodology for Breast Cancer Diagnosis)}. Esta metodología tiene como base el \textit{manifestó ágil} aplicado a un contexto de resultados basados en datos. Dado lo anterior \textit{DSM-BCD} no se enfoca en evaluar la precisión de las técnicas de ML y DL sino su objetivo principal es generar valor a los datos en el tiempo mas corto posible para que los médicos diagnostiquen de manera ágil el cáncer de mama. Para lograrlo \textit{DSM-BCD} integra la perspicacia medica y los resultados obtenidos por las técnicas de ML y DL en una retroalimentación continua generada en cada \textit{Release} para producir mayor eficacia en la toma de decisiones
+Dado los problemas presentados de los proyectos basados en datos, y el estudio de diversas metodologías propuestas por varios autores, se propone la metodología \textit{DSM-BCD (Data Science Methodology for Breast Cancer Diagnosis)}. En la figura \ref{DSM-BCD} se puede visualizar las fases de la metodología DSM-BCD.
 
 \begin{figure*}[!htb]
 	\centering
-	\includegraphics[width=0.95
-	\linewidth]{IMAGENES/DSM-BCD.pdf}
-	\caption{Data Science Methodology for Breast Cancer Diagnosis (DSM-BCD)}
+	\includegraphics[width=0.9
+	\linewidth]{IMAGENES/DSM-BCD_SPANISH.pdf}
+	\caption{Metodología en ciencia de datos para el diagnóstico del cáncer de mama 
+		(DSM-BCD)}
 	\label{DSM-BCD}
 \end{figure*}
 
- En \textit{DSM-BCD}, se propone la conformación de un \textit{Data Analysis Team}. Este equipo debe estar encabezado por el medico experto en oncología, al menos un ingeniero de datos y un científico de datos. Se recomienda que el equipo este conformado por un máximo de 5 personas para facilitar el trabajo en equipo y la comunicación interna. La figura \ref{DSM-BCD} muestra las fases del DSM-BCD, las cuales se detallan a continuación:
+Esta metodología tiene como base el \textit{manifestó ágil} aplicado a un contexto de resultados basados en datos. Dado lo anterior \textit{DSM-BCD} no se enfoca en evaluar la precisión de las técnicas de ML y DL sino su objetivo principal es generar valor a los datos en el tiempo mas corto posible para que los médicos diagnostiquen de manera ágil el cáncer de mama. Para lograrlo \textit{DSM-BCD} integra la perspicacia medica y los resultados obtenidos por las técnicas de ML y DL en una retroalimentación continua generada en cada \textit{Release} para producir mayor eficacia en la toma de decisiones
 
-\newpage
+ En \textit{DSM-BCD}, se propone la conformación de un \textit{Data Analysis Team}. Este equipo debe estar encabezado por el medico experto en oncología, al menos un ingeniero de datos y un científico de datos. Se recomienda que el equipo este conformado por un máximo de 5 personas para facilitar el trabajo en equipo y la comunicación interna.
+ 
+ Para comprender mejor el uso de DSM-BCD, se realizó un análisis descriptivo basados en datos genéticos característicos de tumores generados por los tipos de cáncer \textit{Carcinoma ductal invasivo (IDC)} y \textit{Carcinoma lobulillar invasivo (LBC)}, en donde se logró determinar que el IDC y LBC son enfermedades molecularmente distintas con rasgos genéticos característicos, lo que proporciona información importante para la estratificación de los pacientes permitiendo realizar diagnostico clínico ágil con precedentes para un tratamiento puntual.
+
+
 \section{Fase 1: Mapa de preguntas sobre el cáncer de mama (BCQM)} 
 En esta fase se propone el uso de un mapa de preguntas sobre el cáncer de mama (BCQM). El proposito del \textit{BCQM} es que el \textit{Data Analysis Team} defina las preguntas que serán resueltas al finalizar cada \textit{Release} y que permitirán tomar decisiones medicas con respecto al diagnostico de esta enfermedad. En la figura \ref{BCQM} se observa la estructura del BCQM.
 
-\begin{figure}[!htb]
+\begin{figure}
 	\centering
 	\includegraphics[width=0.6
 	\linewidth]{IMAGENES/BCQM}
@@ -31,6 +36,82 @@ En esta fase el \textit{Data Analysis Team} basado en las preguntas realizadas e
 
 \section{Fase 3: Adquisición de datos oncológicos}
 En esta fase, con base a la tareas realizadas en la planeación de actividades, el medico experto en oncología junto con el ingeniero y el científico de datos identifican y reúnen los recursos de datos disponibles (estructurados, no estructurados y semiestructurados) y relevantes para solucionar las preguntas planteadas en el \textit{BCQM}. Cabe resaltar, que en la metodología \textit{\textit{DSM-BCD}} es factible tener varios conjuntos de datos o imágenes que están relacionados a un tipo de cáncer de mama y una técnica de diagnostico, por lo tanto  el \textit{Data Analysis Team} puede tener a varios científicos respondiendo preguntas diferentes en un mismo \textit{Release}. Como consecuencia, al final se pueden obtener como resultado múltiples respuestas y una posible correlación entre las diversas variables oncológicas.  Asimismo, en esta fase el \textit{Data Analysis Team} debe definir la infraestructura de datos necesaria según la cantidad de información a procesar, lo cual permitirá proyectar la escalabilidad, alcance y distribución de dicha información. 
+
+Para este caso de estudio, se utilizaron variables genéticas características de marcadores tumorales  basados en los siguientes tipos de cáncer de mama:
+
+\begin{itemize}
+	\item \textit{Carcinoma ductal invasivo (IDC)}:  Este tipo de cáncer ocurre cuando las células anormales de la mama se diseminan por todos los tejidos mamarios.
+	
+	\item \textit{Carcinoma lobulillar invasivo (LBC)}: Este tipo de cáncer ocurre cuando las células anormales de la mama se diseminan en lóbulo mamario.
+\end{itemize}
+
+Estas variables fueron obtenidas del conjunto de datos denominado \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”} creado a partir del proyecto de carcinoma invasivo de mama \textit{Comprehensive Molecular Portraits of InvasiveLobular Breast Cancer} \cite{Ciriello2015} basado en el \textit {Atlas del Genoma del Cáncer (TCGA\footnote{Acrónimo de “The Cancer Genome Atlas (TCGA)”, en inglés })} cuya finalidad es catalogar cambios moleculares de importancia biológica responsables de la aparición de cáncer haciendo uso de la secuenciación genómica y la bioinformática \cite{TCGA2023}. Los datos fueron descargados del sitio público \textit{cBioPortal} para la genómica del cáncer  (\url{https://www.cbioportal.org/study/summary?id=brca_tcga_pub2015}). Cabe resaltar, que el conjunto de datos contiene un total de 817 muestras de tumores de mama que  se perfilaron con 6 plataformas moleculares: Análisis del número de copias somáticas basado en array, Secuenciación del exoma completo, perfil de metilación del ADN basado en array, secuenciación del ARN mensajero, secuenciación de microARN (miARN) y array de proteínas en fase inversa (RPPA), como se ha descrito previamente en \cite{Bass2014}. Un comité de patología revisó y clasificó todos los tumores en 490 IDC, 127 LBC, 88 casos con características mixtas de IDC e LBC, y 112 con otras histologías.
+
+Este conjunto de datos consta de un tamaño de $818$ filas y $110$ columnas. Las variables se describen en la tabla \ref{brca_tcga_pub2015_clinical_data}: 
+
+\begin{table*} [!htb]
+	\footnotesize
+	\begin{threeparttable}
+		\caption{Conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).}
+		\label{brca_tcga_pub2015_clinical_data}
+		\begin{tabular}{p{1cm} p{4cm} p{10cm}} \toprule	
+			\begin{center}$N$\end{center}   
+			&\begin{center}Variable\end{center}             
+			&\begin{center}Descripción\end{center}      
+			\\ \hline	
+			%-----------------------------------------------------------------------------------
+			1
+			&Study ID
+			&Código de identificación del estudio.
+			\\ \hline
+			%-----------------------------------------------------------------------------------
+			2
+			&Patient ID
+			&Código de identificación del paciente.
+			\\ \hline
+			%-----------------------------------------------------------------------------------
+			3
+			&Sample ID
+			&Código de identificación de la muestra.
+			\\ \hline
+			%-----------------------------------------------------------------------------------
+			4
+			&Diagnosis Age
+			&Edad a la que se diagnosticó por primera vez una afección o enfermedad.
+			\\ \hline
+			%-----------------------------------------------------------------------------------
+			5
+			&American Joint Committee on Cancer Metastasis Stage Code
+			&Código para representar la ausencia o presencia definida de diseminación a distancia o metástasis (M) a localizaciones a través de canales vasculares o linfáticos más allá de los ganglios linfáticos regionales, utilizando los criterios establecidos por el Comité Conjunto Americano del Cáncer (AJCC).
+			\\ \hline
+			%-----------------------------------------------------------------------------------
+			6
+			&Neoplasm Disease Lymph Node Stage American Joint Committee on Cancer Code
+			&Los códigos que representan el estadio del cáncer en función de los ganglios presentes (estadio N) según criterios basados en múltiples ediciones del Manual de Estadificación del Cáncer de la AJCC.
+			\\ \hline
+			%-----------------------------------------------------------------------------------
+			7
+			&Neoplasm Disease Stage American Joint Committee on Cancer Code
+			&La extensión de un cáncer, especialmente si la enfermedad se ha propagado desde el lugar original a otras partes del cuerpo según los criterios de estadificación de la AJCC.
+			\\ \hline
+			%-----------------------------------------------------------------------------------
+			8
+			&American Joint Committee on Cancer Publication Version Type
+			&Versión o edición del American Joint Committee on Cancer Cancer Staging Handbooks, publicación del grupo formado con el propósito de desarrollar un sistema de estadificación clínica del cáncer que sea aceptable para la profesión médica estadounidense y compatible con otras clasificaciones aceptadas.
+			\\ \hline
+			%-----------------------------------------------------------------------------------
+			9
+			&American Joint Committee on Cancer Tumor Stage Code
+			&Código de T patológico (tumor primario) para definir el tamaño o la extensión contigua del tumor primario (T), utilizando los criterios de estadificación del AJCC.
+			\\ \hline
+			%-----------------------------------------------------------------------------------
+			10
+			&Brachytherapy first reference point administered total dose
+			&Primer punto de referencia dosis total administrada en la Braquiterapia .
+			\\ \hline
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
 
 \section{Fase 4: Análisis Exploratorio de datos oncológicos}
 

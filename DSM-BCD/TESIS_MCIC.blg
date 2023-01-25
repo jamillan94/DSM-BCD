@@ -25,51 +25,53 @@ Repeated entry---line 1299 of file REFERENCIAS/articulos.bib
  : @article{Rollins2015
  :                     ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "TCGA2023" isn't style-file defined
+--line 2073 of file REFERENCIAS/articulos.bib
 Warning--can't use both author and editor fields in Brunicardi2010
 Warning--empty booktitle in Safhi2019
 Warning--empty journal in Pacheco2014
 Warning--there's a number but no volume in Shen2019
 Warning--empty author in Turin2020
 Warning--empty publisher in ArchiMate3.0.1
-You've used 70 entries,
+You've used 73 entries,
             1791 wiz_defined-function locations,
-            906 strings with 18718 characters,
-and the built_in function-call counts, 16372 in all, are:
-= -- 1280
-> -- 1083
+            927 strings with 26620 characters,
+and the built_in function-call counts, 21993 in all, are:
+= -- 1326
+> -- 2277
 < -- 8
-+ -- 390
-- -- 320
-* -- 1246
-:= -- 2791
-add.period$ -- 208
-call.type$ -- 70
-change.case$ -- 64
++ -- 789
+- -- 716
+* -- 2061
+:= -- 4049
+add.period$ -- 216
+call.type$ -- 73
+change.case$ -- 67
 chr.to.int$ -- 0
-cite$ -- 76
-duplicate$ -- 652
-empty$ -- 1419
-format.name$ -- 320
-if$ -- 3500
+cite$ -- 79
+duplicate$ -- 675
+empty$ -- 1479
+format.name$ -- 716
+if$ -- 4404
 int.to.chr$ -- 0
-int.to.str$ -- 70
-missing$ -- 73
-newline$ -- 348
-num.names$ -- 69
-pop$ -- 178
+int.to.str$ -- 73
+missing$ -- 75
+newline$ -- 362
+num.names$ -- 72
+pop$ -- 187
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 278
+skip$ -- 289
 stack$ -- 0
-substring$ -- 846
-swap$ -- 116
+substring$ -- 876
+swap$ -- 119
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 137
-width$ -- 72
-write$ -- 743
+while$ -- 142
+width$ -- 75
+write$ -- 773
 (There was 1 error message)

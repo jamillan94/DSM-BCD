@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: cancer-data-mining.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: apj.bst
+Illegal, another \bibstyle command---line 82 of file cancer-data-mining.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+Database file #1: REFERENCIAS/articulos.bib
+Warning--entry type for "DANE2021" isn't style-file defined
+--line 45 of file REFERENCIAS/articulos.bib
+Warning--entry type for "Risaralda2021" isn't style-file defined
+--line 101 of file REFERENCIAS/articulos.bib
+Warning--entry type for "Shafique2014" isn't style-file defined
+--line 173 of file REFERENCIAS/articulos.bib
+Warning--entry type for "SEER2022" isn't style-file defined
+--line 201 of file REFERENCIAS/articulos.bib
+Repeated entry---line 303 of file REFERENCIAS/articulos.bib
+ : @article{InternationalAgencyforResearchonCancer2020
+ :                                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 515 of file REFERENCIAS/articulos.bib
+ : @article{Duarte2021
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1533 of file REFERENCIAS/articulos.bib
+ : @report{Shafique2014
+ :                     ,
+I'm skipping whatever remains of this entry
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Warning--can't use both author and editor fields in Brunicardi2010
+Warning--can't use both author and editor fields in Dean2014
+Warning--can't use both author and editor fields in Roiger2017
+You've used 42 entries,
+            3087 wiz_defined-function locations,
+            944 strings with 15365 characters,
+and the built_in function-call counts, 20727 in all, are:
+= -- 1672
+> -- 1625
+< -- 20
++ -- 553
+- -- 592
+* -- 1788
+:= -- 3966
+add.period$ -- 42
+call.type$ -- 42
+change.case$ -- 305
+chr.to.int$ -- 54
+cite$ -- 45
+duplicate$ -- 806
+empty$ -- 1210
+format.name$ -- 627
+if$ -- 4055
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 38
+newline$ -- 130
+num.names$ -- 171
+pop$ -- 353
+preamble$ -- 1
+purify$ -- 301
+quote$ -- 0
+skip$ -- 633
+stack$ -- 0
+substring$ -- 728
+swap$ -- 30
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 363
+warning$ -- 3
+while$ -- 151
+width$ -- 0
+write$ -- 419
+(There were 4 error messages)

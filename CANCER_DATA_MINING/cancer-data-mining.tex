@@ -1,0 +1,68 @@
+\documentclass[
+  journal=pasa,
+  manuscript=review, %% or "review"
+  year=2021,
+  volume=37,
+]{cup-journal}
+
+\usepackage{microtype,siunitx,booktabs}
+\usepackage{natbib}
+\usepackage{tabularx}
+\usepackage{enumitem,bbding}
+\usepackage{longtable}
+\sisetup{detect-all,separate-uncertainty=true}
+
+%------------------VISITADOR-------------------------------------------------
+
+\title{Aplicación de la metodología KDD en el diagnostico de la morbilidad por cáncer de mama en la ciudad de Pereira-Risaralda}
+
+\author{Jorge Armando Millán Gómez}
+\affiliation{Minería de Datos, Universidad Distrital "Francisco José de Caldas", Facultad de Ingeniería, Bogotá, Colombia}
+\email[J. A. Millán]{jamillang@correo.udistrital.edu.co}
+
+%\author{M. Sokolowski}
+%\affiliation{International Centre for Radio Astronomy Research, Curtin University, Bentley, WA6102, Australia}
+% \alsoaffiliation{Joint first authors}
+
+%\author{R. Wayth}
+%\affiliation{International Centre for Radio Astronomy Research, Curtin University, Bentley, WA6102, Australia}
+
+%\author{D. Ung}
+%\affiliation{International Centre for Radio Astronomy Research, Curtin University, Bentley, WA6102, Australia}
+
+%\handlingeditor{Excellent E Editor}
+
+\doi{10.1017/pasa.2022.32}
+
+\received {20 03 2022}
+\revised  {20 03 2022}
+\accepted {20 03 2022}
+\published{19 Abril 2022}
+
+\keywords{minería de datos, KDD, cáncer de mama, pronostico, Colombia.}
+ %% First letter not capped
+% \jel{Q11; Q12; D81; M31}
+% \msc{Q14; Q18; E21}
+% \abbreviations{
+%     BDHS: Bangladesh Demographic and Health Survey, 
+%     IDA: Fe-deficiency anaemia, 
+%     IFA: Fe-folic acid, 
+%     MNP: multiple micronutrient powder, 
+%     VAD: vitamin A deficiency
+% }
+\begin{document}
+
+\input{ARTICULO/DESARROLLO}
+%\input{DESARROLLO/METODOS}
+%\input{DESARROLLO/RESULTADOS}
+%\input{DESARROLLO/DISCUSION}
+
+% PASA uses footnotes, not endnotes. \endnote in this template will behave like \footnote; and \printendnotes will not output anything.
+% \printendnotes
+\bibliographystyle{unsrt}
+%\bibliographystyle{apalike}
+\bibliography{REFERENCIAS/articulos}
+%\appendix
+%\input{example-appendices}
+
+\end{document}

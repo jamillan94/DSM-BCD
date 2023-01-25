@@ -416,6 +416,105 @@ Carlos Duarte, Alejandro Salazar, Kathrin Strasser-Weippl, Esther de~Vries,
 \newblock {20 Breast fact sheet}.
 \newblock {\em Globocan 2020}, 419:3--4, 2020.
 
+\bibitem{TCGA2023}
+National~Cancer Institute and National Human Genome~Research Institute.
+\newblock The cancer genome atlas, 2023.
+
+\bibitem{Bass2014}
+Adam~J. Bass, Vesteinn Thorsson, Ilya Shmulevich, Sheila~M. Reynolds, Michael
+  Miller, Brady Bernard, Toshinori Hinoue, Peter~W. Laird, Christina Curtis,
+  Hui Shen, Daniel~J. Weisenberger, Nikolaus Schultz, Ronglai Shen, Nils
+  Weinhold, David~P. Kelsen, Reanne Bowlby, Andy Chu, Katayoon Kasaian,
+  Andrew~J. Mungall, A.~Gordon Robertson, Payal Sipahimalani, Andrew~D.
+  Cherniack, Gad Getz, Yingchun Liu, Michael~S. Noble, Chandra Pedamallu,
+  Carrie Sougnez, Amaro Taylor-Weiner, Rehan Akbani, Ju~Seog Lee, Wenbin Liu,
+  Gordon~B. Mills, Da~Yang, Wei Zhang, Angeliki Pantazi, Michael Parfenov,
+  Margaret Gulley, M.~Blanca Piazuelo, Barbara~G. Schneider, Jihun Kim, Alex
+  Boussioutas, Margi Sheth, John~A. Demchok, Charles~S. Rabkin, Joseph~E.
+  Willis, Sam Ng, Katherine Garman, David~G. Beer, Arjun Pennathur, Benjamin~J.
+  Raphael, Hsin~Ta Wu, Robert Odze, Hark~K. Kim, Jay Bowen, Kristen~M. Leraas,
+  Tara~M. Lichtenberg, Stephanie Weaver, Michael McLellan, Maciej Wiznerowicz,
+  Ryo Sakai, Michael~S. Lawrence, Kristian Cibulskis, Lee Lichtenstein, Sheila
+  Fisher, Stacey~B. Gabriel, Eric~S. Lander, Li~Ding, Beifang Niu, Adrian Ally,
+  Miruna Balasundaram, Inanc Birol, Denise Brooks, Yaron~S.N. Butterfield,
+  Rebecca Carlsen, Justin Chu, Eric Chuah, Hye Jung~E. Chun, Amanda Clarke,
+  Noreen Dhalla, Ranabir Guin, Robert~A. Holt, Steven~J.M. Jones, Darlene Lee,
+  Haiyan~A. Li, Emilia Lim, Yussanne Ma, Marco~A. Marra, Michael Mayo,
+  Richard~A. Moore, Karen~L. Mungall, Ka~Ming Nip, Jacqueline~E. Schein, Angela
+  Tam, Nina Thiessen, Rameen Beroukhim, Scott~L. Carter, Juok Cho, Daniel
+  DiCara, Scott Frazer, Nils Gehlenborg, David~I. Heiman, Joonil Jung, Jaegil
+  Kim, Pei Lin, Matthew Meyerson, Akinyemi~I. Ojesina, Chandra~Sekhar
+  Pedamallu, Gordon Saksena, Steven~E. Schumacher, Petar Stojanov, Barbara
+  Tabak, Doug Voet, Mara Rosenberg, Travis~I. Zack, Hailei Zhang, Lihua Zou,
+  Alexei Protopopov, Netty Santoso, Semin Lee, Jianhua Zhang, Harshad~S.
+  Mahadeshwar, Jiabin Tang, Xiaojia Ren, Sahil Seth, Lixing Yang, Andrew~W. Xu,
+  Xingzhi Song, Ruibin Xi, Christopher~A. Bristow, Angela Hadjipanayis,
+  Jonathan Seidman, Lynda Chin, Peter~J. Park, Raju Kucherlapati, Shiyun Ling,
+  Arvind Rao, John~N. Weinstein, Sang~Bae Kim, Yiling Lu, Moiz~S. Bootwalla,
+  Phillip~H. Lai, Timothy Triche, David J. Van~Den Berg, Stephen~B. Baylin,
+  James~G. Herman, Bradley~A. Murray, B.~Arman Askoy, Giovanni Ciriello, Gideon
+  Dresdner, Jianjiong Gao, Benjamin Gross, Anders Jacobsen, William Lee,
+  Ricardo Ramirez, Chris Sander, Yasin Senbabaoglu, Rileen Sinha, S.~Onur
+  Sumer, Yichao Sun, Lisa Iype, Roger~W. Kramer, Richard Kreisberg, Hector
+  Rovira, Natalie Tasman, David Haussler, Josh~M. Stuart, Roeland~G.W. Verhaak,
+  Mark~D.M. Leiserson, Barry~S. Taylor, Aaron~D. Black, Julie~Ann Carney,
+  Julie~M. Gastier-Foster, Carmen Helsel, Cynthia McAllister, Nilsa~C. Ramirez,
+  Teresa~R. Tabler, Lisa Wise, Erik Zmuda, Robert Penny, Daniel Crain, Johanna
+  Gardner, Kevin Lau, Erin Curely, David Mallery, Scott Morris, Joseph
+  Paulauskis, Troy Shelton, Candace Shelton, Mark Sherman, Christopher Benz,
+  Jae~Hyuk Lee, Konstantin Fedosenko, Georgy Manikhas, Olga Potapova, Olga
+  Voronina, Dmitry Belyaev, Oleg Dolzhansky, W.~Kimryn Rathmell, Jakub
+  Brzezinski, Matthew Ibbs, Konstanty Korski, Witold Kycler, Radoslaw
+  Łaźniak, Ewa Leporowska, Andrzej Mackiewicz, Dawid Murawa, Pawel Murawa,
+  Arkadiusz Spychała, Wiktoria~M. Suchorska, Honorata Tatka, Marek Teresiak,
+  Raafat Abdel-Misih, Joseph Bennett, Jennifer Brown, Mary Iacocca, Brenda
+  Rabeno, Sun~Young Kwon, Ariane Kemkes, Erin Curley, Iakovina Alexopoulou, Jay
+  Engel, John Bartlett, Monique Albert, Do~Youn Park, Rajiv Dhir, James
+  Luketich, Rodney Landreneau, Yelena~Y. Janjigian, Eunjung Cho, Marc Ladanyi,
+  Laura Tang, Shannon~J. McCall, Young~S. Park, Jae~Ho Cheong, Jaffer Ajani,
+  M.~Constanza Camargo, Shelley Alonso, Brenda Ayala, Mark~A. Jensen, Todd
+  Pihl, Rohini Raman, Jessica Walton, Yunhu Wan, Greg Eley, Kenna~R.Mills Shaw,
+  Roy Tarnuzzer, Zhining Wang, Liming Yang, Jean~Claude Zenklusen, Tanja
+  Davidsen, Carolyn~M. Hutter, Heidi~J. Sofia, Robert Burton, Sudha Chudamani,
+  and Jia Liu.
+\newblock Comprehensive molecular characterization of gastric adenocarcinoma.
+\newblock {\em Nature}, 513:202, 9 2014.
+
+\bibitem{Ciriello2015}
+Giovanni Ciriello, Michael~L. Gatza, Andrew~H. Beck, Matthew~D. Wilkerson,
+  Suhn~K. Rhie, Alessandro Pastore, Hailei Zhang, Michael McLellan, Christina
+  Yau, Cyriac Kandoth, Reanne Bowlby, Hui Shen, Sikander Hayat, Robert
+  Fieldhouse, Susan~C. Lester, Gary~M.K. Tse, Rachel~E. Factor, Laura~C.
+  Collins, Kimberly~H. Allison, Yunn~Yi Chen, Kristin Jensen, Nicole~B.
+  Johnson, Steffi Oesterreich, Gordon~B. Mills, Andrew~D. Cherniack, Gordon
+  Robertson, Christopher Benz, Chris Sander, Peter~W. Laird, Katherine~A.
+  Hoadley, Tari~A. King, Rehan Akbani, J.~Todd Auman, Miruna Balasundaram,
+  Saianand Balu, Thomas Barr, Stephen Benz, Mario Berrios, Rameen Beroukhim,
+  Tom Bodenheimer, Lori Boice, Moiz~S. Bootwalla, Jay Bowen, Denise Brooks,
+  Lynda Chin, Juok Cho, Sudha Chudamani, Tanja Davidsen, John~A. Demchok,
+  Jennifer~B. Dennison, Li~Ding, Ina Felau, Martin~L. Ferguson, Scott Frazer,
+  Stacey~B. Gabriel, Jian~Jiong Gao, Julie~M. Gastier-Foster, Nils Gehlenborg,
+  Mark Gerken, Gad Getz, William~J. Gibson, D.~Neil Hayes, David~I. Heiman,
+  Andrea Holbrook, Robert~A. Holt, Alan~P. Hoyle, Hai Hu, Mei Huang, Carolyn~M.
+  Hutter, E.~Shelley Hwang, Stuart~R. Jefferys, Steven~J.M. Jones, Zhenlin Ju,
+  Jaegil Kim, Phillip~H. Lai, Michael~S. Lawrence, Kristen~M. Leraas, Tara~M.
+  Lichtenberg, Pei Lin, Shiyun Ling, Jia Liu, Wenbin Liu, Laxmi Lolla, Yiling
+  Lu, Yussanne Ma, Dennis~T. Maglinte, Elaine Mardis, Jeffrey Marks, Marco~A.
+  Marra, Cynthia McAllister, Shaowu Meng, Matthew Meyerson, Richard~A. Moore,
+  Lisle~E. Mose, Andrew~J. Mungall, Bradley~A. Murray, Rashi Naresh, Michael~S.
+  Noble, Olufunmilayo Olopade, Joel~S. Parker, Todd Pihl, Gordon Saksena,
+  Steven~E. Schumacher, Kenna~R.Mills Shaw, Nilsa~C. Ramirez, W.~Kimryn
+  Rathmell, Jeffrey Roach, A.~Gordon Robertson, Jacqueline~E. Schein, Nikolaus
+  Schultz, Margi Sheth, Yan Shi, Juliann Shih, Carl~Simon Shelley, Craig
+  Shriver, Janae~V. Simons, Heidi~J. Sofia, Matthew~G. Soloway, Carrie Sougnez,
+  Charlie Sun, Roy Tarnuzzer, Daniel~G. Tiezzi, David J. Van~Den Berg, Doug
+  Voet, Yunhu Wan, Zhining Wang, John~N. Weinstein, Daniel~J. Weisenberger,
+  Richard Wilson, Lisa Wise, MacIej Wiznerowicz, Junyuan Wu, Ye~Wu, Liming
+  Yang, Travis~I. Zack, Jean~C. Zenklusen, Jiashan Zhang, Erik Zmuda, and
+  Charles~M. Perou.
+\newblock Comprehensive molecular portraits of invasive lobular breast cancer.
+\newblock {\em Cell}, 163:506--519, 10 2015.
+
 \bibitem{BolanosCastro2019}
 Sandro~Javier {Bola{\~{n}}os Castro}, Maddyzeth {Ariza RIa{\~{n}}o}, and
   Heiner~Santiago {Alfonso Casallas}.
