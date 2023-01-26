@@ -6,41 +6,41 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Metodología en ciencia de datos para el diagnóstico del cáncer de mama (DSM-BCD)}}{60}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Mapa de preguntas basados en los tipos de cáncer de mama \textit {inflamatorio (IBC)}, \textit {mucinoso (MBC)}, \textit {Lobulillar (LBC)}, \textit {Tumores mixtos (MTBC)}, \textit {Carcinoma ductal invasivo (IDC)} y \textit {Carcinoma ductal in situ (DCIS)}}}{62}{figure.4.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Jerarquía del Área de Investigación de análisis de datos}}{72}{figure.5.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Jerarquía del Área de Investigación de análisis de datos}}{79}{figure.5.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Punto de Vista de Interesados}}{75}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Punto de Vista de Realización de Objetivos}}{77}{figure.6.2}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Punto de Vista de Contribución de Objetivos}}{79}{figure.6.3}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Punto de Vista de Principios}}{81}{figure.6.4}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Punto de Vista de Realización de Requerimientos}}{82}{figure.6.5}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Punto de Vista de Motivación}}{84}{figure.6.6}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Punto de Vista de Interesados}}{82}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Punto de Vista de Realización de Objetivos}}{84}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Punto de Vista de Contribución de Objetivos}}{86}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Punto de Vista de Principios}}{88}{figure.6.4}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Punto de Vista de Realización de Requerimientos}}{89}{figure.6.5}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Punto de Vista de Motivación}}{91}{figure.6.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Punto de Vista de la Estrategia}}{87}{figure.7.1}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Punto de Vista del Mapa de Capacidad}}{89}{figure.7.2}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Punto de Vista de la Realización de Resultado}}{91}{figure.7.3}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Punto de Vista de Mapa de Recurso}}{93}{figure.7.4}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Punto de Vista de la Estrategia}}{94}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Punto de Vista del Mapa de Capacidad}}{96}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Punto de Vista de la Realización de Resultado}}{98}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Punto de Vista de Mapa de Recurso}}{100}{figure.7.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Punto de Vista de la Organización}}{96}{figure.8.1}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Punto de Vista de Cooperación de Actor}}{98}{figure.8.2}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Punto de Vista de la Función del negocio}}{100}{figure.8.3}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Punto de Vista del proceso del negocio}}{102}{figure.8.4}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Punto de Vista de Cooperación de Proceso de Negocio}}{105}{figure.8.5}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Punto de Vista de Producto}}{107}{figure.8.6}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Punto de Vista de la Organización}}{103}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Punto de Vista de Cooperación de Actor}}{105}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Punto de Vista de la Función del negocio}}{107}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Punto de Vista del proceso del negocio}}{109}{figure.8.4}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Punto de Vista de Cooperación de Proceso de Negocio}}{112}{figure.8.5}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Punto de Vista de Producto}}{114}{figure.8.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Punto de Vista del Comportamiento de la Aplicación}}{111}{figure.9.1}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Punto de Vista de Cooperación de la Aplicación}}{114}{figure.9.2}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Punto de Vista de la Estructura de la Aplicación}}{116}{figure.9.3}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Punto de Vista del uso de la Aplicación}}{118}{figure.9.4}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Punto de Vista del Comportamiento de la Aplicación}}{118}{figure.9.1}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Punto de Vista de Cooperación de la Aplicación}}{121}{figure.9.2}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Punto de Vista de la Estructura de la Aplicación}}{123}{figure.9.3}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Punto de Vista del uso de la Aplicación}}{125}{figure.9.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Punto de Vista de la Infraestructura}}{121}{figure.10.1}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Punto de Vista del Uso de la Infraestructura}}{123}{figure.10.2}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Punto de Vista de Implementación y Organización}}{125}{figure.10.3}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Punto de Vista de Estructura de Información}}{127}{figure.10.4}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Punto de Vista de Realización de Servicio}}{129}{figure.10.5}%
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Punto de Vista de Capas}}{131}{figure.10.6}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Punto de Vista de la Infraestructura}}{128}{figure.10.1}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Punto de Vista del Uso de la Infraestructura}}{130}{figure.10.2}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Punto de Vista de Implementación y Organización}}{132}{figure.10.3}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Punto de Vista de Estructura de Información}}{134}{figure.10.4}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Punto de Vista de Realización de Servicio}}{136}{figure.10.5}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Punto de Vista de Capas}}{138}{figure.10.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Punto de Vista de Proyecto}}{135}{figure.11.1}%
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Punto de Vista de Migración}}{138}{figure.11.2}%
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Punto de Vista de Migración e Implementación}}{139}{figure.11.3}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Punto de Vista de Proyecto}}{142}{figure.11.1}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Punto de Vista de Migración}}{145}{figure.11.2}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Punto de Vista de Migración e Implementación}}{146}{figure.11.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
