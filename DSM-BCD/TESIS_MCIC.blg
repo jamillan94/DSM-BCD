@@ -1,6 +1,24 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: TESIS_MCIC.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: FASES/FASE_1_BCQM.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: FASES/FASE_2_PLANEACION.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: FASES/FASE_3_ADQUISICION.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: FASES/FASE_4_EDA.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: FASES/FASE_5_TRANSFORMACION.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: FASES/FASE_6_MODELADO.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: FASES/FASE_7_EVALUACION.aux
+Reallocating 'name_of_file' (item size: 1) to 35 items.
+A level-1 auxiliary file: FASES/FASE_8_RETROALIMENTACION.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: FASES/FASE_9_BCDL.aux
 Reallocating 'name_of_file' (item size: 1) to 30 items.
 A level-1 auxiliary file: ARQUITECTURA/organizacion.aux
 Reallocating 'name_of_file' (item size: 1) to 28 items.
@@ -35,7 +53,7 @@ Warning--empty author in Turin2020
 Warning--empty publisher in ArchiMate3.0.1
 You've used 73 entries,
             1791 wiz_defined-function locations,
-            927 strings with 26620 characters,
+            936 strings with 26854 characters,
 and the built_in function-call counts, 21993 in all, are:
 = -- 1326
 > -- 2277
