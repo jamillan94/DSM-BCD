@@ -1,0 +1,16 @@
+"""bc=bc.drop(
+[
+'American Joint Committee on Cancer Metastasis Stage Code',
+'Neoplasm Disease Lymph Node Stage American Joint Committee on Cancer Code',
+'Neoplasm Disease Stage American Joint Committee on Cancer Code',
+'International Classification of Diseases for Oncology, Third Edition ICD-O-3 Histology Code',
+'International Classification of Diseases for Oncology, Third Edition ICD-O-3 Site Code',
+'Positive Finding Lymph Node Hematoxylin and Eosin Staining Microscopy Count',
+'Positive Finding Lymph Node Keratin Immunohistochemistry Staining Method Count',
+'First Pathologic Diagnosis Biospecimen Acquisition Method Type',
+'First Pathologic Diagnosis Biospecimen Acquisition Other Method Type'
+], axis=1
+)"""
+for i in mode_data :
+    breast_clean[i] = breast_clean[i].fillna(breast_clean[i].mode()[0])
+	moda
