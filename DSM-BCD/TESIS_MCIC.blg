@@ -9,16 +9,14 @@ Reallocating 'name_of_file' (item size: 1) to 29 items.
 A level-1 auxiliary file: FASES/FASE_3_ADQUISICION.aux
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: FASES/FASE_4_EDA.aux
-Reallocating 'name_of_file' (item size: 1) to 32 items.
-A level-1 auxiliary file: FASES/FASE_5_TRANSFORMACION.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
-A level-1 auxiliary file: FASES/FASE_6_MODELADO.aux
+A level-1 auxiliary file: FASES/FASE_5_MODELADO.aux
 Reallocating 'name_of_file' (item size: 1) to 28 items.
-A level-1 auxiliary file: FASES/FASE_7_EVALUACION.aux
+A level-1 auxiliary file: FASES/FASE_6_EVALUACION.aux
 Reallocating 'name_of_file' (item size: 1) to 35 items.
-A level-1 auxiliary file: FASES/FASE_8_RETROALIMENTACION.aux
+A level-1 auxiliary file: FASES/FASE_7_RETROALIMENTACION.aux
 Reallocating 'name_of_file' (item size: 1) to 22 items.
-A level-1 auxiliary file: FASES/FASE_9_BCDL.aux
+A level-1 auxiliary file: FASES/FASE_8_BCDL.aux
 Reallocating 'name_of_file' (item size: 1) to 30 items.
 A level-1 auxiliary file: ARQUITECTURA/ORGANIZACION.aux
 Reallocating 'name_of_file' (item size: 1) to 28 items.
@@ -45,51 +43,53 @@ Repeated entry---line 1299 of file REFERENCIAS/articulos.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "TCGA2023" isn't style-file defined
 --line 2073 of file REFERENCIAS/articulos.bib
+Warning--entry type for "NCI" isn't style-file defined
+--line 2359 of file REFERENCIAS/articulos.bib
 Warning--can't use both author and editor fields in Brunicardi2010
 Warning--empty booktitle in Safhi2019
 Warning--empty journal in Pacheco2014
 Warning--there's a number but no volume in Shen2019
 Warning--empty author in Turin2020
 Warning--empty publisher in ArchiMate3.0.1
-You've used 74 entries,
+You've used 75 entries,
             1791 wiz_defined-function locations,
-            942 strings with 27114 characters,
-and the built_in function-call counts, 22158 in all, are:
-= -- 1341
-> -- 2281
+            946 strings with 27211 characters,
+and the built_in function-call counts, 22272 in all, are:
+= -- 1348
+> -- 2285
 < -- 9
-+ -- 791
-- -- 717
++ -- 793
+- -- 718
 * -- 2069
-:= -- 4074
-add.period$ -- 219
-call.type$ -- 74
-change.case$ -- 68
+:= -- 4090
+add.period$ -- 221
+call.type$ -- 75
+change.case$ -- 69
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 685
-empty$ -- 1498
-format.name$ -- 717
-if$ -- 4443
+cite$ -- 81
+duplicate$ -- 690
+empty$ -- 1516
+format.name$ -- 718
+if$ -- 4470
 int.to.chr$ -- 0
-int.to.str$ -- 74
+int.to.str$ -- 75
 missing$ -- 77
-newline$ -- 367
-num.names$ -- 73
-pop$ -- 192
+newline$ -- 371
+num.names$ -- 74
+pop$ -- 197
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 292
+skip$ -- 299
 stack$ -- 0
 substring$ -- 876
-swap$ -- 121
+swap$ -- 122
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 143
-width$ -- 76
-write$ -- 785
+while$ -- 144
+width$ -- 77
+write$ -- 792
 (There was 1 error message)
