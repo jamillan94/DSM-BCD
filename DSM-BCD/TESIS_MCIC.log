@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2023.3.7)  7 MAR 2023 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2023.3.7)  9 MAR 2023 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2658,14 +2658,8 @@ LaTeX Info: Redefining \% on input line 26.
 (ARQUITECTURA/ESTRATEGICA.aux) (ARQUITECTURA/NEGOCIO.aux)
 (ARQUITECTURA/APLICACION.aux) (ARQUITECTURA/TECNOLOGIA.aux)
 (ARQUITECTURA/IMPLEMENTACION.aux))
-
-Package rerunfilecheck Warning: File `TESIS_MCIC.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `TESIS_MCIC.out':
-(rerunfilecheck)             Before: AB3967EC368FD20B8AAAAC0EE1F5BC0F;18783
-(rerunfilecheck)             After:  15B269D0A46CB95CF15FA66CAA95DA2E;18692.
+Package rerunfilecheck Info: File `TESIS_MCIC.out' has not changed.
+(rerunfilecheck)             Checksum: 15B269D0A46CB95CF15FA66CAA95DA2E;18692.
  ) 
 Here is how much of TeX's memory you used:
  28924 strings out of 478582
@@ -2688,7 +2682,7 @@ m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX
 /public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
 12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TESIS_MCIC.pdf (174 pages, 6896660 bytes).
+Output written on TESIS_MCIC.pdf (174 pages, 6896709 bytes).
 PDF statistics:
  3082 PDF objects out of 3580 (max. 8388607)
  771 named destinations out of 1000 (max. 500000)
