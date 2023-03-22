@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2023.3.7)  14 MAR 2023 21:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2023.3.7)  21 MAR 2023 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2048,26 +2048,51 @@ e (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/17_fraction_genome_alte
 red.pdf  used on input line 220.
 (pdftex.def)             Requested size: 184.9429pt x 145.55643pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
-[]|\OT1/cmr/m/n/10 HER2 cent17
- []
-
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_her_2_cent_17_ratio.pdf, id=1735, 390.40857p
-t x 283.7669pt>
-File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_her_2_cent_17_ratio.pdf Graphic file (t
-ype pdf)
-<use NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_her_2_cent_17_ratio.pdf>
-Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_her_2_cent_17_ratio.
-pdf  used on input line 226.
-(pdftex.def)             Requested size: 184.9429pt x 134.42262pt.
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_her_2_fish_status.pdf, id=1735, 390.40857pt 
+x 313.85318pt>
+File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_her_2_fish_status.pdf Graphic file (typ
+e pdf)
+<use NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_her_2_fish_status.pdf>
+Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_her_2_fish_status.pd
+f  used on input line 226.
+(pdftex.def)             Requested size: 184.9429pt x 148.67473pt.
 
 Overfull \hbox (64.45271pt too wide) in paragraph at lines 208--230
 [] 
  []
 
 
-LaTeX Warning: Float too large for page by 71.94713pt on input line 230.
+LaTeX Warning: Float too large for page by 90.5245pt on input line 230.
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 237--238
+[]|\OT1/cmr/m/n/10 HER2 ihc per-
+ []
+
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_her_2_ihc_percent_positive.pdf, id=1736, 390
+.40857pt x 308.80852pt>
+File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_her_2_ihc_percent_positive.pdf Graphic 
+file (type pdf)
+<use NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_her_2_ihc_percent_positive.pdf>
+Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_her_2_ihc_percent_po
+sitive.pdf  used on input line 239.
+(pdftex.def)             Requested size: 184.9429pt x 146.28503pt.
+File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/17_fraction_genome_altered.pdf Graphic fil
+e (type pdf)
+<use NOTEBOOK/IMAGENES_DESCRIPTIVAS/17_fraction_genome_altered.pdf>
+Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/17_fraction_genome_alte
+red.pdf  used on input line 246.
+(pdftex.def)             Requested size: 184.9429pt x 145.55643pt.
+File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_her_2_fish_status.pdf Graphic file (typ
+e pdf)
+<use NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_her_2_fish_status.pdf>
+Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_her_2_fish_status.pd
+f  used on input line 252.
+(pdftex.def)             Requested size: 184.9429pt x 148.67473pt.
+
+Overfull \hbox (64.45271pt too wide) in paragraph at lines 235--256
+[] 
+ []
 
 )
 LaTeX Info: Redefining \. on input line 23.
@@ -2147,15 +2172,19 @@ NES_DESCRIPTIVAS/17_fraction_genome_altered.pdf
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/17_fraction
 _genome_altered.pdf): PDF inclusion: multiple pdfs with page group included in 
 a single page
-> <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_her_2_cent_17_ratio.pdf
+> <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_her_2_fish_status.pdf
 
-pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_her_2_ce
-nt_17_ratio.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
+pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_her_2_fi
+sh_status.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
 >]
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+ [87 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_her_2_ihc_percent_positive.pdf>]
 \openout2 = `FASES/FASE_5_MODELADO.aux'.
 
- (FASES/FASE_5_MODELADO.tex
+
+(FASES/FASE_5_MODELADO.tex
 Underfull \hbox (badness 10000) in paragraph at lines 20--20
 []|\OT1/cmr/m/n/10 Density-Based Spa-tial
  []
@@ -2165,14 +2194,14 @@ Overfull \hbox (35.99997pt too wide) in paragraph at lines 9--27
 [] 
  []
 
-<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Kmeans.png, id=2270, 493.0922pt x 410.2828pt
+<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Kmeans.png, id=2310, 493.0922pt x 410.2828pt
 >
 File: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Kmeans.png Graphic file (type png)
 <use NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Kmeans.png>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Kmeans.png  used on 
 input line 36.
 (pdftex.def)             Requested size: 213.39568pt x 177.55756pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Affinity_Propagation.png, id=2271, 517.18219
+<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Affinity_Propagation.png, id=2311, 517.18219
 pt x 469.00218pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Affinity_Propagation.png Graphic file (
 type png)
@@ -2180,7 +2209,7 @@ type png)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Affinity_Propagation
 .png  used on input line 37.
 (pdftex.def)             Requested size: 213.39568pt x 193.51588pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Mean_Shift_Clustering.png, id=2272, 495.3506
+<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Mean_Shift_Clustering.png, id=2312, 495.3506
 3pt x 415.5525pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Mean_Shift_Clustering.png Graphic file 
 (type png)
@@ -2188,7 +2217,7 @@ File: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Mean_Shift_Clustering.png Graphic file
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Mean_Shift_Clusterin
 g.png  used on input line 42.
 (pdftex.def)             Requested size: 213.39568pt x 179.02016pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Spectral_ Clustering.png, id=2273, 484.05844
+<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Spectral_ Clustering.png, id=2313, 484.05844
 pt x 410.2828pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Spectral_ Clustering.png Graphic file (
 type png)
@@ -2196,7 +2225,7 @@ type png)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Spectral_ Clustering
 .png  used on input line 43.
 (pdftex.def)             Requested size: 213.39568pt x 180.87556pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Agglomerative_Clustering.png, id=2274, 485.5
+<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Agglomerative_Clustering.png, id=2314, 485.5
 6406pt x 409.53pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Agglomerative_Clustering.png Graphic fi
 le (type png)
@@ -2204,7 +2233,7 @@ le (type png)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Agglomerative_Cluste
 ring.png  used on input line 47.
 (pdftex.def)             Requested size: 213.39568pt x 179.97504pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Density_Based_Spatial_Clustering.png, id=227
+<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Density_Based_Spatial_Clustering.png, id=231
 5, 488.57532pt x 408.02437pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Density_Based_Spatial_Clustering.png Gr
 aphic file (type png)
@@ -2222,7 +2251,7 @@ Underfull \vbox (badness 4543) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
- [87
+ [88
 
 
 
@@ -2232,12 +2261,12 @@ Overfull \vbox (19.38635pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
 
-[88 <./NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Kmeans.png> <./NOTEBOOK/IMAGENES_CLUST
+[89 <./NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Kmeans.png> <./NOTEBOOK/IMAGENES_CLUST
 ERING/TNSE_Affinity_Propagation.png> <./NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Mean_
 Shift_Clustering.png> <./NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Spectral_ Clustering
 .png> <./NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Agglomerative_Clustering.png> <./NOT
 EBOOK/IMAGENES_CLUSTERING/TNSE_Density_Based_Spatial_Clustering.png>]
-<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_OPTICS Clustering.png, id=2290, 485.56406pt 
+<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_OPTICS Clustering.png, id=2330, 485.56406pt 
 x 407.27156pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_OPTICS Clustering.png Graphic file (typ
 e png)
@@ -2256,7 +2285,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 55--61
  [][] 
  []
 
-<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Kmodes.png, id=2291, 482.55281pt x 408.77719
+<NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Kmodes.png, id=2331, 482.55281pt x 408.77719
 pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Kmodes.png Graphic file (type png)
 <use NOTEBOOK/IMAGENES_CLUSTERING/TNSE_Kmodes.png>
@@ -2266,14 +2295,14 @@ input line 68.
 )
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
- [89 <./NOTEBOOK/IMAGENES_CLUSTERING/TNSE_OPTICS Clustering.png> <./NOTEBOOK/IM
+ [90 <./NOTEBOOK/IMAGENES_CLUSTERING/TNSE_OPTICS Clustering.png> <./NOTEBOOK/IM
 AGENES_CLUSTERING/TNSE_Kmodes.png>]
 \openout2 = `FASES/FASE_6_EVALUACION.aux'.
 
  (FASES/FASE_6_EVALUACION.tex)
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- [90
+ [91
 
 
 
@@ -2284,7 +2313,7 @@ LaTeX Info: Redefining \% on input line 25.
 (FASES/FASE_7_RETROALIMENTACION.tex)
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
- [91
+ [92
 
 
 
@@ -2300,11 +2329,17 @@ r
 )
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
- [92
+
+Overfull \hbox (49.21512pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 4.8.  FASE 9: BIT[]ACORA PARA EL DIAGNOSTICO DEL C[]ANCER DE M
+AMA (BCDL)  \OT1/cmr/m/n/12 93
+ []
+
+[93
 
 
 
-]) [93
+]) [94
 
 
 
@@ -2313,14 +2348,14 @@ LaTeX Info: Redefining \% on input line 27.
 
  (ARQUITECTURA/ORGANIZACION.tex
 Cap\'{\i }tulo 5.
-[94
+[95
 
 
 ]
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
- [95]
-<ARQUITECTURA/imgs/organizacion.pdf, id=2324, 660.4675pt x 468.75125pt>
+ [96]
+<ARQUITECTURA/imgs/organizacion.pdf, id=2364, 660.4675pt x 468.75125pt>
 File: ARQUITECTURA/imgs/organizacion.pdf Graphic file (type pdf)
 <use ARQUITECTURA/imgs/organizacion.pdf>
 Package pdftex.def Info: ARQUITECTURA/imgs/organizacion.pdf  used on input line
@@ -2328,22 +2363,22 @@ Package pdftex.def Info: ARQUITECTURA/imgs/organizacion.pdf  used on input line
 (pdftex.def)             Requested size: 426.79135pt x 302.91801pt.
 LaTeX Info: Redefining \. on input line 40.
 LaTeX Info: Redefining \% on input line 40.
- [96 <./ARQUITECTURA/imgs/organizacion.pdf>])
+ [97 <./ARQUITECTURA/imgs/organizacion.pdf>])
 LaTeX Info: Redefining \. on input line 102.
 LaTeX Info: Redefining \% on input line 102.
- [97]
+ [98]
 \openout2 = `ARQUITECTURA/MOTIVACION.aux'.
 
 
 (ARQUITECTURA/MOTIVACION.tex
 Cap\'{\i }tulo 6.
-[98
+[99
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaMotivacion/1_PvInteresados.pdf, id=2346, 399.4925pt x 24
+<ARQUITECTURA/imgs/CapaMotivacion/1_PvInteresados.pdf, id=2386, 399.4925pt x 24
 2.9075pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/1_PvInteresados.pdf Graphic file (type p
 df)
@@ -2353,11 +2388,11 @@ used on input line 22.
 (pdftex.def)             Requested size: 426.79135pt x 259.51926pt.
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
- [99 <./ARQUITECTURA/imgs/CapaMotivacion/1_PvInteresados.pdf>]
+ [100 <./ARQUITECTURA/imgs/CapaMotivacion/1_PvInteresados.pdf>]
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
- [100]
-<ARQUITECTURA/imgs/CapaMotivacion/2_PvRealizacionObj.pdf, id=2385, 552.0625pt x
+ [101]
+<ARQUITECTURA/imgs/CapaMotivacion/2_PvRealizacionObj.pdf, id=2425, 552.0625pt x
  223.83624pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/2_PvRealizacionObj.pdf Graphic file (typ
 e pdf)
@@ -2368,11 +2403,11 @@ f  used on input line 57.
 LaTeX Info: Redefining \. on input line 69.
 LaTeX Info: Redefining \% on input line 69.
 
-[101 <./ARQUITECTURA/imgs/CapaMotivacion/2_PvRealizacionObj.pdf>]
+[102 <./ARQUITECTURA/imgs/CapaMotivacion/2_PvRealizacionObj.pdf>]
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
- [102]
-<ARQUITECTURA/imgs/CapaMotivacion/3_PvContribucionObj.pdf, id=2424, 700.6175pt 
+ [103]
+<ARQUITECTURA/imgs/CapaMotivacion/3_PvContribucionObj.pdf, id=2465, 700.6175pt 
 x 242.9075pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/3_PvContribucionObj.pdf Graphic file (ty
 pe pdf)
@@ -2383,11 +2418,11 @@ df  used on input line 87.
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
 
-[103 <./ARQUITECTURA/imgs/CapaMotivacion/3_PvContribucionObj.pdf>]
+[104 <./ARQUITECTURA/imgs/CapaMotivacion/3_PvContribucionObj.pdf>]
 LaTeX Info: Redefining \. on input line 116.
 LaTeX Info: Redefining \% on input line 116.
- [104]
-<ARQUITECTURA/imgs/CapaMotivacion/4_PvPrincipios.pdf, id=2454, 386.44376pt x 14
+ [105]
+<ARQUITECTURA/imgs/CapaMotivacion/4_PvPrincipios.pdf, id=2494, 386.44376pt x 14
 1.52875pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/4_PvPrincipios.pdf Graphic file (type pd
 f)
@@ -2398,8 +2433,8 @@ sed on input line 125.
 LaTeX Info: Redefining \. on input line 143.
 LaTeX Info: Redefining \% on input line 143.
 
-[105 <./ARQUITECTURA/imgs/CapaMotivacion/4_PvPrincipios.pdf>]
-<ARQUITECTURA/imgs/CapaMotivacion/5_PvRealizacionReq.pdf, id=2477, 837.1275pt x
+[106 <./ARQUITECTURA/imgs/CapaMotivacion/4_PvPrincipios.pdf>]
+<ARQUITECTURA/imgs/CapaMotivacion/5_PvRealizacionReq.pdf, id=2517, 837.1275pt x
  212.795pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/5_PvRealizacionReq.pdf Graphic file (typ
 e pdf)
@@ -2409,11 +2444,11 @@ f  used on input line 152.
 (pdftex.def)             Requested size: 426.79135pt x 108.48828pt.
 LaTeX Info: Redefining \. on input line 167.
 LaTeX Info: Redefining \% on input line 167.
- [106 <./ARQUITECTURA/imgs/CapaMotivacion/5_PvRealizacionReq.pdf>]
+ [107 <./ARQUITECTURA/imgs/CapaMotivacion/5_PvRealizacionReq.pdf>]
 LaTeX Info: Redefining \. on input line 184.
 LaTeX Info: Redefining \% on input line 184.
- [107]
-<ARQUITECTURA/imgs/CapaMotivacion/6_PvMotivacion.pdf, id=2507, 582.175pt x 204.
+ [108]
+<ARQUITECTURA/imgs/CapaMotivacion/6_PvMotivacion.pdf, id=2547, 582.175pt x 204.
 765pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/6_PvMotivacion.pdf Graphic file (type pd
 f)
@@ -2423,21 +2458,21 @@ sed on input line 194.
 (pdftex.def)             Requested size: 426.79135pt x 150.11458pt.
 LaTeX Info: Redefining \. on input line 207.
 LaTeX Info: Redefining \% on input line 207.
- [108 <./ARQUITECTURA/imgs/CapaMotivacion/6_PvMotivacion.pdf>])
+ [109 <./ARQUITECTURA/imgs/CapaMotivacion/6_PvMotivacion.pdf>])
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [109]
+ [110]
 \openout2 = `ARQUITECTURA/ESTRATEGICA.aux'.
 
  (ARQUITECTURA/ESTRATEGICA.tex
 Cap\'{\i }tulo 7.
-[110
+[111
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaEstrategica/1_PvEstrategia.pdf, id=2559, 226.8475pt x 23
+<ARQUITECTURA/imgs/CapaEstrategica/1_PvEstrategia.pdf, id=2599, 226.8475pt x 23
 3.87375pt>
 File: ARQUITECTURA/imgs/CapaEstrategica/1_PvEstrategia.pdf Graphic file (type p
 df)
@@ -2447,11 +2482,11 @@ used on input line 20.
 (pdftex.def)             Requested size: 320.0935pt x 330.0118pt.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- [111 <./ARQUITECTURA/imgs/CapaEstrategica/1_PvEstrategia.pdf>]
+ [112 <./ARQUITECTURA/imgs/CapaEstrategica/1_PvEstrategia.pdf>]
 LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
- [112]
-<ARQUITECTURA/imgs/CapaEstrategica/2_PvMapaCapacidad.pdf, id=2602, 226.8475pt x
+ [113]
+<ARQUITECTURA/imgs/CapaEstrategica/2_PvMapaCapacidad.pdf, id=2642, 226.8475pt x
  170.6375pt>
 File: ARQUITECTURA/imgs/CapaEstrategica/2_PvMapaCapacidad.pdf Graphic file (typ
 e pdf)
@@ -2462,11 +2497,11 @@ f  used on input line 51.
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
 
-[113 <./ARQUITECTURA/imgs/CapaEstrategica/2_PvMapaCapacidad.pdf>]
+[114 <./ARQUITECTURA/imgs/CapaEstrategica/2_PvMapaCapacidad.pdf>]
 LaTeX Info: Redefining \. on input line 72.
 LaTeX Info: Redefining \% on input line 72.
- [114]
-<ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf, id=2637, 438.63875pt x 
+ [115]
+<ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf, id=2678, 438.63875pt x 
 195.73125pt>
 File: ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf Graphic file (type 
 pdf)
@@ -2477,11 +2512,11 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
 
-[115 <./ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf>]
+[116 <./ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf>]
 LaTeX Info: Redefining \. on input line 108.
 LaTeX Info: Redefining \% on input line 108.
- [116]
-<ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf, id=2675, 233.87375pt x 
+ [117]
+<ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf, id=2715, 233.87375pt x 
 172.645pt>
 File: ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf Graphic file (type 
 pdf)
@@ -2491,22 +2526,22 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf
 (pdftex.def)             Requested size: 328.63115pt x 242.62335pt.
 LaTeX Info: Redefining \. on input line 130.
 LaTeX Info: Redefining \% on input line 130.
- [117 <./ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf>])
+ [118 <./ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf>])
 LaTeX Info: Redefining \. on input line 104.
 LaTeX Info: Redefining \% on input line 104.
- [118]
+ [119]
 \openout2 = `ARQUITECTURA/NEGOCIO.aux'.
 
 
 (ARQUITECTURA/NEGOCIO.tex
 Cap\'{\i }tulo 8.
-[119
+[120
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaNegocio/1_PvOrganizacion.pdf, id=2709, 297.11pt x 134.50
+<ARQUITECTURA/imgs/CapaNegocio/1_PvOrganizacion.pdf, id=2749, 297.11pt x 134.50
 25pt>
 File: ARQUITECTURA/imgs/CapaNegocio/1_PvOrganizacion.pdf Graphic file (type pdf
 )
@@ -2516,11 +2551,11 @@ ed on input line 19.
 (pdftex.def)             Requested size: 426.79135pt x 193.21959pt.
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
- [120 <./ARQUITECTURA/imgs/CapaNegocio/1_PvOrganizacion.pdf>]
+ [121 <./ARQUITECTURA/imgs/CapaNegocio/1_PvOrganizacion.pdf>]
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
- [121]
-<ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf, id=2724, 411.5375pt x 
+ [122]
+<ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf, id=2764, 411.5375pt x 
 277.035pt>
 File: ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf Graphic file (type
  pdf)
@@ -2531,11 +2566,11 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
 
-[122 <./ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf>]
+[123 <./ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf>]
 LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
- [123]
-<ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf, id=2738, 518.93875pt x 205.7687
+ [124]
+<ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf, id=2778, 518.93875pt x 205.7687
 5pt>
 File: ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf Graphic file (type pdf)
 <use ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf>
@@ -2544,11 +2579,11 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf  used on
 (pdftex.def)             Requested size: 426.79135pt x 169.2401pt.
 LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
- [124 <./ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf>]
+ [125 <./ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf>]
 LaTeX Info: Redefining \. on input line 106.
 LaTeX Info: Redefining \% on input line 106.
- [125]
-<ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf, id=2752, 498.86375pt x 215.8062
+ [126]
+<ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf, id=2792, 498.86375pt x 215.8062
 4pt>
 File: ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf Graphic file (type pdf)
 <use ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf>
@@ -2557,14 +2592,14 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf  used on
 (pdftex.def)             Requested size: 426.79135pt x 184.6348pt.
 LaTeX Info: Redefining \. on input line 123.
 LaTeX Info: Redefining \% on input line 123.
- [126 <./ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf>]
+ [127 <./ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf>]
 LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
- [127]
+ [128]
 LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
- [128]
-<ARQUITECTURA/imgs/CapaNegocio/5_PvCooperacionProceso.pdf, id=2778, 237.88875pt
+ [129]
+<ARQUITECTURA/imgs/CapaNegocio/5_PvCooperacionProceso.pdf, id=2818, 237.88875pt
  x 152.57pt>
 File: ARQUITECTURA/imgs/CapaNegocio/5_PvCooperacionProceso.pdf Graphic file (ty
 pe pdf)
@@ -2574,11 +2609,11 @@ df  used on input line 150.
 (pdftex.def)             Requested size: 320.0935pt x 205.30177pt.
 LaTeX Info: Redefining \. on input line 159.
 LaTeX Info: Redefining \% on input line 159.
- [129 <./ARQUITECTURA/imgs/CapaNegocio/5_PvCooperacionProceso.pdf>]
+ [130 <./ARQUITECTURA/imgs/CapaNegocio/5_PvCooperacionProceso.pdf>]
 LaTeX Info: Redefining \. on input line 167.
 LaTeX Info: Redefining \% on input line 167.
- [130]
-<ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf, id=2802, 631.35875pt x 414.548
+ [131]
+<ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf, id=2842, 631.35875pt x 414.548
 75pt>
 File: ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf Graphic file (type pdf)
 <use ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf>
@@ -2587,7 +2622,7 @@ n input line 177.
 (pdftex.def)             Requested size: 426.79135pt x 280.23213pt.
 LaTeX Info: Redefining \. on input line 188.
 LaTeX Info: Redefining \% on input line 188.
- [131 <./ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf>]
+ [132 <./ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf>]
 Overfull \hbox (10.82571pt too wide) in paragraph at lines 193--194
 []\OT1/cmr/bx/it/12 Implementar Mi-ner^^S^^Pa de Da-tos: \OT1/cmr/m/n/12 Es-te 
 ser-vi-cio co-rres-pon-de a la b^^Susque-
@@ -2595,21 +2630,21 @@ ser-vi-cio co-rres-pon-de a la b^^Susque-
 
 LaTeX Info: Redefining \. on input line 206.
 LaTeX Info: Redefining \% on input line 206.
-[132])
+[133])
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
- [133]
+ [134]
 \openout2 = `ARQUITECTURA/APLICACION.aux'.
 
  (ARQUITECTURA/APLICACION.tex
 Cap\'{\i }tulo 9.
-[134
+[135
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp.pdf, id=2831, 456.70625
+<ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp.pdf, id=2871, 456.70625
 pt x 354.32375pt>
 File: ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp.pdf Graphic file (
 type pdf)
@@ -2619,15 +2654,15 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp
 (pdftex.def)             Requested size: 426.79135pt x 331.12341pt.
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
- [135 <./ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp.pdf>]
+ [136 <./ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp.pdf>]
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
 
-[136]
+[137]
 LaTeX Info: Redefining \. on input line 77.
 LaTeX Info: Redefining \% on input line 77.
- [137]
-<ARQUITECTURA/imgs/CapaAplicacion/2_PvCooperacionApp.pdf, id=2854, 363.3575pt x
+ [138]
+<ARQUITECTURA/imgs/CapaAplicacion/2_PvCooperacionApp.pdf, id=2894, 363.3575pt x
  288.07625pt>
 File: ARQUITECTURA/imgs/CapaAplicacion/2_PvCooperacionApp.pdf Graphic file (typ
 e pdf)
@@ -2637,12 +2672,12 @@ f  used on input line 85.
 (pdftex.def)             Requested size: 426.79135pt x 338.37534pt.
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
- [138 <./ARQUITECTURA/imgs/CapaAplicacion/2_PvCooperacionApp.pdf>]
+ [139 <./ARQUITECTURA/imgs/CapaAplicacion/2_PvCooperacionApp.pdf>]
 LaTeX Info: Redefining \. on input line 109.
 LaTeX Info: Redefining \% on input line 109.
 
-[139]
-<ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf, id=2874, 376.40625pt x
+[140]
+<ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf, id=2914, 376.40625pt x
  200.75pt>
 File: ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf Graphic file (type
  pdf)
@@ -2652,11 +2687,11 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf
 (pdftex.def)             Requested size: 426.79135pt x 227.63821pt.
 LaTeX Info: Redefining \. on input line 128.
 LaTeX Info: Redefining \% on input line 128.
- [140 <./ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf>]
+ [141 <./ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf>]
 LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
- [141]
-<ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf, id=2893, 703.62875pt x 205.76
+ [142]
+<ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf, id=2933, 703.62875pt x 205.76
 875pt>
 File: ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf Graphic file (type pdf)
 <use ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf>
@@ -2666,22 +2701,22 @@ on input line 148.
 LaTeX Info: Redefining \. on input line 167.
 LaTeX Info: Redefining \% on input line 167.
 
-[142 <./ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf>])
+[143 <./ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf>])
 LaTeX Info: Redefining \. on input line 106.
 LaTeX Info: Redefining \% on input line 106.
- [143]
+ [144]
 \openout2 = `ARQUITECTURA/TECNOLOGIA.aux'.
 
 
 (ARQUITECTURA/TECNOLOGIA.tex
 Cap\'{\i }tulo 10.
-[144
+[145
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaTecnologia/1_PvInfraestructuraTec.pdf, id=2917, 505.89pt
+<ARQUITECTURA/imgs/CapaTecnologia/1_PvInfraestructuraTec.pdf, id=2958, 505.89pt
  x 233.87375pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/1_PvInfraestructuraTec.pdf Graphic file 
 (type pdf)
@@ -2691,12 +2726,12 @@ c.pdf  used on input line 20.
 (pdftex.def)             Requested size: 426.79135pt x 197.30905pt.
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
- [145 <./ARQUITECTURA/imgs/CapaTecnologia/1_PvInfraestructuraTec.pdf>]
+ [146 <./ARQUITECTURA/imgs/CapaTecnologia/1_PvInfraestructuraTec.pdf>]
 LaTeX Info: Redefining \. on input line 61.
 LaTeX Info: Redefining \% on input line 61.
 
-[146]
-<ARQUITECTURA/imgs/CapaTecnologia/2_PvUsoInfraestructuraTec.pdf, id=2942, 335.2
+[147]
+<ARQUITECTURA/imgs/CapaTecnologia/2_PvUsoInfraestructuraTec.pdf, id=2982, 335.2
 525pt x 254.9525pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/2_PvUsoInfraestructuraTec.pdf Graphic fi
 le (type pdf)
@@ -2706,12 +2741,12 @@ aTec.pdf  used on input line 70.
 (pdftex.def)             Requested size: 426.79135pt x 324.5641pt.
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
- [147 <./ARQUITECTURA/imgs/CapaTecnologia/2_PvUsoInfraestructuraTec.pdf>]
+ [148 <./ARQUITECTURA/imgs/CapaTecnologia/2_PvUsoInfraestructuraTec.pdf>]
 LaTeX Info: Redefining \. on input line 99.
 LaTeX Info: Redefining \% on input line 99.
 
-[148]
-<ARQUITECTURA/imgs/CapaTecnologia/3_PvImplementacionOrganizacionTec.pdf, id=295
+[149]
+<ARQUITECTURA/imgs/CapaTecnologia/3_PvImplementacionOrganizacionTec.pdf, id=299
 6, 289.08pt x 356.33125pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/3_PvImplementacionOrganizacionTec.pdf Gr
 aphic file (type pdf)
@@ -2721,12 +2756,12 @@ anizacionTec.pdf  used on input line 107.
 (pdftex.def)             Requested size: 277.41176pt x 341.96536pt.
 LaTeX Info: Redefining \. on input line 118.
 LaTeX Info: Redefining \% on input line 118.
- [149 <./ARQUITECTURA/imgs/CapaTecnologia/3_PvImplementacionOrganizacionTec.pdf
+ [150 <./ARQUITECTURA/imgs/CapaTecnologia/3_PvImplementacionOrganizacionTec.pdf
 >]
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
- [150]
-<ARQUITECTURA/imgs/CapaTecnologia/4_PvEstructuraInformacionTec.pdf, id=2972, 45
+ [151]
+<ARQUITECTURA/imgs/CapaTecnologia/4_PvEstructuraInformacionTec.pdf, id=3013, 45
 6.70625pt x 281.05pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/4_PvEstructuraInformacionTec.pdf Graphic
  file (type pdf)
@@ -2736,11 +2771,11 @@ cionTec.pdf  used on input line 153.
 (pdftex.def)             Requested size: 426.79135pt x 262.64746pt.
 LaTeX Info: Redefining \. on input line 167.
 LaTeX Info: Redefining \% on input line 167.
- [151 <./ARQUITECTURA/imgs/CapaTecnologia/4_PvEstructuraInformacionTec.pdf>]
+ [152 <./ARQUITECTURA/imgs/CapaTecnologia/4_PvEstructuraInformacionTec.pdf>]
 LaTeX Info: Redefining \. on input line 174.
 LaTeX Info: Redefining \% on input line 174.
- [152]
-<ARQUITECTURA/imgs/CapaTecnologia/5_PvRealizacionServicioTec.pdf, id=2991, 363.
+ [153]
+<ARQUITECTURA/imgs/CapaTecnologia/5_PvRealizacionServicioTec.pdf, id=3031, 363.
 3575pt x 262.9825pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/5_PvRealizacionServicioTec.pdf Graphic f
 ile (type pdf)
@@ -2750,11 +2785,11 @@ ioTec.pdf  used on input line 182.
 (pdftex.def)             Requested size: 426.79135pt x 308.90013pt.
 LaTeX Info: Redefining \. on input line 193.
 LaTeX Info: Redefining \% on input line 193.
- [153 <./ARQUITECTURA/imgs/CapaTecnologia/5_PvRealizacionServicioTec.pdf>]
+ [154 <./ARQUITECTURA/imgs/CapaTecnologia/5_PvRealizacionServicioTec.pdf>]
 LaTeX Info: Redefining \. on input line 207.
 LaTeX Info: Redefining \% on input line 207.
- [154]
-<ARQUITECTURA/imgs/CapaTecnologia/6_PvCapasTec.pdf, id=3008, 471.7625pt x 538.0
+ [155]
+<ARQUITECTURA/imgs/CapaTecnologia/6_PvCapasTec.pdf, id=3048, 471.7625pt x 538.0
 1pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/6_PvCapasTec.pdf Graphic file (type pdf)
 
@@ -2764,25 +2799,25 @@ d on input line 215.
 (pdftex.def)             Requested size: 341.43437pt x 389.3864pt.
 LaTeX Info: Redefining \. on input line 225.
 LaTeX Info: Redefining \% on input line 225.
- [155 <./ARQUITECTURA/imgs/CapaTecnologia/6_PvCapasTec.pdf>]
+ [156 <./ARQUITECTURA/imgs/CapaTecnologia/6_PvCapasTec.pdf>]
 LaTeX Info: Redefining \. on input line 252.
 LaTeX Info: Redefining \% on input line 252.
 
-[156])
+[157])
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
- [157]
+ [158]
 \openout2 = `ARQUITECTURA/IMPLEMENTACION.aux'.
 
  (ARQUITECTURA/IMPLEMENTACION.tex
 Cap\'{\i }tulo 11.
-[158
+[159
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf, id=3042, 506.89375pt x 
+<ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf, id=3082, 506.89375pt x 
 303.1325pt>
 File: ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf Graphic file (type 
 pdf)
@@ -2792,15 +2827,15 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf
 (pdftex.def)             Requested size: 426.79135pt x 255.23549pt.
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
- [159 <./ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf>]
+ [160 <./ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf>]
 LaTeX Info: Redefining \. on input line 53.
 LaTeX Info: Redefining \% on input line 53.
- [160]
+ [161]
 LaTeX Info: Redefining \. on input line 61.
 LaTeX Info: Redefining \% on input line 61.
 
-[161]
-<ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf, id=3071, 215.80624pt x
+[162]
+<ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf, id=3111, 215.80624pt x
  96.36pt>
 File: ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf Graphic file (type
  pdf)
@@ -2810,8 +2845,8 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf
 (pdftex.def)             Requested size: 320.0935pt x 142.94135pt.
 LaTeX Info: Redefining \. on input line 85.
 LaTeX Info: Redefining \% on input line 85.
- [162 <./ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf>]
-<ARQUITECTURA/imgs/CapaImplementacion/3_PvMigracionImplementacion.pdf, id=3090,
+ [163 <./ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf>]
+<ARQUITECTURA/imgs/CapaImplementacion/3_PvMigracionImplementacion.pdf, id=3131,
  489.83pt x 407.5225pt>
 File: ARQUITECTURA/imgs/CapaImplementacion/3_PvMigracionImplementacion.pdf Grap
 hic file (type pdf)
@@ -2821,53 +2856,53 @@ ementacion.pdf  used on input line 93.
 (pdftex.def)             Requested size: 392.64725pt x 326.67757pt.
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [163 <./ARQUITECTURA/imgs/CapaImplementacion/3_PvMigracionImplementacion.pdf>]
+ [164 <./ARQUITECTURA/imgs/CapaImplementacion/3_PvMigracionImplementacion.pdf>]
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
- [164])
+ [165])
 LaTeX Info: Redefining \. on input line 108.
 LaTeX Info: Redefining \% on input line 108.
 
-[165] [166
+[166] [167
 
 
 
 ] (TESIS/ANALISIS.tex
 Cap\'{\i }tulo 12.
-) (TESIS/RESULTADOS.tex [167
+) (TESIS/RESULTADOS.tex [168
 
 ]
 Cap\'{\i }tulo 13.
-) (TESIS_MCIC.bbl [168
+) (TESIS_MCIC.bbl [169
 
-] [169
+] [170
 
 ]
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
- [170]
+ [171]
 LaTeX Info: Redefining \. on input line 202.
 LaTeX Info: Redefining \% on input line 202.
- [171]
+ [172]
 LaTeX Info: Redefining \. on input line 270.
 LaTeX Info: Redefining \% on input line 270.
- [172]
+ [173]
 LaTeX Info: Redefining \. on input line 343.
 LaTeX Info: Redefining \% on input line 343.
- [173]
+ [174]
 LaTeX Info: Redefining \. on input line 401.
 LaTeX Info: Redefining \% on input line 401.
- [174]
+ [175]
 LaTeX Info: Redefining \. on input line 453.
 LaTeX Info: Redefining \% on input line 453.
- [175]
+ [176]
 LaTeX Info: Redefining \. on input line 523.
 LaTeX Info: Redefining \% on input line 523.
- [176])
+ [177])
 LaTeX Info: Redefining \. on input line 125.
 LaTeX Info: Redefining \% on input line 125.
 
-[177] (TESIS_MCIC.aux
+[178] (TESIS_MCIC.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
  (FASES/FASE_1_BCQM.aux) (FASES/FASE_2_PLANEACION.aux)
@@ -2882,10 +2917,10 @@ Package rerunfilecheck Info: File `TESIS_MCIC.out' has not changed.
 (rerunfilecheck)             Checksum: 15B269D0A46CB95CF15FA66CAA95DA2E;18692.
  ) 
 Here is how much of TeX's memory you used:
- 29025 strings out of 478582
- 554635 string characters out of 2854160
- 856519 words of memory out of 3000000
- 45703 multiletter control sequences out of 15000+600000
+ 29035 strings out of 478582
+ 555229 string characters out of 2854160
+ 856520 words of memory out of 3000000
+ 45711 multiletter control sequences out of 15000+600000
  482611 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,17n,81p,4202b,728s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -2902,9 +2937,9 @@ m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX
 /public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
 12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TESIS_MCIC.pdf (177 pages, 7024037 bytes).
+Output written on TESIS_MCIC.pdf (178 pages, 7039009 bytes).
 PDF statistics:
- 3403 PDF objects out of 3580 (max. 8388607)
- 774 named destinations out of 1000 (max. 500000)
- 1086 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3444 PDF objects out of 3580 (max. 8388607)
+ 775 named destinations out of 1000 (max. 500000)
+ 1091 words of extra memory for PDF output out of 10000 (max. 10000000)
 
