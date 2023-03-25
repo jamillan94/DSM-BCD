@@ -45,51 +45,53 @@ Warning--entry type for "TCGA2023" isn't style-file defined
 --line 2073 of file REFERENCIAS/articulos.bib
 Warning--entry type for "NCI" isn't style-file defined
 --line 2359 of file REFERENCIAS/articulos.bib
+Warning--entry type for "ReproAsistidaORG" isn't style-file defined
+--line 2371 of file REFERENCIAS/articulos.bib
 Warning--can't use both author and editor fields in Brunicardi2010
 Warning--empty booktitle in Safhi2019
 Warning--empty journal in Pacheco2014
 Warning--there's a number but no volume in Shen2019
 Warning--empty author in Turin2020
 Warning--empty publisher in ArchiMate3.0.1
-You've used 75 entries,
+You've used 76 entries,
             1791 wiz_defined-function locations,
-            946 strings with 27211 characters,
-and the built_in function-call counts, 22272 in all, are:
-= -- 1348
-> -- 2285
+            950 strings with 27316 characters,
+and the built_in function-call counts, 22386 in all, are:
+= -- 1355
+> -- 2289
 < -- 9
-+ -- 793
-- -- 718
++ -- 795
+- -- 719
 * -- 2069
-:= -- 4090
-add.period$ -- 221
-call.type$ -- 75
-change.case$ -- 69
+:= -- 4106
+add.period$ -- 223
+call.type$ -- 76
+change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 81
-duplicate$ -- 690
-empty$ -- 1516
-format.name$ -- 718
-if$ -- 4470
+cite$ -- 82
+duplicate$ -- 695
+empty$ -- 1534
+format.name$ -- 719
+if$ -- 4497
 int.to.chr$ -- 0
-int.to.str$ -- 75
+int.to.str$ -- 76
 missing$ -- 77
-newline$ -- 371
-num.names$ -- 74
-pop$ -- 197
+newline$ -- 375
+num.names$ -- 75
+pop$ -- 202
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 299
+skip$ -- 306
 stack$ -- 0
 substring$ -- 876
-swap$ -- 122
+swap$ -- 123
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 144
-width$ -- 77
-write$ -- 792
+while$ -- 145
+width$ -- 78
+write$ -- 799
 (There was 1 error message)
