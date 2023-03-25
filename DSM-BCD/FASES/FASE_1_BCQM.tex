@@ -34,9 +34,24 @@ Dadas las preguntas generadas, los tipos de cáncer de mama seleccionados son lo
 Con base a los tipos de cáncer de mama anteriores y a las preguntas planteadas en el BCQM que requieren informacion de índole genético, la técnica de diagnóstico mas adecuada es la \textit{Biopsia}. Dado lo anterior, en el BCQM se relacionan las biopsias que incluyen las siguientes técnicas: 
 
 \begin{itemize}[label=\HandRight]
-	\item \textbf{Biopsia por aspiración con aguja fina (FNA\footnote{Fine Needle Aspiration})}: Se usa una aguja calibre 22 de 4 cm unida a una jeringa de 10 ml. El uso de un soporte de la jeringa permite que el cirujano que toma la biopsia controle la jeringa y la aguja con una mano en tanto sitúa la masa mamaria con la mano opuesta. Tras colocar la aguja en la masa, se aspira en tanto se mueve la aguja hacia adelante y atrás dentro de la masa. La aspiración se detiene y la aguja se extrae una vez que se observa material celular en la cabeza de la aguja \cite{Brunicardi2010}. \\
+	\item \textbf{Biopsia por aspiración con aguja fina (FNA\footnote{Fine Needle Aspiration})}: Se usa una aguja calibre 22 de 4 cm unida a una jeringa de 10 ml. El uso de un soporte de la jeringa permite que el cirujano que toma la biopsia controle la jeringa y la aguja con una mano en tanto sitúa la masa mamaria con la mano opuesta. Tras colocar la aguja en la masa, se aspira en tanto se mueve la aguja hacia adelante y atrás dentro de la masa. La aspiración se detiene y la aguja se extrae una vez que se observa material celular en la cabeza de la aguja \cite{Brunicardi2010}. Este procedimiento quirúrgico se puede observar en la figura \ref{FNB}.
+	 \begin{figure}[!htb]
+	 	\centering
+	 	\includegraphics[width=0.5
+	 	\linewidth]{IMAGENES/FNB}
+	 	\caption{Aspiración con aguja fina\cite{FNB}.}
+	 	\label{FNB}
+	 \end{figure}	
+	 \\
 	
-	\item \textbf{Biopsia con aguja gruesa (CNB\footnote{Core Needle Biopsy})}: Se usa en masas palpables de la mama  con una aguja calibre 14, como la Tru-Cut. También se cuenta con dispositivos automatizados. Las muestras de tejidos se colocan en formalina y luego se procesan para bloques de parafina \cite{Brunicardi2010}. 
+	\item \textbf{Biopsia con aguja gruesa (CNB\footnote{Core Needle Biopsy})}: Se usa en masas palpables de la mama  con una aguja calibre 14, como la Tru-Cut. También se cuenta con dispositivos automatizados. Las muestras de tejidos se colocan en formalina y luego se procesan para bloques de parafina \cite{Brunicardi2010}. Este procedimiento quirúrgico se puede observar en la figura \ref{CNB}.
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[width=0.5
+		\linewidth]{IMAGENES/CNB}
+		\caption{Biopsia con aguja gruesa\cite{CNB}.}
+		\label{CNB}
+	\end{figure}	
 \end{itemize}
 
 Considerando la naturaleza de la información, la técnica computacional a utilizar es \textit{Machine Learning} debido a que los datos son de origen genómico y por ende tendrán una representación simbólica con atributos cuantitativos y/o cualitativos. Cabe resaltar, que dado el origen de las preguntas, los modelos de ML a utilizar deben permitir realizar los siguientes tipos de análisis:
