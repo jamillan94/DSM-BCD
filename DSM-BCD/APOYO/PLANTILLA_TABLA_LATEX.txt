@@ -24,3 +24,9 @@
 		\end{tabular}
 	\end{threeparttable}
 \end{table*}
+
+
+
+#filename = 'brca_tcga_pub2015_clinical_data.csv'
+#rawdata=open(filename)
+#data = np.loadtxt(rawdata,delimiter=',',skiprows=1)
