@@ -4,47 +4,186 @@ En esta fase, el científico de datos obtiene el conjunto de datos o imágenes q
 
 Se debe agregar, que en esta fase se abarcan todas las actividades para construir el conjunto de datos o imágenes que se utilizará en la siguiente etapa de modelado y ejecución. Entre las actividades se encuentran el procesamiento y transformación de datos oncológicos, en donde es necesario realizar la limpieza de datos, combinar datos de múltiples fuentes y transformar los datos en variables de valor. En esta fase, es importante el trabajo en equipo y la comunicación continua entre el ingeniero y el científico de datos para tratar los valores no válidos o faltantes, eliminar duplicados, dar un formato adecuado y combinar archivos, tablas y plataformas. Adicionalmente, el medico experto en oncología deberá proporcionar un visto bueno para proceder con la siguiente fase. Esto dado que al ser experto en el tema de dominio tiene un conocimiento mas profundo de las variables o imágenes que esta observando, y si existiese información innecesaria para el diagnostico del cáncer de mama es posible depurar dicha información para que no afecte el entrenamiento y posterior ejecución del modelo de ML y DL.
 
+\newpage
 \subsection{Análisis parcial de datos crudos}
-En primer lugar, se realizó un análisis parcial del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”} para conocer su composición inicial(cruda) y así poder identificar los registros que deben ser eliminados, transformados ó imputados. Cabe resaltar, que esta etapa es propuesta como parte de esta investigación para los datos de tipo genómico relacionados cáncer de mama. Lo anterior, debido a que el \textit{EDA\footnote{Exploratory Data Analysis}} tradicional parte del análisis descriptivo, y en este caso los tipos de datos son obtenidos de diferentes fuentes medicas las cuales no presentan una estructura fija ni estandar  en la informacion recopilada de los pacientes que padecen esta enfermedad, por lo que seria incorrecto realizar un análisis sobre datos que dada su estructura y forma generan informacion errónea. En la figura \ref{EDA} se puede observar las composición estadística unidimensional de la 110 variables, las cuales permitieron identificar el comportamiento inicial de los datos. Con base a las gráficas obtenidas, se genero el siguiente análisis: 
-
-\begin{itemize}[label=\HandPencilLeft]
-	\item El conjunto de datos esta conformado por 95 variables \textit{Categóricas} y 15 variables \textit{Numéricas}.
-	
-	\item Dada la naturaleza de las preguntas planteadas en el BCQM en donde se busca la identificación de características genéticas, las variables \textit{Study ID, Patient ID, Sample ID, Other Patient ID, Other Sample ID, Form completion date y Pathologyc Report File Name} no generan un aporte significativo para encontrar una respuesta de valor, dado lo anterior fueron eliminadas del conjunto de datos con el cual se entrenaron a los modelos de ML.
-\end{itemize}
+En primer lugar, se realizó un análisis parcial del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”} para conocer su composición inicial(cruda) y así poder identificar los registros que deben ser eliminados, transformados ó imputados. Cabe resaltar, que esta etapa es propuesta como parte de esta investigación para los datos de tipo genómico relacionados cáncer de mama. Lo anterior, debido a que el \textit{EDA\footnote{Exploratory Data Analysis}} tradicional parte del análisis descriptivo, y en este caso los tipos de datos son obtenidos de diferentes fuentes medicas, las cuales no presentan una estructura fija ni estándar en la informacion recopilada de los pacientes que padecen esta enfermedad, por lo que seria incorrecto realizar un análisis sobre datos que dada su estructura y forma generan informacion errónea. En la figura \ref{datos_crudos} se puede observar las composición estadística unidimensional de la 110 variables, las cuales permitieron identificar el comportamiento inicial de los datos. Con base a las gráficas obtenidas, se genero el siguiente análisis: 
 
 \newpage
-\begin{figure}
-	\centering
-	\includegraphics[width=1
-	\linewidth]{NOTEBOOK/IMAGES_EDA/1}
-\end{figure}
+\begin{table}[!h]
+\begin{center} 
+	\caption{Análisis parcial de datos crudos realizado en el conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).}
+	\label{datos_crudos}
+	\begin{tabular}{ |c|c|c|c| }
+		\hline 
+		  \includegraphics[width=.22\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/1} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/2} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/3}
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/4} 
+		\\  \hline 
+		  \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/5} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/6} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/7} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/8} 
+		\\  \hline 
+		  \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/9} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/10} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/11} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/12} 
+		\\  \hline 
+		  \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/13} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/14} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/15} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/16} 
+		\\  \hline
+		  \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/17} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/18} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/19} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/20} 
+		\\  \hline
+		  \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/21} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/22} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/23} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/24} 
+		\\  \hline 
+		  \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/25} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/26} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/27} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/28}   
+		\\  \hline                
+	\end{tabular} 
+\end{center} 
+\end{table}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1
-	\linewidth]{NOTEBOOK/IMAGES_EDA/2}
-\end{figure}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1
-	\linewidth]{NOTEBOOK/IMAGES_EDA/3}
-\end{figure}
+\begin{center} 
+	\begin{tabular}{ |c|c|c|c| }  
+		\hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/29} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/30} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/31} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/32}   
+		\\  \hline   
+		\includegraphics[width=.22\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/33} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/34}
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/35}
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/36} 
+		\\  \hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/37} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/38} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/39} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/40} 
+		\\  \hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/41} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/42} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/43} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/44} 
+		\\  \hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/45} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/46} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/47} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/48} 
+		\\  \hline
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/49} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/50} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/51} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/52} 
+		\\  \hline
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/53} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/54} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/55} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/56} 
+		\\  \hline         
+	\end{tabular} 
+\end{center} 
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1
-	\linewidth]{NOTEBOOK/IMAGES_EDA/4}
-\end{figure}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1
-	\linewidth]{NOTEBOOK/IMAGES_EDA/5}
-	\label{EDA}
-	\caption{Distribución del conjunto de datos del Carcinoma invasivo de mama.}\label{fig:foobar}
-\end{figure}
+
+\begin{center} 
+	\begin{tabular}{ |c|c|c|c| } 
+		\hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/57} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/58} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/59} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/60}   
+		\\  \hline       
+		\hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/61} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/62} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/63} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/64}   
+		\\  \hline    
+		\includegraphics[width=.22\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/65} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/66}
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/67}
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/68} 
+		\\  \hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/69} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/70} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/71} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/72} 
+		\\  \hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/73} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/74} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/75} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/76} 
+		\\  \hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/77} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/78} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/79} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/80} 
+		\\  \hline
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/81} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/82} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/83} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/84} 
+		\\  \hline           
+	\end{tabular} 
+\end{center} 
+
+
+
+\begin{center} 
+	\begin{tabular}{ |c|c|c|c| }  
+		\hline
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/85} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/86} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/87} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/88} 
+		\\  \hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/89} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/90} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/91} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/92}   
+		\\  \hline    
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/93} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/94} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/95} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/96}   
+		\\  \hline     
+		\includegraphics[width=.22\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/97} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/98}
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/99}
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/100} 
+		\\  \hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/101} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/102} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/103} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/104} 
+		\\  \hline 
+		\includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/105} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/106} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/107} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/108} 
+		\\  \hline                
+	\end{tabular} 
+	\begin{tabular}{ |c|c| }  
+	\hline 
+		\includegraphics[width=.22\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/109} 
+		& \includegraphics[width=.25\textwidth]{NOTEBOOK/IMAGENES_CRUDAS/110}
+		\\  \hline 
+	\end{tabular} 
+\end{center} 
+
 
 
 \subsection{Detección de datos Ausentes}
@@ -68,7 +207,7 @@ En segundo lugar, basados en la obtención de los atributos del conjunto de dato
 
 
 \subsection{Análisis Descriptivo }
-En primer lugar, se realizo el respectivo análisis descriptivo para detectar cual es comportamiento de los atributos del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”}. En la gráfica \ref{EDA} se puede observar las gráficas estadísticas unidimensionales de la 110 variables, las cuales permitieron extraer  las características mas representativas y permitieron identificar el comportamiento de los datos.
+En primer lugar, se realizo un análisis descriptivo para detectar cual es comportamiento de los atributos del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”}. En la gráfica \ref{EDA} se puede observar las gráficas estadísticas unidimensionales de la 110 variables, las cuales permitieron extraer  las características mas representativas y permitieron identificar el comportamiento de los datos.
 
 \begin{table*}[!htb]
 	\footnotesize
@@ -169,10 +308,12 @@ En primer lugar, se realizo el respectivo análisis descriptivo para detectar cu
 			\\ \hline
 			
 			%------------------------------------------------------	
-			ER positivity scale other
-			&La variable \textit{Otra escala de receptor de estrogeno positivo} se visualiza en orden descendente de la siguiente manera: En primer lugar, la escala \textit{allred score 8} se presenta en 671 pacientes que tienen células cancerosas con receptores positivos de estrogeno con un crecimiento fuerte. En segundo lugar, la escala $>$\textit{75\%} se presento en 48 pacientes que tienen células cancerosas con receptores positivos de estrogeno con un crecimiento anormal. En tercer lugar la escala \textit{h-score} se presento en 26 pacientes con un porcentaje moderado de células tumorales con tinción de membrana celular positivo de estrogeno. En cuarto, la escala \textit{allred score 0} se presenta en 15 pacientes que tienen células cancerosas con receptores negativos de estrogeno. Del quinto lugar en adelante, los pacientes presentan células cancerosas con receptores positivos de estrogeno con un comportamiento de crecimiento moderado.
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/11_er_positivity_scale_other}\end{center}
+			ER Status By IHC
+			&El \textit{Estado del receptor de estrogeno por análisis IHC} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{positivo} en donde se encuentran 643 pacientes a los cuales al realizar el análisis de inmunohistoquímica(IHC) sobre tejido mamario canceroso se determino que las células cancerosas tienen receptores positivos de estrogeno. La segunda categoría corresponde al estado \textit{negativos} en donde se encuentran 175 pacientes a los cuales al realizar el análisis IHC sobre tejido mamario canceroso se determino que las células cancerosas no presentan receptores de estrogeno.
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/11_er_status_ihc}\end{center}
 			\\ \hline
+			
+			
 		\end{tabular}
 	\end{threeparttable}
 \end{table*}
@@ -181,50 +322,24 @@ En primer lugar, se realizo el respectivo análisis descriptivo para detectar cu
 	\footnotesize
 	\begin{threeparttable}
 		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
-			ER Status By IHC
-			&El \textit{Estado del receptor de estrogeno por análisis IHC} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{positive} en donde se encuentran 643 pacientes a los cuales al realizar el análisis de inmunohistoquímica(IHC) sobre tejido mamario canceroso se determino que las células cancerosas tienen receptores positivos de estrogeno y la segunda categoría corresponde al estado \textit{negative} en donde se encuentran 175 pacientes a los cuales al realizar el análisis IHC sobre tejido mamario canceroso se determino que las células cancerosas no presentan receptores de estrogeno.
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/13_er_status_ihc}\end{center}
-			\\ \hline
-			
 			%------------------------------------------------------	
 			ER Status IHC Percent Positive
 			&El \textit{Estado del porcentaje del receptor de estrogeno por análisis IHC} se visualiza en orden descendente de la siguiente manera: En primer lugar, 668 pacientes presentan células cancerosas con receptores positivos de estrogeno en un \textit{90-99\%} obre tejido mamario. En segundo lugar, 42 pacientes presentan células cancerosas con receptores positivos de estrogeno en un $<$\textit{10\%} sobre tejido mamario. En tercer lugar, 33 pacientes presentan células cancerosas con receptores positivos de estrogeno en un \textit{70-79\%} sobre tejido mamario. En cuarto lugar, 21 pacientes presentan células cancerosas con receptores positivos de estrogeno en un \textit{80-89\%} sobre tejido mamario. En quinto lugar, 20 pacientes presentan células cancerosas con receptores positivos de estrogeno en un \textit{10-19\%} sobre tejido mamario. Del sexto lugar en adelante, los pacientes presentan células cancerosas con receptores positivos de estrogeno con un porcentaje variable.
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/14_er_status_ihc_percent_positive}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/12_er_status_ihc_percent_positive}\end{center}
 			\\ \hline
-			
 			%------------------------------------------------------	
 			Ethnicity Category
 			&La \textit{Categoría étnica} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{not hispanic or latino} en donde se encuentran 787 pacientes que no presentan una ascendencia latina o de origen español y la segunda categoría corresponde al estado estado \textit{hispanic or latino} en donde se encuentran 31 pacientes que presentan una ascendencia latina o de origen español.
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/15_ethnicity_category}\end{center}
-			\\ \hline
-			
-		\end{tabular}
-	\end{threeparttable}
-\end{table*}
-
-\begin{table*}[!htb]
-	\footnotesize
-	\begin{threeparttable}
-		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
-			%------------------------------------------------------	
-			First surgical procedure other
-			& La \textit{Primera intervención quirúrgica} se visualiza en orden descendente de la siguiente manera: En primer lugar, la intervención de \textit{resección quirúrgica} se realizo a 660 pacientes a los cuales se les extirpo todo el tumor o la mayor cantidad posible del mismo. En segundo lugar, la intervención quirúrgica \textit{Cirugía de Patey} se realizo a 44 pacientes a los cuales se les extirpo todo el seno, incluida la piel, el tejido mamario, la areola y el pezón junto con la mayoría de los ganglios linfáticos axilares. En tercer lugar, la intervención quirúrgica de \textit{mastectomía segmentaria} se realizo a 34 pacientes a los cuales se les extirpo el cáncer u otro tejido anormal del seno y parte del tejido normal que lo rodea, pero no el seno en sí. En cuarto lugar, la intervención quirúrgica de \textit{escisión local amplia} se realizo a 17 pacientes con los cuales se uso un bisturí para extirpar un tumor u otra lesión anormal y parte del tejido normal que lo rodeaba. En quinto lugar, la intervención quirúrgica \textit{biposia exicional} se realizo a 8 pacientes a los cuales se les extirpo una masa completa o área sospechosa. Del sexto lugar en adelante se utilizaron otros tipos de intervenciones quirúrgicas.
-			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/16_surgical_other}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/13_ethnicity_category}\end{center}
 			\\ \hline
 			
 			%------------------------------------------------------	
 			Fraction Genome Altered
 			& La \textit{Estabilidad genómica} o también llamado \textit{Fenotipo mutador} necesaria para que las células acumulen múltiples mutaciones estimulando el desarrollo del cáncer, presenta un tendencia central de 25.07\% relacionado a genes que se han visto afectados por las ganancias o pérdidas del número de copias celulares, en donde el porcentaje mínimo presentado es del 12,22\% y el máximo del 99,71\%
 			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/17_fraction_genome_altered}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/14_fraction_genome_altered}\end{center}
 			\\ \hline
 			
-			%------------------------------------------------------	
-			HER2 fish status
-			& La \textit{prueba FISH (hibridación fluorescente in situ)} analiza el ADN de las células cancerosas en busca de copias adicionales del gen \textit{HER2 (Receptor 2 del factor de crecimiento epidérmico humano)}. En este caso el \textit{estado FISH} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{negativo} en donde se encuentran 758 pacientes en los cuales la proteína HER2 no está involucrada en el crecimiento del tumor mamario y la segunda categoría corresponde al estado \textit{Positivo} en donde se encuentran 60 pacientes en los cuales las células cancerígenas producen demasiada HER2 estimulando el crecimiento del tumor mamario. 
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_her_2_fish_status}\end{center}
-			\\ \hline
 		\end{tabular}
 	\end{threeparttable}
 \end{table*}
@@ -234,45 +349,52 @@ En primer lugar, se realizo el respectivo análisis descriptivo para detectar cu
 	\begin{threeparttable}
 		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
 			%------------------------------------------------------	
+			HER2 fish status
+			& La \textit{prueba FISH (hibridación fluorescente in situ)} analiza el ADN de las células cancerosas en busca de copias adicionales del gen \textit{HER2 (Receptor 2 del factor de crecimiento epidérmico humano)}. En este caso el \textit{estado FISH} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{negativo} en donde se encuentran 758 pacientes en los cuales la proteína HER2 no está involucrada en el crecimiento del tumor mamario y la segunda categoría corresponde al estado \textit{Positivo} en donde se encuentran 60 pacientes en los cuales las células cancerígenas producen demasiada HER2 estimulando el crecimiento del tumor mamario. 
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/15_her_2_fish_status}\end{center}
+			\\ \hline
+			
+			%------------------------------------------------------	
 			HER2 ihc percent positive
 			& El \textit{Porcentaje positivo de HER2 según la prueba de inmunohistoquímica (IHC)}, se visualiza en orden descendente de la siguiente manera: En primer lugar, 757 pacientes presentan tinción apenas perceptible, observada en un valor $<$\textit{10\%} de las células tumorales. En segundo lugar, 17 pacientes presentan una tinción de membrana moderada observada en \textit{10-19\%} de las células tumorales. En tercer lugar, 12 pacientes presentan una tinción de membrana intensa observada en \textit{90-99\%} de las células tumorales. Del cuarto lugar en adelante, los pacientes presentan una tinción de membrana variable en un rango de débil a moderada.
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_her_2_ihc_percent_positive}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/16_her_2_ihc_percent_positive}\end{center}
 			\\ \hline
 			
 			%------------------------------------------------------	
 			HER2 ihc score
 			& El \textit{puntaje HER2 según la prueba de inmunohistoquímica (IHC)}, se visualiza en orden descendente de la siguiente manera: En primer lugar, 601 pacientes presentan una puntuación \textit{1+}, esto significa  que el tipo de cáncer es HER2-negativo y no es posible tratarlo con medicamentos que tienen a la proteína HER2 como blanco. En segundo lugar, 151 pacientes presentan una puntuación \textit{2+}, esto significa que el estado de HER2 del tumor no está claro, es decir es \textit{ambiguo} y es necesario hacer una prueba del estado FISH para clarificar el resultado. En tercer lugar, 66 pacientes presentan una puntuación \textit{3+}, esto significa que el cáncer es HER2-positivo y es posible tratarlo con medicamentos que tienen a la proteína HER2 como blanco.
 			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/21_her_2_ihc_score}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/17_her_2_ihc_score}\end{center}
 			\\ \hline
+			
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
+
+\begin{table*}[!htb]
+	\footnotesize
+	\begin{threeparttable}
+		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
 			
 			%------------------------------------------------------	
 			Neoplasm Histologic Type Name
-			& El \textit{Nombre del tipo histológico de neoplasia}, se visualiza en orden descendente de la siguiente manera: En primer lugar, 602 pacientes presentan \textit{Carcinoma Ductal Invasivo (IDC)} también llamado \textit{Carcinoma Ductal Infiltrante}. En segundo lugar, 143 pacientes presentan \textit{Carcinoma Lobulillar Invasivo (ILC)} también llamado \textit{Carcinoma Lobulillar Infiltrante.} En tercer lugar, 28 pacientes presentan otro tipo de neoplasia. En cuarto lugar, 23 pacientes presentan \textit{Tumores o Neoplasia mixta (MTCB)}, es decir conformada por los tipos de cáncer LBC e IDC. En quinto lugar, 14 pacientes presentan \textit{Carcinoma Mucinoso (MBC)}. En quinto lugar, 5 pacientes presentan \textit{Carcinoma Medular (MC)}. En sexto lugar, 3 pacientes presentan \textit{Carcinoma Metaplastico (MMC)}.
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/22_neoplasm_histologic_type}\end{center}
+			& El \textit{Nombre del tipo histológico de neoplasia}, se visualiza en orden descendente de la siguiente manera: En primer lugar, 602 pacientes presentan \textit{Carcinoma Ductal Invasivo (IDC)} también llamado \textit{Carcinoma Ductal Infiltrante}. En segundo lugar, 143 pacientes presentan \textit{Carcinoma Lobulillar Invasivo (ILC)} también llamado \textit{Carcinoma Lobulillar Infiltrante.} En tercer lugar, 28 pacientes presentan otro tipo de neoplasia. En cuarto lugar, 23 pacientes presentan \textit{Tumores o Neoplasia mixta (MTCB)}, es decir conformada por los tipos de cáncer LBC e IDC. En quinto lugar, 14 pacientes presentan \textit{Carcinoma Mucinoso (MBC)}. En quinto lugar, 5 pacientes presentan \textit{Carcinoma Medular (MC)}. En sexto lugar, 3 pacientes presentan \textit{Carcinoma Metaplastico (MMC)}
+			.
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_neoplasm_histologic_type}\end{center}
 			\\ \hline
-		\end{tabular}
-	\end{threeparttable}
-\end{table*}
-
-\begin{table*}[!htb]
-	\footnotesize
-	\begin{threeparttable}
-		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
 			%------------------------------------------------------	
 			Neoadjuvant Therapy Type Administered Prior To Resection Text
 			& El \textit{Tratamiento neoadyuvante del paciente} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{No} en donde se encuentran 809 pacientes que no recibieron un tratamiento inicial antes del tratamiento principal y la segunda categoría corresponde al estado \textit{Si} en donde se encuentran 9 pacientes a los cuales se les realizó un tratamiento inicial como quimioterapia, radioterapia o terapia hormonal para reducir el tamaño del tumor antes del tratamiento principal que generalmente consiste en cirugía.
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/23_neoadjuvant_therapy}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_neoadjuvant_therapy}\end{center}
 			\\ \hline
 			
 			%------------------------------------------------------	
-			Primary Tumor Site
-			& El \textit{sitio del tumor} para identificar la subdivisión de órganos en un individuo con cáncer con base a la décima revisión ICD, se visualiza en orden descendente de la siguiente manera: En primer lugar, 165 pacientes presentan el código \textit{C50.912} el cual corresponde a una neoplasia maligna de sitio no especificado de mama femenina izquierda. En segundo lugar, 160 pacientes presentan el código \textit{C50.412} el cual corresponde a una neoplasia maligna de cuadrante superior externo de mama femenina izquierda. En tercer lugar, 147 pacientes presentan el código \textit{C50.911} el cual corresponde a una neoplasia maligna de sitio no especificado de mama femenina derecha. En cuarto lugar, 145 pacientes presentan el código \textit{C50.411} el cual corresponde a una neoplasia maligna de cuadrante superior externo de mama femenina derecha. En quinto lugar, 50 pacientes presentan el código \textit{C50.212} el cual corresponde a una neoplasia maligna de cuadrante superior interno de mama femenina izquierda. En sexto lugar, 50 pacientes presentan el código \textit{C50.211} el cual corresponde a una neoplasia maligna de cuadrante superior interno de mama femenina derecha. En séptimo lugar, 38 pacientes presentan el código \textit{C50.511} el cual corresponde a una neoplasia maligna de cuadrante inferior externo de mama femenina derecha. En octavo lugar, 32 pacientes presentan el código \textit{C50.512} el cual corresponde a una neoplasia maligna de cuadrante inferior externo de mama femenina izquierda. En noveno lugar, 17 pacientes presentan el código \textit{C50.312} el cual corresponde a una neoplasia maligna de cuadrante inferior interno de mama femenina izquierda. En décimo lugar, 14 pacientes presentan el código \textit{C50.311} el cual corresponde a una neoplasia maligna de cuadrante inferior interno de mama femenina derecha.        
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/25_primary_tumor_site}\end{center}
+			IHC-HER2
+			& El \textit{Estado de HER2 según la prueba de inmunohistoquímica (IHC)}, se visualiza en orden descendente de la siguiente manera: En primer lugar, 552 pacientes presentan un estado \textit{negativo}, es decir el cáncer no es posible tratarlo con medicamentos que tienen a la proteína HER2 como blanco. En segundo lugar, 145 pacientes presentan un estado \textit{ambiguo} esto significa que el estado de HER2 del tumor no está claro y es necesario hacer una prueba del estado FISH para clarificar el resultado. En tercer lugar, 121 pacientes presentan un estado \textit{positivo}, es decir el cáncer es posible tratarlo con medicamentos que tienen a la proteína HER2 como blanco.
 			
-			\begin{center}\includegraphics[width=0.75\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/25_icd_Breast_Clock_Position}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_ihc_her_2}\end{center}
 			\\ \hline
-		
+			
 		\end{tabular}
 	\end{threeparttable}
 \end{table*}
@@ -281,30 +403,25 @@ En primer lugar, se realizo el respectivo análisis descriptivo para detectar cu
 	\footnotesize
 	\begin{threeparttable}
 		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
-			%------------------------------------------------------	
-			IHC-HER2
-			& El \textit{Estado de HER2 según la prueba de inmunohistoquímica (IHC)}, se visualiza en orden descendente de la siguiente manera: En primer lugar, 552 pacientes presentan un estado \textit{negativo}, es decir el cáncer no es posible tratarlo con medicamentos que tienen a la proteína HER2 como blanco. En segundo lugar, 145 pacientes presentan un estado \textit{ambiguo} esto significa que el estado de HER2 del tumor no está claro y es necesario hacer una prueba del estado FISH para clarificar el resultado. En tercer lugar, 121 pacientes presentan un estado \textit{positivo}, es decir el cáncer es posible tratarlo con medicamentos que tienen a la proteína HER2 como blanco.
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/26_ihc_her_2}\end{center}
-			\\ \hline
 		
 			%------------------------------------------------------	
 			Year Cancer Initial Diagnosis
 			& El intervalo de años para el \textit{Diagnóstico Patológico inicial del cáncer} tiene una tendencia central aproximada en el año 2009, en donde el año de diagnóstico mínimo presentado es 1998 y año de diagnóstico máximo presentado es 2013.
 			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/27_year_initial_diagnosis}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/21_year_initial_diagnosis}\end{center}
 			\\ \hline
 			
 			%------------------------------------------------------	
 			Primary Lymph Node Presentation Assessment Ind-3
 			& La \textit{Evaluación de los ganglios linfáticos} en la presentación primaria de la enfermedad se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{Si} en donde se encuentran 798 pacientes en los que el oncólogo detecto la presencia de enfermedad metastásica en los ganglios linfáticos axilares y la segunda categoría al estado \textit{No} en donde se encuentran 20 pacientes en los que el oncólogo no detecto la presencia de enfermedad metastásica.
 			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/28_lymph_presentation}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/22_lymph_presentation}\end{center}
 			\\ \hline
 			
 			%------------------------------------------------------	
 			Positive Finding Lymph Node Hematoxylin and Eosin Staining Microscopy Count
 			& El \textit{Recuento de ganglios linfáticos positivos identificados mediante microscopía óptica con tinción de hematoxilina y eosina (H\&E)} tiene una tendencia central aproximada de 5 ganglios linfáticos con estado positivo, es decir que la tinción de hematoxilina presento una mayor proporción evidenciando la presencia de un tumor en crecimiento. Adicionalmente, se puede observar que  el valor mínimo ganglios linfáticos afectados fue 1 y el valor máximo de ganglios linfáticos afectados fue 34. 
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/29_positive_lymph_hematoxylin}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/23_positive_lymph_hematoxylin}\end{center}
 			\\ \hline
 		\end{tabular}
 	\end{threeparttable}
@@ -318,13 +435,13 @@ En primer lugar, se realizo el respectivo análisis descriptivo para detectar cu
 			Lymph Node(s) Examined Number
 			& El número de \textit{ganglios linfáticos extirpados} y evaluados patológicamente para la enfermedad tiene una tendencia central aproximada de 10 ganglios linfáticos extirpados , en donde el número mínimo de ganglios linfáticos extirpados es 1 y el número máximo de ganglios linfáticos extirpados es 44.
 			& 
-			\begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/31_lymph_examined_number}\end{center}
+			\begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/24_lymph_examined_number}\end{center}
 			\\ \hline
 			%------------------------------------------------------	
 			Menopause Status
 			& El \textit{estado de la menopausia}, se visualiza en orden descendente de la siguiente manera: En primer lugar, 593 pacientes presentan un estado de \textit{PostMenopausia}, en el cual los niveles hormonales permanecen bajos y ya no se presenta un período mensual debido a que los ovarios han dejado de liberar óvulos. En segundo lugar, 166 pacientes presentan un estado de \textit{PreMenopausia}, en el cual la reserva ovárica empieza a disminuir y la mujer pierde su fertilidad. Suele iniciarse sobre los 40 años y tener una duración muy variable, desde pocos años hasta 10 o más. En tercer lugar, 59 pacientes presentan un estado de \textit{PeriMenopausia} el cual se presenta en una etapa más corta que precede a la menopausia y dura hasta los 12 meses posteriores de la última menstruación. Suele durar unos 2 o 3 años y se caracteriza por las irregularidades en el ciclo menstrual. La edad más habitual en la que se presenta la perimenopausia es entre los 45 y los 50 años\cite{ReproAsistidaORG}.
 			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/32_menopause_status}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/25_menopause_status}\end{center}
 			  \begin{center}\includegraphics[width=1\linewidth]{IMAGENES/menopausia}\end{center}
 			\\ \hline
 			
@@ -332,7 +449,7 @@ En primer lugar, se realizo el respectivo análisis descriptivo para detectar cu
 			Metastatic tumor indicator
 			& El \textit{Indicador de tumor metastásico} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{No}, en donde se encuentran 807 pacientes en los que el cáncer no se extendió desde el tumor primario a órganos o ganglios linfáticos distantes. La segunda categoría corresponde al estado \textit{Si}, en donde se encuentran 11 pacientes en los que el cáncer se extendió desde el tumor primario a órganos o ganglios linfáticos distantes.
 			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/33_metastatic_tumor_indicator}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/26_metastatic_tumor_indicator}\end{center}
 			\\ \hline
 		\end{tabular}
 	\end{threeparttable}
@@ -341,28 +458,22 @@ En primer lugar, se realizo el respectivo análisis descriptivo para detectar cu
 \begin{table*}[!htb]
 	\footnotesize
 	\begin{threeparttable}
-		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
-						%------------------------------------------------------	
+		\begin{tabular}{p{2.5cm} p{7.5cm} p{6.5cm}} \toprule
+			%------------------------------------------------------	
 			First Pathologic Diagnosis Biospecimen Acquisition Method Type
 			& El \textit{tipo de método para adquisición de muestras biológicas} realizado en el primer diagnostico patológico, se visualiza en orden descendente de la siguiente manera: En primer lugar, la intervención quirúrgica de \textit{Biopsia con aguja gruesa (CNB)} se realizo a 495 pacientes en los cuales el medico utilizo una aguja hueca unida a una herramienta con resorte para extraer pedazos de tejido mamario de un área sospechosa. En segundo lugar, la intervención quirúrgica de \textit{resección tumoral} se realizo a 495 pacientes a los cuales se les extirpo todo el tumor o la mayor cantidad posible del mismo. En tercer lugar, la la intervención quirúrgica de \textit{Aspiración con aguja fina (FNA)} se realizo a 83 pacientes en los cuales el medico utilizo una aguja hueca muy delgada unida a una jeringa para extraer una pequeña cantidad de tejido mamario o líquido de un área sospechosa. En cuarto lugar, 59 pacientes utilizaron \textit{otros} tipos de métodos para adquisición de muestras biológicas. En quinto lugar, la intervención quirúrgica \textit{Biopsia por escisión} se realizo a 21 pacientes a los cuales se les extirpo una masa completa o área sospechosa.En sexto lugar, la \textit{Citología} se realizó a 18 pacientes en donde se registró la simetría, el tamaño y la forma de la mama, así como cualquier evidencia de edema (piel de naranja), retracción del pezón o de la piel y eritema. En séptimo lugar, la intervención quirúrgica \textit{Biopsia por incisión} se realizo a 21 pacientes a los cuales se les extirpo una masa completa o área sospechosa
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/34_biospecimen_method}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/27_biospecimen_method}\end{center}
 			\\ \hline
 			%------------------------------------------------------	
 			Micromet detection by ihc 
 			& La \textit{Detección de micrometástasis según el método de tinción inmunohistoquímica(IHC) de citoqueratina(CK)} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{No} en donde se encuentran 643 pacientes en los que se detecto la presencia de micrometástasis. La segunda categoría corresponde al estado \textit{Si} en donde se encuentran 175  pacientes en los que se detecto la presencia de micrometástasis conformada por grupos de células cancerosas que tienen entre 0,2 milímetros y 2 milímetros  utilizando el método inmunohistoquímica (IHC) de citoqueratina(CK).
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/35_micromet_detection_ihc}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/28_micromet_detection_ihc}\end{center}
 			\\ \hline
 			
 			%------------------------------------------------------	
 			Mutation Count
 			& El \textit{recuento de mutaciones} en el ADN el cual ocasiona que una célula sana  crezca y se divida con mayor rapidez, tiene  una tendencia central aproximada de 36 mutaciones, en donde el número mínimo de mutaciones es 1 y el número máximo de mutaciones es 3860.
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/36_mutation_count}\end{center}
-			\\ \hline
-			
-			%------------------------------------------------------	
-			Oct embedded
-			& El uso del \textit{compuesto de temperatura de corte óptimo(OCT)} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{Verdadero}, en donde se encuentran 481 pacientes, en los cuales la adquisición de muestras se realizo mediante el proceso OCT para generar secciones de tejidos en un portaobjetos para posteriormente generar el análisis histopatológico. La segunda categoría corresponde al estado \textit{Falso}, en donde se encuentran 337 pacientes, en los cuales la adquisición de muestras no se utilizo el proceso OCT.
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/37_oct_embedded}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/29_mutation_count}\end{center}
 			\\ \hline
 		\end{tabular}
 	\end{threeparttable}
@@ -372,25 +483,57 @@ En primer lugar, se realizo el respectivo análisis descriptivo para detectar cu
 	\footnotesize
 	\begin{threeparttable}
 		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
+					
+			%------------------------------------------------------	
+			Oct embedded
+			& El uso del \textit{compuesto de temperatura de corte óptimo(OCT)} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{Verdadero}, en donde se encuentran 481 pacientes, en los cuales la adquisición de muestras se realizo mediante el proceso OCT para generar secciones de tejidos en un portaobjetos para posteriormente generar el análisis histopatológico. La segunda categoría corresponde al estado \textit{Falso}, en donde se encuentran 337 pacientes, en los cuales la adquisición de muestras no se utilizo el proceso OCT.
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/30_oct_embedded}\end{center}
+			\\ \hline
+			
 			%------------------------------------------------------	
 			Oncotree Code
 			& El \textit{Código del tipo de cáncer en formato Oncotree} obtenido de la base de datos del sitio público cBioPortal para la genómica del cáncer, se visualiza en orden descendente de la siguiente manera: En primer lugar 490 pacientes, presentan el cáncer de tipo \textit{Carcinoma de seno Ductal Invasivo (IDC)}. En segundo lugar 127 pacientes, presentan el cáncer de tipo \textit{Carcinoma de seno Lobulillar invasivo (ILC)}. En tercer lugar 113 pacientes, presentan el cáncer de tipo \textit{Carcinoma de seno Invasivo(BRCA)}. En cuarto lugar 88 pacientes, presentan el cáncer de tipo \textit{Carcinoma de seno mixto ductal y lobulillar(MDCL)}.
 			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/16_surgical_other}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/31_oncotree_code}\end{center}
 			\\ \hline
 			
 			%------------------------------------------------------	
 			Overall Survival (Months)
 			& La \textit{Supervivencia general} tiene una tendencia central aproximada en 30 meses (2 años y medio), en donde el tiempo mínimo de supervivencia es 6 meses y el tiempo máximo de supervivencia es 283 meses (23 años).
 			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/17_fraction_genome_altered}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/32_overall_survival_months}\end{center}
 			\\ \hline
 			
 			%------------------------------------------------------	
 			Overall Survival Status
 			& El \textit{estado de supervivencia global del paciente} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{living} en donde se encuentran 697 pacientes que aunque padecen cáncer de mama aún viven. La segunda categoría corresponde al estado \textit{deceased} en donde se encuentran 121 pacientes que fallecieron a causa del cáncer de mama. 
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/40_overall_survival_status}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/33_overall_survival_status}\end{center}
 			\\ \hline
+
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
+
+\begin{table*}[!htb]
+	\footnotesize
+	\begin{threeparttable}
+		\begin{tabular}{p{2.5cm} p{7.5cm} p{6.5cm}} \toprule
+					
+			%------------------------------------------------------	
+			Disease Surgical Margin Status
+			& El borde de tejido normal que rodea el tumor que se extrae cuando el cáncer de mama se extirpa quirúrgicamente es conocido como \textit{Margen} y sirve para mostrar si se extirpó o no todo el tumor\cite{Susan}. Dado lo anterior el \textit{Estado del margen quirúrgico de la enfermedad} se visualiza en orden descendente de la siguiente manera: En primer lugar, en el estado \textit{negativo} se encuentran 738 pacientes a los que se detecto que los bordes exteriores no contienen células cancerosas, es decir solo hay tejido normal en los bordes del tejido extraído del seno. En segundo lugar, en el estado \textit{positivo} se encuentran 58 pacientes a los que se detecto que las margenes contienen células cancerosas, por lo tanto es posible que se necesite cirugía para obtener margenes negativas. En tercer lugar, en el estado \textit{cerrado} se encuentran 22 pacientes a los que se detecto que las células cancerosas se acercan, pero no tocan el borde del tejido mamario extirpado.
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/34_disease_surgical_margin_status}\end{center}
+			\\ \hline
+			
+			%------------------------------------------------------	
+			Primary Tumor Site
+			& El \textit{sitio del tumor} para identificar la subdivisión de órganos en un individuo con cáncer con base a la 10 revisión ICD, se visualiza en orden descendente de la siguiente manera: En primer lugar, 165 pacientes presentan el código \textit{C50.912} que corresponde a una neoplasia maligna de sitio no especificado de mama femenina izquierda. En segundo lugar, 160 pacientes presentan el código \textit{C50.412} que corresponde a una neoplasia maligna de cuadrante superior externo de mama femenina izquierda. En tercer lugar, 147 pacientes presentan el código \textit{C50.911} que corresponde a una neoplasia maligna de sitio no especificado de mama femenina derecha. En cuarto lugar, 145 pacientes presentan el código \textit{C50.411} que corresponde a una neoplasia maligna de cuadrante superior externo de mama femenina derecha. En quinto lugar, 50 pacientes presentan el código \textit{C50.212} que corresponde a una neoplasia maligna de cuadrante superior interno de mama femenina izquierda. En sexto lugar, 50 pacientes presentan el código \textit{C50.211} que corresponde a una neoplasia maligna de cuadrante superior interno de mama femenina derecha. En séptimo lugar, 38 pacientes presentan el código \textit{C50.511} que corresponde a una neoplasia maligna de cuadrante inferior externo de mama femenina derecha. En octavo lugar, 32 pacientes presentan el código \textit{C50.512} que corresponde a una neoplasia maligna de cuadrante inferior externo de mama femenina izquierda. En noveno lugar, 17 pacientes presentan el código \textit{C50.312} que corresponde a una neoplasia maligna de cuadrante inferior interno de mama femenina izquierda. En décimo lugar, 14 pacientes presentan el código \textit{C50.311} que corresponde a una neoplasia maligna de cuadrante inferior interno de mama femenina derecha.        
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/35_primary_tumor_site}\end{center}
+			
+			\begin{center}\includegraphics[width=0.75\linewidth]{IMAGENES/icd_Breast_Clock_Position}\end{center}
+			\\ \hline
+			
+								
 		\end{tabular}
 	\end{threeparttable}
 \end{table*}
@@ -399,30 +542,85 @@ En primer lugar, se realizo el respectivo análisis descriptivo para detectar cu
 	\footnotesize
 	\begin{threeparttable}
 		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
-			%------------------------------------------------------	
-			Disease Surgical Margin Status
-			& El borde de tejido normal que rodea el tumor que se extrae cuando el cáncer de mama se extirpa quirúrgicamente es conocido como \textit{Margen} y sirve para mostrar si se extirpó o no todo el tumor\cite{Susan}. Dado lo anterior el \textit{Estado del margen quirúrgico de la enfermedad} se visualiza en orden descendente de la siguiente manera: En primer lugar, en el estado \textit{negativo} se encuentran 738 pacientes a los que se detecto que los bordes exteriores no contienen células cancerosas, es decir solo hay tejido normal en los bordes del tejido extraído del seno. En segundo lugar, en el estado \textit{positivo} se encuentran 58 pacientes a los que se detecto que las margenes contienen células cancerosas, por lo tanto es posible que se necesite cirugía para obtener margenes negativas. En tercer lugar, en el estado \textit{cerrado} se encuentran 22 pacientes a los que se detecto que las células cancerosas se acercan, pero no tocan el borde del tejido mamario extirpado.
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/41_disease_surgical_margin_status}\end{center}
-			\\ \hline
-			
+
 			%------------------------------------------------------	
 			Tissue Prospective Collection Indicator
-			& El \textit{indicador de colección prospectiva del tejido} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{no} en donde se encuentran 697 en donde la colección de muestras del tejido se adquirió de forma paralela a los  
+			& El \textit{indicador de colección prospectiva del tejido} se clasifica de forma nominal en dos categorías: La primera categoría corresponde a la recolección de muestras de tipo \textit{Retrospectiva}, en donde se encuentran 549 pacientes en donde la adquisición de muestras del tejido se almaceno de forma paralela al inicio de los exámenes oncológicos. La segunda categoría corresponde a la recolección de muestras de tipo \textit{Prospectiva}, en donde se encuentran 269 pacientes en donde la colección de muestras del tejido se almaceno antes del inicio de los exámenes oncológicos.
 			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/25_primary_tumor_site}\end{center}
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/36_tissue_prospective_indicator}\end{center}
 			\\ \hline
 			
 			%------------------------------------------------------	
-			Variable
-			& Descripcion
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_her_2_fish_status}\end{center}
+			PR status by ihc
+			&El \textit{Estado del receptor de progesterona por análisis IHC} se clasifica de forma nominal en dos categorías: La primera categoría corresponde al estado \textit{positivo} en donde se encuentran 567 pacientes a los cuales al realizar el análisis de inmunohistoquímica(IHC) sobre tejido mamario canceroso se determino que las células cancerosas tienen receptores positivos de progesterona. La segunda categoría corresponde al estado \textit{negativo} en donde se encuentran 251 pacientes a los cuales al realizar el análisis IHC sobre tejido mamario canceroso se determino que las células cancerosas no presentan receptores de progesterona.
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/37_pr_status_ihc}\end{center}
 			\\ \hline
+			
+			%------------------------------------------------------	
+			Race Category
+			& La \textit{Raza} se clasifica se visualiza en orden descendente de la siguiente manera: En primer lugar, 673 pacientes presentan un grupo étnico \textit{blanco}. En segundo lugar, 90 pacientes presentan un grupo étnico \textit{negro o afroamericano}. En tercer lugar, 54 pacientes presentan un grupo étnico \textit{asiático}. En cuarto lugar, 1 paciente presenta un grupo étnico \textit{indio americano proveniente de Alaska}.
+			
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/38_race_category}\end{center}
+			\\ \hline
+			
 		\end{tabular}
 	\end{threeparttable}
 \end{table*}
 
 
 
+\begin{table*}[!htb]
+	\footnotesize
+	\begin{threeparttable}
+		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
+			
+			%------------------------------------------------------	
+			Sex
+			& El \textit{sexo} del paciente se clasifica de forma nominal en dos categorías: La primera categoría corresponde al sexo \textit{femenino} en donde se encuentran 809 pacientes que son mujeres. La segunda categoría corresponde al estado \textit{masculino} en donde se encuentran 8 pacientes que son hombres.
+			
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/39_sex}\end{center}
+			\\ \hline
+			
+					
+			%------------------------------------------------------	
+			Staging System
+			& La \textit{estadificación del cáncer} para conocer el tamaño del tumor y si se ha propagado en el paciente, se visualiza en orden descendente de la siguiente manera: En primer lugar, en la estadificación de \textit{Disección axilar} se encuentran 430 pacientes en los que se extirparon ganglios linfáticos del área debajo del brazo (axila). En segundo lugar, en la estadificación de \textit{Biopsia de ganglio linfático centinela} se encuentran 192 pacientes a los que se les extrajo varios ganglios centinelas, denominados de esta forma debido a que son los primeros ganglios linfáticos a los que es probable que las células cancerosas se diseminen desde el tumor primario. En tercer lugar, en la estadificación de \textit{Biopsia de ganglio centinela más disección axilar} se encuentran 158 pacientes en los que se extirparon ganglios linfáticos en la axila y adicionalmente se les extrajo varios ganglios centinelas. En cuarto lugar, en la estadificación de \textit{No axilar} se encuentran 21 pacientes en los que el tumor no se propago hasta la axila. En quinto lugar, se encuentran 17 pacientes que presentaron otro tipo de estadificación del cáncer.
+			
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/40_staging_system}\end{center}
+			\\ \hline
+			
+			%------------------------------------------------------	
+			Surgical procedure first
+			& La \textit{Primera intervención quirúrgica} se visualiza en orden descendente de la siguiente manera: En primer lugar, la intervención quirúrgica de \textit{mastectomía radical modificada} se realizo a 269 pacientes a los cuales se les extirpo todo el seno, incluida la piel, el tejido mamario, la areola y el pezón junto con la mayoría de los ganglios linfáticos axilares. En segundo lugar, se encuentran 228 pacientes en los que se utilizaron otros tipos de intervenciones quirúrgicas. En tercer lugar, la intervención quirúrgica de \textit{lumpectomía} se realizo a 269 pacientes a los cuales se les extirpo el cáncer u otro tejido anormal del seno y parte del tejido normal que lo rodea, pero no el seno en sí. En cuarto lugar, la intervención quirúrgica de \textit{mastectomía simple} se realizo a 128 pacientes a los cuales se les extirpo todo el seno, incluyendo el pezón, la areola y la piel.
+			
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/41_surgical_procedure_first}\end{center}
+			\\ \hline
+
+		\end{tabular}
+\end{threeparttable}
+\end{table*}
+
+\begin{table*}[!htb]
+	\footnotesize
+	\begin{threeparttable}
+		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule	
+					
+		%------------------------------------------------------	
+		TMB
+		& La \textit{Carga mutacional tumoral (TMB)} es un complemento de los biomarcadores convencionales para identificar pacientes que pueden beneficiarse de las opciones de tratamiento. TMB mide el número de mutaciones somáticas dentro de un genoma tumoral por unidad de mutaciones por megabase (Mut/Mb). La alta TMB se asocia con una alta carga de neoantígenos, lo que hace que los tumores sean mucho más inmunogénicos \cite{Ke2022}. Dado lo anterior, la tendencia central de TMB en los pacientes es de $1.2$ $mut/mb$, en donde el valor minimo es $0.5$ $mut/mb$ y el valor maximo $128.4$ $mut/mb$.
+		
+		& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/42_tmb_nonsynonymous}\end{center}
+		\\ \hline
+		
+		%------------------------------------------------------	
+		Person Neoplasm Status
+		& El \textit{estado de la neoplasia} del paciente se clasifica de forma nominal en dos categorías: La primera categoría, corresponde al estado \textit{libre de tumor} en el que se encuentran 753 pacientes que a pesar de padecer cáncer no presentaron ningún tipo de tumor. En la segunda categoría, se encuentran 65 pacientes en los cuales se detecto una masa anormal de tejido provocada por la multiplicación anormal de las células.
+		& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/43_person_neoplasm_status}\end{center}
+		\\ \hline
+		
+\end{tabular}
+\end{threeparttable}
+\end{table*}
 
 
 

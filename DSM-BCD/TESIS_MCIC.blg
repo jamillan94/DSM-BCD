@@ -59,45 +59,45 @@ Warning--empty journal in Pacheco2014
 Warning--there's a number but no volume in Shen2019
 Warning--empty author in Turin2020
 Warning--empty publisher in ArchiMate3.0.1
-You've used 79 entries,
+You've used 80 entries,
             1791 wiz_defined-function locations,
-            960 strings with 27466 characters,
-and the built_in function-call counts, 22728 in all, are:
-= -- 1376
-> -- 2301
+            966 strings with 27653 characters,
+and the built_in function-call counts, 22941 in all, are:
+= -- 1394
+> -- 2312
 < -- 9
-+ -- 801
-- -- 722
-* -- 2069
-:= -- 4154
-add.period$ -- 229
-call.type$ -- 79
-change.case$ -- 73
++ -- 805
+- -- 725
+* -- 2086
+:= -- 4190
+add.period$ -- 232
+call.type$ -- 80
+change.case$ -- 74
 chr.to.int$ -- 0
-cite$ -- 85
-duplicate$ -- 710
-empty$ -- 1588
-format.name$ -- 722
-if$ -- 4578
+cite$ -- 86
+duplicate$ -- 719
+empty$ -- 1608
+format.name$ -- 725
+if$ -- 4625
 int.to.chr$ -- 0
-int.to.str$ -- 79
-missing$ -- 77
-newline$ -- 387
-num.names$ -- 78
-pop$ -- 217
+int.to.str$ -- 80
+missing$ -- 78
+newline$ -- 392
+num.names$ -- 79
+pop$ -- 218
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 327
+skip$ -- 330
 stack$ -- 0
-substring$ -- 876
-swap$ -- 126
+substring$ -- 888
+swap$ -- 127
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 148
-width$ -- 81
-write$ -- 820
+while$ -- 150
+width$ -- 82
+write$ -- 831
 (There was 1 error message)
