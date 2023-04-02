@@ -1,0 +1,428 @@
+\newpage
+\subsection{Transformación de variables genómicas}
+En este parte del análisis exploratorio de datos oncológicos, se procesaron las variables por medio de algoritmos en \textit{Python} para que la informacion quedara estandarizada y así garantizar que los resultados generados por los modelos de ML fueran consistentes y veraces. Cabe resaltar, que aunque en la fase anterior se detectaron las variables que por su falta de datos o poco aporte en el análisis requerido tuvieron que ser eliminadas, en esta fase aun así se re-ajustaron para garantizar que no se presentara un falso positivo por falta de estandarización y así garantizar que no se eliminara variable por equivocación.
+
+\subsubsection{Re-nombramiento de columnas}
+En esta parte de la transformación de datos, se re-nombraron los nombres de las variables, ya que como observamos anteriormente presentaban una longitud extensa. Esto se realizó con el proposito de garantizar el desempeño de los modelos de ML. Para lograrlo, se utilizó la función $clean\_headers()$ de la librería \textit{dataprep.eda}, lo cual permitió limpiar los encabezados y estandarizarlos en el formato \textit{snake} que tiene la estructura \textit{“nombre\_columna”}. En el algoritmo \ref{renombramiento} se puede observar el código implementado.
+
+\begin{lstlisting}[basicstyle=\scriptsize,language=Python, label=renombramiento, caption=Renombramiento de columnas en Python.]
+	# Importar librerias
+	import pandas as pd
+	import numpy as np
+	from dataprep.clean import clean_headers
+	
+	# Abrir conjunto de datos delimitados por espacios
+	with open('brca_tcga_pub2015_clinical_data.csv') as f:
+	breast_cancer=pd.read_csv(f, delimiter="\t")
+	
+	# Generar una copia del data-set original
+	bc = breast_cancer.copy()
+	bc.shape
+	
+	# Estandarizar cabecera en format snake
+	bc=clean_headers(breast_cancer)
+	
+	# Reemplazar nomenclatura extensa
+	bc.columns=bc.columns.str.replace('american_joint_committee_on_cancer_','')
+	bc.columns=bc.columns.str.replace('international_classification_of_diseases_for_oncology_third_edition_icd_o_3_','')
+	
+	# Renombrar variables con un nombre corto
+	bc.rename(
+	columns={
+		'neoplasm_disease_lymph_node_stage_code':'neoplasm_lymph_code',
+		'neoplasm_lymph_node_stage_code':'neoplasm_stage',
+		'brachytherapy_first_reference_point_administered_total_dose':'brachytherapy',
+		'birth_from_initial_pathologic_diagnosis_date':'birth_initial_diagnosis',
+		'death_from_initial_pathologic_diagnosis_date':'death_initial_diagnosis',
+		'last_alive_less_initial_pathologic_diagnosis_date_calculated_day_value':'last_alive_date',
+		'neoadjuvant_therapy_type_administered_prior_to_resection_text':'neoadjuvant_therapy',
+		'prior_cancer_diagnosis_occurence':'prior_diagnosis_occurence',
+		'informed_consent_verified':'consent_verified',
+		'primary_lymph_node_presentation_assessment_ind_3':'lymph_presentation',
+		'positive_finding_lymph_node_hematoxylin_and_eosin_staining_microscopy_count':'positive_lymph_hematoxylin',
+		'positive_finding_lymph_node_keratin_immunohistochemistry_staining_method_count':'positive_lymph_keratin',
+		'lymph_node_s_examined_number':'lymph_examined_number',
+		'first_pathologic_diagnosis_biospecimen_acquisition_method_type':'biospecimen_method',
+		'first_pathologic_diagnosis_biospecimen_acquisition_other_method_type':'biospecimen_other_method',
+		'new_neoplasm_event_post_initial_therapy_indicator':'new_neoplasm_event',
+		'adjuvant_postoperative_pharmaceutical_therapy_administered_indicator':'pharmaceutical_therapy',
+		'tissue_prospective_collection_indicator':'tissue_prospective_indicator',
+		'did_patient_start_adjuvant_postoperative_radiotherapy':'postoperative_radiotherapy',
+		'tissue_retrospective_collection_indicator':'tissue_retrospective_indicator',
+		'number_of_samples_per_patient':'number_samples',
+		'surgery_for_positive_margins':'surgery_positive',
+		'surgery_for_positive_margins_other':'surgery_positive_other',
+		'surgery_for_positive_margins_other':'surgery_positive_other',
+		'neoplasm_histologic_type_name':'neoplasm_histologic_type',
+		'tumor_other_histologic_subtype':'tumor_other_subtype',
+		'year_cancer_initial_diagnosis':'year_initial_diagnosis',
+		'first_surgical_procedure_other':'surgical_other'
+	}, inplace=True)
+	
+	# Reemplazar artículos, pronombres y preposiciones
+	bc.columns=bc.columns.str.replace('_to_','_')
+	bc.columns=bc.columns.str.replace('_and_','_')
+	bc.columns=bc.columns.str.replace('_by_','_')
+	
+\end{lstlisting}
+
+\subsubsection{Estandarización de datos genómicos}
+En esta parte de la transformación de datos, se estandarizaron los registros de cada columna para que quedaran en \textit{minúscula}. Para lograrlo, se utilizó la función $clean\_text()$ de la librería \textit{dataprep.eda}. Adicionalmente, se identificaron las variables que son \textit{únicas} y se homogeneizaron para que los datos quedaran uniformes. En el algoritmo \ref{estandarizacion} se puede observar el código implementado.
+
+\begin{lstlisting}[basicstyle=\scriptsize,language=Python, label=estandarizacion, caption=Estandarización de datos genómicos en Python.]
+	# Procesar datos para que queden en minuscula
+	custom_pipeline = [{"operator": "lowercase"}]
+	for i in bc.columns:
+		bc=clean_text(bc,i,pipeline=custom_pipeline)
+		
+	# Estandarizar variables tipo NaN
+	bc=bc.replace(
+	["<NA>",
+	"nan",
+	"nan"
+	],[np.NaN,
+	np.NaN,
+	np.NaN
+	],regex=True)
+	
+	# Estandarizar variable brachytherapy
+	bc.brachytherapy=bc.brachytherapy.replace(
+	['no value given',
+	'% ihc',
+	'-',
+	' '],
+	[np.NaN,
+	'ihc',
+	'',
+	''],regex=True)
+	
+	# Estandarizar variable publication_version_type
+	bc.publication_version_type=bc.publication_version_type.replace(
+	['th|rd'],[''],regex=True)
+	
+	# Estandarizar variable cent_17_copy_number
+	bc.cent_17_copy_number=bc.cent_17_copy_number.replace(
+	['polisomy',],[np.NaN,],regex=True)
+	
+	# Estandarizar variable er_positivity_scale_used
+	bc.er_positivity_scale_used=bc.er_positivity_scale_used.replace(
+	['point scale',],
+	[''],regex=True)
+	
+	# Estandarizar variable disease_free_status
+	bc.disease_free_status=bc.disease_free_status.replace(
+	['0:diseasefree',
+	'1:recurred/progressed'],
+	['diseasefree',
+	'progressed'],regex=True)
+	
+	# Estandarizar variable days_last_followup
+	bc.days_last_followup = bc.days_last_followup.replace(
+	['-'],[''],regex=True)
+	
+	
+	# Estandarizar variable her_2_copy_number
+	bc.her_2_copy_number=bc.her_2_copy_number.replace(
+	['<',
+	'>',
+	'not amplified'
+	],
+	['',
+	'',
+	0],regex=True)
+	
+	# Estandarizar variable er_positivity_scale_other
+	bc.er_positivity_scale_other=bc.er_positivity_scale_other.replace(
+	['protein',
+	'allred score 0',
+	'=',
+	'scrore',
+	'h-score',
+	'intensity',
+	'strong using weak, moderate and strong',
+	'moderate using the scale of weak, moderate, strong',
+	'moderate using scale of weak, moderate, strong',
+	' \(per outside facility\)',
+	'  ',
+	' '
+	],
+	['',
+	'allred score',
+	'',
+	'score',
+	'hscore',
+	'',
+	'strong',
+	'moderate',
+	'moderate',
+	'',
+	'',
+	''
+	],regex=True)
+	
+	# Estandarizar variable er_status_ihc
+	bc.er_status_ihc=bc.er_status_ihc.replace(
+	['indeterminate'],
+	['positive'],regex=True)
+	
+	# Estandarizar variable er_status_ihc
+	bc.er_status_ihc=bc.er_status_ihc.replace(
+	['indeterminate'],
+	['positive'],regex=True)
+	
+	# Estandarizar variable her_2_fish_status
+	bc.her_2_fish_status=bc.her_2_fish_status.replace(
+	['equivocal',
+	'indeterminate'],
+	['negative',
+	'negative'],regex=True)
+	
+	# Estandarizar variable neoplasm_histologic_type
+	bc.neoplasm_histologic_type=bc.neoplasm_histologic_type.replace(
+	["(please specify)",
+	"other, specify",
+	'\(','\)'],
+	['',
+	'other',
+	'',''],regex=True)
+	
+	# Estandarizar variable menopause_status
+	bc.menopause_status=bc.menopause_status.replace(
+	['post \(prior bilateral ovariectomy or >12 mo since lmp with no prior hysterectomy\)',
+	'pre \(<6 months since lmp and no prior bilateral ovariectomy and not on estrogen replacement\)',
+	'indeterminate \(neither pre or postmenopausal\)',
+	'peri \(6-12 months since last menstrual period\)'
+	],
+	['post',
+	'pre',
+	'peri',
+	'peri'],regex=True)
+	
+	# Estandarizar variable metastatic_site
+	bc.metastatic_site=bc.metastatic_site.replace(
+	['lung\|bone\|liver\|other, specify',
+	'other, specify',
+	'bone\|liver',
+	],
+	['other',
+	'other',
+	'bone-liver',],regex=True)
+	
+	# Estandarizar variable biospecimen_method
+	bc.biospecimen_method=bc.biospecimen_method.replace(
+	['other method, specify:',
+	'cytology \(e.g. peritoneal or pleural fluid\)'
+	],
+	['other',
+	'cytology'
+	],regex=True)
+	
+	# Estandarizar variable biospecimen_method
+	bc.biospecimen_method=bc.biospecimen_method.replace(
+	['other method, specify:',
+	'cytology \(e.g. peritoneal or pleural fluid\)'
+	],
+	['other',
+	'cytology'
+	],regex=True)
+	
+	# Estandarizar variable overall_survival_status
+	bc.overall_survival_status=bc.overall_survival_status.replace(
+	['0:',
+	'1:'],
+	['',
+	''],regex=True)
+	
+	# Estandarizar variable tissue_prospective_indicator
+	bc.tissue_prospective_indicator=bc.tissue_prospective_indicator.replace(
+	['yes',
+	'no'],
+	['prospective',
+	'retrospective'],regex=True)
+	
+	# Estandarizar variable pr_positivity_define_method
+	bc.pr_positivity_define_method=bc.pr_positivity_define_method.replace(
+	['no value given',
+	'%ihc',
+	'per outside facility report',
+	'-',
+	' ',
+	],[np.NaN,
+	'ihc',
+	'',
+	'',
+	''],regex=True)
+	
+	# Estandarizar variable pr_positivity_scale_other
+	bc.pr_positivity_scale_other=bc.pr_positivity_scale_other.replace(
+	['protein',
+	'allred score 0',
+	'=',
+	'scrore',
+	'h-score',
+	'intensity',
+	'strong using weak, moderate and strong',
+	'moderate using the scale of weak, moderate, strong',
+	'moderate using scale of weak, moderate, strong',
+	' \(per outside facility\)',
+	'per outside facility report',
+	'strong, using scale of weak, moderate and strong',
+	'allread',
+	'  ',
+	' ',
+	],
+	['',
+	'allred score',
+	'',
+	'score',
+	'hscore',
+	'',
+	'strong',
+	'moderate',
+	'moderate',
+	'',
+	'',
+	'Strong',
+	'allred',
+	'',
+	'',
+	],regex=True)
+	
+	# Estandarizar variable staging_system
+	bc.staging_system=bc.staging_system.replace(
+	['other \(specify\)'
+	],
+	['other'
+	],regex=True)
+	
+	# Estandarizar variable staging_system_1
+	bc.staging_system_1=bc.staging_system_1.replace(
+	['sln and non-sln bx|'+
+	'sln and non-sln biopsy|'+
+	'sentinel ln and one non sentinel ln|'
+	'sentinel \+ non sentinel|'
+	'sn\+1 non sentinel node|'
+	'sentinel lymph node biopsy and non-sentinel lymph node biopsy'
+	],
+	['sentinel lymph node and non-sentinel lymph node biopsy'
+	],regex=True)
+	
+	# Estandarizar variable pr_positivity_ihc_intensity_score
+	bc.pr_positivity_ihc_intensity_score=bc.pr_positivity_ihc_intensity_score.replace(
+	['\+'],[''],regex=True)
+	
+	# Estandarizar variable pr_positivity_scale_used
+	bc.pr_positivity_scale_used=bc.pr_positivity_scale_used.replace(
+	['point scale',],
+	[''],regex=True)
+	
+	# Estandarizar variable pr_status_ihc
+	bc.pr_status_ihc=bc.pr_status_ihc.replace(
+	['indeterminate'],
+	['positive'],regex=True)
+	
+	# Estandarizar variable primary_tumor_site
+	bc.primary_tumor_site=bc.primary_tumor_site.replace(
+	['left',
+	'left upper outer quadrant',
+	'left upper inner quadrant',
+	'right',
+	'right upper outer quadrant',
+	'right upper outer quadrant|right',
+	'right lower outer quadrant|right',
+	'right lower outer quadrant',
+	'left lower outer quadrant',
+	'right upper inner quadrant',
+	'right lower inner quadrant',
+	'left upper inner quadrant|left upper outer quadrant|left lower inner quadrant|left lower outer quadrant',
+	'left upper inner quadrant|left upper outer quadrant',
+	'right|right upper outer quadrant',
+	'left upper outer quadrant|left',
+	'left lower inner quadrant',
+	'right upper inner quadrant|right lower inner quadrant',
+	'left upper outer quadrant|left lower outer quadrant',
+	'left upper outer quadrant|left lower outer quadrant|left',
+	'left lower inner quadrant|left lower outer quadrant|left',
+	'right upper inner quadrant|right upper outer quadrant',
+	'right lower inner quadrant|right lower outer quadrant',
+	'right upper outer quadrant|right lower outer quadrant',
+	'left lower outer quadrant|left',
+	'right upper inner quadrant|right',
+	'left lower inner quadrant|left',
+	'left upper inner quadrant|left upper outer quadrant|left',
+	'right upper inner quadrant|right upper outer quadrant|right',
+	'right lower inner quadrant|right lower outer quadrant|right',
+	'left upper inner quadrant|left upper outer quadrant|left lower inner quadrant|left lower outer quadrant|left',
+	'right upper inner quadrant|right lower inner quadrant|right',
+	'left upper inner quadrant|left lower inner quadrant|left lower outer quadrant|left',
+	'right upper inner quadrant|right upper outer quadrant|right lower inner quadrant|right lower outer quadrant|right',
+	'left upper inner quadrant|left',
+	'right upper outer quadrant|right lower inner quadrant|right lower outer quadrant',
+	'right|right upper inner quadrant',
+	'left upper inner quadrant|left lower inner quadrant',
+	'left|left upper outer quadrant',
+	'left lower inner quadrant|left lower outer quadrant',
+	'left|left upper inner quadrant|left upper outer quadrant|left lower inner quadrant|left lower outer quadrant',
+	'left|left upper inner quadrant',
+	'right|right lower inner quadrant'
+	],
+	['C50.912',
+	'C50.412',
+	'C50.212',
+	'C50.911',
+	'C50.411',
+	'C50.411',
+	'C50.511',
+	'C50.511',
+	'C50.512',
+	'C50.211',
+	'C50.311',
+	'C50.912',
+	'C50.912',
+	'C50.411',
+	'C50.412',
+	'C50.312',
+	'C50.911',
+	'C50.912',
+	'C50.912',
+	'C50.912',
+	'C50.911',
+	'C50.911',
+	'C50.911',
+	'C50.512',
+	'C50.211',
+	'C50.312',
+	'C50.912',
+	'C50.911',
+	'C50.911',
+	'C50.912',
+	'C50.911',
+	'C50.912',
+	'C50.911',
+	'C50.212',
+	'C50.911',
+	'C50.211',
+	'C50.912',
+	'C50.412',
+	'C50.912',
+	'C50.912',
+	'C50.212',
+	'C50.311'
+	])
+
+\end{lstlisting}
+
+\subsubsection{Re-ajuste del tipo de variable }
+En esta parte de la transformación de datos, se ajustaron los tipo de variables para que quedara en el formato correspondiente y así poder determinar si su origen es \textit{categórico} o \textit{numérico}. En el algoritmo \ref{tipo_variable} se puede observar el código implementado. 
+
+\begin{lstlisting}[basicstyle=\scriptsize,language=Python, label=tipo_variable, caption=Re-ajustar tipo de variables en Python.]
+	# Crear vector con las variables a transformar
+	convert_data = ['publication_version_type','cent_17_copy_number','er_positivity_scale_used','her_2_copy_number','her_2_ihc_score','ihc_score','positive_lymph_keratin','pr_positivity_ihc_intensity_score','pr_positivity_scale_used','fraction_genome_altered','number_samples','tmb_nonsynonymous','her_2_cent_17_ratio','lymph_examined_number','mutation_count','overall_survival_months','disease_free_months','days_last_followup']
+	
+	# Convertir variables numericas a su tipo correspondiente.
+	for i in convert_data:
+		bc[i] = pd.to_numeric(bc[i].fillna(0))
+		print(i,':',bc[i].dtype)
+\end{lstlisting}
+
+
