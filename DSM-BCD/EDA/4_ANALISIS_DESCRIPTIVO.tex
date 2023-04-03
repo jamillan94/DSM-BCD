@@ -1,13 +1,11 @@
 \clearpage	
 \newpage
 \subsection{Análisis Descriptivo }
-En primer lugar, se realizo un análisis descriptivo para detectar cual es comportamiento de los atributos del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”}. En la gráfica \ref{EDA} se puede observar las gráficas estadísticas unidimensionales de la 110 variables, las cuales permitieron extraer  las características mas representativas y permitieron identificar el comportamiento de los datos.
+En este parte del análisis exploratorio de datos oncológicos, se realizo un análisis descriptivo para detectar cual es comportamiento actual de los atributos del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”}. En la tabla \ref{Analisis_Descriptivo} se puede observar el análisis estadístico unidimensional de la 41 variables seleccionadas para el entrenamiento de los modelos de ML. Dado lo anterior, se extrajeron las características mas representativas relacionadas con las preguntas planteadas en el BCQM. Llegados a este punto se infiere a partir del conjunto de datos las siguientes apreciaciones:
 
-\begin{table*}[!htb]
+\begin{table*}[htb!]
 	\footnotesize
 	\begin{threeparttable}
-		\caption{Conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).}
-		\label{Analisis_Descriptivo}
 		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
 			\begin{center}Variable\end{center}   	 
 			&\begin{center}Análisis descriptivo\end{center}             
@@ -15,42 +13,32 @@ En primer lugar, se realizo un análisis descriptivo para detectar cual es compo
 			%------------------------------------------------------	
 			Diagnosis Age
 			& La \textit{edad de diagnostico} del cáncer de mama tiene una tendencia central de 59 años, en donde la edad mínima presentada es de  26 años y la edad máxima presentada es de 90 años.
-			
 			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/1_diagnosis_age}\end{center}
 			\\ \hline
 			%------------------------------------------------------	
 			AJCC Metastasis Stage Code 
 			& El código AJCC para la \textit{estadificación metastásica(M) del cáncer} se visualiza en orden descendente de la siguiente manera: En primer lugar, el código \textit{m0} se presenta en 707 pacientes en donde el cáncer hizo metástasis pero no se  disemino a otras partes del cuerpo. En segundo lugar se encuentra el código \textit{mx} presentado en 96 pacientes a los cuales no fue posible medir la metástasis. En tercer lugar se encuentra el código \textit{m1} presentado en 13 pacientes en donde el cáncer se diseminó a otras partes del cuerpo. En ultimo lugar se encuentra el código \textit{cM0(i+)} presentado en 2 pacientes en los cuales no se detecto evidencia de metástasis a distancia, pero hubo un pequeño número de células en las cuales se encontró una metástasis diminuta (no mayor de 0.2 mm) detectada en ganglios linfáticos no regionales \cite{NCI}.
-			
 			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/2_metastasis_stage_code}\end{center}
 			\\ \hline
-			%------------------------------------------------------	
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
+\clearpage
+\begin{table*}[!htb]
+	\footnotesize
+	\begin{threeparttable}
+		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
 			AJCC Neoplasm Disease Lymph Node Stage Code
 			& El código AJCC para la \textit{estadificación del cáncer por neoplasia del ganglio linfático(N)} se visualiza en orden descendente de la siguiente manera: En primer lugar, el código \textit{n0} se presenta en 250 pacientes en donde no hay cáncer en los ganglios linfáticos cercanos. En segundo lugar, el código \textit{n1a} se presento en 126 pacientes en donde el cáncer se diseminó a 1 ganglio linfáticos debajo del brazo con al menos un área de cáncer diseminada de más de 2 mm de ancho. En tercer lugar el código \textit{n0(i-)} se presento en 126 pacientes en donde, no hay evidencia histológica de metástasis en los ganglios linfáticos regionales. Del cuarto lugar en adelante, se refiere a la cantidad y ubicación de los ganglios linfáticos que contienen cáncer. Cuanto mayor sea el número después de la $n$, más ganglios linfáticos se vieron afectados.	
 			
 			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/3_neoplasm_lymph_code}\end{center}
 			\\ \hline
 			%------------------------------------------------------	
-		\end{tabular}
-	\end{threeparttable}
-\end{table*}
-
-\begin{table*}[!htb]
-	\footnotesize
-	\begin{threeparttable}
-		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
-			%------------------------------------------------------	
 			AJCC Neoplasm Disease Stage Code
 			& Las etapas AJCC para la \textit{estadificación del cáncer por neoplasia} se visualiza en orden descendente de la siguiente manera: En primer lugar, la \textit{etapa iia} se presenta en 278 pacientes en donde el tumor mide más de 20 mm pero no más de 50 mm y no se ha propagado a los ganglios linfáticos axilares. En segundo lugar, la \textit{etapa iib} se presento en 190 pacientes en donde el tumor mide más de 50 mm pero no se ha propagado a los ganglios linfáticos axilares. En tercer lugar la \textit{etapa iiia} se presento en 112 pacientes en donde el tumor se diseminó de 4 a 9 ganglios linfáticos axilares o los ganglios linfáticos mamarios internos, pero no se ha propagado a otras partes del cuerpo. En cuarto lugar, la \textit{etapa i} se presento en 75 pacientes  en donde el tumor es pequeño, invasivo y no se ha propagado a los ganglios linfáticos. En quinto lugar, la \textit{etapa ia} se presento en 60 pacientes en donde el tumor mide menos de 20 mm  y no se ha propagado a los ganglios linfáticos. Del sexto lugar en adelante, el tumor puede tener cualquier tamaño y se ha propagado a otros órganos, como los huesos, los pulmones, el cerebro, el hígado, los ganglios linfáticos distantes o la pared torácica.
 			
 			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/4_neoplasm_disease_stage_code}\end{center}
 			\\ \hline
-			%------------------------------------------------------	
-			AJCC Tumor Stage Code 
-			& El código AJCC para la \textit{estadificación el tumor (T) primario del cáncer} se visualiza en orden descendente de la siguiente manera: En primer lugar, el código \textit{t2} se presenta en 459 pacientes en donde el tumor mide más de 20 mm pero no más de 50 mm. En segundo lugar, el código \textit{t1c} se presento en 173 pacientes en donde el tumor mide  de 10 mm a 20 mm o menos. En tercer lugar el código \textit{t3} se presento en 104 pacientes en donde el tumor mide más de 50 mm. En cuarto lugar el código \textit{t1} se presento en 34 pacientes en donde el tumor  mide 20 mm o menos en su área más ancha. En quinto lugar el código \textit{t4b} se presento en 26 pacientes en donde el tumor ha crecido dentro de la piel. Del sexto lugar en adelante, el código \textit{t1b} se presento en 11 pacientes en donde el tumor mide más de 5 mm pero menos de 10 mm, el código \textit{t4} se presento en 5 pacientes en donde el tumor ha crecido hacia la pared torácica, el código \textit{t4d} se presento en 2 pacientes en donde es cáncer de mama inflamatorio, el código \textit{t1a} se presento en 1 paciente en donde el tumor mide más de 1 mm pero menos de 5 mm, el código \textit{t2b} se presento en 1 paciente en donde el tumor mide más de el tumor mide más de 25 mm pero menos de 50 mm.
-			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/5_tumor_stage_code}\end{center}
-			\\ \hline
 		\end{tabular}
 	\end{threeparttable}
 \end{table*}
@@ -59,29 +47,21 @@ En primer lugar, se realizo un análisis descriptivo para detectar cual es compo
 \begin{table*}[!htb]
 	\footnotesize
 	\begin{threeparttable}
-		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
+		\begin{tabular}{p{2.5cm} p{7.5cm} p{6.5cm}} \toprule
+			%------------------------------------------------------	
+			AJCC Tumor Stage Code 
+			& El código AJCC para la \textit{estadificación el tumor (T) primario del cáncer} se visualiza en orden descendente de la siguiente manera: En primer lugar, el código \textit{t2} se presenta en 459 pacientes en donde el tumor mide más de 20 mm pero no más de 50 mm. En segundo lugar, el código \textit{t1c} se presento en 173 pacientes en donde el tumor mide  de 10 mm a 20 mm o menos. En tercer lugar el código \textit{t3} se presento en 104 pacientes en donde el tumor mide más de 50 mm. En cuarto lugar el código \textit{t1} se presento en 34 pacientes en donde el tumor  mide 20 mm o menos en su área más ancha. En quinto lugar el código \textit{t4b} se presento en 26 pacientes en donde el tumor ha crecido dentro de la piel. Del sexto lugar en adelante, el código \textit{t1b} se presento en 11 pacientes en donde el tumor mide más de 5 mm pero menos de 10 mm, el código \textit{t4} se presento en 5 pacientes en donde el tumor ha crecido hacia la pared torácica, el código \textit{t4d} se presento en 2 pacientes en donde es cáncer de mama inflamatorio, el código \textit{t1a} se presento en 1 paciente en donde el tumor mide más de 1 mm pero menos de 5 mm, el código \textit{t2b} se presento en 1 paciente en donde el tumor mide más de el tumor mide más de 25 mm pero menos de 50 mm.
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/5_tumor_stage_code}\end{center}
+			\\ \hline
 			%------------------------------------------------------	
 			Cancer Type Detailed
 			& El \textit{tipo de cáncer de mama} se visualiza en orden descendente de la siguiente manera: En primer lugar, el \textit{cáncer Ductal invasivo} se presento en 491 pacientes. En segundo  lugar, el \textit{cáncer Lobulillar invasivo} se presento en 127 pacientes. En tercer lugar, el \textit{cáncer invasivo con otros diagnósticos} se presento en 112 pacientes. En cuarto lugar,  el \textit{cáncer mixto (Ductal y Lobulillar)} se presento en 88 pacientes.
 			
 			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/6_cancer_type_detailed}\end{center}
 			\\ \hline
-			%------------------------------------------------------	
-			Days to Sample Collection
-			& El intervalo de días para la \textit{recolección de muestras} tiene una tendencia central aproximada de 451 días, en donde el tiempo mínimo presentado es de 16 días y el tiempo máximo presentado de 7804 días.
-			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/7_days_sample_collection}\end{center}
-			\\ \hline
-			%------------------------------------------------------	
-			Days to Last Followup
-			& El Intervalo de tiempo desde la fecha del \textit{último seguimiento} hasta la fecha del diagnóstico patológico inicial tiene una tendencia central aproximada de 579 días, en donde el tiempo mínimo de diagnostico  presentado es de 1 día y el tiempo maximo de diagnostico presentado de 7067 días.
-			
-			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/8_days_last_followup}\end{center}
-			\\ \hline
 		\end{tabular}
 	\end{threeparttable}
 \end{table*}
-
 
 \begin{table*}[!htb]
 	\footnotesize
@@ -266,7 +246,7 @@ En primer lugar, se realizo un análisis descriptivo para detectar cual es compo
 			
 			%------------------------------------------------------	
 			Mutation Count
-			& El \textit{recuento de mutaciones} en el ADN el cual ocasiona que una célula sana  crezca y se divida con mayor rapidez, tiene  una tendencia central aproximada de 36 mutaciones, en donde el número mínimo de mutaciones es 1 y el número máximo de mutaciones es 3860.
+			& El \textit{recuento de mutaciones} en el ADN, el cual ocasiona que una célula sana  crezca y se divida con mayor rapidez, tiene  una tendencia central aproximada de 36 mutaciones, en donde el número mínimo de mutaciones es 1 y el número máximo de mutaciones es 3860.
 			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/29_mutation_count}\end{center}
 			\\ \hline
 		\end{tabular}
@@ -411,7 +391,8 @@ En primer lugar, se realizo un análisis descriptivo para detectar cual es compo
 			& El \textit{estado de la neoplasia} del paciente se clasifica de forma nominal en dos categorías: La primera categoría, corresponde al estado \textit{libre de tumor} en el que se encuentran 753 pacientes que a pesar de padecer cáncer no presentaron ningún tipo de tumor. En la segunda categoría, se encuentran 65 pacientes en los cuales se detecto una masa anormal de tejido provocada por la multiplicación anormal de las células.
 			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/43_person_neoplasm_status}\end{center}
 			\\ \hline
-			
 		\end{tabular}
+			\caption{Conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).}
+			\label{Analisis_Descriptivo}
 	\end{threeparttable}
 \end{table*}
