@@ -1,0 +1,22 @@
+\begin{table*} [!htb]
+	\footnotesize
+	\begin{threeparttable}
+		\caption{Modelos Machine Learning para agrupamiento (Clustering).}
+		\label{Clustering_Models}
+		\begin{tabular}{p{2cm} p{4cm} p{9cm}} \toprule	
+		\begin{center}ID\end{center}   
+		&\begin{center}Nombre\end{center}             
+		&\begin{center}Librería\end{center}      
+		\\ \hline kmeans & K-Means Clustering & sklearn.cluster.\_kmeans.KMeans
+		\\ \hline ap & Affinity Propagation & sklearn.cluster.\_affinity\_propagation.AffinityPropagation
+		\\ \hline meanshift & Mean Shift Clustering & sklearn.cluster.\_mean\_shift.MeanShift
+		\\ \hline sc & Spectral Clustering & sklearn.cluster.\_spectral.SpectralClustering
+		\\ \hline hclust & Agglomerative Clustering & sklearn.cluster.\_agglomerative.AgglomerativeClustering
+		\\ \hline dbscan & Density-Based Spatial Clustering & sklearn.cluster.\_dbscan.DBSCAN
+		\\ \hline optics & OPTICS Clustering & sklearn.cluster.\_optics.OPTICS
+		\\ \hline birch & Birch Clustering & sklearn.cluster.\_birch.Birch
+		\\ \hline kmodes & K-Modes Clustering & kmodes.kmodes.KModes
+		\\ \hline
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
