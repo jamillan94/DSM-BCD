@@ -38,69 +38,76 @@
 \contentsline {section}{\numberline {4.4}Fase 4: Análisis Exploratorio de datos oncológicos}{76}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Análisis parcial de datos genómicos crudos}{77}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Transformación de variables genómicas}{86}{subsection.4.4.2}%
-\contentsline {subsubsection}{Re-nombramiento de columnas}{86}{section*.12}%
-\contentsline {subsubsection}{Estandarización de datos genómicos}{87}{section*.13}%
-\contentsline {subsubsection}{Re-ajuste del tipo de variable }{93}{section*.14}%
+\contentsline {subsubsection}{Re-nombramiento de columnas}{86}{section*.49}%
+\contentsline {subsubsection}{Estandarización de datos genómicos}{87}{section*.50}%
+\contentsline {subsubsection}{Re-ajuste del tipo de variable }{93}{section*.51}%
 \contentsline {subsection}{\numberline {4.4.3}Tratamiento de datos ausentes}{94}{subsection.4.4.3}%
-\contentsline {subsubsection}{Detección de datos ausentes}{94}{section*.15}%
-\contentsline {subsubsection}{Imputación de datos ausentes}{94}{section*.16}%
-\contentsline {subsubsection}{Eliminación de datos ausentes}{96}{section*.17}%
-\contentsline {subsubsection}{Consistencia de datos}{97}{section*.18}%
+\contentsline {subsubsection}{Detección de datos ausentes}{94}{section*.52}%
+\contentsline {subsubsection}{Imputación de datos ausentes}{94}{section*.53}%
+\contentsline {subsubsection}{Eliminación de datos ausentes}{96}{section*.54}%
+\contentsline {subsubsection}{Consistencia de datos}{97}{section*.55}%
 \contentsline {subsection}{\numberline {4.4.4}Análisis Descriptivo }{99}{subsection.4.4.4}%
 \contentsline {subsection}{\numberline {4.4.5}Análisis de correlación de variables }{114}{subsection.4.4.5}%
 \contentsline {section}{\numberline {4.5}Fase 6: Modelado y Ejecución}{116}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Agrupamiento(Clustering)}{116}{subsection.4.5.1}%
 \contentsline {section}{\numberline {4.6}Fase 7: Evaluación e Interpretación}{121}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Fase 8: Retroalimentación medica }{122}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Fase 9: Bitácora para el diagnostico del cáncer de mama (BCDL) }{123}{section.4.8}%
-\contentsline {part}{III\hspace {1em}ARQUITECTURA Y DISEÑO}{124}{part.3}%
-\contentsline {chapter}{\numberline {5}Organización Empresarial}{125}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Misión}{125}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Visión}{125}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Objetivo}{126}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Actores,Roles y Funciones}{127}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Servicios}{128}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Capa de Motivación}{129}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Introducción}{129}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Punto de Vista de Interesados}{130}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Punto de Vista de Realización de Objetivos}{132}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Punto de Vista de Contribución de Objetivos}{134}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Punto de Vista de Principios}{136}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Punto de Vista de Realización de Requerimientos }{137}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Punto de Vista de Motivación }{139}{section.6.7}%
-\contentsline {chapter}{\numberline {7}Capa de Estrategia}{141}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Introducción}{141}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Punto de Vista de la Estrategia}{142}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Punto de Vista del Mapa de Capacidad}{144}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Punto de Vista de la Realización de Resultado}{146}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Punto de Vista de Mapa de Recurso}{148}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Capa de Negocio}{150}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Introducción}{150}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Punto de Vista de la Organización}{151}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Punto de Vista de Cooperación de Actor}{153}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Punto de Vista de la Función de Negocio}{155}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Punto de Vista de Proceso de Negocio}{157}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Punto de Vista de Cooperación de Proceso de Negocio}{160}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Punto de Vista de Producto}{162}{section.8.7}%
-\contentsline {chapter}{\numberline {9}Capa de Aplicación}{165}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Introducción}{165}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Punto de Vista del Comportamiento de la Aplicación}{166}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Punto de Vista de Cooperación de Aplicación}{169}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Punto de Vista de la Estructura de la Aplicación}{171}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Punto de Vista del Uso de la Aplicación}{173}{section.9.5}%
-\contentsline {chapter}{\numberline {10}Capa de Tecnología}{175}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Introducción}{175}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Punto de Vista de la Infraestructura}{176}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Punto de Vista del Uso de la Infraestructura}{178}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Punto de Vista de Implementación y Organización}{180}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Punto de Vista de Estructura de la Información}{182}{section.10.5}%
-\contentsline {section}{\numberline {10.6}Punto de Vista de Realización del Servicio}{184}{section.10.6}%
-\contentsline {section}{\numberline {10.7}Punto de Vista de Capas}{186}{section.10.7}%
-\contentsline {chapter}{\numberline {11}Capa de Migración e Implementación}{189}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Introducción}{189}{section.11.1}%
-\contentsline {section}{\numberline {11.2}Punto de Vista de Proyecto}{190}{section.11.2}%
-\contentsline {section}{\numberline {11.3}Punto de Vista de Migración}{193}{section.11.3}%
-\contentsline {section}{\numberline {11.4}Punto de Vista de Migración e implementación}{194}{section.11.4}%
-\contentsline {part}{IV\hspace {1em}ANÁLISIS Y RESULTADOS}{197}{part.4}%
-\contentsline {chapter}{\numberline {12}Análisis}{198}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Resultados}{199}{chapter.13}%
+\contentsline {subsection}{\numberline {4.6.1}Agrupamiento BIRCH}{121}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Métricas para la validación del Clustering}{123}{subsection.4.6.2}%
+\contentsline {subsubsection}{Indice de Davies-Bouldien}{123}{section*.99}%
+\contentsline {subsubsection}{Coeficiente de silhouette}{124}{section*.100}%
+\contentsline {subsubsection}{Método del codo}{124}{section*.101}%
+\contentsline {subsection}{\numberline {4.6.3}Evaluación del modelo BIRCH}{125}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Interpretación de los resultados}{126}{subsection.4.6.4}%
+\contentsline {section}{\numberline {4.7}Fase 8: Retroalimentación medica }{127}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Fase 9: Bitácora para el diagnostico del cáncer de mama (BCDL) }{128}{section.4.8}%
+\contentsline {part}{III\hspace {1em}ARQUITECTURA Y DISEÑO}{129}{part.3}%
+\contentsline {chapter}{\numberline {5}Organización Empresarial}{130}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Misión}{130}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Visión}{130}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Objetivo}{131}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Actores,Roles y Funciones}{132}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Servicios}{133}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Capa de Motivación}{134}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introducción}{134}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Punto de Vista de Interesados}{135}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Punto de Vista de Realización de Objetivos}{137}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Punto de Vista de Contribución de Objetivos}{139}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Punto de Vista de Principios}{141}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Punto de Vista de Realización de Requerimientos }{142}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Punto de Vista de Motivación }{144}{section.6.7}%
+\contentsline {chapter}{\numberline {7}Capa de Estrategia}{146}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introducción}{146}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Punto de Vista de la Estrategia}{147}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Punto de Vista del Mapa de Capacidad}{149}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Punto de Vista de la Realización de Resultado}{151}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Punto de Vista de Mapa de Recurso}{153}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Capa de Negocio}{155}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introducción}{155}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Punto de Vista de la Organización}{156}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Punto de Vista de Cooperación de Actor}{158}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Punto de Vista de la Función de Negocio}{160}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Punto de Vista de Proceso de Negocio}{162}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Punto de Vista de Cooperación de Proceso de Negocio}{165}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Punto de Vista de Producto}{167}{section.8.7}%
+\contentsline {chapter}{\numberline {9}Capa de Aplicación}{170}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Introducción}{170}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Punto de Vista del Comportamiento de la Aplicación}{171}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Punto de Vista de Cooperación de Aplicación}{174}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Punto de Vista de la Estructura de la Aplicación}{176}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Punto de Vista del Uso de la Aplicación}{178}{section.9.5}%
+\contentsline {chapter}{\numberline {10}Capa de Tecnología}{179}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Introducción}{179}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Punto de Vista de la Infraestructura}{180}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Punto de Vista del Uso de la Infraestructura}{182}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Punto de Vista de Implementación y Organización}{184}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Punto de Vista de Estructura de la Información}{186}{section.10.5}%
+\contentsline {section}{\numberline {10.6}Punto de Vista de Realización del Servicio}{188}{section.10.6}%
+\contentsline {section}{\numberline {10.7}Punto de Vista de Capas}{190}{section.10.7}%
+\contentsline {chapter}{\numberline {11}Capa de Migración e Implementación}{193}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Introducción}{193}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Punto de Vista de Proyecto}{194}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Punto de Vista de Migración}{197}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Punto de Vista de Migración e implementación}{198}{section.11.4}%
+\contentsline {part}{IV\hspace {1em}ANÁLISIS Y RESULTADOS}{201}{part.4}%
+\contentsline {chapter}{\numberline {12}Análisis}{202}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Resultados}{203}{chapter.13}%

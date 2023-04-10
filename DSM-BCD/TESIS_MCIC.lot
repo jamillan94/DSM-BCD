@@ -2,16 +2,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Características de las metodologías en ciencia de datos.}}{53}{table.3.1}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Características de las metodologías en ciencia de datos.\relax }}{53}{table.caption.13}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).}}{72}{table.4.1}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Estadísticas del conjunto de datos crudos del carcinoma invasivo de mama (TCGA, Cell 2015).}}{77}{table.4.2}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Análisis parcial de datos crudos realizado en el conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).}}{78}{table.4.3}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Estadísticas de variables no relevantes.}}{85}{table.4.4}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Estadísticas de variables procesadas para el análisis descriptivo.}}{98}{table.4.5}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).}}{113}{table.4.6}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Análisis generando a partir de la correlación de Spearman.}}{115}{table.4.7}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Modelos Machine Learning para agrupamiento (Clustering).}}{118}{table.4.8}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{72}{table.caption.33}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Estadísticas del conjunto de datos crudos del carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{77}{table.caption.41}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Análisis parcial de datos crudos realizado en el conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{78}{table.caption.42}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Estadísticas de variables no relevantes.\relax }}{85}{table.caption.48}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Estadísticas de variables procesadas para el análisis descriptivo.\relax }}{98}{table.caption.58}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{113}{table.caption.88}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Análisis generando a partir de la correlación de Spearman.\relax }}{115}{table.caption.91}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Modelos Machine Learning para agrupamiento (Clustering).\relax }}{118}{table.caption.93}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Indice de Davies-Bouldien del modelo BIRCH.\relax }}{125}{table.caption.103}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

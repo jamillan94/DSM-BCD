@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  24 JAN 2023 17:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  9 APR 2023 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1044,242 +1044,24 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
 (Font)              `T1/SourceSansPro-TLF/regular/it' on input line 3.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
 (Font)              scaled to size 7.0pt on input line 3.
-<cup-logo-new.pdf, id=1, 75.1802pt x 16.73366pt>
-File: cup-logo-new.pdf Graphic file (type pdf)
-<use cup-logo-new.pdf>
-Package pdftex.def Info: cup-logo-new.pdf  used on input line 3.
-(pdftex.def)             Requested size: 73.97716pt x 16.46576pt.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/sb/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 3.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/semibold/n' will be
-(Font)              scaled to size 10.0pt on input line 3.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/sb/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 3.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/semibold/n' will be
-(Font)              scaled to size 17.28pt on input line 3.
-LaTeX Font Info:    Font shape `T1/fbb-TLF/m/n' will be
-(Font)              scaled to size 7.76001pt on input line 3.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 3.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/sb/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 3.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/semibold/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
- (C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-LaTeX Font Info:    Font shape `T1/fbb-TLF/m/n' will be
-(Font)              scaled to size 5.82pt on input line 3.
-LaTeX Font Info:    Font shape `T1/fbb-TLF/m/n' will be
-(Font)              scaled to size 4.85pt on input line 3.
-LaTeX Font Info:    Font shape `T1/fbb-TLF/m/it' will be
-(Font)              scaled to size 7.76001pt on input line 3.
-LaTeX Font Info:    Font shape `T1/fbb-TLF/m/it' will be
-(Font)              scaled to size 5.82pt on input line 3.
-LaTeX Font Info:    Font shape `T1/fbb-TLF/m/it' will be
-(Font)              scaled to size 4.85pt on input line 3.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 3.
 
+! I can't write on file `cancer-data-mining.pdf'.
+(Press Enter to retry, or Control-C to exit; default file extension is `.pdf')
+Please type another file name for output
+! Emergency stop.
+<argument> \pdfximage 
+                      \ifnum 0\ifx \Gin@decode \@empty \else 1\fi \ifGin@int...
+l.3 \end{abstract}
+                  
+*** (job aborted, file error in nonstop mode)
 
-(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/eulervm\uzeur.fd
-File: uzeur.fd 2005/01/11 v4.0 (WaS)
-)
-(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-eur.cfg
-File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
-)
-LaTeX Font Info:    Font shape `T1/fbb-TLF/m/n' will be
-(Font)              scaled to size 6.79001pt on input line 3.
-LaTeX Font Info:    Trying to load font information for TS1+fbb-TLF on input li
-ne 3.
-
-(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/fbb\ts1fbb-tlf.fd
-File: TS1fbb-TLF.fd 2015/08/23 (autoinst) Font definitions for TS1/fbb-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/fbb-TLF/m/n' will be
-(Font)              scaled to size 6.79001pt on input line 3.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `fbb-TLF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-Package mdframed Info: mdframed works in twoside mode on input line 3.
-LaTeX Font Info:    Font shape `T1/fbb-TLF/m/n' will be
-(Font)              scaled to size 8.73001pt on input line 3.
-LaTeX Font Info:    Font shape `T1/fbb-TLF/b/n' will be
-(Font)              scaled to size 7.76001pt on input line 3.
-LaTeX Font Info:    Font shape `T1/fbb-TLF/b/n' will be
-(Font)              scaled to size 9.70001pt on input line 3.
-LaTeX Font Info:    Font shape `T1/fbb-TLF/b/n' will be
-(Font)              scaled to size 8.73001pt on input line 3.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/sb/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 3.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/semibold/n' will be
-(Font)              scaled to size 9.0pt on input line 3.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 3.
- [1{C:/Users/jamil/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
-
-
- <./cup-logo-new.pdf>]
-LaTeX Font Info:    Font shape `T1/fbb-TLF/m/it' will be
-(Font)              scaled to size 9.70001pt on input line 19.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 29.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 29.
-
-[2] [3] [4] [5]
-Overfull \hbox (4.11732pt too wide) in paragraph at lines 43--44
-[]\T1/fbb-TLF/m/n/10 (-20) [[]] pro-pusieron un con-junto de datos de-nom-i-nad
-o SHIDC-
- []
-
-(ARTICULO/Fase_1_Dominio.tex
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/sb/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/semibold/it' on input line 1.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/semibold/it' will be
-(Font)              scaled to size 10.0pt on input line 1.
-LaTeX Font Info:    Trying to load font information for U+ding on input line 5.
-
-
-(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/bbding\uding.fd
-File: Uding.fd 1996/02/01 v1.0 BBding font definitions
-)
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/ding/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 5.
-LaTeX Font Info:    Font shape `T1/fbb-TLF/b/it' will be
-(Font)              scaled to size 9.70001pt on input line 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-) (ARTICULO/Fase_2_Seleccion.tex [6]
-<IMAGENES/WORD_CLOUD.png, id=37, 277.035pt x 204.765pt>
-File: IMAGENES/WORD_CLOUD.png Graphic file (type png)
-<use IMAGENES/WORD_CLOUD.png>
-Package pdftex.def Info: IMAGENES/WORD_CLOUD.png  used on input line 26.
-(pdftex.def)             Requested size: 208.149pt x 153.84831pt.
-
-Overfull \hbox (3.82451pt too wide) in paragraph at lines 34--135
- [] 
- []
-
-
-LaTeX Warning: Float too large for page by 23.85223pt on input line 135.
-
-[7 <./IMAGENES/WORD_CLOUD.png>]
-<IMAGENES/BREAST_CLOCK_POSITION.pdf, id=44, 374.39874pt x 191.71625pt>
-File: IMAGENES/BREAST_CLOCK_POSITION.pdf Graphic file (type pdf)
-<use IMAGENES/BREAST_CLOCK_POSITION.pdf>
-Package pdftex.def Info: IMAGENES/BREAST_CLOCK_POSITION.pdf  used on input line
- 143.
-(pdftex.def)             Requested size: 247.79752pt x 126.89pt.
-<IMAGENES/EDA_BREAST.png, id=45, 870.25125pt x 1120.185pt>
-File: IMAGENES/EDA_BREAST.png Graphic file (type png)
-<use IMAGENES/EDA_BREAST.png>
-Package pdftex.def Info: IMAGENES/EDA_BREAST.png  used on input line 153.
-(pdftex.def)             Requested size: 247.79752pt x 318.96547pt.
-) (ARTICULO/Fase_3_Limpieza.tex
-<IMAGENES/MISSING_DATA.png, id=46, 374.14781pt x 355.3275pt>
-File: IMAGENES/MISSING_DATA.png Graphic file (type png)
-<use IMAGENES/MISSING_DATA.png>
-Package pdftex.def Info: IMAGENES/MISSING_DATA.png  used on input line 7.
-(pdftex.def)             Requested size: 223.01625pt x 211.79929pt.
-)
-(ARTICULO/Fase_4_Transformacion.tex) (ARTICULO/Fase_5_Mineria.tex [8 <./IMAGENE
-S/BREAST_CLOCK_POSITION.pdf> <./IMAGENES/EDA_BREAST.png> <./IMAGENES/MISSING_DA
-TA.png>]
-<IMAGENES/Tsne.png, id=89, 578.91281pt x 464.4853pt>
-File: IMAGENES/Tsne.png Graphic file (type png)
-<use IMAGENES/Tsne.png>
-Package pdftex.def Info: IMAGENES/Tsne.png  used on input line 17.
-(pdftex.def)             Requested size: 247.79752pt x 198.8176pt.
-<IMAGENES/Distance.png, id=90, 278.54062pt x 200.24812pt>
-File: IMAGENES/Distance.png Graphic file (type png)
-<use IMAGENES/Distance.png>
-Package pdftex.def Info: IMAGENES/Distance.png  used on input line 27.
-(pdftex.def)             Requested size: 247.79752pt x 178.15pt.
-) (ARTICULO/Fase_6_Evaluacion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-[9 <./IMAGENES/Tsne.png> <./IMAGENES/Distance.png>]
-<IMAGENES/Silhouette.png, id=97, 292.09125pt x 207.02344pt>
-File: IMAGENES/Silhouette.png Graphic file (type png)
-<use IMAGENES/Silhouette.png>
-Package pdftex.def Info: IMAGENES/Silhouette.png  used on input line 28.
-(pdftex.def)             Requested size: 247.79752pt x 175.6359pt.
-<IMAGENES/Elbow.png, id=98, 298.86656pt x 207.02344pt>
-File: IMAGENES/Elbow.png Graphic file (type png)
-<use IMAGENES/Elbow.png>
-Package pdftex.def Info: IMAGENES/Elbow.png  used on input line 44.
-(pdftex.def)             Requested size: 247.79752pt x 171.64934pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<IMAGENES/Distribucion_Total.png, id=99, 1221.06187pt x 2418.03375pt>
-File: IMAGENES/Distribucion_Total.png Graphic file (type png)
-<use IMAGENES/Distribucion_Total.png>
-Package pdftex.def Info: IMAGENES/Distribucion_Total.png  used on input line 54
-.
-(pdftex.def)             Requested size: 247.79752pt x 490.68225pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [10 <./IMAGENES/Silhouette.png> <./IMAGENES/Elbow.png>])
-Underfull \vbox (badness 1577) has occurred while \output is active []
-
-
-(cancer-data-mining.bbl [11 <./IMAGENES/Distribucion_Total.png>])
-
-AED: lastpage setting LastPage
-[12
-
-] (cancer-data-mining.aux) ) 
+ 
 Here is how much of TeX's memory you used:
- 17878 strings out of 478552
- 359839 string characters out of 2851753
- 680067 words of memory out of 3000000
- 35361 multiletter control sequences out of 15000+600000
- 684549 words of font info for 321 fonts, out of 8000000 for 9000
+ 16839 strings out of 478552
+ 336055 string characters out of 2851753
+ 644067 words of memory out of 3000000
+ 34793 multiletter control sequences out of 15000+600000
+ 504290 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,14n,131p,4193b,940s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/jamil/AppData/Roaming/MiKTeX/fonts/enc/dv
-ips/fbb/fbb_jc4ywh.enc} <C:\Users\jamil\AppData\Local\MiKTeX\fonts/pk/ljfour/pu
-blic/bbding/dpi600\bbding10.pk>{C:/Users/jamil/AppData/Roaming/MiKTeX/fonts/enc
-/dvips/sourcesanspro/a_emkxm5.enc}{C:/Users/jamil/AppData/Roaming/MiKTeX/fonts/
-enc/dvips/fbb/fbb_ivhnor.enc}{C:/Users/jamil/AppData/Roaming/MiKTeX/fonts/enc/d
-vips/fbb/fbb_4zjlsx.enc}<C:/Users/jamil/AppData/Roaming/MiKTeX/fonts/type1/adob
-e/sourcesanspro/SourceSansPro-It.pfb><C:/Users/jamil/AppData/Roaming/MiKTeX/fon
-ts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb><C:/Users/jamil/AppData/
-Roaming/MiKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb><C:/U
-sers/jamil/AppData/Roaming/MiKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro
--SemiboldIt.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.
-pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/jamil/A
-ppData/Roaming/MiKTeX/fonts/type1/public/fbb/fbb-Bold.pfb><C:/Users/jamil/AppDa
-ta/Roaming/MiKTeX/fonts/type1/public/fbb/fbb-BoldItalic.pfb><C:/Users/jamil/App
-Data/Roaming/MiKTeX/fonts/type1/public/fbb/fbb-Italic.pfb><C:/Users/jamil/AppDa
-ta/Roaming/MiKTeX/fonts/type1/public/fbb/fbb-Regular.pfb>
-Output written on cancer-data-mining.pdf (12 pages, 842182 bytes).
-PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 88115 words of extra memory for PDF output out of 89155 (max. 10000000)
-
+ 88i,5n,131p,1687b,511s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

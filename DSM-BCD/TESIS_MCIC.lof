@@ -3,56 +3,61 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Metodología en ciencia de datos para el diagnóstico del cáncer de mama (DSM-BCD)}}{62}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Breast Cancer Question Map (BCQM). Aplicado a tipos de cáncer \textit {Inflamatorio (IBC)}, \textit {mucinoso (MBC)}, \textit {Lobulillar (LBC)}, \textit {Tumores mixtos (MTBC)}, \textit {Carcinoma ductal invasivo (IDC)} y \textit {Carcinoma ductal in situ (DCIS)}}}{64}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces BCQM generado para el caso de estudio.}}{66}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Aspiración con aguja fina\cite {FNB}.}}{67}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Biopsia con aguja gruesa\cite {CNB}.}}{67}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Conformación del Data Analysis Team. }}{69}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Planeación de actividades realizada por el Data Analysis Team. }}{69}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Planeación de actividades realizada por el Data Analysis Team. }}{70}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Datos perdidos expresados en una gráfica de barras.}}{82}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Datos perdidos expresados en un mapa espectral.}}{83}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Datos imputados expresados en un mapa espectral.}}{97}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Coeficiente de correlación de Spearman para el conjunto de datos “Breast Invasive Carcinoma (TCGA, Cell 2015)”}}{114}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Modelos Clustering aplicados al conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015). }}{118}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Mapas de distancia entre clusters de los modelos aplicados al conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).}}{120}{figure.4.14}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Metodología en ciencia de datos para el diagnóstico del cáncer de mama (DSM-BCD)\relax }}{62}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Breast Cancer Question Map (BCQM). Aplicado a tipos de cáncer \textit {Inflamatorio (IBC)}, \textit {mucinoso (MBC)}, \textit {Lobulillar (LBC)}, \textit {Tumores mixtos (MTBC)}, \textit {Carcinoma ductal invasivo (IDC)} y \textit {Carcinoma ductal in situ (DCIS)}\relax }}{64}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces BCQM generado para el caso de estudio.\relax }}{66}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Aspiración con aguja fina\cite {FNB}.\relax }}{67}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Biopsia con aguja gruesa\cite {CNB}.\relax }}{67}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Conformación del Data Analysis Team. \relax }}{69}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Planeación de actividades realizada por el Data Analysis Team. \relax }}{69}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Planeación de actividades realizada por el Data Analysis Team. \relax }}{70}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Datos perdidos expresados en una gráfica de barras.\relax }}{82}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Datos perdidos expresados en un mapa espectral.\relax }}{83}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Datos imputados expresados en un mapa espectral.\relax }}{97}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Coeficiente de correlación de Spearman para el conjunto de datos “Breast Invasive Carcinoma (TCGA, Cell 2015)”\relax }}{114}{figure.caption.89}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Modelos Clustering aplicados al conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{118}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Mapas de distancia entre clusters de los modelos aplicados al conjunto de datos del carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{120}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces T-SNE generado por el modelo BIRCH.\relax }}{122}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces PCA generado por el modelo BIRCH.\relax }}{122}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Métricas de validación internas modelo de agrupamiento BIRCH\relax }}{125}{figure.caption.104}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de Silhouette}}}{125}{subfigure.17.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Método del codo}}}{125}{subfigure.17.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Jerarquía del Área de Investigación de análisis de datos}}{127}{figure.5.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Jerarquía del Área de Investigación de análisis de datos\relax }}{132}{figure.caption.105}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Punto de Vista de Interesados}}{130}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Punto de Vista de Realización de Objetivos}}{132}{figure.6.2}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Punto de Vista de Contribución de Objetivos}}{134}{figure.6.3}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Punto de Vista de Principios}}{136}{figure.6.4}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Punto de Vista de Realización de Requerimientos}}{137}{figure.6.5}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Punto de Vista de Motivación}}{139}{figure.6.6}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Punto de Vista de Interesados\relax }}{135}{figure.caption.106}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Punto de Vista de Realización de Objetivos\relax }}{137}{figure.caption.107}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Punto de Vista de Contribución de Objetivos\relax }}{139}{figure.caption.108}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Punto de Vista de Principios\relax }}{141}{figure.caption.109}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Punto de Vista de Realización de Requerimientos\relax }}{142}{figure.caption.110}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Punto de Vista de Motivación\relax }}{144}{figure.caption.111}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Punto de Vista de la Estrategia}}{142}{figure.7.1}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Punto de Vista del Mapa de Capacidad}}{144}{figure.7.2}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Punto de Vista de la Realización de Resultado}}{146}{figure.7.3}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Punto de Vista de Mapa de Recurso}}{148}{figure.7.4}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Punto de Vista de la Estrategia\relax }}{147}{figure.caption.112}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Punto de Vista del Mapa de Capacidad\relax }}{149}{figure.caption.113}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Punto de Vista de la Realización de Resultado\relax }}{151}{figure.caption.114}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Punto de Vista de Mapa de Recurso\relax }}{153}{figure.caption.115}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Punto de Vista de la Organización}}{151}{figure.8.1}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Punto de Vista de Cooperación de Actor}}{153}{figure.8.2}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Punto de Vista de la Función del negocio}}{155}{figure.8.3}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Punto de Vista del proceso del negocio}}{157}{figure.8.4}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Punto de Vista de Cooperación de Proceso de Negocio}}{160}{figure.8.5}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Punto de Vista de Producto}}{162}{figure.8.6}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Punto de Vista de la Organización\relax }}{156}{figure.caption.116}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Punto de Vista de Cooperación de Actor\relax }}{158}{figure.caption.117}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Punto de Vista de la Función del negocio\relax }}{160}{figure.caption.118}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Punto de Vista del proceso del negocio\relax }}{162}{figure.caption.119}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Punto de Vista de Cooperación de Proceso de Negocio\relax }}{165}{figure.caption.120}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Punto de Vista de Producto\relax }}{167}{figure.caption.121}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Punto de Vista del Comportamiento de la Aplicación}}{166}{figure.9.1}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Punto de Vista de Cooperación de la Aplicación}}{169}{figure.9.2}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Punto de Vista de la Estructura de la Aplicación}}{171}{figure.9.3}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Punto de Vista del uso de la Aplicación}}{173}{figure.9.4}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Punto de Vista del Comportamiento de la Aplicación\relax }}{171}{figure.caption.122}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Punto de Vista de Cooperación de la Aplicación\relax }}{174}{figure.caption.123}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Punto de Vista de la Estructura de la Aplicación\relax }}{176}{figure.caption.124}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Punto de Vista del uso de la Aplicación\relax }}{178}{figure.caption.125}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Punto de Vista de la Infraestructura}}{176}{figure.10.1}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Punto de Vista del Uso de la Infraestructura}}{178}{figure.10.2}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Punto de Vista de Implementación y Organización}}{180}{figure.10.3}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Punto de Vista de Estructura de Información}}{182}{figure.10.4}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Punto de Vista de Realización de Servicio}}{184}{figure.10.5}%
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Punto de Vista de Capas}}{186}{figure.10.6}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Punto de Vista de la Infraestructura\relax }}{180}{figure.caption.126}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Punto de Vista del Uso de la Infraestructura\relax }}{182}{figure.caption.127}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Punto de Vista de Implementación y Organización\relax }}{184}{figure.caption.128}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Punto de Vista de Estructura de Información\relax }}{186}{figure.caption.129}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Punto de Vista de Realización de Servicio\relax }}{188}{figure.caption.130}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Punto de Vista de Capas\relax }}{190}{figure.caption.131}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Punto de Vista de Proyecto}}{190}{figure.11.1}%
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Punto de Vista de Migración}}{193}{figure.11.2}%
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Punto de Vista de Migración e Implementación}}{194}{figure.11.3}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Punto de Vista de Proyecto\relax }}{194}{figure.caption.132}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Punto de Vista de Migración\relax }}{197}{figure.caption.133}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Punto de Vista de Migración e Implementación\relax }}{198}{figure.caption.134}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

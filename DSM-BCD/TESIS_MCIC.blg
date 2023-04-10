@@ -53,51 +53,53 @@ Warning--entry type for "CNB" isn't style-file defined
 --line 2395 of file REFERENCIAS/articulos.bib
 Warning--entry type for "Susan" isn't style-file defined
 --line 2407 of file REFERENCIAS/articulos.bib
+Warning--entry type for "Elizabeth2023" isn't style-file defined
+--line 2499 of file REFERENCIAS/articulos.bib
 Warning--can't use both author and editor fields in Brunicardi2010
 Warning--empty booktitle in Safhi2019
 Warning--empty journal in Pacheco2014
 Warning--there's a number but no volume in Shen2019
 Warning--empty author in Turin2020
 Warning--empty publisher in ArchiMate3.0.1
-You've used 80 entries,
+You've used 84 entries,
             1791 wiz_defined-function locations,
-            966 strings with 27653 characters,
-and the built_in function-call counts, 22941 in all, are:
-= -- 1394
-> -- 2312
+            989 strings with 28156 characters,
+and the built_in function-call counts, 23588 in all, are:
+= -- 1446
+> -- 2342
 < -- 9
-+ -- 805
-- -- 725
-* -- 2086
-:= -- 4190
-add.period$ -- 232
-call.type$ -- 80
-change.case$ -- 74
++ -- 817
+- -- 733
+* -- 2118
+:= -- 4300
+add.period$ -- 243
+call.type$ -- 84
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 86
-duplicate$ -- 719
-empty$ -- 1608
-format.name$ -- 725
-if$ -- 4625
+cite$ -- 90
+duplicate$ -- 749
+empty$ -- 1677
+format.name$ -- 733
+if$ -- 4768
 int.to.chr$ -- 0
-int.to.str$ -- 80
-missing$ -- 78
-newline$ -- 392
-num.names$ -- 79
-pop$ -- 218
+int.to.str$ -- 84
+missing$ -- 81
+newline$ -- 411
+num.names$ -- 83
+pop$ -- 232
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 330
+skip$ -- 343
 stack$ -- 0
-substring$ -- 888
-swap$ -- 127
+substring$ -- 909
+swap$ -- 131
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 150
-width$ -- 82
-write$ -- 831
+while$ -- 155
+width$ -- 86
+write$ -- 870
 (There was 1 error message)

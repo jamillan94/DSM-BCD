@@ -9,11 +9,11 @@ Dado lo anterior, en la tabla \ref{Clustering_Models} se observan los algoritmos
 \\\\
 En este caso se realizó el análisis con base al agrupamiento de la totalidad de datos conformado por $818$ filas y $41$ columnas. Simultáneamente, para optimizar el modelo se utilizo el $95\%$ de los datos para el entrenamiento y el $5\%$ de datos restante para comprobar la precisión del agrupamiento y así poder de analizar los clusters generados. Cabe resaltar, que para la creación, entrenamiento y prueba del modelo se utilizo una maquina equipada con un procesador Intel Core i7-11370H de 11th generación con una frecuencia de 3.30 GHz-4.9 GHz , una tarjeta NVIDIA GeForce RTX 3050, un disco duro SSD Samsung con una velocidad de lectura de  7,000 MB/s y 48GB de memoria RAM. 
 
-Para obtener el modelo de agrupamiento mas adecuado, se utilizaron la métricas de validación interna basadas en el índice de \textit{Davies-Bouldin} y el \textit{Coeficiente de silhouette}. Ademas, también se valido la cantidad de clusters generados para evaluar la eficacia en el agrupamiento de los datos. El resultado de este análisis puede ser observado en la figura \ref{TSNE}, la cual fue generada con el método T-SNE \footnote{T-distributed Stochastic Neighbor Embedding}, el cual genera una distribución de probabilidad que representa las similitudes entre vecinos en un espacio de gran dimensión y en un espacio de menor dimensión. 
+Para obtener el modelo de agrupamiento mas adecuado, se utilizaron la métricas de validación interna basadas en el índice de \textit{Davies-Bouldin} y el \textit{Coeficiente de silhouette}. Ademas, también se valido la cantidad de clusters generados para evaluar la eficacia en el agrupamiento de los datos. El resultado de este análisis puede ser observado en la figura \ref{TSNE}, la cual fue generada con el método T-SNE \footnote{T-SNE: T-distributed Stochastic Neighbor Embedding}, el cual genera una distribución de probabilidad que representa las similitudes entre vecinos en un espacio de gran dimensión y en un espacio de menor dimensión. 
 
 Llegados a este punto, los modelos de agrupación \textit{Espectral(Spectral)} y \textit{Desplazamiento medio(Mean Shift)}  fueron los que presentaron un mayor valor en el coeficiente de Silhouette y un menor valor en el indice da Davies-Bouldin, respectivamente. Sin embargo al observar en la gráfica T-SNE del modelo de agrupación \textit{Espectral}, se pueden identificar 2 clusters, en donde el Cluster 0 abarca aproximadamente el 99\% del espacio con respecto al Cluster 1, por lo que en no existe una cohesión ni una separación clara de los datos. De la misma manera, el modelo de \textit{desplazamiento medio} presenta un comportamiento similar que aunque no se observa la gráfica T-SNE puede ser comprobado en la figura \ref{distance} que representa la distancia entre clusters con respecto a la posición inicial.
 
-Finalmente, el modelo seleccionado para analizar el comportamiento de conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015), fue el de \textit{agrupación BIRCH}, ya que no solo genero un coeficiente de silhouette  y un indice de Davies-Bouldin congruente sino también al validar la gráfica T-SNE se visualiza que los clusters presentan una metrica de cohesión y separación idónea.
+Finalmente, el modelo seleccionado para analizar el comportamiento de conjunto de datos del carcinoma invasivo de mama (TCGA, Cell 2015), fue el de \textit{agrupación BIRCH}, ya que no solo genero un coeficiente de silhouette  y un indice de Davies-Bouldin congruente sino también al validar la gráfica T-SNE se visualiza que los clusters presentan una metrica de cohesión y separación idónea.
 
 \begin{table*} [!htb]
 	\footnotesize
@@ -43,7 +43,7 @@ Finalmente, el modelo seleccionado para analizar el comportamiento de conjunto d
 \begin{figure} 
 	\setlength\tabcolsep{3pt}%%
 	\centering
-	\caption{Modelos Clustering aplicados al conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015). }
+	\caption{Modelos Clustering aplicados al conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).}
 	\label{TSNE}
 	\begin{tabular}{|c|c|}
 		\hline
@@ -89,7 +89,7 @@ Finalmente, el modelo seleccionado para analizar el comportamiento de conjunto d
 \begin{figure} 
 	\setlength\tabcolsep{3pt}%%
 	\centering
-	\caption{Mapas de distancia entre clusters de los modelos aplicados al conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).}
+	\caption{Mapas de distancia entre clusters de los modelos aplicados al conjunto de datos del carcinoma invasivo de mama (TCGA, Cell 2015).}
 	\label{distance}
 	\begin{tabular}{|c|c|}
 		\hline

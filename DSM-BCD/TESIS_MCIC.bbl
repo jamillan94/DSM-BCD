@@ -548,6 +548,25 @@ Liyuan Ke, Su~Li, and Hongxia Cui.
   cancer: a systematic review and meta-analysis.
 \newblock {\em BMC Cancer}, 22:1--12, 12 2022.
 
+\bibitem{Zhang1996}
+Tian Zhang, Raghu Ramakrishnan, and Miron Livny.
+\newblock Birch.
+\newblock {\em ACM SIGMOD Record}, 25:103--114, 6 1996.
+
+\bibitem{Elizabeth2023}
+Elizabeth~León Guzmán.
+\newblock Métricas para la validación de clustering, 2023.
+
+\bibitem{Ramirez2018}
+Jonathan Ramirez.
+\newblock K-means: Elbow method and silhouette.
+\newblock {\em Medium}, 2018.
+
+\bibitem{Moya2022}
+Ricardo Moya, Ramón Invarato, and Dionisio Cortes.
+\newblock Machine learning (en python), con ejemplos.
+\newblock {\em Jarroba}, 2022.
+
 \bibitem{BolanosCastro2019}
 Sandro~Javier {Bola{\~{n}}os Castro}, Maddyzeth {Ariza RIa{\~{n}}o}, and
   Heiner~Santiago {Alfonso Casallas}.
