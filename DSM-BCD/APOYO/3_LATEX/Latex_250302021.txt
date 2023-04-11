@@ -1,7 +1,0 @@
-https://tex.stackexchange.com/questions/112343/beautiful-table-samples
-
-\log _{10} 3
-http://elclubdelautodidacta.es/wp/2012/07/latex-notacion-relacionada-con-los-conjuntos/
-
-https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes#:~:text=The%20command%20you%20need%20is,footnote%7BAn%20example%20footnote.%7D
-
