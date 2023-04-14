@@ -103,6 +103,113 @@ Con base a las métricas de validación internas aplicadas al modelo BIRCH, se o
 \clearpage
 %-------------------------------------------
 \subsection{Interpretación de los resultados}
+Con base a los 4 \textit{clusters} generados por el modelo \textit{BIRCH}, se procedió a identificar las características de origen genómico compartidas por 818 pacientes para analizar su comportamiento y así dar respuesta a las preguntas generadas en el BCQM. Dado lo anterior, se genero un análisis diagnostico para determinar las causas de las tendencias y las correlaciones de dichas variables con los tipos de cáncer de mama Lobulillar Invasivo (LBC), Ductal Invasivo (IDC) y Tumores Mixtos (MTBC). Se debe agregar que los clusters están conformados por 41 variables distribuidas en 9 variables numéricas y 33 variables categóricas, en donde el \textit{Cluster 0} agrupo 615 pacientes, el \textit{Cluster 1} agrupo 180 pacientes, el \textit{Cluster 2} agrupo 1 paciente y el \textit{Cluster 3} agrupo 22 pacientes. Los detalles de lo agrupación de los clusters por variable se pueden observar en la tabla \ref{clusters}:
+\begin{table}[!htb]
+	\begin{center} 
+		\begin{tabular}{ |c|c|c|c| }
+         \hline 
+         \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/1} 
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/2} 
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/3}
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/4} 
+         \\  \hline 
+         \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/5} 
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/41} 
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/7} 
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/8} 
+         \\  \hline 
+         \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/9} 
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/10} 
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/11} 
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/12} 
+         \\  \hline 
+         \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/13} 
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/14} 
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/15} 
+         & \includegraphics[width=0.21\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/16} 
+         \\  \hline    
+		\end{tabular} 
+	\end{center} 
+\end{table}
 
+\begin{table}
+	\begin{center} 
+		\begin{tabular}{ |c|c|c|c| }
+			\hline 
+			\includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/17} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/18} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/19} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/20} 
+			\\  \hline
+			\includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/21} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/22} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/23} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/24} 
+			\\  \hline 
+			\includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/25} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/26} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/27} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/28}
+			\\  \hline 
+			\includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/29} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/30} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/31} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/32}
+			\\  \hline 
+			\includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/33} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/34} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/35} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/36}         
+			\\  \hline
+			\includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/37} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/38} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/39} 
+			& \includegraphics[width=0.22\textwidth]{NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/40} 
+			\\  \hline                  
+		\end{tabular} 
+			\caption{Clusters con características genómicas de 818 pacientes.}
+			\label{clusters}
+	\end{center} 
+\end{table}
+\break
+Una vez analizados los resultados obtenidos, se observa que en los \textit {Cluster 0, 1 y 2} el Carcinoma  Ductal Invasivo (IDC) es predominante en la mayoría de los pacientes, sin embargo esta tendencia cambio en el \textit{Cluster 3} en donde el Carcinoma Lobulillar Invasivo (LBC) se presento en la mayoría de los pacientes, tal y como se puede observar en la tabla \ref{carcinoma_cluster}. 
+\begin{table}[!htb]
+	\begin{center} 
+		\begin{tabular}{ |c|c| }
+			\hline 
+		      \includegraphics[width=.5\textwidth]{NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_0_oncotree_code} 
+			& \includegraphics[width=.5\textwidth]{NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_1_oncotree_code} 
+			\\  \hline
+			  \includegraphics[width=.5\textwidth]{NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_2_oncotree_code} 
+			& \includegraphics[width=.5\textwidth]{NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_3_oncotree_code} 
+			\\  \hline            
+		\end{tabular} 
+		\caption{Clusters por tipo de carcinoma de mama.}
+		\label{carcinoma_cluster}
+	\end{center} 
+\end{table}
+
+Hay que mencionar que para poder determinar los atributos característicos se compararon las 41 variables de origen genómico de los 4 clusters. Se obtuvo como resultado, que 30 variables no presentaron cambio en ninguno de los clusters con respecto al análisis descriptivo realizado en las fases previas, sin embargo 11 variables presentaron diferencias en el \textit{Cluster 3} con respecto a los demás clusters, permitiéndonos identificar atributos genómicos inherentes del Carcinoma Lobulillar Invasivo (LBC) con respecto al Carcinoma Ductal Invasivo (IDC). Llegados a este punto se infiere, según el comportamiento de los datos, las siguientes apreciaciones:
+\begin{table*}[htb!]
+	\footnotesize
+	\begin{threeparttable}
+		\begin{tabular}{p{2.5cm} p{7cm} p{6.5cm}} \toprule
+			\begin{center}Variable\end{center}   	 
+			&\begin{center}Análisis descriptivo\end{center}             
+			&\begin{center}Gráfico estadístico\end{center}\\ \hline
+			%------------------------------------------------------	
+			Diagnosis Age
+			& La \textit{edad de diagnostico} del cáncer de mama tiene una tendencia central de 59 años, en donde la edad mínima presentada es de  26 años y la edad máxima presentada es de 90 años.
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/1_diagnosis_age}\end{center}
+			\\ \hline
+			%------------------------------------------------------	
+			AJCC Metastasis Stage Code 
+			& El código AJCC para la \textit{estadificación metastásica(M) del cáncer} se visualiza en orden descendente de la siguiente manera: En primer lugar, el código \textit{m0} se presenta en 707 pacientes en donde el cáncer hizo metástasis pero no se  disemino a otras partes del cuerpo. En segundo lugar se encuentra el código \textit{mx} presentado en 96 pacientes a los cuales no fue posible medir la metástasis. En tercer lugar se encuentra el código \textit{m1} presentado en 13 pacientes en donde el cáncer se diseminó a otras partes del cuerpo. En ultimo lugar se encuentra el código \textit{cM0(i+)} presentado en 2 pacientes en los cuales no se detecto evidencia de metástasis a distancia, pero hubo un pequeño número de células en las cuales se encontró una metástasis diminuta (no mayor de 0.2 mm) detectada en ganglios linfáticos no regionales \cite{NCI}.
+			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_DESCRIPTIVAS/2_metastasis_stage_code}\end{center}
+			\\ \hline
+		\end{tabular}
+	\end{threeparttable}
+\end{table*}
+\clearpage
 
 
