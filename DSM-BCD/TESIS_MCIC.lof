@@ -4,7 +4,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Metodología en ciencia de datos para el diagnóstico del cáncer de mama (DSM-BCD)\relax }}{62}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Breast Cancer Question Map (BCQM). Aplicado a tipos de cáncer \textit {Inflamatorio (IBC)}, \textit {mucinoso (MBC)}, \textit {Lobulillar (LBC)}, \textit {Tumores mixtos (MTBC)}, \textit {Carcinoma ductal invasivo (IDC)} y \textit {Carcinoma ductal in situ (DCIS)}\relax }}{64}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Breast Cancer Question Map (BCQM). Aplicado a tipos de cáncer \textit {Inflamatorio (IBC)}, \textit {mucinoso (MBC)}, \textit {Lobulillar (ILC)}, \textit {Tumores mixtos (MDLC)}, \textit {Carcinoma ductal invasivo (IDC)} y \textit {Carcinoma ductal in situ (DCIS)}\relax }}{64}{figure.caption.25}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces BCQM generado para el caso de estudio.\relax }}{66}{figure.caption.26}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Aspiración con aguja fina\cite {FNB}.\relax }}{67}{figure.caption.27}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Biopsia con aguja gruesa\cite {CNB}.\relax }}{67}{figure.caption.28}%
@@ -23,41 +23,41 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de Silhouette}}}{125}{subfigure.17.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Método del codo}}}{125}{subfigure.17.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Jerarquía del Área de Investigación de análisis de datos\relax }}{135}{figure.caption.110}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Jerarquía del Área de Investigación de análisis de datos\relax }}{139}{figure.caption.118}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Punto de Vista de Interesados\relax }}{138}{figure.caption.111}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Punto de Vista de Realización de Objetivos\relax }}{140}{figure.caption.112}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Punto de Vista de Contribución de Objetivos\relax }}{142}{figure.caption.113}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Punto de Vista de Principios\relax }}{144}{figure.caption.114}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Punto de Vista de Realización de Requerimientos\relax }}{145}{figure.caption.115}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Punto de Vista de Motivación\relax }}{147}{figure.caption.116}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Punto de Vista de Interesados\relax }}{142}{figure.caption.119}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Punto de Vista de Realización de Objetivos\relax }}{144}{figure.caption.120}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Punto de Vista de Contribución de Objetivos\relax }}{146}{figure.caption.121}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Punto de Vista de Principios\relax }}{148}{figure.caption.122}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Punto de Vista de Realización de Requerimientos\relax }}{149}{figure.caption.123}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Punto de Vista de Motivación\relax }}{151}{figure.caption.124}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Punto de Vista de la Estrategia\relax }}{150}{figure.caption.117}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Punto de Vista del Mapa de Capacidad\relax }}{152}{figure.caption.118}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Punto de Vista de la Realización de Resultado\relax }}{154}{figure.caption.119}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Punto de Vista de Mapa de Recurso\relax }}{156}{figure.caption.120}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Punto de Vista de la Estrategia\relax }}{154}{figure.caption.125}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Punto de Vista del Mapa de Capacidad\relax }}{156}{figure.caption.126}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Punto de Vista de la Realización de Resultado\relax }}{158}{figure.caption.127}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Punto de Vista de Mapa de Recurso\relax }}{160}{figure.caption.128}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Punto de Vista de la Organización\relax }}{159}{figure.caption.121}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Punto de Vista de Cooperación de Actor\relax }}{161}{figure.caption.122}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Punto de Vista de la Función del negocio\relax }}{163}{figure.caption.123}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Punto de Vista del proceso del negocio\relax }}{165}{figure.caption.124}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Punto de Vista de Cooperación de Proceso de Negocio\relax }}{168}{figure.caption.125}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Punto de Vista de Producto\relax }}{170}{figure.caption.126}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Punto de Vista de la Organización\relax }}{163}{figure.caption.129}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Punto de Vista de Cooperación de Actor\relax }}{165}{figure.caption.130}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Punto de Vista de la Función del negocio\relax }}{167}{figure.caption.131}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Punto de Vista del proceso del negocio\relax }}{169}{figure.caption.132}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Punto de Vista de Cooperación de Proceso de Negocio\relax }}{172}{figure.caption.133}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Punto de Vista de Producto\relax }}{174}{figure.caption.134}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Punto de Vista del Comportamiento de la Aplicación\relax }}{174}{figure.caption.127}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Punto de Vista de Cooperación de la Aplicación\relax }}{177}{figure.caption.128}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Punto de Vista de la Estructura de la Aplicación\relax }}{179}{figure.caption.129}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Punto de Vista del uso de la Aplicación\relax }}{181}{figure.caption.130}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Punto de Vista del Comportamiento de la Aplicación\relax }}{178}{figure.caption.135}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Punto de Vista de Cooperación de la Aplicación\relax }}{181}{figure.caption.136}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Punto de Vista de la Estructura de la Aplicación\relax }}{183}{figure.caption.137}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Punto de Vista del uso de la Aplicación\relax }}{185}{figure.caption.138}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Punto de Vista de la Infraestructura\relax }}{183}{figure.caption.131}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Punto de Vista del Uso de la Infraestructura\relax }}{185}{figure.caption.132}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Punto de Vista de Implementación y Organización\relax }}{187}{figure.caption.133}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Punto de Vista de Estructura de Información\relax }}{189}{figure.caption.134}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Punto de Vista de Realización de Servicio\relax }}{191}{figure.caption.135}%
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Punto de Vista de Capas\relax }}{193}{figure.caption.136}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Punto de Vista de la Infraestructura\relax }}{187}{figure.caption.139}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Punto de Vista del Uso de la Infraestructura\relax }}{189}{figure.caption.140}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Punto de Vista de Implementación y Organización\relax }}{191}{figure.caption.141}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Punto de Vista de Estructura de Información\relax }}{193}{figure.caption.142}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Punto de Vista de Realización de Servicio\relax }}{195}{figure.caption.143}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Punto de Vista de Capas\relax }}{197}{figure.caption.144}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Punto de Vista de Proyecto\relax }}{197}{figure.caption.137}%
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Punto de Vista de Migración\relax }}{200}{figure.caption.138}%
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Punto de Vista de Migración e Implementación\relax }}{201}{figure.caption.139}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Punto de Vista de Proyecto\relax }}{201}{figure.caption.145}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Punto de Vista de Migración\relax }}{204}{figure.caption.146}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Punto de Vista de Migración e Implementación\relax }}{205}{figure.caption.147}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
