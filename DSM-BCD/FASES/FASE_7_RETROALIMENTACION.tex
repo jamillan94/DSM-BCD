@@ -1,2 +1,100 @@
 \section{Fase 8: Retroalimentación medica }
-En esta fase, el medico experto en oncología determina si los resultados generados por el modelo de ML o DL lograron responder las preguntas planteadas en el \textit{BCQM} y si la nueva informacion obtenida es suficiente para diagnosticar el cáncer de mama o si dichos resultados generaron información relevante para determinar la causa u origen de esta enfermedad, en pocas palabras, si los datos analizados produjeron un valor agregado al dominio medico. En el caso de que los resultados obtenidos no lograsen dar valor a los datos, el \textit{Data Analysis Team} deberá decidir si es necesario re-plantear las preguntas o si se debe adquirir nuevos datos para ajustar el modelo generado. Ademas, el experto en compañía del científico y el ingeniero de datos, basado en su perspicacia medica, deberá ayudar a decidir cual estrategia es las mas apropiada para generar resultados significativos. De forma similar, si el resultado fue satisfactorio el medico debe emitir un dictamen del \textit{nivel de impacto} que tuvo la información generada por los modelos al diagnosticar el padecimiento del cáncer de mama a un determinado paciente y unas vez comprobada la informacion, junto al \textit{Data Analysis Team} alimentar un conjunto de datos con la informacion obtenida de los diagnósticos generados a cada individuo. Lo anterior con el proposito de mejorar el desempeño de los modelos existentes y aumentar su precisión. Finalmente, en cada \textit{Release} se debe garantizar que el tiempo de diagnostico sea cada vez menor o que se genere nueva información que el medico pueda utilizar en sus funciones diarias y que ayude a determinar el origen, relación o posible tratamiento de esta enfermedad.
+En esta fase, el medico experto en oncología determina si los resultados generados por el modelo de ML o DL lograron responder las preguntas planteadas en el \textit{BCQM} y si la nueva información obtenida es suficiente para diagnosticar el cáncer de mama o si dichos resultados generaron información relevante para determinar la causa u origen de esta enfermedad, en pocas palabras, si los datos analizados produjeron un valor agregado al dominio medico. En el caso de que los resultados obtenidos no lograsen dar valor a los datos, el \textit{Data Analysis Team} deberá decidir si es necesario re-plantear las preguntas o si se debe adquirir nuevos datos para ajustar el modelo generado. Ademas, el experto en compañía del científico y el ingeniero de datos, basado en su perspicacia medica, deberá ayudar a decidir cual estrategia es las mas apropiada para generar resultados significativos. De forma similar, si el resultado fue satisfactorio el medico debe emitir un dictamen del \textit{nivel de impacto} que tuvo la información generada por los modelos al diagnosticar el padecimiento del cáncer de mama a un determinado paciente y unas vez comprobada la información, junto al \textit{Data Analysis Team} alimentar el conjunto de datos con la información obtenida de los diagnósticos generados a cada individuo. Lo anterior con el propósito de mejorar el desempeño de los modelos existentes y aumentar su precisión. Finalmente, en cada \textit{Release} se debe garantizar que el tiempo de diagnostico sea cada vez menor o que se genere nueva información que el medico pueda utilizar en sus funciones diarias y que ayude a determinar el origen, relación o posible tratamiento de esta enfermedad.
+
+\subsection{Revisión de respuestas}
+Para este caso de estudio, la retroalimentación medica fue basada en la investigación \textit{“Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer”}\cite{Ciriello2015}, la cual se basa en el \textit {Atlas del Genoma del Cáncer} con el propósito de catalogar cambios moleculares de importancia biológica responsables de la aparición de cáncer haciendo uso de la secuenciación genómica. Dado lo anterior, en la tabla \ref{retroalimentacion} se observa la comparación de las respuestas obtenidos por el Ph.D \textit{Giovanni Ciriello} y el grupo de oncólogos que realizaron un análisis exhaustivo de muestras de tumores de mama en donde determinaron que el Carcinoma Lobulillar Invasivo(ILC) es una enfermedad molecularmente distinta con rasgos genéticos característicos, obteniendo información clave para la estratificación de las pacientes que puede permitir un seguimiento clínico más acertado.
+
+\alertinfo{\textbf{QU1:} ¿Presenta el Carcinoma Lobulillar Invasivo(ILC) características genéticas molecularmente diferentes a los demás tipos de cáncer de mama?}
+\begin{itemize}[label=\PencilRightDown]
+	\item \textbf{Data Analysis Team}
+	\item \textbf{Ph.D Giovanni Ciriello}
+\end{itemize}
+
+\alertinfo{\textbf{QU2:} ¿Es la proteína HER2 positiva un rasgo genético necesario para diagnosticar el Carcinoma Ductal invasivo(IDC) pero no suficiente para diagnosticar el Carcinoma Lobulillar Invasivo(ILC)?}
+\begin{itemize}[label=\PencilRightDown]
+	\item \textbf{Data Analysis Team}
+	\item \textbf{Ph.D Giovanni Ciriello}
+\end{itemize}
+
+\alertinfo{\textbf{QU3:} ¿Es posible clasificar el Carcinoma de tumores mixtos (MDLC) en subgrupos de tipo Carcinoma Lobulillar Invasivo(LBC) o Carcinoma Ductal invasivo(IDC) según sus propiedades genéticas?}
+\begin{itemize}[label=\PencilRightDown]
+	\item \textbf{Data Analysis Team}
+	\item \textbf{Ph.D Giovanni Ciriello}
+\end{itemize}
+
+\begin{comment}
+
+\begin{table*}[!htb]
+	\footnotesize
+	\centering
+	\begin{threeparttable}
+		
+		\begin{tabular}{p{5cm} p{5.5cm} p{5.5cm}} \toprule
+			\begin{center}Pregunta\end{center}   
+			&\begin{center}Data Analysis Team\end{center}       
+			&\begin{center}Ph.D Giovanni Ciriello\end{center}  
+			%------------------------------------------------------	
+			\\ \hline
+			\textbf{QU1:} ¿Presenta el Carcinoma Lobulillar Invasivo(ILC) características genéticas molecularmente diferentes a los demás tipos de cáncer de mama?
+			& Número de variables
+			& $110$
+			%------------------------------------------------------	
+			\\ \hline
+			\textbf{QU2:} ¿Es la proteína HER2 positiva un rasgo genético necesario para diagnosticar el Carcinoma Ductal invasivo(IDC) pero no suficiente para diagnosticar el Carcinoma Lobulillar Invasivo(ILC)?
+			& Variables Categóricas
+			& $95$
+			\\ \hline
+			%------------------------------------------------------	
+			\textbf{QU3:} ¿Es posible clasificar el Carcinoma de tumores mixtos (MDLC) en subgrupos de tipo Carcinoma Lobulillar Invasivo(LBC) o Carcinoma Ductal invasivo(IDC) según sus propiedades genéticas?
+			
+			& Variables Numéricas
+			& $15$
+			\\ \hline
+			
+			%------------------------------------------------------	
+			4
+			& Número de filas
+			& 	$818$
+			\\ \hline
+			%------------------------------------------------------	
+			5
+			& Celdas faltantes
+			& $37657$
+			
+			\\ \hline
+			%------------------------------------------------------	
+			6
+			& Celdas faltantes (\% )
+			& $41.9\%$
+			
+			\\ \hline
+			%------------------------------------------------------	
+			7
+			& Filas duplicadas 
+			& $0$
+			
+			\\ \hline
+			%------------------------------------------------------	
+			8
+			& Filas duplicadas (\% )
+			& $0.0\%$
+			
+			\\ \hline
+			%------------------------------------------------------	
+			9
+			& Tamaño total en memoria
+			& $3.8 mb$
+			
+			\\ \hline
+			%------------------------------------------------------	
+			10
+			& Tamaño promedio de fila en la memoria
+			& $	4,8 KB$
+			\\ \hline	
+		\end{tabular}
+		\caption{Estadísticas del conjunto de datos crudos del carcinoma invasivo de mama (TCGA, Cell 2015).}
+		\label{dataset_Statistics}
+	\end{threeparttable}
+\end{table*}
+\end{comment}
+
