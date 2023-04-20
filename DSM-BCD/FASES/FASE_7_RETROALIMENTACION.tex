@@ -2,99 +2,181 @@
 En esta fase, el medico experto en oncología determina si los resultados generados por el modelo de ML o DL lograron responder las preguntas planteadas en el \textit{BCQM} y si la nueva información obtenida es suficiente para diagnosticar el cáncer de mama o si dichos resultados generaron información relevante para determinar la causa u origen de esta enfermedad, en pocas palabras, si los datos analizados produjeron un valor agregado al dominio medico. En el caso de que los resultados obtenidos no lograsen dar valor a los datos, el \textit{Data Analysis Team} deberá decidir si es necesario re-plantear las preguntas o si se debe adquirir nuevos datos para ajustar el modelo generado. Ademas, el experto en compañía del científico y el ingeniero de datos, basado en su perspicacia medica, deberá ayudar a decidir cual estrategia es las mas apropiada para generar resultados significativos. De forma similar, si el resultado fue satisfactorio el medico debe emitir un dictamen del \textit{nivel de impacto} que tuvo la información generada por los modelos al diagnosticar el padecimiento del cáncer de mama a un determinado paciente y unas vez comprobada la información, junto al \textit{Data Analysis Team} alimentar el conjunto de datos con la información obtenida de los diagnósticos generados a cada individuo. Lo anterior con el propósito de mejorar el desempeño de los modelos existentes y aumentar su precisión. Finalmente, en cada \textit{Release} se debe garantizar que el tiempo de diagnostico sea cada vez menor o que se genere nueva información que el medico pueda utilizar en sus funciones diarias y que ayude a determinar el origen, relación o posible tratamiento de esta enfermedad.
 
 \subsection{Revisión de respuestas}
-Para este caso de estudio, la retroalimentación medica fue basada en la investigación \textit{“Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer”}\cite{Ciriello2015}, la cual se basa en el \textit {Atlas del Genoma del Cáncer} con el propósito de catalogar cambios moleculares de importancia biológica responsables de la aparición de cáncer haciendo uso de la secuenciación genómica. Dado lo anterior, en la tabla \ref{retroalimentacion} se observa la comparación de las respuestas obtenidos por el Ph.D \textit{Giovanni Ciriello} y el grupo de oncólogos que realizaron un análisis exhaustivo de muestras de tumores de mama en donde determinaron que el Carcinoma Lobulillar Invasivo(ILC) es una enfermedad molecularmente distinta con rasgos genéticos característicos, obteniendo información clave para la estratificación de las pacientes que puede permitir un seguimiento clínico más acertado.
+Para este caso de estudio, la retroalimentación medica se fundamento en la investigación \textit{“Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer”}\cite{Ciriello2015}, la cual se basa en el \textit {Atlas del Genoma del Cáncer} con el propósito de catalogar cambios moleculares de importancia biológica responsables de la aparición de cáncer haciendo uso de la secuenciación genómica. Dado lo anterior, a continuación se observa la comparación entre los resultados obtenidos por el \textit{Data Analysis Team} y el \textit{Ph.D Giovanni Ciriello} que en conjunto con el grupo de oncólogos e ingenieros de la tabla \ref{Molecular_Portraits} realizaron un análisis exhaustivo de muestras de tumores de mama en donde determinaron que el Carcinoma Lobulillar Invasivo(ILC) es una enfermedad molecularmente distinta con rasgos genéticos característicos, obteniendo información clave para la estratificación de las pacientes que puede permitir un seguimiento clínico más acertado. Cabe resaltar, que las muestras obtenidas para ambos análisis se generaron a partir de la Biopsia por aspiración con aguja fina (FNA) y  Biopsia con aguja gruesa (CNB).
+\begin{table*}[!htb]
+		\footnotesize
+		\centering
+		\begin{threeparttable}
+			\begin{tabular}{p{0.5cm} p{3.5cm} p{4cm} p{5.5cm}} \toprule
+				\begin{center}\textit{N}\end{center}   
+				&\begin{center}Investigador\end{center}       
+				&\begin{center}Departamento\end{center}
+				&\begin{center}Universidad\end{center}  
+				%------------------------------------------------------	
+				\\ \hline
+				1
+				& Giovanni Ciriello
+				& Genética Médica
+				& Universidad de Lausana (Suiza)
+				%------------------------------------------------------	
+				\\ \hline
+				2
+				& Michael L. Gatza
+				& Centro Oncológico Integral Lineberger
+				& Universidad de Carolina del Norte (EE.UU.)
+				%------------------------------------------------------	
+				\\ \hline
+				3
+				& Andrew H. Beck
+				& Patología
+				& Facultad de Medicina de Harvard (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				4
+				& Matthew D. Wilkerson
+				& Genética Médica
+				& Universidad de Carolina del Norte (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				5
+				& Suhn K. Rhie
+				& Centro Oncológico Integral Norris
+				& Universidad del Sur de California (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				6
+				& Alessandro Pastore
+				& Programa de Biología Computacional
+				& Centro de Cáncer Memorial Sloan Kettering (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				7
+				& Hailei Zhang
+				& Instituto Eli y Edythe L.
+				& Broad del MIT y Harvard (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				8
+				& Michael McLellan
+				& Instituto del Genoma
+				& Facultad de Medicina de la Universidad de Washington (EE.UU.)					
+				%------------------------------------------------------
+				\\ \hline
+				9
+				& Christina Yau
+				& Biología del envejecimiento
+				& Instituto Buck (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				10
+				& Cyriac Kandoth
+				& Programa de Oncología Humana y Patogénesis
+				& Centro de Cáncer Memorial Sloan Kettering (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				11
+				& Reanne Bowlby
+				& Centro de Ciencias del Genoma Michael Smith
+				& Agencia del Cáncer de BC (Canada)
+				%------------------------------------------------------
+				\\ \hline
+				12
+				& Hui Shen
+				& Centro de Epigenética
+				& Instituto de investigación Van Andel (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				13
+				& Sikander Hayat
+				& Programa de biología computacional
+				& Centro de Cáncer Memorial Sloan Kettering (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				14
+				& Robert Fieldhouse
+				& Programa de biología computacional
+				& Centro de Cáncer Memorial Sloan Kettering (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				15
+				& Susan C. Lester
+				& Patología
+				& Facultad de Medicina de Harvard (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				16
+				& Gary M.K. Tse
+				& Patología Anatómica y Celular
+				& Universidad China de Hong Kong (Hong Kong)
+				%------------------------------------------------------
+				\\ \hline
+				17
+				& Rachel E. Factor
+				& Departamento de Patología
+				& Universidad de Utah (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				18
+				& Laura C. Collins
+				& Patología
+				& Facultad de Medicina de Harvard (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				19
+				& Kimberly H. Allison
+				& Patología
+				& Universidad de Stanford (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				20
+				& Yunn-Yi Chen
+				& Patología
+				& Universidad de California (EE.UU.)
+				%------------------------------------------------------
+				\\ \hline
+				20
+				& Charles M. Perou
+				& Centro Oncológico Integral Lineberger
+				& Universidad de Carolina del Norte (EE.UU.)						
+				\\ \hline	
+			\end{tabular}
+			\caption{Colaboradores de la investigación \textit{“Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer”}.}
+			\label{Molecular_Portraits}
+		\end{threeparttable}
+	\end{table*}
 
+%-------------------------------------------------------------
+\clearpage
 \alertinfo{\textbf{QU1:} ¿Presenta el Carcinoma Lobulillar Invasivo(ILC) características genéticas molecularmente diferentes a los demás tipos de cáncer de mama?}
 \begin{itemize}[label=\PencilRightDown]
-	\item \textbf{Data Analysis Team}
-	\item \textbf{Ph.D Giovanni Ciriello}
+	\item \textbf{Data Analysis Team:} En el cáncer ILC las variables genéticas presentaron un comportamiento diferente en comparación con el cáncer IDC y MTCB. Para ser más específicos en la estadificación por neoplasia del ganglio linfático el cáncer ILC presenta una mayor afectación y/o propagación hacia los ganglios linfáticos axilares cercanos al seno afectado. De manera similar, presenta un tamaño tumoral aproximadamente 2 veces mas grande que el cáncer IDC y una frecuencia de aparición mayor. Adicionalmente, se identifica una afectación metastásica constante en una cantidad considerable de ganglios linfáticos. Por otra parte, el recuento de mutaciones del ILC en el ADN presenta un menor grado de crecimiento de las células sanas y se divide de una forma tardía en comparación con el cáncer IDC el cual presenta una propagación mas rápida, una tasa de supervivencia menor en los pacientes y un crecimiento acelerado del tejido mamario que dificulta la localización, visibilidad y diagnostico del ILC. Por ultimo, los pacientes con ILC tienen un valor bajo de carga mutacional tumoral (TMB), es decir que generan una menor cantidad de neoantígenos, lo que hace que los tumores sean menos inmunogénicos a los tratamientos. Dado lo anterior, es plausible afirmar que el cáncer ILC presenta características genéticas diferentes a los demás tipos de carcinoma invasivo. 
+	
+	\item \textbf{Ph.D Giovanni Ciriello:} En este estudio se analizaron varios tumores de mama, en donde se identificaron como características enriquecidas del ILC, la pérdida de cadherina-E y mutaciones genéticas en las proteínas PTEN, TBX3 y FOXA1. La pérdida de PTEN se asoció con un aumento de la fosforilación de AKT, que fue mayor en el cáncer ILC en comparación  con los demás tipos de cáncer de mama. Las mutaciones se correlacionaron con una mayor expresión y actividad de FOXA1. Por el contrario, las mutaciones de GATA3 y su elevada expresión caracterizaron al tipo de cáncer IDC luminal A, lo que sugiere una modulación diferencial de la actividad del receptor ER positivo en los tipos de cáncer ILC e IDC. Las firmas relacionadas con la proliferación y el sistema inmunitario determinaron tres subtipos de ILC asociados a diferencias en la supervivencia. Este estudio identificó múltiples alteraciones genómicas que discrepan entre ILC e IDC, demostrando a nivel molecular que el ILC es un subtipo distinto de cáncer de mama y proporcionando nuevos conocimientos sobre su biología tumoral y las opciones terapéuticas. Dado lo anterior, se infiere que el cáncer ILC es una enfermedad clínica y molecularmente distinta\cite{Ciriello2015}.
 \end{itemize}
 
+\clearpage
 \alertinfo{\textbf{QU2:} ¿Es la proteína HER2 positiva un rasgo genético necesario para diagnosticar el Carcinoma Ductal invasivo(IDC) pero no suficiente para diagnosticar el Carcinoma Lobulillar Invasivo(ILC)?}
+
 \begin{itemize}[label=\PencilRightDown]
-	\item \textbf{Data Analysis Team}
-	\item \textbf{Ph.D Giovanni Ciriello}
+	\item \textbf{Data Analysis Team:} El Porcentaje positivo de HER2 según la prueba de inmunohistoquímica (IHC) presento una diferencia en los pacientes con IDC ya que el 91,06\%  obtuvieron una tinción de membrana apenas perceptible, observada en un valor $<$\textit{10\%} de las células tumorales y el 8.94\% obtuvieron una tinción en un rango de moderada a intensa, observada en un valor de \textit{19-99\%} de las células tumorales. Por el contrario, en el 95,45\% de los pacientes con cancer ILC se obtuvo una tinción de membrana apenas perceptible, observada en un valor $<$\textit{10\%} de las células tumorales y en el 4.55\% de los pacientes se obtuvo una tinción intensa, observada en un valor de \textit{90-99\%} de las células tumorales. Por consiguiente, se infiere que en el tipo de cáncer ILC el porcentaje positivo de HER2 es mas difícil de identificar debido a que la mayoría de células tumorales presentan una tinción de membrana apenas perceptible en comparación con el tipo de cáncer IDC. Por lo tanto es plausible afirmar que la proteína HER2 positiva es un rasgo genético necesario para diagnosticar el cáncer IDC pero no suficiente para diagnosticar el cancer ILC.
+			
+	\item \textbf{Ph.D Giovanni Ciriello:} Los tipos de cáncer ILC clásicos son típicamente de bajo grado histológico e índice mitótico de bajo a intermedio. Expresan receptores de estrógeno y progesterona (ER y PR) y rara vez muestran sobre-expresión o amplificación de la proteína HER2. Estas características se asocian generalmente a un buen pronóstico, aunque algunos estudios sugieren que los resultados a largo plazo de los ILC son inferiores a los del carcinoma ductal invasivo (IDC) emparejado por estadio (Pestalozzi et al., 2008). Es importante destacar que el patrón de crecimiento infiltrante del ILC complica los hallazgos tanto en la exploración física como en la mamografía y que sus patrones de diseminación metastásica a menudo difieren de los del IDC (Arpino et al., 2004). Hasta la fecha, los estudios genómicos de ILC han proporcionado una visión limitada de los fundamentos biológicos de esta enfermedad, centrándose principalmente en la expresión de ARNm y el análisis del número de copias de ADN (McCart Reed et al., 2015). El primer estudio TCGA sobre cáncer de mama (Cancer Genome Atlas, 2012) informó sobre 466 tumores de mama analizados en seis plataformas tecnológicas diferentes. El ILC estaba representado por solo 36 muestras, y no se observaron características lobulares específicas aparte de las mutaciones y la disminución de la expresión de ARNm y proteína de CDH1\cite{Ciriello2015}. 
+	
 \end{itemize}
 
+%-------------------------------------------------------------
+\clearpage
 \alertinfo{\textbf{QU3:} ¿Es posible clasificar el Carcinoma de tumores mixtos (MDLC) en subgrupos de tipo Carcinoma Lobulillar Invasivo(LBC) o Carcinoma Ductal invasivo(IDC) según sus propiedades genéticas?}
 \begin{itemize}[label=\PencilRightDown]
-	\item \textbf{Data Analysis Team}
-	\item \textbf{Ph.D Giovanni Ciriello}
+	
+	\item \textbf{Data Analysis Team:} Las muestras identificadas con Carcinoma de tumores mixtos (MDLC) presentaron características genéticas molecularmente heterogéneas entre los tipos de cáncer ILC e IDC. Esto fue demostrado con las agrupaciones generadas por el modelo BIRCH. En primer lugar, el cáncer IDC fue predominante en el \textit{cluster 0} con una proporción del 74.63\% en donde el cáncer MDLC represento el 11.38\% con una relación total de muestras de $70/468$. De manera semejante, en el \textit{cluster 1} fue predominante el cáncer IDC con una proporción del 71.11\% en donde el cáncer MDLC represento el 9.44\% con una relación total de muestras de $17/139$. Por otra parte, en el \textit{cluster 2} fue predominante el cáncer ILC con una proporción del 81.82\% en donde el cáncer MDLC represento el 4.55\% con una relación total de muestras de $1/18$. Dado lo anterior, se infiere que el cáncer MDLC esta presente grupos de referencia de IDC o ILC, sin embargo dependiendo del dominio del tipo de cáncer sus características varían significativamente permitiendo que sea posible etiquetarlo como ductal o lobulillar. Por lo tanto es plausible afirmar que el cáncer de tumores mixtos (MDLC) se puede clasificar en subgrupos de tipo Lobulillar Invasivo(LBC) o Ductal invasivo(IDC) según sus propiedades genéticas y los rasgos genómicos del carcinoma predominante.
+	
+	
+	\item \textbf{Ph.D Giovanni Ciriello:} Los casos de tumores mixtos (MDLC) se clasificaron molecularmente como similares a ILC y similares a IDC y no revelaron características híbridas verdaderas. Histológicamente, entre el 3\% y el 6\% de los tumores de mama presentan un componente tanto ductal como lobulillar. Actualmente, los patólogos clasifican estos tumores como carcinoma de mama mixto ductal/lobulillar o cánceres ductales invasivos con características lobulillares (Arps et al., 2013). Sin embargo, no existen criterios definidos ni una terminología uniforme para la clasificación de los tumores mixtos y, como consecuencia, se han informado características clínicas y moleculares discordantes (Bharat et al., 2009). El perfil molecular tiene el poder de proporcionar criterios de valoración cuantitativos para comparar la genética de tumores mixtos con los de ILC e IDC puros. Curiosamente, los perfiles de expresión de ARNm de todos los casos mixtos podrían explicarse casi por completo mediante las poblaciones de referencia de IDC o ILC, lo que sugiere que estos tumores se separan en casos similares a IDC e ILC y no representan un subtipo molecularmente distinto. Las alteraciones enriquecidas en ILC no coincidieron con las enriquecidas en IDC, lo que indica además que los tumores mixtos se pueden clasificar en subgrupos similares a ILC o IDC y no constituyen un subtipo molecularmente distinto. Nuestro análisis demuestra que los tumores de histología mixta tienden abrumadoramente a parecerse a ILC o IDC en lugar de representar un tercer grupo distinto. Además, las características moleculares discriminantes de IDC e ILC, en particular el estado de CDH1, podrían usarse para estratificar tumores mixtos en subgrupos de tumores similares a ILC e IDC\cite{Ciriello2015}.
+
 \end{itemize}
 
-\begin{comment}
+\subsection{Valoración Medica}
+Con base a las respuestas obtenidas en esta fase, es posible determinar que gracias a los resultados generados a través del modelo de Machine Learning para aprendizaje no supervisado basado en la técnica de agrupación \textit{BIRCH}, fue posible extraer información significativa de muestras de tumores cancerígenos mamarios presentados en 817 pacientes recopilados por medio de las intervenciones quirúrgicas de \textit{Aspiración con aguja fina (FNA)} y \textit{Biopsia con aguja gruesa (CNB)}, lo que permitió responder las preguntas planteadas en el \textit{BCQM}, proporcionando información suficiente para diagnosticar el cáncer de mama y la identificación de  rasgos genómicos característicos del carcinoma Ductal invasivo(IDC), Lobulillar Invasivo(ILC) y de tumores mixtos (MDLC), generado un valor agregado al dominio medico al confirmar que el cáncer ILC presenta características genéticas molecularmente diferentes a los demás tipos de cáncer de mama, que  la proteína HER2 positiva es un rasgo genético necesario para diagnosticar el cáncer IDC pero no suficiente para diagnosticar el cáncer ILC y adicional que es posible clasificar el cáncer MDLC en subgrupos de tipo LBC o IDC según sus propiedades genéticas.
 
-\begin{table*}[!htb]
-	\footnotesize
-	\centering
-	\begin{threeparttable}
-		
-		\begin{tabular}{p{5cm} p{5.5cm} p{5.5cm}} \toprule
-			\begin{center}Pregunta\end{center}   
-			&\begin{center}Data Analysis Team\end{center}       
-			&\begin{center}Ph.D Giovanni Ciriello\end{center}  
-			%------------------------------------------------------	
-			\\ \hline
-			\textbf{QU1:} ¿Presenta el Carcinoma Lobulillar Invasivo(ILC) características genéticas molecularmente diferentes a los demás tipos de cáncer de mama?
-			& Número de variables
-			& $110$
-			%------------------------------------------------------	
-			\\ \hline
-			\textbf{QU2:} ¿Es la proteína HER2 positiva un rasgo genético necesario para diagnosticar el Carcinoma Ductal invasivo(IDC) pero no suficiente para diagnosticar el Carcinoma Lobulillar Invasivo(ILC)?
-			& Variables Categóricas
-			& $95$
-			\\ \hline
-			%------------------------------------------------------	
-			\textbf{QU3:} ¿Es posible clasificar el Carcinoma de tumores mixtos (MDLC) en subgrupos de tipo Carcinoma Lobulillar Invasivo(LBC) o Carcinoma Ductal invasivo(IDC) según sus propiedades genéticas?
-			
-			& Variables Numéricas
-			& $15$
-			\\ \hline
-			
-			%------------------------------------------------------	
-			4
-			& Número de filas
-			& 	$818$
-			\\ \hline
-			%------------------------------------------------------	
-			5
-			& Celdas faltantes
-			& $37657$
-			
-			\\ \hline
-			%------------------------------------------------------	
-			6
-			& Celdas faltantes (\% )
-			& $41.9\%$
-			
-			\\ \hline
-			%------------------------------------------------------	
-			7
-			& Filas duplicadas 
-			& $0$
-			
-			\\ \hline
-			%------------------------------------------------------	
-			8
-			& Filas duplicadas (\% )
-			& $0.0\%$
-			
-			\\ \hline
-			%------------------------------------------------------	
-			9
-			& Tamaño total en memoria
-			& $3.8 mb$
-			
-			\\ \hline
-			%------------------------------------------------------	
-			10
-			& Tamaño promedio de fila en la memoria
-			& $	4,8 KB$
-			\\ \hline	
-		\end{tabular}
-		\caption{Estadísticas del conjunto de datos crudos del carcinoma invasivo de mama (TCGA, Cell 2015).}
-		\label{dataset_Statistics}
-	\end{threeparttable}
-\end{table*}
-\end{comment}
 
