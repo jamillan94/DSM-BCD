@@ -1,7 +1,7 @@
 \clearpage	
 \newpage
 \subsection{Análisis de correlación de variables }
-En este parte del análisis exploratorio de datos oncológicos, se realizo el \textit{coeficiente de correlación de Spearman} para  determinar si existe una relación \textit{lineal} o \textit{no lineal} expresada en un rango de $[-1,1]$ de las 41 variables seleccionadas para el entrenamiento de los modelos de ML. Cabe resaltar, que se eligió este tipo de correlación debido a que no todas las variables numéricas del conjunto de datos se distribuyen normalmente. En la figura \ref{heatmap} se puede observar la correlación de las variables del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”}.
+En este parte del análisis exploratorio de datos oncológicos, se realizó el \textit{coeficiente de correlación de Spearman} para determinar si existe una relación \textit{lineal} o \textit{no lineal} expresada en un rango de $[-1,1]$ de las 41 variables seleccionadas para el entrenamiento de los modelos de ML. Cabe resaltar, que se eligió este tipo de correlación debido a que no todas las variables numéricas del conjunto de datos se distribuyen normalmente. En la figura \ref{heatmap} se puede observar la correlación de las variables del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”}.
 
 \begin{figure}[htb!]
 	\centering
@@ -21,7 +21,7 @@ En la figura \ref{analisis_correlacion} se puede observar el análisis realizado
 			&\begin{center}Análisis de correlación\end{center}             
 			&\begin{center}Regresión lineal\end{center}\\ \hline
 			1
-			& Existe una correlación positiva del $100\%$ entre el \textit{recuento de mutaciones} y la \textit{carga mutacional tumoral (TMB)} del paciente. Por lo tanto, se infiere que entre mayor sea la cantidad de mutaciones presentadas en el ADN mayor sera el rechazo del paciente a determinado medicamento para ayudar a combatir el cáncer de mama.
+			& Existe una correlación positiva del $100\%$ entre el \textit{recuento de mutaciones} y la \textit{carga mutacional tumoral (TMB)} del paciente. Por lo tanto, se infiere que entre mayor sea la cantidad de mutaciones presentadas en el ADN mayor será el rechazo del paciente ha determinado medicamento para ayudar a combatir el cáncer de mama.
 			
 			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_CORRELACION/reg_tmb_nonsynonymous_mutation_count}\end{center}
 			\\ \hline
@@ -32,7 +32,7 @@ En la figura \ref{analisis_correlacion} se puede observar el análisis realizado
 			& \begin{center}\includegraphics[width=1\linewidth]{NOTEBOOK/IMAGENES_CORRELACION/reg_disease_free_months_overall_survival_months}\end{center}
 			\\ \hline
 		\end{tabular}
-			\caption{Análisis generando a partir de la correlación de Spearman.}
-			\label{analisis_correlacion}
+		\caption{Análisis generando a partir de la correlación de Spearman.}
+		\label{analisis_correlacion}
 	\end{threeparttable}
 \end{table*}

@@ -1,5 +1,17 @@
 \begin{thebibliography}{10}
 
+\bibitem{DSMBCD023}
+Jorge Armando~Millán Gómez.
+\newblock Breast cancer question map (bcqm), 2023.
+
+\bibitem{BCQM2023}
+Jorge Armando~Millán Gómez.
+\newblock Breast cancer question map (bcqm) ara metodología dsm-bcd, 2023.
+
+\bibitem{DSMBCD-BCQM2023}
+Jorge Armando~Millán Gómez.
+\newblock Breast cancer question map (bcqm), 2023.
+
 \bibitem{FNB}
 American~Cancer Society.
 \newblock Fine needle aspiration (fna) of the breast.
@@ -7,6 +19,14 @@ American~Cancer Society.
 \bibitem{CNB}
 American~Cancer Society.
 \newblock Core needle biopsy of the breast (cnb).
+
+\bibitem{planning023}
+Jorge Armando~Millán Gómez.
+\newblock Data activity planning, 2023.
+
+\bibitem{planningDSM2023}
+Jorge Armando~Millán Gómez.
+\newblock Data activity planning para metodología dsm-bcd, 2023.
 
 \bibitem{InternationalAgencyforResearchonCancer2020}
 {International Agency for Research on Cancer}.

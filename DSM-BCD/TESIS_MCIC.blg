@@ -31,6 +31,8 @@ Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: ARQUITECTURA/TECNOLOGIA.aux
 Reallocating 'name_of_file' (item size: 1) to 32 items.
 A level-1 auxiliary file: ARQUITECTURA/IMPLEMENTACION.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: TESIS/CONCLUSIONES.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 22 items.
@@ -55,51 +57,61 @@ Warning--entry type for "Susan" isn't style-file defined
 --line 2407 of file REFERENCIAS/articulos.bib
 Warning--entry type for "Elizabeth2023" isn't style-file defined
 --line 2499 of file REFERENCIAS/articulos.bib
+Warning--entry type for "DSMBCD023" isn't style-file defined
+--line 2547 of file REFERENCIAS/articulos.bib
+Warning--entry type for "DSMBCD-BCQM2023" isn't style-file defined
+--line 2563 of file REFERENCIAS/articulos.bib
+Warning--entry type for "BCQM2023" isn't style-file defined
+--line 2577 of file REFERENCIAS/articulos.bib
+Warning--entry type for "planning023" isn't style-file defined
+--line 2609 of file REFERENCIAS/articulos.bib
+Warning--entry type for "planningDSM2023" isn't style-file defined
+--line 2625 of file REFERENCIAS/articulos.bib
 Warning--can't use both author and editor fields in Brunicardi2010
 Warning--empty booktitle in Safhi2019
 Warning--empty journal in Pacheco2014
 Warning--there's a number but no volume in Shen2019
 Warning--empty author in Turin2020
 Warning--empty publisher in ArchiMate3.0.1
-You've used 84 entries,
+You've used 89 entries,
             1791 wiz_defined-function locations,
-            989 strings with 28156 characters,
-and the built_in function-call counts, 23588 in all, are:
-= -- 1446
-> -- 2342
+            1005 strings with 28519 characters,
+and the built_in function-call counts, 24178 in all, are:
+= -- 1486
+> -- 2362
 < -- 9
-+ -- 817
-- -- 733
-* -- 2118
-:= -- 4300
-add.period$ -- 243
-call.type$ -- 84
-change.case$ -- 78
++ -- 827
+- -- 738
+* -- 2123
+:= -- 4385
+add.period$ -- 253
+call.type$ -- 89
+change.case$ -- 83
 chr.to.int$ -- 0
-cite$ -- 90
-duplicate$ -- 749
-empty$ -- 1677
-format.name$ -- 733
-if$ -- 4768
+cite$ -- 95
+duplicate$ -- 774
+empty$ -- 1767
+format.name$ -- 738
+if$ -- 4908
 int.to.chr$ -- 0
-int.to.str$ -- 84
+int.to.str$ -- 89
 missing$ -- 81
-newline$ -- 411
-num.names$ -- 83
-pop$ -- 232
+newline$ -- 431
+num.names$ -- 88
+pop$ -- 267
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 343
+skip$ -- 363
 stack$ -- 0
 substring$ -- 909
-swap$ -- 131
+swap$ -- 136
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 155
-width$ -- 86
-write$ -- 870
+while$ -- 160
+width$ -- 91
+write$ -- 910
 (There was 1 error message)

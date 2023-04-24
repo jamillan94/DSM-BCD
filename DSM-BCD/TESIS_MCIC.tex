@@ -43,10 +43,11 @@
 \usepackage[bottom]{footmisc}
 \usepackage{subfig}
 \usepackage{alertmessage}
-
+\usepackage{afterpage}
+	
 %------------------LISTA ALGORITMOS------------------------------------------
 
-\renewcommand{\lstlistingname}{Algoritmos}% Listing -> Algorithm
+\renewcommand{\lstlistingname}{algoritmos}% Listing -> Algorithm
 \renewcommand{\lstlistlistingname}{Índice de \lstlistingname }% List of Listings -> List of Algorithms
 
 
@@ -141,8 +142,8 @@
 	%--------------------[I]PROYECTO----------------------------------
 	\part{TESIS DE INVESTIGACIÓN}
 	\input{TESIS/INTRODUCCION}
-	\input{TESIS/ESTADO_ARTE}
 	\input{TESIS/DISEÑO_METODOLOGICO}
+	\input{TESIS/ESTADO_ARTE}
 	\input{TESIS/PROPUESTA}
 	\clearpage
 	
@@ -160,14 +161,9 @@
 	\include{ARQUITECTURA/TECNOLOGIA}
 	\include{ARQUITECTURA/IMPLEMENTACION}
 
-
-	\part{ANÁLISIS Y RESULTADOS}
-	\input{TESIS/ANALISIS}
-	\input{TESIS/RESULTADOS}
-
 	%--------------------[III] REFLEXIONES------------------------------
-	%\part{REFLEXIONES}
-	%\include{REFLEXIONES/resultados}
+	\part{REFLEXIONES}
+	\include{TESIS/CONCLUSIONES}
 	
 	%--------------------[IV]BIBLIOGRAFIA-------------------------------
 	\bibliographystyle{unsrt}

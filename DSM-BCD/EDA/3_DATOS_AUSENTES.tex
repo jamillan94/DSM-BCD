@@ -3,34 +3,34 @@
 En este parte del análisis exploratorio de datos oncológicos, se detectaron, imputaron y posteriormente se eliminaron las variables innecesarias identificadas en el análisis parcial de datos genómicos crudos, por medio de algoritmos en \textit{Python}.
 
 \subsubsection{Detección de datos ausentes}
-En esta parte del tratamiento de datos ausentes, se identificaron si las \textit{69 variables} identificadas anteriormente seguían presentando inconsistencias o datos faltantes. Dado lo anterior, se realizo nuevamente un análisis de la cantidad de \textbf{datos ausentes} pero esto vez a través del \textit{mapa espectral} que se observa en la figura \ref{Missing_Spectrum}. Este tipo de gráfico se utilizó debido a que permite visualizar la trama de datos que faltan en un registro determinado, por lo cual fue posible conocer que datos debían ser imputados.
+En esta parte del tratamiento de datos ausentes, se identificaron si las \textit{69 variables} identificadas anteriormente seguían presentando inconsistencias o datos faltantes. Dado lo anterior, se realizó nuevamente un análisis de la cantidad de \textbf{datos ausentes} pero esto vez a través del \textit{mapa espectral} que se observa en la figura \ref{Missing_Spectrum}. Este tipo de gráfico se utilizó debido a que permite visualizar la trama de datos que faltan en un registro determinado, por lo cual fue posible conocer que datos debían ser imputados.
 
 \subsubsection{Imputación de datos ausentes}
-En esta parte del tratamiento de datos ausentes, se completaron los datos faltantes haciendo uso de la librería  \textit{sklearn.impute} la cual proporciona algoritmos de ML para la imputación de datos. 
- 
+En esta parte del tratamiento de datos ausentes, se completaron los datos faltantes haciendo uso de la librería \textit{sklearn.impute} la cual proporciona algoritmos de ML para la imputación de datos. 
+
 Dado lo anterior, en este caso se utilizó la función \textit{impute.KNNImputer()} para tratar los datos de tipo \textit{numérico}. Este modelo detecta los valores faltantes de cada muestra y los imputa utilizando el valor medio de vecinos más cercanos que se encuentran en el conjunto de entrenamiento. En el algoritmo \ref{imputacion_num} se puede observar el código implementado.
- 
- \begin{lstlisting}[basicstyle=\scriptsize,language=Python, label=imputacion_num, caption=Imputar datos numéricos con sklearn en Python.]
- 	from sklearn.impute import KNNImputer
- 	
- 	# Imputar variables numericas
- 	imputer = KNNImputer(n_neighbors=5, weights="distance")
+
+\begin{lstlisting}[basicstyle=\scriptsize,language=Python, label=imputacion_num, caption=Imputar datos numéricos con sklearn en Python.]
+	from sklearn.impute import KNNImputer
+	
+	# Imputar variables numericas
+	imputer = KNNImputer(n_neighbors=5, weights="distance")
 	imput_data=['diagnosis_age', 'cent_17_copy_number', 'birth_initial_diagnosis', 'days_sample_collection', 'her_2_cent_17_ratio', 'disease_free_months', 'days_last_followup', 'year_initial_diagnosis', 'positive_lymph_hematoxylin', 'lymph_examined_number', 'mutation_count', 'overall_survival_months', 'tmb_nonsynonymous' ]
- 	
- 	for i in imput_data :
- 	bc[i]=bc[i].replace([0.0,0,'0','0.0'],[np.nan,np.nan,np.nan,np.nan])
- 	
- 	# Ajustamos el modelo e imputamos los datos numericos
- 	imputer.fit(bc[[i]])
- 	bc[i] = imputer.transform(bc[[i]]).ravel()
- 	bc[i] = round(bc[i],1)
- \end{lstlisting}
- 
- Así mismo, se utilizó la función \textit{impute.SimpleImputer()} para tratar los datos de tipo \textit{categórico}. Este modelo reemplaza los valores faltantes usando una estadística descriptiva (p. ej., media, mediana o más frecuente) a lo largo de cada columna, o usando un valor constante. En el algoritmo \ref{imputacion_cat} se puede observar el código implementado.
-  
-   \begin{lstlisting}[basicstyle=\scriptsize,language=Python, label=imputacion_cat, caption=Imputar datos categóricos con sklearn en Python.]
-  	from sklearn.impute import SimpleImputer
-  	
+	
+	for i in imput_data :
+	bc[i]=bc[i].replace([0.0,0,'0','0.0'],[np.nan,np.nan,np.nan,np.nan])
+	
+	# Ajustamos el modelo e imputamos los datos numericos
+	imputer.fit(bc[[i]])
+	bc[i] = imputer.transform(bc[[i]]).ravel()
+	bc[i] = round(bc[i],1)
+\end{lstlisting}
+
+Así mismo, se utilizó la función \textit{impute.SimpleImputer()} para tratar los datos de tipo \textit{categórico}. Este modelo reemplaza los valores faltantes usando una estadística descriptiva (p. ej., media, mediana o más frecuente) a lo largo de cada columna, o usando un valor constante. En el algoritmo \ref{imputacion_cat} se puede observar el código implementado.
+
+\begin{lstlisting}[basicstyle=\scriptsize,language=Python, label=imputacion_cat, caption=Imputar datos categóricos con sklearn en Python.]
+	from sklearn.impute import SimpleImputer
+	
 	# Imputar variables categoricas
 	mode_data=['neoplasm_disease_stage_code',
 	'brachytherapy',
@@ -70,23 +70,23 @@ Dado lo anterior, en este caso se utilizó la función \textit{impute.KNNImputer
 	'surgical_procedure_first',
 	'tissue_source_site','person_neoplasm_status'
 	]
-  		
-  	# Ajustamos el modelo e imputamos los datos categoricos
-  	for i in mode_data :
-	  	bc[i]=bc[i].replace([0.0,0,'0','0.0'],[np.nan,np.nan,np.nan,np.nan])
-	  	bc[i] = bc[i].fillna(bc[i].mode()[0])
-	  	imputer = SimpleImputer(strategy='most_frequent', 
-	  	missing_values=np.nan)
-	  	imputer = imputer.fit(bc[[i]])
-	  	bc[[i]] = imputer.transform(bc[[i]])
-  \end{lstlisting}
- 
- 
+	
+	# Ajustamos el modelo e imputamos los datos categoricos
+	for i in mode_data :
+	bc[i]=bc[i].replace([0.0,0,'0','0.0'],[np.nan,np.nan,np.nan,np.nan])
+	bc[i] = bc[i].fillna(bc[i].mode()[0])
+	imputer = SimpleImputer(strategy='most_frequent', 
+	missing_values=np.nan)
+	imputer = imputer.fit(bc[[i]])
+	bc[[i]] = imputer.transform(bc[[i]])
+\end{lstlisting}
+
+
 \subsubsection{Eliminación de datos ausentes}
 
-En esta parte del tratamiento de datos ausentes, se eliminaron \textit{69 variables}, ya que una vez realizada la imputación de datos, se confirmo que efectivamente no brindaban informacion relevante para responder las preguntas planteadas en el \textit{BCQM}, la cantidad de datos no ERA suficiente para generar un análisis verídico o  no aportaban información de índole genético relacionada con los tipos de cáncer Lobulillar Invasivo (ILC), Ductal Invasivo (IDC) o de Tumores Mixtos (MDLC). En el algoritmo \ref{eliminacion} se puede observar el código implementado.
- 
-  \begin{lstlisting}[basicstyle=\tiny,language=Python, label=eliminacion, caption=Eliminar datos poco relvantes en Python.]
+En esta parte del tratamiento de datos ausentes, se eliminaron \textit{69 variables}, ya que una vez realizada la imputación de datos, se confirmó que efectivamente no brindaban información relevante para responder las preguntas planteadas en el \textit{BCQM}, la cantidad de datos no ERA suficiente para generar un análisis verídico o  no aportaban información de índole genético relacionada con los tipos de cáncer Lobulillar Invasivo (ILC), Ductal Invasivo (IDC) o de Tumores Mixtos (MDLC). En el algoritmo \ref{eliminacion} se puede observar el código implementado.
+
+\begin{lstlisting}[basicstyle=\tiny,language=Python, label=eliminacion, caption=Eliminar datos poco relvantes en Python.]
 	#Eliminar variables inncesarias
 	bc=bc.drop(
 	[
@@ -147,7 +147,7 @@ En esta parte del tratamiento de datos ausentes, se eliminaron \textit{69 variab
 	'tissue_source_site','tumor_disease_anatomic_site',
 	'days_sample_collection','days_last_followup'
 	], axis=1)
- \end{lstlisting}
+\end{lstlisting}
 
 \subsubsection{Consistencia de datos}
 En esta parte del tratamiento de datos ausentes, se comprobó que las variables que se quedaran correctamente imputadas y si ningún dato incompleto. Dado lo anterior, los resultados obtenidos de la estandarización de los datos se pueden observar en el \textit{mapa espectral} que se observa en la figura \ref{impute_Spectrum}. Para una mayor trazabilidad en la tabla \ref{data_limpia} se observan las 41 variables que fueron seleccionadas para realizar el análisis descriptivo de datos.

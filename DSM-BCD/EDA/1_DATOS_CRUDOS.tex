@@ -1,8 +1,8 @@
 \newpage
 \subsection{Análisis parcial de datos genómicos crudos}
-En primer lugar, se realizó un análisis parcial del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”} para conocer su composición inicial(cruda) y así poder identificar los registros que deben ser eliminados, transformados ó imputados. Cabe resaltar, que esta etapa es propuesta como parte de esta investigación para los datos de tipo genómico relacionados cáncer de mama. Lo anterior, debido a que el \textit{EDA\footnote{Exploratory Data Analysis}} tradicional parte del análisis descriptivo, y en este caso los tipos de datos son obtenidos de diferentes fuentes medicas, las cuales no presentan una estructura fija ni estándar en la informacion recopilada de los pacientes que padecen esta enfermedad, por lo que seria incorrecto realizar un análisis sobre datos que dada su estructura y forma generan informacion errónea. En la figura \ref{datos_crudos} se puede observar las composición estadística unidimensional de la 110 variables, las cuales permitieron identificar el comportamiento inicial de los datos.
+En primer lugar, se realizó un análisis parcial del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”} para conocer su composición inicial(cruda) y así poder identificar los registros que deben ser eliminados, transformados o imputados. Cabe resaltar, que esta etapa es propuesta como parte de esta investigación para los datos de tipo genómico relacionados al cáncer de mama. Lo anterior, debido a que el \textit{EDA\footnote{Exploratory Data Analysis}} tradicional parte del análisis descriptivo, y en este caso los tipos de datos son obtenidos de diferentes fuentes médicas, las cuales no presentan una estructura fija ni estándar en la información recopilada de los pacientes que padecen esta enfermedad, por lo que sería incorrecto realizar un análisis sobre datos que dada su estructura y forma generan información errónea. En la figura \ref{datos_crudos} se puede observar la composición estadística unidimensional de las 110 variables, las cuales permitieron identificar el comportamiento inicial de los datos.
 
-En la tabla \ref{dataset_Statistics} se observan la estadísticas del conjunto de datos previo a realizar la transformación e imputación de datos. 
+En la tabla \ref{dataset_Statistics} se observan las estadísticas del conjunto de datos previo a realizar la transformación e imputación de datos. 
 
 \begin{table*}[!htb]
 	\footnotesize
@@ -257,7 +257,7 @@ En la tabla \ref{dataset_Statistics} se observan la estadísticas del conjunto d
 	\label{Missing_Bar_Chart}
 \end{figure}
 
- \begin{figure}[!htb]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width=1
 	\linewidth]{NOTEBOOK/IMAGENES_PERDIDAS/missing_heatmap}
@@ -267,9 +267,9 @@ En la tabla \ref{dataset_Statistics} se observan la estadísticas del conjunto d
 
 
 \clearpage
-En segundo lugar, basados en la obtención de los atributos del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”}, se realizo un análisis de la cantidad de \textbf{datos ausentes} para identificar las variables y en la etapa posterior realizar la limpieza y el pre-procesamiento de los datos para hacerlos consistentes y sin ningún tipo de ruido. Los resultados obtenidos se pueden observar en el \textit{diagrama de barras} de la figura \ref{Missing_Bar_Chart}. 
+En segundo lugar, basados en la obtención de los atributos del conjunto de datos \textit{“Breast Invasive Carcinoma (TCGA, Cell 2015)”}, se realizó un análisis de la cantidad de \textbf{datos ausentes} para identificar las variables y en la etapa posterior realizar la limpieza y el preprocesamiento de los datos para hacerlos consistentes y sin ningún tipo de ruido. Los resultados obtenidos se pueden observar en el \textit{diagrama de barras} de la figura \ref{Missing_Bar_Chart}. 
 
-Por ultimo con base a los resultados obtenidos en las gráficos unidimensionales  y  la identificación de datos ausentes, se realizo la validación con el experto en oncologia, en donde se tomo la decisión de eliminar \textit{69 variables} para realizar la fase de modelado y ejecución. Estas variables pueden ser observadas en la tabla \ref{data_no_relevante}. Lo anterior a causa de que no brindan informacion relevante para responder las preguntas planteadas en el \textit{BCQM}, la cantidad de datos no ERA suficiente para generar un análisis verídico o  no aportaban información de índole genético relacionada con los tipos de cáncer Lobulillar Invasivo (ILC), Ductal Invasivo (IDC) o de Tumores Mixtos (MDLC).
+Por último, con base a los resultados obtenidos en los gráficos unidimensionales y la identificación de datos ausentes, se realizó la validación con el experto en oncología, en donde se tomó la decisión de eliminar \textit{69 variables} para realizar la fase de modelado y ejecución. Estas variables pueden ser observadas en la tabla \ref{data_no_relevante}. Lo anterior a causa de que no brindan información relevante para responder las preguntas planteadas en el \textit{BCQM}, la cantidad de datos no ERA suficiente para generar un análisis verídico o no aportaban información de índole genético relacionada con los tipos de cáncer Lobulillar Invasivo (ILC), Ductal Invasivo (IDC) o de Tumores Mixtos (MDLC).
 
 \begin{table*}[!htb]
 	\footnotesize
@@ -313,51 +313,51 @@ Por ultimo con base a los resultados obtenidos en las gráficos unidimensionales
 	\centering
 	\begin{threeparttable}
 		\begin{tabular}{p{0.5cm} p{4cm} p{1.5cm} p{2cm} p{1.5cm} p{2cm} p{1.5cm}} \toprule
-					26	&	Prior Cancer Diagnosis	&	2	&	0,2	&	1	&	0,1	&	53,5
-		\\ \hline	27	&	ICD-10 Classification	&	7	&	0,9	&	0	&	0	&	55,9
-		\\ \hline	28	&	ICD-O-3 Histology Code	&	17	&	2,1	&	0	&	0	&	56,7
-		\\ \hline	29	&	ICD-O-3 Site Code	&	6	&	0,7	&	0	&	0	&	55,9
-		\\ \hline	30	&	IHC Score	&	5	&	3,9	&	689	&	84,2	&	8,6
-		\\ \hline	31	&	Informed consent verified	&	1	&	0,1	&	0	&	0	&	54,3
-		\\ \hline	32	&	Is FFPE	&	1	&	0,1	&	0	&	0	&	54,3
-		\\ \hline	33	&	Positive Lymph Keratin	&	5	&	2,1	&	579	&	70,8	&	15,9
-		\\ \hline	34	&	Margin status reexcision	&	3	&	6,4	&	771	&	94,2	&	3,3
-		\\ \hline	35	&	Metastatic Site	&	5	&	38,5	&	805	&	98,4	&	0,967
-		\\ \hline	36	&	Metastatic Site Other	&	5	&	100	&	813	&	99,4	&	0,396
-		\\ \hline	37	&	First Diagnosis Type	&	9	&	16,7	&	764	&	93,4	&	4,3
-		\\ \hline	38	&	Neoplasm Event 	&	2	&	3,2	&	756	&	92,4	&	4,1
-		\\ \hline	39	&	Nte cent 17 HER2 ratio	&	2	&	100	&	816	&	98,9	&	0,138
-		\\ \hline	40	&	Nte er ihc intensity score	&	1	&	100	&	817	&	99,9	&	0,67
-		\\ \hline	41	&	Nte er status	&	2	&	20	&	808	&	98,8	&	0,73
-		\\ \hline	42	&	Nte er status ihc 	&	3	&	75	&	814	&	99,5	&	0,282
-		\\ \hline	43	&	Nte HER2 fish status	&	1	&	33,3	&	815	&	99,6	&	0,219
-		\\ \hline	44	&	Nte HER2 ihc score	&	2	&	66,7	&	815	&	99,6	&	0,201
-		\\ \hline	45	&	Nte HER2 status	&	1	&	14,3	&	811	&	99,1	&	0,511
-		\\ \hline	46	&	Nte HER2 status ihc 	&	1	&	50	&	816	&	99,8	&	0,138
-		\\ \hline	47	&	Nte pr ihc intensity score	&	1	&	100	&	817	&	99,9	&	0,68
-		\\ \hline	48	&	Nte pr status by ihc	&	2	&	22,2	&	809	&	98,9	&	0,657
-		\\ \hline	49	&	Nte pr status ihc positive	&	1	&	50	&	816	&	99,8	&	0,138
-		\\ \hline	50	&	Other Patient ID	&	817	&	99,9	&	0	&	0	&	80,7
-		\\ \hline	51	&	Other Sample ID	&	817	&	100	&	1	&	0,1	&	80,6
-		\\ \hline	52	&	Report File Name	&	817	&	100	&	1	&	0,1	&	94,1
-		\\ \hline	53	&	Pharmaceutical Therapy 	&	2	&	3,8	&	766	&	93,6	&	3,4
-		\\ \hline	54	&	Project code	&	1	&	20	&	813	&	99,4	&	0,345
-		\\ \hline	55	&	PR positivity method	&	53	&	29,3	&	637	&	77,9	&	14,1
-		\\ \hline	56	&	PR positivity ihc score	&	5	&	4,1	&	695	&	85,5	&	8
-		\\ \hline	57	&	PR positivity scale other	&	47	&	25,3	&	632	&	77,3	&	13,7
-		\\ \hline	58	&	PR positivity scale used	&	2	&	2,2	&	729	&	89,1	&	6,8
-		\\ \hline	59	&	PR status ihc positive	&	10	&	3,5	&	529	&	64,7	&	19,9
-		\\ \hline	60	&	adjuvant postoperative 	&	2	&	3,8	&	766	&	93,6	&	3,4
-		\\ \hline	61	&	Tissue Retrospective 	&	2	&	0,2	&	1	&	0,1	&	54
-		\\ \hline	62	&	Samples Per Patient	&	2	&	0,2	&	0	&	0	&	52,7
-		\\ \hline	63	&	Sample Type	&	2	&	0,2	&	0	&	0	&	57,5
-		\\ \hline	64	&	Somatic Status	&	1	&	0,1	&	0	&	0	&	57,5
-		\\ \hline	65	&	Staging System 1	&	16	&	94,1	&	801	&	97,9	&	1,7
-		\\ \hline	66	&	Surgery margins	&	4	&	10	&	778	&	95,1	&	3,1
-		\\ \hline	67	&	Surgery margins other	&	11	&	100	&	807	&	98,7	&	0,977
-		\\ \hline	68	&	Tissue Source Site	&	24	&	2,9	&	1	&	0,1	&	53,5
-		\\ \hline	69	&	Tumor Anatomic Site	&	1	&	0,1	&	1	&	0,1	&	56,6
-		\\ \hline
+			26	&	Prior Cancer Diagnosis	&	2	&	0,2	&	1	&	0,1	&	53,5
+			\\ \hline	27	&	ICD-10 Classification	&	7	&	0,9	&	0	&	0	&	55,9
+			\\ \hline	28	&	ICD-O-3 Histology Code	&	17	&	2,1	&	0	&	0	&	56,7
+			\\ \hline	29	&	ICD-O-3 Site Code	&	6	&	0,7	&	0	&	0	&	55,9
+			\\ \hline	30	&	IHC Score	&	5	&	3,9	&	689	&	84,2	&	8,6
+			\\ \hline	31	&	Informed consent verified	&	1	&	0,1	&	0	&	0	&	54,3
+			\\ \hline	32	&	Is FFPE	&	1	&	0,1	&	0	&	0	&	54,3
+			\\ \hline	33	&	Positive Lymph Keratin	&	5	&	2,1	&	579	&	70,8	&	15,9
+			\\ \hline	34	&	Margin status reexcision	&	3	&	6,4	&	771	&	94,2	&	3,3
+			\\ \hline	35	&	Metastatic Site	&	5	&	38,5	&	805	&	98,4	&	0,967
+			\\ \hline	36	&	Metastatic Site Other	&	5	&	100	&	813	&	99,4	&	0,396
+			\\ \hline	37	&	First Diagnosis Type	&	9	&	16,7	&	764	&	93,4	&	4,3
+			\\ \hline	38	&	Neoplasm Event 	&	2	&	3,2	&	756	&	92,4	&	4,1
+			\\ \hline	39	&	Nte cent 17 HER2 ratio	&	2	&	100	&	816	&	98,9	&	0,138
+			\\ \hline	40	&	Nte er ihc intensity score	&	1	&	100	&	817	&	99,9	&	0,67
+			\\ \hline	41	&	Nte er status	&	2	&	20	&	808	&	98,8	&	0,73
+			\\ \hline	42	&	Nte er status ihc 	&	3	&	75	&	814	&	99,5	&	0,282
+			\\ \hline	43	&	Nte HER2 fish status	&	1	&	33,3	&	815	&	99,6	&	0,219
+			\\ \hline	44	&	Nte HER2 ihc score	&	2	&	66,7	&	815	&	99,6	&	0,201
+			\\ \hline	45	&	Nte HER2 status	&	1	&	14,3	&	811	&	99,1	&	0,511
+			\\ \hline	46	&	Nte HER2 status ihc 	&	1	&	50	&	816	&	99,8	&	0,138
+			\\ \hline	47	&	Nte pr ihc intensity score	&	1	&	100	&	817	&	99,9	&	0,68
+			\\ \hline	48	&	Nte pr status by ihc	&	2	&	22,2	&	809	&	98,9	&	0,657
+			\\ \hline	49	&	Nte pr status ihc positive	&	1	&	50	&	816	&	99,8	&	0,138
+			\\ \hline	50	&	Other Patient ID	&	817	&	99,9	&	0	&	0	&	80,7
+			\\ \hline	51	&	Other Sample ID	&	817	&	100	&	1	&	0,1	&	80,6
+			\\ \hline	52	&	Report File Name	&	817	&	100	&	1	&	0,1	&	94,1
+			\\ \hline	53	&	Pharmaceutical Therapy 	&	2	&	3,8	&	766	&	93,6	&	3,4
+			\\ \hline	54	&	Project code	&	1	&	20	&	813	&	99,4	&	0,345
+			\\ \hline	55	&	PR positivity method	&	53	&	29,3	&	637	&	77,9	&	14,1
+			\\ \hline	56	&	PR positivity ihc score	&	5	&	4,1	&	695	&	85,5	&	8
+			\\ \hline	57	&	PR positivity scale other	&	47	&	25,3	&	632	&	77,3	&	13,7
+			\\ \hline	58	&	PR positivity scale used	&	2	&	2,2	&	729	&	89,1	&	6,8
+			\\ \hline	59	&	PR status ihc positive	&	10	&	3,5	&	529	&	64,7	&	19,9
+			\\ \hline	60	&	adjuvant postoperative 	&	2	&	3,8	&	766	&	93,6	&	3,4
+			\\ \hline	61	&	Tissue Retrospective 	&	2	&	0,2	&	1	&	0,1	&	54
+			\\ \hline	62	&	Samples Per Patient	&	2	&	0,2	&	0	&	0	&	52,7
+			\\ \hline	63	&	Sample Type	&	2	&	0,2	&	0	&	0	&	57,5
+			\\ \hline	64	&	Somatic Status	&	1	&	0,1	&	0	&	0	&	57,5
+			\\ \hline	65	&	Staging System 1	&	16	&	94,1	&	801	&	97,9	&	1,7
+			\\ \hline	66	&	Surgery margins	&	4	&	10	&	778	&	95,1	&	3,1
+			\\ \hline	67	&	Surgery margins other	&	11	&	100	&	807	&	98,7	&	0,977
+			\\ \hline	68	&	Tissue Source Site	&	24	&	2,9	&	1	&	0,1	&	53,5
+			\\ \hline	69	&	Tumor Anatomic Site	&	1	&	0,1	&	1	&	0,1	&	56,6
+			\\ \hline
 		\end{tabular}
 		\caption{Estadísticas de variables no relevantes.}
 		\label{data_no_relevante}
