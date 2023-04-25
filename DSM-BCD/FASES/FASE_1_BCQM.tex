@@ -1,5 +1,5 @@
 \section{Fase 1: BCQM} 
-En esta fase se propone el uso de un mapa de preguntas sobre el cáncer de mama (Por sus siglas en ingles Breast Cancer Question Map (BCQM)). El proposito del \textit{BCQM} es que el \textit{Data Analysis Team} defina las preguntas que serán resueltas al finalizar cada \textit{Release} y que permitirán tomar decisiones medicas con respecto al diagnóstico de esta enfermedad. En la figura \ref{BCQM} se observa la estructura del BCQM.
+En esta fase se propuso el uso de un mapa de preguntas sobre el cáncer de mama (Por sus siglas en ingles, \textit{Breast Cancer Question Map (BCQM)}). El objetivo del \textit{BCQM} es que el \textit{Data Analysis Team} defina las preguntas que serán resueltas al finalizar cada \textit{Release} y que permitirán tomar decisiones medicas con respecto al diagnóstico de esta enfermedad. En la figura \ref{BCQM} se observa la estructura del BCQM.
 
 \begin{figure}
 	\centering
@@ -15,7 +15,7 @@ Con base a lo anterior, es recomendable que se generen máximo 3 preguntas por R
 
 Adicionalmente, el BCQM permite identificar a que técnica para el diagnóstico de cáncer mama está relacionada la pregunta a resolver, lo cual de antemano hace posible conocer el tipo información (imágenes o datos) y el algoritmo ML o DL requerido para dar solución al problema. Dada la naturaleza de las preguntas, es posible que las mismas estén relacionadas a varias técnicas de diagnóstico al mismo tiempo. Así mismo, el BCQM permite definir desde la fase inicial el tipo de modelo predictivo o descriptivo según el enfoque analítico generado por la pregunta planteada. Sintetizando, el uso de BCQM facilita la comprensión del problema médico y permite identificar previamente la técnica, el tipo de información y enfoque que debe ser utilizado para el análisis de datos.  
 
-Para este caso de estudio, se plantearon las preguntas que observan en la figura \ref{BCQ_TCGA} a partir del proyecto de carcinoma invasivo de mama denominado \textit{“Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer”}\cite{Ciriello2015}, basado en el \textit {Atlas del Genoma del Cáncer (TCGA\footnote{Acrónimo de “The Cancer Genome Atlas (TCGA)”, en inglés })} cuya finalidad es catalogar cambios moleculares de importancia biológica responsables de la aparición de cáncer haciendo uso de la secuenciación genómica y la bioinformática \cite{TCGA2023}.
+Para este caso de estudio, se plantearon las preguntas que se observan en la figura \ref{BCQ_TCGA} a partir del proyecto de carcinoma invasivo de mama denominado \textit{“Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer”}\cite{Ciriello2015}, basado en el \textit {Atlas del Genoma del Cáncer (TCGA\footnote{Acrónimo de “The Cancer Genome Atlas (TCGA)”, en inglés })} cuya finalidad es catalogar cambios moleculares de importancia biológica responsables de la aparición de cáncer haciendo uso de la secuenciación genómica y la bioinformática \cite{TCGA2023}.
 \begin{figure}
 	\centering
 	\includegraphics[width=1
@@ -54,7 +54,7 @@ Con base a los tipos de cáncer de mama anteriores y a las preguntas planteadas 
 	\end{figure}	
 \end{itemize}
 
-Considerando la naturaleza de la información, la técnica computacional a utilizar es \textit{Machine Learning} debido a que los datos son de origen genómico y por ende tendrán una representación simbólica con atributos cuantitativos y/o cualitativos. Cabe resaltar que, dado el origen de las preguntas, los modelos de ML a utilizar deben permitir realizar los siguientes tipos de análisis:
+Considerando la naturaleza de la información, la técnica computacional utilizada fue \textit{Machine Learning} debido a que los datos eran de origen genómico y por ende tenían una representación simbólica con atributos cuantitativos y/o cualitativos. Cabe resaltar que, dado el origen de las preguntas, los modelos de ML a utilizar permitieron realizar los siguientes tipos de análisis:
 
 \begin{itemize}[label=\HandRight]
 	\item \textbf{Análisis Descriptivo}:

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  24 APR 2023 00:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  25 APR 2023 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1016,16 +1016,163 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@partial=\box141
 \AP@footins=\box142
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 107.
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/pict2e\pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/pict2e\pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 112.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
+
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/pict2e\p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks51
+\@arclen=\dimen332
+\@arcrad=\dimen333
+\pIIe@tempdima=\dimen334
+\pIIe@tempdimb=\dimen335
+\pIIe@tempdimc=\dimen336
+\pIIe@tempdimd=\dimen337
+\pIIe@tempdime=\dimen338
+\pIIe@tempdimf=\dimen339
+)
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/eepic\epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count378
+\d@lta=\count379
+\@delta=\dimen340
+\@@delta=\dimen341
+\@gridcnt=\count380
+\@joinkind=\count381
+\@dotgap=\dimen342
+\@ddotgap=\dimen343
+\@x@diff=\count382
+\@y@diff=\count383
+\x@diff=\dimen344
+\y@diff=\dimen345
+\@dotbox=\box143
+\num@segments=\count384
+\num@segmentsi=\count385
+\@datafile=\read6
+) (C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/eepic\eepic.sty
+Extension to Epic and LaTeX. Version 1.1e - Released Dec 21, 1999
+\@gphlinewidth=\count386
+\@eepictcnt=\count387
+\@tempdimc=\dimen346
+\maxovaldiam=\dimen347
+\@filltype=\box144
+) (C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/pstricks\pstricks.sty
+Package: pstricks 2022/19/23 v0.72 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+)
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks.tex
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/generic/pstricks\pst-fp.tex
+`pst-fp' v0.06, 2020/11/20 (hv)
+\pstFP@xs=\count388
+\pstFP@xia=\count389
+\pstFP@xib=\count390
+\pstFP@xfa=\count391
+\pstFP@xfb=\count392
+\pstFP@rega=\count393
+\pstFP@regb=\count394
+\pstFP@regs=\count395
+\pstFP@times=\count396
+)
+\psLoopIndex=\count397
+
+`PSTricks' v3.18  <2022/11/28> (tvz,hv)
+\pst@dima=\dimen348
+\pst@dimb=\dimen349
+\pst@dimc=\dimen350
+\pst@dimd=\dimen351
+\pst@dimg=\dimen352
+\pst@dimh=\dimen353
+\pst@dimm=\dimen354
+\pst@dimn=\dimen355
+\pst@dimo=\dimen356
+\pst@dimp=\dimen357
+\pst@hbox=\box145
+\pst@ibox=\box146
+\pst@boxg=\box147
+\pst@cnta=\count398
+\pst@cntb=\count399
+\pst@cntc=\count400
+\pst@cntd=\count401
+\pst@cntg=\count402
+\pst@cnth=\count403
+\pst@cntm=\count404
+\pst@cntn=\count405
+\pst@cnto=\count406
+\pst@cntp=\count407
+\@zero=\count408
+\pst@toks=\toks52
+--- We are running latex or xelatex ---
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks.con)
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks-color.tex)
+\psunit=\dimen358
+\psxunit=\dimen359
+\psyunit=\dimen360
+\pst@C@@rType=\count409
+\pslinewidth=\dimen361
+\psk@startLW=\dimen362
+\psk@endLW=\dimen363
+
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks-arrows.tex
+\pshooklength=\dimen364
+\pshookwidth=\dimen365
+)
+\pst@customdefs=\toks53
+ (C:\Users\jamil\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks-dots.tex)
+\pslinearc=\dimen366
+\pst@symbolStep=\dimen367
+\pst@symbolWidth=\dimen368
+\pst@symbolLinewidth=\dimen369
+\everypsbox=\toks54
+\psframesep=\dimen370
+\pslabelsep=\dimen371
+\sh@wgridXunit=\dimen372
+\sh@wgridYunit=\dimen373
+\pst@shift=\dimen374
+\ps@imagectr=\count410
+ (C:\Users\jamil\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks.con))
+File: pstricks.tex 2022/11/28 v3.18 `PSTricks' (tvz,hv)
+
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/generic/pstricks\pst-fp.tex
+`pst-fp' v0.06, 2020/11/20 (hv))
+File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
+)
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/textpos\textpos.sty
+Package: textpos 2020/09/26 v1.10
+
+Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
+Package textpos Info: choosing support for LaTeX3 on input line 61.
+\TP@textbox=\box148
+\TP@holdbox=\box149
+\TPHorizModule=\dimen375
+\TPVertModule=\dimen376
+\TP@margin=\dimen377
+\TP@absmargin=\dimen378
+Grid set 16 x 16 = 37.34424pt x 52.81541pt
+\TPboxrulesize=\dimen379
+\TP@ox=\dimen380
+\TP@oy=\dimen381
+\TP@tbargs=\toks55
+TextBlockOrigin set to 0pt x 0pt
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 114.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 107.
+(hyperref)                setting the option has no effect on input line 114.
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count378
-\l__pdf_internal_box=\box143
+\l__color_backend_stack_int=\count411
+\l__pdf_internal_box=\box150
 )
 (TESIS_MCIC.aux
 LaTeX Info: Redefining \. on input line 26.
@@ -1040,24 +1187,24 @@ LaTeX Info: Redefining \% on input line 26.
 (ARQUITECTURA/IMPLEMENTACION.aux) (TESIS/CONCLUSIONES.aux))
 \openout1 = `TESIS_MCIC.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1093,31 +1240,39 @@ LaTeX Font Info:    ... okay on input line 114.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 114.
-LaTeX Info: Redefining \% on input line 114.
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count379
-\scratchdimen=\dimen332
-\scratchbox=\box144
-\nofMPsegments=\count380
-\nofMParguments=\count381
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count382
-\MPscratchDim=\dimen333
-\MPnumerator=\count383
-\makeMPintoPDFobject=\count384
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count412
+\scratchdimen=\dimen382
+\scratchbox=\box151
+\nofMPsegments=\count413
+\nofMParguments=\count414
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count415
+\MPscratchDim=\dimen383
+\MPnumerator=\count416
+\makeMPintoPDFobject=\count417
+\everyMPtoPDFconversion=\toks57
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count385
-Package hyperref Info: Link coloring ON on input line 114.
+\c@lstlisting=\count418
+Package hyperref Info: Link coloring ON on input line 121.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1129,11 +1284,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 g.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count386
+\c@section@level=\count419
 )
-LaTeX Info: Redefining \ref on input line 114.
-LaTeX Info: Redefining \pageref on input line 114.
-LaTeX Info: Redefining \nameref on input line 114.
+LaTeX Info: Redefining \ref on input line 121.
+LaTeX Info: Redefining \pageref on input line 121.
+LaTeX Info: Redefining \nameref on input line 121.
  (TESIS_MCIC.out) (TESIS_MCIC.out)
 \@outlinefile=\write5
 \openout5 = `TESIS_MCIC.out'.
@@ -1141,35 +1296,62 @@ LaTeX Info: Redefining \nameref on input line 114.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 117
-.
 
+
+Package picture Warning: Package `pict2e' is loaded after `picture'.
+(picture)                Load package `picture' afterwards to get full support
+(picture)                of its additional syntax with length specifications.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 125
+.
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 117
+LaTeX Font Info:    Trying to load font information for U+msb on input line 125
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 11
-7.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 12
+5.
 
 (C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
 
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
+Non-PDF special ignored!
+<special> ps:0.8 setlinewidth 0 setgray
 
 {C:/Users/jamil/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<IMAGENES/LogoUdistrital.pdf, id=409, 115.43124pt x 175.65625pt>
+<IMAGENES/LogoUdistrital.pdf, id=410, 115.43124pt x 175.65625pt>
 File: IMAGENES/LogoUdistrital.pdf Graphic file (type pdf)
 <use IMAGENES/LogoUdistrital.pdf>
-Package pdftex.def Info: IMAGENES/LogoUdistrital.pdf  used on input line 122.
-(pdftex.def)             Requested size: 96.02902pt x 146.13235pt.
+Package pdftex.def Info: IMAGENES/LogoUdistrital.pdf  used on input line 130.
+(pdftex.def)             Requested size: 109.65904pt x 166.87247pt.
 
-Overfull \vbox (30.08244pt too high) has occurred while \output is active []
+Overfull \hbox (10.66982pt too wide) in paragraph at lines 142--143
+[]  
+ []
 
+
+Overfull \hbox (10.66982pt too wide) in paragraph at lines 149--150
+[]  
+ []
 
 [2 <./IMAGENES/LogoUdistrital.pdf>] (TESIS_MCIC.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -1198,8 +1380,8 @@ LaTeX Info: Redefining \% on input line 114.
 \tf@toc=\write6
 \openout6 = `TESIS_MCIC.toc'.
 
-LaTeX Info: Redefining \. on input line 139.
-LaTeX Info: Redefining \% on input line 139.
+LaTeX Info: Redefining \. on input line 220.
+LaTeX Info: Redefining \% on input line 220.
 
 [7] (TESIS_MCIC.lof
 LaTeX Info: Redefining \. on input line 1.
@@ -1218,8 +1400,8 @@ LaTeX Info: Redefining \% on input line 56.
 \tf@lof=\write7
 \openout7 = `TESIS_MCIC.lof'.
 
-LaTeX Info: Redefining \. on input line 140.
-LaTeX Info: Redefining \% on input line 140.
+LaTeX Info: Redefining \. on input line 221.
+LaTeX Info: Redefining \% on input line 221.
 
 [10] (TESIS_MCIC.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -1267,113 +1449,130 @@ LaTeX Info: Redefining \% on input line 35.
  [18]
 LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
- [19]
-LaTeX Info: Redefining \. on input line 60.
-LaTeX Info: Redefining \% on input line 60.
- [20]) (TESIS/ESTADO_ARTE.tex
+ [19]) (TESIS/ESTADO_ARTE.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [21]
+ [20]
 Cap\'{\i }tulo 2.
-[22
+[21
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
- [23]
+ [22]
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
 
-[24]
+[23]
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
- [25]
+ [24]
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
- [26]
+ [25]
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
- [27]
+ [26]
 LaTeX Info: Redefining \. on input line 98.
 LaTeX Info: Redefining \% on input line 98.
- [28
+ [27
 
 ]
 LaTeX Info: Redefining \. on input line 117.
 LaTeX Info: Redefining \% on input line 117.
- [29]
+ [28]
 LaTeX Info: Redefining \. on input line 130.
 LaTeX Info: Redefining \% on input line 130.
- [30]
+ [29]
 LaTeX Info: Redefining \. on input line 148.
 LaTeX Info: Redefining \% on input line 148.
- [31] (TESIS/METODOLOGIAS.tex
+ [30] (TESIS/METODOLOGIAS.tex
+Underfull \hbox (badness 10000) in paragraph at lines 153--3
+
+ []
+
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
- [32]
+[31]
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- [33]
+ [32]
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
-
-[34]
+ [33]
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
- [35]
+ [34]
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
- [36]
+ [35]
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
- [37]
+ [36]
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
+ [37]
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
  [38]
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
- [39]
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
- [40])
+ [39])
 LaTeX Info: Redefining \. on input line 156.
 LaTeX Info: Redefining \% on input line 156.
- [41] (TESIS/TECNICAS.tex
+ [40] (TESIS/TECNICAS.tex
+Underfull \hbox (badness 10000) in paragraph at lines 158--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--5
+
+ []
+
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
- [42]
+[41]
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- [43]
+ [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
- [44]
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+ [43]
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
-[45]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+
+ []
+
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
+[44]
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+ [45]
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
  [46]
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
  [47]
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
- [48]
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
- [49])) (TESIS/PROPUESTA.tex
+ [48])) (TESIS/PROPUESTA.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [49]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [50]
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [51]
 Cap\'{\i }tulo 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
@@ -1552,9 +1751,18 @@ Overfull \hbox (33.77357pt too wide) in paragraph at lines 325--363
 [] 
  []
 
-[52
+[51
 
-] [53]
+]
+LaTeX Info: Redefining \. on input line 365.
+LaTeX Info: Redefining \% on input line 365.
+
+Overfull \hbox (18.04866pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 52 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  CONSIDERACIONES PARA EL DISE
+[]NO DE LA METODOLOG[]IA
+ []
+
+[52] [53]
 LaTeX Info: Redefining \. on input line 365.
 LaTeX Info: Redefining \% on input line 365.
 
@@ -1573,42 +1781,36 @@ Overfull \hbox (18.04866pt too wide) has occurred while \output is active
  []
 
 [56] [57]
-LaTeX Info: Redefining \. on input line 365.
-LaTeX Info: Redefining \% on input line 365.
+LaTeX Info: Redefining \. on input line 370.
+LaTeX Info: Redefining \% on input line 370.
 
 Overfull \hbox (18.04866pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/12 58 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  CONSIDERACIONES PARA EL DISE
 []NO DE LA METODOLOG[]IA
  []
 
-[58] [59
+[58
 
-])
-LaTeX Info: Redefining \. on input line 148.
-LaTeX Info: Redefining \% on input line 148.
-
-Overfull \hbox (18.04866pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 60 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  CONSIDERACIONES PARA EL DISE
-[]NO DE LA METODOLOG[]IA
- []
-
-[60] [61
+]) [59] [60
 
 
 ] (TESIS/DESARROLLO.tex
 Cap\'{\i }tulo 4.
-<IMAGENES/DSM-BCD_SPANISH.pdf, id=1487, 845.15248pt x 597.58253pt>
+<IMAGENES/DSM-BCD_SPANISH.pdf, id=1482, 845.15248pt x 597.58253pt>
 File: IMAGENES/DSM-BCD_SPANISH.pdf Graphic file (type pdf)
 <use IMAGENES/DSM-BCD_SPANISH.pdf>
 Package pdftex.def Info: IMAGENES/DSM-BCD_SPANISH.pdf  used on input line 8.
 (pdftex.def)             Requested size: 384.1096pt x 271.59956pt.
-[62
+[61
 
- <./IMAGENES/DSM-BCD_SPANISH.pdf>] [63]
+ <./IMAGENES/DSM-BCD_SPANISH.pdf>]
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+ [62]
 \openout2 = `FASES/FASE_1_BCQM.aux'.
 
  (FASES/FASE_1_BCQM.tex
-<IMAGENES/BCQM_SPANISH.pdf, id=1502, 421.575pt x 486.81876pt>
+<IMAGENES/BCQM_SPANISH.pdf, id=1498, 421.575pt x 486.81876pt>
 File: IMAGENES/BCQM_SPANISH.pdf Graphic file (type pdf)
 <use IMAGENES/BCQM_SPANISH.pdf>
 Package pdftex.def Info: IMAGENES/BCQM_SPANISH.pdf  used on input line 7.
@@ -1618,24 +1820,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- [64
+ [63
 
  <./IMAGENES/BCQM_SPANISH.pdf>]
-<IMAGENES/BCQM_TCGA.pdf, id=1515, 529.98pt x 173.64874pt>
+<IMAGENES/BCQM_TCGA.pdf, id=1511, 529.98pt x 173.64874pt>
 File: IMAGENES/BCQM_TCGA.pdf Graphic file (type pdf)
 <use IMAGENES/BCQM_TCGA.pdf>
 Package pdftex.def Info: IMAGENES/BCQM_TCGA.pdf  used on input line 22.
 (pdftex.def)             Requested size: 426.79135pt x 139.84126pt.
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
- [65]
+ [64]
 LaTeX Font Info:    Trying to load font information for U+ding on input line 29
 .
 
 (C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/bbding\uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
-<IMAGENES/FNB.png, id=1528, 562.35094pt x 555.57562pt>
+<IMAGENES/FNB.png, id=1524, 562.35094pt x 555.57562pt>
 File: IMAGENES/FNB.png Graphic file (type png)
 <use IMAGENES/FNB.png>
 Package pdftex.def Info: IMAGENES/FNB.png  used on input line 41.
@@ -1645,27 +1847,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--46
 
  []
 
-<IMAGENES/CNB.png, id=1535, 481.04718pt x 438.8897pt>
+<IMAGENES/CNB.png, id=1531, 481.04718pt x 438.8897pt>
 File: IMAGENES/CNB.png Graphic file (type png)
 <use IMAGENES/CNB.png>
 Package pdftex.def Info: IMAGENES/CNB.png  used on input line 51.
 (pdftex.def)             Requested size: 213.39568pt x 194.69923pt.
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
-[66 <./IMAGENES/BCQM_TCGA.pdf>]
+[65 <./IMAGENES/BCQM_TCGA.pdf>]
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
- [67 <./IMAGENES/FNB.png> <./IMAGENES/CNB.png>])
+ [66 <./IMAGENES/FNB.png> <./IMAGENES/CNB.png>])
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
-[68]
+[67]
 \openout2 = `FASES/FASE_2_PLANEACION.aux'.
 
  (FASES/FASE_2_PLANEACION.tex
 
 pdfTeX warning: pdflatex.exe (file ./IMAGENES/Data_Analysis_Team.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<IMAGENES/Data_Analysis_Team.pdf, id=1562, 336.25626pt x 357.335pt>
+<IMAGENES/Data_Analysis_Team.pdf, id=1558, 336.25626pt x 357.335pt>
 File: IMAGENES/Data_Analysis_Team.pdf Graphic file (type pdf)
 <use IMAGENES/Data_Analysis_Team.pdf>
 Package pdftex.def Info: IMAGENES/Data_Analysis_Team.pdf  used on input line 7.
@@ -1675,7 +1877,7 @@ Package pdftex.def Info: IMAGENES/Data_Analysis_Team.pdf  used on input line 7.
 
 pdfTeX warning: pdflatex.exe (file ./IMAGENES/Activity_Planning.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<IMAGENES/Activity_Planning.pdf, id=1565, 731.73375pt x 433.62pt>
+<IMAGENES/Activity_Planning.pdf, id=1561, 731.73375pt x 433.62pt>
 File: IMAGENES/Activity_Planning.pdf Graphic file (type pdf)
 <use IMAGENES/Activity_Planning.pdf>
 Package pdftex.def Info: IMAGENES/Activity_Planning.pdf  used on input line 15.
@@ -1683,7 +1885,7 @@ Package pdftex.def Info: IMAGENES/Activity_Planning.pdf  used on input line 15.
 (pdftex.def)             Requested size: 290.21498pt x 171.97606pt.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
-[69
+[68
 
 
 
@@ -1692,7 +1894,7 @@ LaTeX Info: Redefining \% on input line 21.
 pdfTeX warning: pdflatex.exe (file ./IMAGENES/Activity_Planning.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
-<IMAGENES/Planning_TCGA.pdf, id=1619, 835.12pt x 463.7325pt>
+<IMAGENES/Planning_TCGA.pdf, id=1615, 835.12pt x 463.7325pt>
 File: IMAGENES/Planning_TCGA.pdf Graphic file (type pdf)
 <use IMAGENES/Planning_TCGA.pdf>
 Package pdftex.def Info: IMAGENES/Planning_TCGA.pdf  used on input line 26.
@@ -1700,7 +1902,7 @@ Package pdftex.def Info: IMAGENES/Planning_TCGA.pdf  used on input line 26.
 )
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- [70 <./IMAGENES/Planning_TCGA.pdf>]
+ [69 <./IMAGENES/Planning_TCGA.pdf>]
 \openout2 = `FASES/FASE_3_ADQUISICION.aux'.
 
  (FASES/FASE_3_ADQUISICION.tex
@@ -1878,11 +2080,14 @@ LaTeX Warning: Float too large for page by 44.46962pt on input line 157.
 )
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
- [71
+ [70
 
 
 
 ]
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ [71]
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
  [72]
@@ -1892,186 +2097,183 @@ LaTeX Info: Redefining \% on input line 22.
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
  [74]
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
- [75]
 \openout2 = `FASES/FASE_4_EDA.aux'.
 
  (FASES/FASE_4_EDA.tex (EDA/1_DATOS_CRUDOS.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
-[76
+[75
 
 
 
 ]
 LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
- [77]
-<NOTEBOOK/IMAGENES_CRUDAS/1.pdf, id=1853, 433.62pt x 289.08pt>
+ [76]
+<NOTEBOOK/IMAGENES_CRUDAS/1.pdf, id=1849, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/1.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/1.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/1.pdf  used on input line 86.
 
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/2.pdf, id=1854, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/2.pdf, id=1850, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/2.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/2.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/2.pdf  used on input line 87.
 
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/3.pdf, id=1855, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/3.pdf, id=1851, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/3.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/3.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/3.pdf  used on input line 88.
 
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/4.pdf, id=1856, 390.40857pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/4.pdf, id=1852, 390.40857pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/4.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/4.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/4.pdf  used on input line 89.
 
 (pdftex.def)             Requested size: 106.69783pt x 76.06828pt.
-<NOTEBOOK/IMAGENES_CRUDAS/5.pdf, id=1857, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/5.pdf, id=1853, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/5.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/5.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/5.pdf  used on input line 91.
 
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/6.pdf, id=1858, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/6.pdf, id=1854, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/6.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/6.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/6.pdf  used on input line 92.
 
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/7.pdf, id=1859, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/7.pdf, id=1855, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/7.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/7.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/7.pdf  used on input line 93.
 
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/8.pdf, id=1860, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/8.pdf, id=1856, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/8.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/8.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/8.pdf  used on input line 94.
 
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/9.pdf, id=1861, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/9.pdf, id=1857, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/9.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/9.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/9.pdf  used on input line 96.
 
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/10.pdf, id=1862, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/10.pdf, id=1858, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/10.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/10.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/10.pdf  used on input line 97
 .
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/11.pdf, id=1863, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/11.pdf, id=1859, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/11.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/11.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/11.pdf  used on input line 98
 .
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/12.pdf, id=1864, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/12.pdf, id=1860, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/12.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/12.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/12.pdf  used on input line 99
 .
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/13.pdf, id=1865, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/13.pdf, id=1861, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/13.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/13.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/13.pdf  used on input line 10
 1.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/14.pdf, id=1866, 391.41756pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/14.pdf, id=1862, 391.41756pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/14.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/14.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/14.pdf  used on input line 10
 2.
 (pdftex.def)             Requested size: 106.69783pt x 75.87291pt.
-<NOTEBOOK/IMAGENES_CRUDAS/15.pdf, id=1867, 394.94624pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/15.pdf, id=1863, 394.94624pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/15.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/15.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/15.pdf  used on input line 10
 3.
 (pdftex.def)             Requested size: 106.69783pt x 75.1976pt.
-<NOTEBOOK/IMAGENES_CRUDAS/16.pdf, id=1868, 393.60803pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/16.pdf, id=1864, 393.60803pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/16.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/16.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/16.pdf  used on input line 10
 4.
 (pdftex.def)             Requested size: 106.69783pt x 75.45244pt.
-<NOTEBOOK/IMAGENES_CRUDAS/17.pdf, id=1869, 433.59804pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/17.pdf, id=1865, 433.59804pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/17.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/17.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/17.pdf  used on input line 10
 6.
 (pdftex.def)             Requested size: 106.69783pt x 68.4912pt.
-<NOTEBOOK/IMAGENES_CRUDAS/18.pdf, id=1870, 390.40857pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/18.pdf, id=1866, 390.40857pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/18.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/18.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/18.pdf  used on input line 10
 7.
 (pdftex.def)             Requested size: 106.69783pt x 76.06828pt.
-<NOTEBOOK/IMAGENES_CRUDAS/19.pdf, id=1871, 390.40857pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/19.pdf, id=1867, 390.40857pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/19.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/19.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/19.pdf  used on input line 10
 8.
 (pdftex.def)             Requested size: 106.69783pt x 76.06828pt.
-<NOTEBOOK/IMAGENES_CRUDAS/20.pdf, id=1872, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/20.pdf, id=1868, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/20.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/20.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/20.pdf  used on input line 10
 9.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/21.pdf, id=1873, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/21.pdf, id=1869, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/21.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/21.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/21.pdf  used on input line 11
 1.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/22.pdf, id=1874, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/22.pdf, id=1870, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/22.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/22.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/22.pdf  used on input line 11
 2.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/23.pdf, id=1875, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/23.pdf, id=1871, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/23.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/23.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/23.pdf  used on input line 11
 3.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/24.pdf, id=1876, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/24.pdf, id=1872, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/24.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/24.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/24.pdf  used on input line 11
 4.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/25.pdf, id=1877, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/25.pdf, id=1873, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/25.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/25.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/25.pdf  used on input line 11
 6.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/26.pdf, id=1878, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/26.pdf, id=1874, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/26.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/26.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/26.pdf  used on input line 11
 7.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/27.pdf, id=1879, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/27.pdf, id=1875, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/27.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/27.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/27.pdf  used on input line 11
 8.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/28.pdf, id=1880, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/28.pdf, id=1876, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/28.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/28.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/28.pdf  used on input line 11
@@ -2087,7 +2289,7 @@ LaTeX Warning: Float too large for page by 7.65657pt on input line 123.
 
 LaTeX Info: Redefining \. on input line 125.
 LaTeX Info: Redefining \% on input line 125.
-[78 <./NOTEBOOK/IMAGENES_CRUDAS/1.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/2.pdf> <./NO
+[77 <./NOTEBOOK/IMAGENES_CRUDAS/1.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/2.pdf> <./NO
 TEBOOK/IMAGENES_CRUDAS/3.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/4.pdf> <./NOTEBOOK/IM
 AGENES_CRUDAS/5.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/6.pdf> <./NOTEBOOK/IMAGENES_CR
 UDAS/7.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/8.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/9.pd
@@ -2100,169 +2302,169 @@ df> <./NOTEBOOK/IMAGENES_CRUDAS/21.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/22.pdf> <./
 NOTEBOOK/IMAGENES_CRUDAS/23.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/24.pdf> <./NOTEBOO
 K/IMAGENES_CRUDAS/25.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/26.pdf> <./NOTEBOOK/IMAGE
 NES_CRUDAS/27.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/28.pdf>]
-<NOTEBOOK/IMAGENES_CRUDAS/29.pdf, id=2807, 390.40857pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/29.pdf, id=2803, 390.40857pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/29.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/29.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/29.pdf  used on input line 12
 9.
 (pdftex.def)             Requested size: 106.69783pt x 76.06828pt.
-<NOTEBOOK/IMAGENES_CRUDAS/30.pdf, id=2808, 384.02534pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/30.pdf, id=2804, 384.02534pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/30.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/30.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/30.pdf  used on input line 13
 0.
 (pdftex.def)             Requested size: 106.69783pt x 77.33397pt.
-<NOTEBOOK/IMAGENES_CRUDAS/31.pdf, id=2809, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/31.pdf, id=2805, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/31.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/31.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/31.pdf  used on input line 13
 1.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/32.pdf, id=2810, 384.02534pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/32.pdf, id=2806, 384.02534pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/32.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/32.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/32.pdf  used on input line 13
 2.
 (pdftex.def)             Requested size: 106.69783pt x 77.33397pt.
-<NOTEBOOK/IMAGENES_CRUDAS/33.pdf, id=2811, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/33.pdf, id=2807, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/33.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/33.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/33.pdf  used on input line 13
 4.
 (pdftex.def)             Requested size: 93.8946pt x 62.5965pt.
-<NOTEBOOK/IMAGENES_CRUDAS/34.pdf, id=2812, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/34.pdf, id=2808, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/34.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/34.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/34.pdf  used on input line 13
 5.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/35.pdf, id=2813, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/35.pdf, id=2809, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/35.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/35.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/35.pdf  used on input line 13
 6.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/36.pdf, id=2814, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/36.pdf, id=2810, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/36.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/36.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/36.pdf  used on input line 13
 7.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/37.pdf, id=2815, 390.40857pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/37.pdf, id=2811, 390.40857pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/37.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/37.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/37.pdf  used on input line 13
 9.
 (pdftex.def)             Requested size: 106.69783pt x 76.06828pt.
-<NOTEBOOK/IMAGENES_CRUDAS/38.pdf, id=2816, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/38.pdf, id=2812, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/38.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/38.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/38.pdf  used on input line 14
 0.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/39.pdf, id=2817, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/39.pdf, id=2813, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/39.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/39.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/39.pdf  used on input line 14
 1.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/40.pdf, id=2818, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/40.pdf, id=2814, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/40.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/40.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/40.pdf  used on input line 14
 2.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/41.pdf, id=2819, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/41.pdf, id=2815, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/41.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/41.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/41.pdf  used on input line 14
 4.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/42.pdf, id=2820, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/42.pdf, id=2816, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/42.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/42.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/42.pdf  used on input line 14
 5.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/43.pdf, id=2821, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/43.pdf, id=2817, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/43.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/43.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/43.pdf  used on input line 14
 6.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/44.pdf, id=2822, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/44.pdf, id=2818, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/44.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/44.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/44.pdf  used on input line 14
 7.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/45.pdf, id=2823, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/45.pdf, id=2819, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/45.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/45.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/45.pdf  used on input line 14
 9.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/46.pdf, id=2824, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/46.pdf, id=2820, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/46.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/46.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/46.pdf  used on input line 15
 0.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/47.pdf, id=2825, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/47.pdf, id=2821, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/47.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/47.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/47.pdf  used on input line 15
 1.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/48.pdf, id=2826, 384.02534pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/48.pdf, id=2822, 384.02534pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/48.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/48.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/48.pdf  used on input line 15
 2.
 (pdftex.def)             Requested size: 106.69783pt x 77.33397pt.
-<NOTEBOOK/IMAGENES_CRUDAS/49.pdf, id=2827, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/49.pdf, id=2823, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/49.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/49.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/49.pdf  used on input line 15
 4.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/50.pdf, id=2828, 390.40857pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/50.pdf, id=2824, 390.40857pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/50.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/50.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/50.pdf  used on input line 15
 5.
 (pdftex.def)             Requested size: 106.69783pt x 76.06828pt.
-<NOTEBOOK/IMAGENES_CRUDAS/51.pdf, id=2829, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/51.pdf, id=2825, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/51.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/51.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/51.pdf  used on input line 15
 6.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/52.pdf, id=2830, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/52.pdf, id=2826, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/52.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/52.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/52.pdf  used on input line 15
 7.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/53.pdf, id=2831, 493.35252pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/53.pdf, id=2827, 493.35252pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/53.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/53.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/53.pdf  used on input line 15
 9.
 (pdftex.def)             Requested size: 106.69783pt x 60.1963pt.
-<NOTEBOOK/IMAGENES_CRUDAS/54.pdf, id=2832, 518.00717pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/54.pdf, id=2828, 518.00717pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/54.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/54.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/54.pdf  used on input line 16
 0.
 (pdftex.def)             Requested size: 106.69783pt x 57.33366pt.
-<NOTEBOOK/IMAGENES_CRUDAS/55.pdf, id=2833, 390.40857pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/55.pdf, id=2829, 390.40857pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/55.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/55.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/55.pdf  used on input line 16
 1.
 (pdftex.def)             Requested size: 106.69783pt x 76.06828pt.
-<NOTEBOOK/IMAGENES_CRUDAS/56.pdf, id=2834, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/56.pdf, id=2830, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/56.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/56.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/56.pdf  used on input line 16
@@ -2273,169 +2475,169 @@ Overfull \hbox (49.99994pt too wide) in paragraph at lines 127--165
  [] 
  []
 
-<NOTEBOOK/IMAGENES_CRUDAS/57.pdf, id=2835, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/57.pdf, id=2831, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/57.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/57.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/57.pdf  used on input line 17
 0.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/58.pdf, id=2836, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/58.pdf, id=2832, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/58.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/58.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/58.pdf  used on input line 17
 1.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/59.pdf, id=2837, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/59.pdf, id=2833, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/59.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/59.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/59.pdf  used on input line 17
 2.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/60.pdf, id=2838, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/60.pdf, id=2834, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/60.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/60.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/60.pdf  used on input line 17
 3.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/61.pdf, id=2839, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/61.pdf, id=2835, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/61.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/61.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/61.pdf  used on input line 17
 6.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/62.pdf, id=2840, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/62.pdf, id=2836, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/62.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/62.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/62.pdf  used on input line 17
 7.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/63.pdf, id=2841, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/63.pdf, id=2837, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/63.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/63.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/63.pdf  used on input line 17
 8.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/64.pdf, id=2842, 398.98312pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/64.pdf, id=2838, 398.98312pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/64.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/64.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/64.pdf  used on input line 17
 9.
 (pdftex.def)             Requested size: 106.69783pt x 74.43735pt.
-<NOTEBOOK/IMAGENES_CRUDAS/65.pdf, id=2843, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/65.pdf, id=2839, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/65.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/65.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/65.pdf  used on input line 18
 1.
 (pdftex.def)             Requested size: 93.8946pt x 62.5965pt.
-<NOTEBOOK/IMAGENES_CRUDAS/66.pdf, id=2844, 387.22481pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/66.pdf, id=2840, 387.22481pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/66.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/66.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/66.pdf  used on input line 18
 2.
 (pdftex.def)             Requested size: 106.69783pt x 76.69688pt.
-<NOTEBOOK/IMAGENES_CRUDAS/67.pdf, id=2845, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/67.pdf, id=2841, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/67.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/67.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/67.pdf  used on input line 18
 3.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/68.pdf, id=2846, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/68.pdf, id=2842, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/68.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/68.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/68.pdf  used on input line 18
 4.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/69.pdf, id=2847, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/69.pdf, id=2843, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/69.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/69.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/69.pdf  used on input line 18
 6.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/70.pdf, id=2848, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/70.pdf, id=2844, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/70.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/70.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/70.pdf  used on input line 18
 7.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/71.pdf, id=2849, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/71.pdf, id=2845, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/71.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/71.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/71.pdf  used on input line 18
 8.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/72.pdf, id=2850, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/72.pdf, id=2846, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/72.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/72.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/72.pdf  used on input line 18
 9.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/73.pdf, id=2851, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/73.pdf, id=2847, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/73.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/73.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/73.pdf  used on input line 19
 1.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/74.pdf, id=2852, 387.22481pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/74.pdf, id=2848, 387.22481pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/74.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/74.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/74.pdf  used on input line 19
 2.
 (pdftex.def)             Requested size: 106.69783pt x 76.69688pt.
-<NOTEBOOK/IMAGENES_CRUDAS/75.pdf, id=2853, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/75.pdf, id=2849, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/75.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/75.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/75.pdf  used on input line 19
 3.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/76.pdf, id=2854, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/76.pdf, id=2850, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/76.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/76.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/76.pdf  used on input line 19
 4.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/77.pdf, id=2855, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/77.pdf, id=2851, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/77.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/77.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/77.pdf  used on input line 19
 6.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/78.pdf, id=2856, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/78.pdf, id=2852, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/78.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/78.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/78.pdf  used on input line 19
 7.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/79.pdf, id=2857, 390.40857pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/79.pdf, id=2853, 390.40857pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/79.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/79.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/79.pdf  used on input line 19
 8.
 (pdftex.def)             Requested size: 106.69783pt x 76.06828pt.
-<NOTEBOOK/IMAGENES_CRUDAS/80.pdf, id=2858, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/80.pdf, id=2854, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/80.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/80.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/80.pdf  used on input line 19
 9.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/81.pdf, id=2859, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/81.pdf, id=2855, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/81.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/81.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/81.pdf  used on input line 20
 1.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/82.pdf, id=2860, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/82.pdf, id=2856, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/82.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/82.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/82.pdf  used on input line 20
 2.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/83.pdf, id=2861, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/83.pdf, id=2857, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/83.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/83.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/83.pdf  used on input line 20
 3.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/84.pdf, id=2862, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/84.pdf, id=2858, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/84.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/84.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/84.pdf  used on input line 20
@@ -2448,7 +2650,7 @@ Overfull \hbox (49.99994pt too wide) in paragraph at lines 168--207
 
 LaTeX Info: Redefining \. on input line 207.
 LaTeX Info: Redefining \% on input line 207.
-[79
+[78
 
  <./NOTEBOOK/IMAGENES_CRUDAS/29.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/30.pdf> <./NOT
 EBOOK/IMAGENES_CRUDAS/31.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/32.pdf> <./NOTEBOOK/I
@@ -2463,157 +2665,157 @@ S/48.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/49.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/50.pd
 f> <./NOTEBOOK/IMAGENES_CRUDAS/51.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/52.pdf> <./N
 OTEBOOK/IMAGENES_CRUDAS/53.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/54.pdf> <./NOTEBOOK
 /IMAGENES_CRUDAS/55.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/56.pdf>]
-<NOTEBOOK/IMAGENES_CRUDAS/85.pdf, id=3835, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/85.pdf, id=3830, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/85.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/85.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/85.pdf  used on input line 21
 2.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/86.pdf, id=3836, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/86.pdf, id=3831, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/86.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/86.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/86.pdf  used on input line 21
 3.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/87.pdf, id=3837, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/87.pdf, id=3832, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/87.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/87.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/87.pdf  used on input line 21
 4.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/88.pdf, id=3838, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/88.pdf, id=3833, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/88.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/88.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/88.pdf  used on input line 21
 5.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/89.pdf, id=3839, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/89.pdf, id=3834, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/89.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/89.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/89.pdf  used on input line 21
 7.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/90.pdf, id=3840, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/90.pdf, id=3835, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/90.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/90.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/90.pdf  used on input line 21
 8.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/91.pdf, id=3841, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/91.pdf, id=3836, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/91.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/91.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/91.pdf  used on input line 21
 9.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/92.pdf, id=3842, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/92.pdf, id=3837, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/92.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/92.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/92.pdf  used on input line 22
 0.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/93.pdf, id=3843, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/93.pdf, id=3838, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/93.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/93.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/93.pdf  used on input line 22
 2.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/94.pdf, id=3844, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/94.pdf, id=3839, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/94.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/94.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/94.pdf  used on input line 22
 3.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/95.pdf, id=3845, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/95.pdf, id=3840, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/95.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/95.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/95.pdf  used on input line 22
 4.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/96.pdf, id=3846, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/96.pdf, id=3841, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/96.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/96.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/96.pdf  used on input line 22
 5.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/97.pdf, id=3847, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/97.pdf, id=3842, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/97.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/97.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/97.pdf  used on input line 22
 7.
 (pdftex.def)             Requested size: 93.8946pt x 62.5965pt.
-<NOTEBOOK/IMAGENES_CRUDAS/98.pdf, id=3848, 390.40857pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/98.pdf, id=3843, 390.40857pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/98.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/98.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/98.pdf  used on input line 22
 8.
 (pdftex.def)             Requested size: 106.69783pt x 76.06828pt.
-<NOTEBOOK/IMAGENES_CRUDAS/99.pdf, id=3849, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/99.pdf, id=3844, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/99.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/99.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/99.pdf  used on input line 22
 9.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/100.pdf, id=3850, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/100.pdf, id=3845, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/100.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/100.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/100.pdf  used on input line 2
 30.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/101.pdf, id=3851, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/101.pdf, id=3846, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/101.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/101.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/101.pdf  used on input line 2
 32.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/102.pdf, id=3852, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/102.pdf, id=3847, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/102.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/102.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/102.pdf  used on input line 2
 33.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/103.pdf, id=3853, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/103.pdf, id=3848, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/103.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/103.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/103.pdf  used on input line 2
 34.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/104.pdf, id=3854, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/104.pdf, id=3849, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/104.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/104.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/104.pdf  used on input line 2
 35.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/105.pdf, id=3855, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/105.pdf, id=3850, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/105.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/105.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/105.pdf  used on input line 2
 37.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/106.pdf, id=3856, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/106.pdf, id=3851, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/106.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/106.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/106.pdf  used on input line 2
 38.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/107.pdf, id=3857, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/107.pdf, id=3852, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/107.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/107.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/107.pdf  used on input line 2
 39.
 (pdftex.def)             Requested size: 106.69783pt x 71.13177pt.
-<NOTEBOOK/IMAGENES_CRUDAS/108.pdf, id=3858, 390.40857pt x 278.34865pt>
+<NOTEBOOK/IMAGENES_CRUDAS/108.pdf, id=3853, 390.40857pt x 278.34865pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/108.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/108.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/108.pdf  used on input line 2
 40.
 (pdftex.def)             Requested size: 106.69783pt x 76.06828pt.
-<NOTEBOOK/IMAGENES_CRUDAS/109.pdf, id=3859, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/109.pdf, id=3854, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/109.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/109.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/109.pdf  used on input line 2
 45.
 (pdftex.def)             Requested size: 93.8946pt x 62.5965pt.
-<NOTEBOOK/IMAGENES_CRUDAS/110.pdf, id=3860, 433.62pt x 289.08pt>
+<NOTEBOOK/IMAGENES_CRUDAS/110.pdf, id=3855, 433.62pt x 289.08pt>
 File: NOTEBOOK/IMAGENES_CRUDAS/110.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CRUDAS/110.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CRUDAS/110.pdf  used on input line 2
@@ -2629,7 +2831,7 @@ Underfull \vbox (badness 2837) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 249.
 LaTeX Info: Redefining \% on input line 249.
- [80 <./NOTEBOOK/IMAGENES_CRUDAS/57.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/58.pdf> <.
+ [79 <./NOTEBOOK/IMAGENES_CRUDAS/57.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/58.pdf> <.
 /NOTEBOOK/IMAGENES_CRUDAS/59.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/60.pdf> <./NOTEBO
 OK/IMAGENES_CRUDAS/61.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/62.pdf> <./NOTEBOOK/IMAG
 ENES_CRUDAS/63.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/64.pdf> <./NOTEBOOK/IMAGENES_CR
@@ -2644,7 +2846,7 @@ RUDAS/76.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/77.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/7
 BOOK/IMAGENES_CRUDAS/83.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/84.pdf>]
 LaTeX Info: Redefining \. on input line 251.
 LaTeX Info: Redefining \% on input line 251.
- [81 <./NOTEBOOK/IMAGENES_CRUDAS/85.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/86.pdf> <.
+ [80 <./NOTEBOOK/IMAGENES_CRUDAS/85.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/86.pdf> <.
 /NOTEBOOK/IMAGENES_CRUDAS/87.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/88.pdf> <./NOTEBO
 OK/IMAGENES_CRUDAS/89.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/90.pdf> <./NOTEBOOK/IMAG
 ENES_CRUDAS/91.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/92.pdf> <./NOTEBOOK/IMAGENES_CR
@@ -2657,7 +2859,7 @@ ES_CRUDAS/104.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/105.pdf> <./NOTEBOOK/IMAGENES_CR
 UDAS/106.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/107.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/
 108.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/109.pdf> <./NOTEBOOK/IMAGENES_CRUDAS/110.p
 df>]
-<NOTEBOOK/IMAGENES_PERDIDAS/missing_displot.pdf, id=5643, 906.32352pt x 1437.51
+<NOTEBOOK/IMAGENES_PERDIDAS/missing_displot.pdf, id=5639, 906.32352pt x 1437.51
 434pt>
 File: NOTEBOOK/IMAGENES_PERDIDAS/missing_displot.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_PERDIDAS/missing_displot.pdf>
@@ -2668,7 +2870,7 @@ n input line 255.
 
 LaTeX Warning: Float too large for page by 109.89577pt on input line 258.
 
-<NOTEBOOK/IMAGENES_PERDIDAS/missing_heatmap.pdf, id=5644, 1321.76183pt x 1954.1
+<NOTEBOOK/IMAGENES_PERDIDAS/missing_heatmap.pdf, id=5640, 1321.76183pt x 1954.1
 7578pt>
 File: NOTEBOOK/IMAGENES_PERDIDAS/missing_heatmap.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_PERDIDAS/missing_heatmap.pdf>
@@ -2680,10 +2882,10 @@ LaTeX Warning: Float too large for page by 63.95447pt on input line 266.
 
 LaTeX Info: Redefining \. on input line 269.
 LaTeX Info: Redefining \% on input line 269.
-[82 <./NOTEBOOK/IMAGENES_PERDIDAS/missing_displot.pdf>]
+[81 <./NOTEBOOK/IMAGENES_PERDIDAS/missing_displot.pdf>]
 LaTeX Info: Redefining \. on input line 269.
 LaTeX Info: Redefining \% on input line 269.
- [83 <./NOTEBOOK/IMAGENES_PERDIDAS/missing_heatmap.pdf>]
+ [82 <./NOTEBOOK/IMAGENES_PERDIDAS/missing_heatmap.pdf>]
 Overfull \hbox (10.18904pt too wide) in paragraph at lines 279--281
 []|\OT1/cmr/m/n/10 Tama~no($\OML/cmm/m/it/10 kb$\OT1/cmr/m/n/10 )| 
  []
@@ -2695,7 +2897,7 @@ Overfull \hbox (27.0944pt too wide) in paragraph at lines 278--309
 
 LaTeX Info: Redefining \. on input line 310.
 LaTeX Info: Redefining \% on input line 310.
-[84
+[83
 
 ]
 Overfull \hbox (27.0944pt too wide) in paragraph at lines 315--365
@@ -2704,7 +2906,7 @@ Overfull \hbox (27.0944pt too wide) in paragraph at lines 315--365
 
 LaTeX Info: Redefining \. on input line 366.
 LaTeX Info: Redefining \% on input line 366.
-[85
+[84
 
 ]) (EDA/2_TRANSFORMACION.tex
 (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
@@ -2722,7 +2924,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
- [86
+ [85
 
 ]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 8
@@ -2735,43 +2937,43 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 80.
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
- [87]
+ [86]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 143.
 LaTeX Info: Redefining \% on input line 143.
- [88]
+ [87]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 203.
 LaTeX Info: Redefining \% on input line 203.
- [89]
+ [88]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 265.
 LaTeX Info: Redefining \% on input line 265.
- [90]
+ [89]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 326.
 LaTeX Info: Redefining \% on input line 326.
- [91]
+ [90]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 382.
 LaTeX Info: Redefining \% on input line 382.
- [92])
+ [91])
 (EDA/3_DATOS_AUSENTES.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [93]
+ [92]
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- [94]
+ [93]
 LaTeX Info: Redefining \. on input line 88.
 LaTeX Info: Redefining \% on input line 88.
- [95]
-<NOTEBOOK/IMAGENES_PERDIDAS/impute_heatmap.pdf, id=6328, 503.43898pt x 590.0795
+ [94]
+<NOTEBOOK/IMAGENES_PERDIDAS/impute_heatmap.pdf, id=6324, 503.43898pt x 590.0795
 3pt>
 File: NOTEBOOK/IMAGENES_PERDIDAS/impute_heatmap.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_PERDIDAS/impute_heatmap.pdf>
@@ -2780,7 +2982,7 @@ Package pdftex.def Info: NOTEBOOK/IMAGENES_PERDIDAS/impute_heatmap.pdf  used on
 (pdftex.def)             Requested size: 362.77525pt x 425.20808pt.
 LaTeX Info: Redefining \. on input line 161.
 LaTeX Info: Redefining \% on input line 161.
- [96]
+ [95]
 Overfull \hbox (10.18904pt too wide) in paragraph at lines 170--171
 []|\OT1/cmr/m/n/10 Tama~no($\OML/cmm/m/it/10 kb$\OT1/cmr/m/n/10 )| 
  []
@@ -2815,12 +3017,12 @@ LaTeX Warning: Float too large for page by 78.06783pt on input line 215.
 
 LaTeX Info: Redefining \. on input line 217.
 LaTeX Info: Redefining \% on input line 217.
-[97 <./NOTEBOOK/IMAGENES_PERDIDAS/impute_heatmap.pdf>]
+[96 <./NOTEBOOK/IMAGENES_PERDIDAS/impute_heatmap.pdf>]
 LaTeX Info: Redefining \. on input line 217.
 LaTeX Info: Redefining \% on input line 217.
- [98])
+ [97])
 (EDA/4_ANALISIS_DESCRIPTIVO.tex
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/1_diagnosis_age.pdf, id=6453, 390.40857pt x 283
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/1_diagnosis_age.pdf, id=6449, 390.40857pt x 283
 .7669pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/1_diagnosis_age.pdf Graphic file (type pdf
 )
@@ -2828,7 +3030,7 @@ File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/1_diagnosis_age.pdf Graphic file (type pdf
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/1_diagnosis_age.pdf  us
 ed on input line 16.
 (pdftex.def)             Requested size: 184.9429pt x 134.42262pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/2_metastasis_stage_code.pdf, id=6455, 390.40857
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/2_metastasis_stage_code.pdf, id=6451, 390.40857
 pt x 313.86835pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/2_metastasis_stage_code.pdf Graphic file (
 type pdf)
@@ -2843,7 +3045,7 @@ Overfull \hbox (64.45271pt too wide) in paragraph at lines 9--25
 
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
-[99
+[98
 
 
  <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/1_diagnosis_age.pdf> <./NOTEBOOK/IMAGENES_DE
@@ -2867,7 +3069,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 \OT1/cmr/m/n/10 Lymph No-de
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/3_neoplasm_lymph_code.pdf, id=6523, 390.40857pt
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/3_neoplasm_lymph_code.pdf, id=6519, 390.40857pt
  x 305.2333pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/3_neoplasm_lymph_code.pdf Graphic file (ty
 pe pdf)
@@ -2885,7 +3087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 \OT1/cmr/m/n/10 plasm Di-sea-se
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/4_neoplasm_disease_stage_code.pdf, id=6524, 390
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/4_neoplasm_disease_stage_code.pdf, id=6520, 390
 .40857pt x 315.68623pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/4_neoplasm_disease_stage_code.pdf Graphic 
 file (type pdf)
@@ -2903,7 +3105,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 []|\OT1/cmr/m/n/10 AJCC Tu-mor
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/5_tumor_stage_code.pdf, id=6525, 390.40857pt x 
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/5_tumor_stage_code.pdf, id=6521, 390.40857pt x 
 287.55421pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/5_tumor_stage_code.pdf Graphic file (type 
 pdf)
@@ -2916,7 +3118,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 []|\OT1/cmr/m/n/10 Cancer Ty-pe
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/6_cancer_type_detailed.pdf, id=6526, 390.40857p
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/6_cancer_type_detailed.pdf, id=6522, 390.40857p
 t x 479.70651pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/6_cancer_type_detailed.pdf Graphic file (t
 ype pdf)
@@ -2934,7 +3136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 []|\OT1/cmr/m/n/10 Disease Free
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/9_disease_free_months.pdf, id=6527, 390.40857pt
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/9_disease_free_months.pdf, id=6523, 390.40857pt
  x 289.93265pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/9_disease_free_months.pdf Graphic file (ty
 pe pdf)
@@ -2947,7 +3149,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 []|\OT1/cmr/m/n/10 Disease Free
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/10_disease_free_status.pdf, id=6528, 390.40857p
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/10_disease_free_status.pdf, id=6524, 390.40857p
 t x 327.36629pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/10_disease_free_status.pdf Graphic file (t
 ype pdf)
@@ -2960,7 +3162,7 @@ Underfull \hbox (badness 2781) in paragraph at lines 85--86
 []|\OT1/cmr/m/n/10 ER Sta-tus By
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/11_er_status_ihc.pdf, id=6529, 390.40857pt x 31
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/11_er_status_ihc.pdf, id=6525, 390.40857pt x 31
 3.85318pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/11_er_status_ihc.pdf Graphic file (type pd
 f)
@@ -2979,7 +3181,7 @@ Underfull \hbox (badness 2285) in paragraph at lines 101--102
 r de
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/12_er_status_ihc_percent_positive.pdf, id=6530,
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/12_er_status_ihc_percent_positive.pdf, id=6526,
  390.40857pt x 308.80852pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/12_er_status_ihc_percent_positive.pdf Grap
 hic file (type pdf)
@@ -2987,7 +3189,7 @@ hic file (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/12_er_status_ihc_percen
 t_positive.pdf  used on input line 102.
 (pdftex.def)             Requested size: 184.9429pt x 146.28503pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/13_ethnicity_category.pdf, id=6531, 390.40857pt
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/13_ethnicity_category.pdf, id=6527, 390.40857pt
  x 373.91972pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/13_ethnicity_category.pdf Graphic file (ty
 pe pdf)
@@ -3000,7 +3202,7 @@ Underfull \hbox (badness 3281) in paragraph at lines 111--112
 []|\OT1/cmr/m/n/10 Fraction Ge-no-
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/14_fraction_genome_altered.pdf, id=6532, 390.40
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/14_fraction_genome_altered.pdf, id=6528, 390.40
 857pt x 286.85735pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/14_fraction_genome_altered.pdf Graphic fil
 e (type pdf)
@@ -3016,7 +3218,7 @@ Overfull \hbox (64.45271pt too wide) in paragraph at lines 98--119
 
 LaTeX Warning: Float too large for page by 44.9834pt on input line 119.
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/15_her_2_fish_status.pdf, id=6533, 390.40857pt 
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/15_her_2_fish_status.pdf, id=6529, 390.40857pt 
 x 313.85318pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/15_her_2_fish_status.pdf Graphic file (typ
 e pdf)
@@ -3029,7 +3231,7 @@ Underfull \hbox (badness 1132) in paragraph at lines 132--133
 []|\OT1/cmr/m/n/10 HER2 ihc per-
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/16_her_2_ihc_percent_positive.pdf, id=6534, 390
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/16_her_2_ihc_percent_positive.pdf, id=6530, 390
 .40857pt x 308.80852pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/16_her_2_ihc_percent_positive.pdf Graphic 
 file (type pdf)
@@ -3037,7 +3239,7 @@ file (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/16_her_2_ihc_percent_po
 sitive.pdf  used on input line 134.
 (pdftex.def)             Requested size: 184.9429pt x 146.28503pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/17_her_2_ihc_score.pdf, id=6535, 390.40857pt x 
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/17_her_2_ihc_score.pdf, id=6531, 390.40857pt x 
 293.02307pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/17_her_2_ihc_score.pdf Graphic file (type 
 pdf)
@@ -3060,7 +3262,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 \OT1/cmr/m/n/10 to-lo-gic Ty-pe
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_neoplasm_histologic_type.pdf, id=6536, 390.7
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_neoplasm_histologic_type.pdf, id=6532, 390.7
 1014pt x 411.86845pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_neoplasm_histologic_type.pdf Graphic fi
 le (type pdf)
@@ -3088,7 +3290,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
 \OT1/cmr/m/n/10 red Prior To
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_neoadjuvant_therapy.pdf, id=6537, 390.40857p
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_neoadjuvant_therapy.pdf, id=6533, 390.40857p
 t x 288.20561pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_neoadjuvant_therapy.pdf Graphic file (t
 ype pdf)
@@ -3096,7 +3298,7 @@ ype pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_neoadjuvant_therapy.
 pdf  used on input line 162.
 (pdftex.def)             Requested size: 184.9429pt x 136.52527pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_ihc_her_2.pdf, id=6538, 390.40857pt x 340.04
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_ihc_her_2.pdf, id=6534, 390.40857pt x 340.04
 614pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_ihc_her_2.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_ihc_her_2.pdf>
@@ -3113,7 +3315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 []|\OT1/cmr/m/n/10 Year Can-cer
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/21_year_initial_diagnosis.pdf, id=6539, 390.408
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/21_year_initial_diagnosis.pdf, id=6535, 390.408
 57pt x 296.09834pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/21_year_initial_diagnosis.pdf Graphic file
  (type pdf)
@@ -3126,7 +3328,7 @@ Underfull \hbox (badness 1342) in paragraph at lines 189--190
 \OT1/cmr/m/n/10 No-de Pre-sen-ta-
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/22_lymph_presentation.pdf, id=6540, 390.40857pt
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/22_lymph_presentation.pdf, id=6536, 390.40857pt
  x 288.20561pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/22_lymph_presentation.pdf Graphic file (ty
 pe pdf)
@@ -3144,7 +3346,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--197
 \OT1/cmr/m/n/10 He-ma-toxy-lin
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/23_positive_lymph_hematoxylin.pdf, id=6541, 390
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/23_positive_lymph_hematoxylin.pdf, id=6537, 390
 .40857pt x 283.7669pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/23_positive_lymph_hematoxylin.pdf Graphic 
 file (type pdf)
@@ -3157,7 +3359,7 @@ Overfull \hbox (64.45271pt too wide) in paragraph at lines 179--202
 [] 
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/24_lymph_examined_number.pdf, id=6542, 390.4085
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/24_lymph_examined_number.pdf, id=6538, 390.4085
 7pt x 283.7669pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/24_lymph_examined_number.pdf Graphic file 
 (type pdf)
@@ -3165,7 +3367,7 @@ File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/24_lymph_examined_number.pdf Graphic file
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/24_lymph_examined_numbe
 r.pdf  used on input line 212.
 (pdftex.def)             Requested size: 184.9429pt x 134.42262pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/25_menopause_status.pdf, id=6544, 390.40857pt x
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/25_menopause_status.pdf, id=6540, 390.40857pt x
  291.77513pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/25_menopause_status.pdf Graphic file (type
  pdf)
@@ -3173,7 +3375,7 @@ File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/25_menopause_status.pdf Graphic file (type
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/25_menopause_status.pdf
   used on input line 218.
 (pdftex.def)             Requested size: 184.9429pt x 138.21619pt.
-<IMAGENES/menopausia.jpg, id=6545, 2409.0pt x 1023.825pt>
+<IMAGENES/menopausia.jpg, id=6541, 2409.0pt x 1023.825pt>
 File: IMAGENES/menopausia.jpg Graphic file (type jpg)
 <use IMAGENES/menopausia.jpg>
 Package pdftex.def Info: IMAGENES/menopausia.jpg  used on input line 219.
@@ -3183,7 +3385,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--224
 []|\OT1/cmr/m/n/10 Metastatic
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/26_metastatic_tumor_indicator.pdf, id=6546, 390
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/26_metastatic_tumor_indicator.pdf, id=6542, 390
 .40857pt x 288.20561pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/26_metastatic_tumor_indicator.pdf Graphic 
 file (type pdf)
@@ -3219,7 +3421,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--238
 \OT1/cmr/m/n/10 Ac-qui-si-tion
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/27_biospecimen_method.pdf, id=6547, 390.40857pt
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/27_biospecimen_method.pdf, id=6543, 390.40857pt
  x 411.92903pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/27_biospecimen_method.pdf Graphic file (ty
 pe pdf)
@@ -3227,7 +3429,7 @@ pe pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/27_biospecimen_method.p
 df  used on input line 239.
 (pdftex.def)             Requested size: 184.9429pt x 195.13405pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/28_micromet_detection_ihc.pdf, id=6548, 390.408
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/28_micromet_detection_ihc.pdf, id=6544, 390.408
 57pt x 288.20561pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/28_micromet_detection_ihc.pdf Graphic file
  (type pdf)
@@ -3235,7 +3437,7 @@ File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/28_micromet_detection_ihc.pdf Graphic file
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/28_micromet_detection_i
 hc.pdf  used on input line 244.
 (pdftex.def)             Requested size: 184.9429pt x 136.52527pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/29_mutation_count.pdf, id=6549, 394.20955pt x 2
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/29_mutation_count.pdf, id=6545, 394.20955pt x 2
 96.09834pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/29_mutation_count.pdf Graphic file (type p
 df)
@@ -3251,7 +3453,7 @@ Overfull \hbox (78.6791pt too wide) in paragraph at lines 235--254
 
 LaTeX Warning: Float too large for page by 115.40657pt on input line 254.
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/30_oct_embedded.pdf, id=6550, 390.40857pt x 295
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/30_oct_embedded.pdf, id=6546, 390.40857pt x 295
 .82567pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/30_oct_embedded.pdf Graphic file (type pdf
 )
@@ -3259,7 +3461,7 @@ File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/30_oct_embedded.pdf Graphic file (type pdf
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/30_oct_embedded.pdf  us
 ed on input line 264.
 (pdftex.def)             Requested size: 184.9429pt x 140.13496pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/31_oncotree_code.pdf, id=6551, 390.40857pt x 29
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/31_oncotree_code.pdf, id=6547, 390.40857pt x 29
 5.06819pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/31_oncotree_code.pdf Graphic file (type pd
 f)
@@ -3267,7 +3469,7 @@ f)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/31_oncotree_code.pdf  u
 sed on input line 271.
 (pdftex.def)             Requested size: 184.9429pt x 139.77614pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/32_overall_survival_months.pdf, id=6552, 390.40
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/32_overall_survival_months.pdf, id=6548, 390.40
 857pt x 289.93265pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/32_overall_survival_months.pdf Graphic fil
 e (type pdf)
@@ -3275,7 +3477,7 @@ e (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/32_overall_survival_mon
 ths.pdf  used on input line 278.
 (pdftex.def)             Requested size: 184.9429pt x 137.34338pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/33_overall_survival_status.pdf, id=6553, 390.40
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/33_overall_survival_status.pdf, id=6549, 390.40
 857pt x 317.97377pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/33_overall_survival_status.pdf Graphic fil
 e (type pdf)
@@ -3291,7 +3493,7 @@ Overfull \hbox (64.45271pt too wide) in paragraph at lines 259--289
 
 LaTeX Warning: Float too large for page by 103.47311pt on input line 289.
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/34_disease_surgical_margin_status.pdf, id=6555,
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/34_disease_surgical_margin_status.pdf, id=6551,
  390.40857pt x 313.85318pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/34_disease_surgical_margin_status.pdf Grap
 hic file (type pdf)
@@ -3299,7 +3501,7 @@ hic file (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/34_disease_surgical_mar
 gin_status.pdf  used on input line 299.
 (pdftex.def)             Requested size: 184.9429pt x 148.67473pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/35_primary_tumor_site.pdf, id=6556, 390.40857pt
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/35_primary_tumor_site.pdf, id=6552, 390.40857pt
  x 312.12619pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/35_primary_tumor_site.pdf Graphic file (ty
 pe pdf)
@@ -3311,7 +3513,7 @@ df  used on input line 305.
 
 pdfTeX warning: pdflatex.exe (file ./IMAGENES/icd_Breast_Clock_Position.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<IMAGENES/icd_Breast_Clock_Position.pdf, id=6557, 199.74625pt x 188.705pt>
+<IMAGENES/icd_Breast_Clock_Position.pdf, id=6553, 199.74625pt x 188.705pt>
 File: IMAGENES/icd_Breast_Clock_Position.pdf Graphic file (type pdf)
 <use IMAGENES/icd_Breast_Clock_Position.pdf>
 Package pdftex.def Info: IMAGENES/icd_Breast_Clock_Position.pdf  used on input 
@@ -3330,7 +3532,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--322
 \OT1/cmr/m/n/10 ti-ve Co-llec-tion
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/36_tissue_prospective_indicator.pdf, id=6558, 3
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/36_tissue_prospective_indicator.pdf, id=6554, 3
 90.40857pt x 335.34991pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/36_tissue_prospective_indicator.pdf Graphi
 c file (type pdf)
@@ -3338,7 +3540,7 @@ c file (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/36_tissue_prospective_i
 ndicator.pdf  used on input line 324.
 (pdftex.def)             Requested size: 184.9429pt x 158.85791pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/37_pr_status_ihc.pdf, id=6559, 390.40857pt x 31
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/37_pr_status_ihc.pdf, id=6555, 390.40857pt x 31
 3.85318pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/37_pr_status_ihc.pdf Graphic file (type pd
 f)
@@ -3346,7 +3548,7 @@ f)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/37_pr_status_ihc.pdf  u
 sed on input line 330.
 (pdftex.def)             Requested size: 184.9429pt x 148.67473pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/38_race_category.pdf, id=6560, 390.40857pt x 42
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/38_race_category.pdf, id=6556, 390.40857pt x 42
 9.72363pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/38_race_category.pdf Graphic file (type pd
 f)
@@ -3362,14 +3564,14 @@ Overfull \hbox (64.45271pt too wide) in paragraph at lines 318--342
 
 LaTeX Warning: Float too large for page by 6.06421pt on input line 342.
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/39_sex.pdf, id=6561, 390.40857pt x 304.58743pt>
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/39_sex.pdf, id=6557, 390.40857pt x 304.58743pt>
 
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/39_sex.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_DESCRIPTIVAS/39_sex.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_DESCRIPTIVAS/39_sex.pdf  used on inp
 ut line 355.
 (pdftex.def)             Requested size: 184.9429pt x 144.28548pt.
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/40_staging_system.pdf, id=6562, 390.40857pt x 5
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/40_staging_system.pdf, id=6558, 390.40857pt x 5
 18.95805pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/40_staging_system.pdf Graphic file (type p
 df)
@@ -3382,7 +3584,7 @@ Underfull \hbox (badness 4205) in paragraph at lines 367--368
 []|\OT1/cmr/m/n/10 Surgical pro-ce-
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/41_surgical_procedure_first.pdf, id=6563, 390.4
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/41_surgical_procedure_first.pdf, id=6559, 390.4
 0857pt x 413.30763pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/41_surgical_procedure_first.pdf Graphic fi
 le (type pdf)
@@ -3398,7 +3600,7 @@ Overfull \hbox (64.45271pt too wide) in paragraph at lines 349--375
 
 LaTeX Warning: Float too large for page by 137.25356pt on input line 375.
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/42_tmb_nonsynonymous.pdf, id=6565, 390.40857pt 
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/42_tmb_nonsynonymous.pdf, id=6561, 390.40857pt 
 x 289.93265pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/42_tmb_nonsynonymous.pdf Graphic file (typ
 e pdf)
@@ -3411,7 +3613,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 390--391
 []|\OT1/cmr/m/n/10 Person Neo-
  []
 
-<NOTEBOOK/IMAGENES_DESCRIPTIVAS/43_person_neoplasm_status.pdf, id=6566, 390.408
+<NOTEBOOK/IMAGENES_DESCRIPTIVAS/43_person_neoplasm_status.pdf, id=6562, 390.408
 57pt x 324.44249pt>
 File: NOTEBOOK/IMAGENES_DESCRIPTIVAS/43_person_neoplasm_status.pdf Graphic file
  (type pdf)
@@ -3427,7 +3629,7 @@ Overfull \hbox (64.45271pt too wide) in paragraph at lines 380--398
 ) (EDA/5_ANALISIS_CORRELACION.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [100
+ [99
 
  <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/3_neoplasm_lymph_code.pdf> <./NOTEBOOK/IMAGE
 NES_DESCRIPTIVAS/4_neoplasm_disease_stage_code.pdf
@@ -3437,11 +3639,11 @@ disease_stage_code.pdf): PDF inclusion: multiple pdfs with page group included
 in a single page
 >]
 
-LaTeX Warning: Text page 101 contains only floats.
+LaTeX Warning: Text page 100 contains only floats.
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[101 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/5_tumor_stage_code.pdf> <./NOTEBOOK/IMAG
+[100 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/5_tumor_stage_code.pdf> <./NOTEBOOK/IMAG
 ENES_DESCRIPTIVAS/6_cancer_type_detailed.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/6_cancer_ty
@@ -3450,7 +3652,7 @@ ngle page
 >]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [102 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/9_disease_free_months.pdf> <./NOTEBOOK/
+ [101 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/9_disease_free_months.pdf> <./NOTEBOOK/
 IMAGENES_DESCRIPTIVAS/10_disease_free_status.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/10_disease_
@@ -3464,7 +3666,7 @@ age
 >]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [103 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/12_er_status_ihc_percent_positive.pdf> 
+ [102 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/12_er_status_ihc_percent_positive.pdf> 
 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/13_ethnicity_category.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/13_ethnicit
@@ -3478,7 +3680,7 @@ a single page
 >]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [104 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/15_her_2_fish_status.pdf> <./NOTEBOOK/I
+ [103 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/15_her_2_fish_status.pdf> <./NOTEBOOK/I
 MAGENES_DESCRIPTIVAS/16_her_2_ihc_percent_positive.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/16_her_2_ih
@@ -3492,7 +3694,7 @@ c_score.pdf): PDF inclusion: multiple pdfs with page group included in a single
 >]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [105 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_neoplasm_histologic_type.pdf> <./NOT
+ [104 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/18_neoplasm_histologic_type.pdf> <./NOT
 EBOOK/IMAGENES_DESCRIPTIVAS/19_neoadjuvant_therapy.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/19_neoadjuv
@@ -3505,7 +3707,7 @@ pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/20_ihc_her_
 >]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [106 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/21_year_initial_diagnosis.pdf> <./NOTEB
+ [105 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/21_year_initial_diagnosis.pdf> <./NOTEB
 OOK/IMAGENES_DESCRIPTIVAS/22_lymph_presentation.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/22_lymph_pr
@@ -3519,7 +3721,7 @@ in a single page
 >]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [107 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/24_lymph_examined_number.pdf> <./NOTEBO
+ [106 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/24_lymph_examined_number.pdf> <./NOTEBO
 OK/IMAGENES_DESCRIPTIVAS/25_menopause_status.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/25_menopaus
@@ -3534,7 +3736,7 @@ in a single page
 >]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [108 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/27_biospecimen_method.pdf> <./NOTEBOOK/
+ [107 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/27_biospecimen_method.pdf> <./NOTEBOOK/
 IMAGENES_DESCRIPTIVAS/28_micromet_detection_ihc.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/28_micromet
@@ -3548,7 +3750,7 @@ page
 >]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [109 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/30_oct_embedded.pdf> <./NOTEBOOK/IMAGEN
+ [108 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/30_oct_embedded.pdf> <./NOTEBOOK/IMAGEN
 ES_DESCRIPTIVAS/31_oncotree_code.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/31_oncotree
@@ -3567,7 +3769,7 @@ a single page
 >]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [110 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/34_disease_surgical_margin_status.pdf> 
+ [109 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/34_disease_surgical_margin_status.pdf> 
 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/35_primary_tumor_site.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/35_primary_
@@ -3576,7 +3778,7 @@ gle page
 > <./IMAGENES/icd_Breast_Clock_Position.pdf>]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [111 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/36_tissue_prospective_indicator.pdf> <.
+ [110 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/36_tissue_prospective_indicator.pdf> <.
 /NOTEBOOK/IMAGENES_DESCRIPTIVAS/37_pr_status_ihc.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/37_pr_statu
@@ -3590,7 +3792,7 @@ age
 >]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [112 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/39_sex.pdf> <./NOTEBOOK/IMAGENES_DESCRI
+ [111 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/39_sex.pdf> <./NOTEBOOK/IMAGENES_DESCRI
 PTIVAS/40_staging_system.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/40_staging_
@@ -3604,14 +3806,14 @@ _procedure_first.pdf): PDF inclusion: multiple pdfs with page group included in
 >]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [113 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/42_tmb_nonsynonymous.pdf> <./NOTEBOOK/I
+ [112 <./NOTEBOOK/IMAGENES_DESCRIPTIVAS/42_tmb_nonsynonymous.pdf> <./NOTEBOOK/I
 MAGENES_DESCRIPTIVAS/43_person_neoplasm_status.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_DESCRIPTIVAS/43_person_n
 eoplasm_status.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
 >]
-<NOTEBOOK/IMAGENES_CORRELACION/correlacion_spearman.pdf, id=7819, 794.30124pt x
+<NOTEBOOK/IMAGENES_CORRELACION/correlacion_spearman.pdf, id=7815, 794.30124pt x
  709.96492pt>
 File: NOTEBOOK/IMAGENES_CORRELACION/correlacion_spearman.pdf Graphic file (type
  pdf)
@@ -3624,11 +3826,11 @@ Underfull \vbox (badness 3690) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
- [114
+ [113
 
  <./NOTEBOOK/IMAGENES_CORRELACION/correlacion_spearman.pdf>]
 <NOTEBOOK/IMAGENES_CORRELACION/reg_tmb_nonsynonymous_mutation_count.pdf, id=786
-8, 434.90918pt x 425.10693pt>
+4, 434.90918pt x 425.10693pt>
 File: NOTEBOOK/IMAGENES_CORRELACION/reg_tmb_nonsynonymous_mutation_count.pdf Gr
 aphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CORRELACION/reg_tmb_nonsynonymous_mutation_count.pdf>
@@ -3636,7 +3838,7 @@ Package pdftex.def Info: NOTEBOOK/IMAGENES_CORRELACION/reg_tmb_nonsynonymous_mu
 tation_count.pdf  used on input line 26.
 (pdftex.def)             Requested size: 184.9429pt x 180.77507pt.
 <NOTEBOOK/IMAGENES_CORRELACION/reg_disease_free_months_overall_survival_months.
-pdf, id=7869, 428.52596pt x 425.10693pt>
+pdf, id=7865, 428.52596pt x 425.10693pt>
 File: NOTEBOOK/IMAGENES_CORRELACION/reg_disease_free_months_overall_survival_mo
 nths.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_CORRELACION/reg_disease_free_months_overall_survival_mon
@@ -3652,7 +3854,7 @@ Overfull \hbox (7.5472pt too wide) in paragraph at lines 19--38
 ))
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
- [115 <./NOTEBOOK/IMAGENES_CORRELACION/reg_tmb_nonsynonymous_mutation_count.pdf
+ [114 <./NOTEBOOK/IMAGENES_CORRELACION/reg_tmb_nonsynonymous_mutation_count.pdf
 > <./NOTEBOOK/IMAGENES_CORRELACION/reg_disease_free_months_overall_survival_mon
 ths.pdf
 
@@ -3669,7 +3871,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
-[116
+[115
 
 
 
@@ -3679,14 +3881,14 @@ Overfull \hbox (17.3208pt too wide) in paragraph at lines 21--41
 [] 
  []
 
-<NOTEBOOK/IMAGENES_CLUSTERING/1_TNSE_Kmeans.png, id=7938, 452.4403pt x 423.0806
+<NOTEBOOK/IMAGENES_CLUSTERING/1_TNSE_Kmeans.png, id=7934, 452.4403pt x 423.0806
 3pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/1_TNSE_Kmeans.png Graphic file (type png)
 <use NOTEBOOK/IMAGENES_CLUSTERING/1_TNSE_Kmeans.png>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/1_TNSE_Kmeans.png  used o
 n input line 52.
 (pdftex.def)             Requested size: 213.39568pt x 199.54514pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/2_TNSE_Affinity_Propagation.png, id=7939, 469.755
+<NOTEBOOK/IMAGENES_CLUSTERING/2_TNSE_Affinity_Propagation.png, id=7935, 469.755
 pt x 423.83344pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/2_TNSE_Affinity_Propagation.png Graphic file
  (type png)
@@ -3694,7 +3896,7 @@ File: NOTEBOOK/IMAGENES_CLUSTERING/2_TNSE_Affinity_Propagation.png Graphic file
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/2_TNSE_Affinity_Propagati
 on.png  used on input line 53.
 (pdftex.def)             Requested size: 213.39568pt x 192.53407pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/3_TNSE_Mean_Shift_Clustering.png, id=7940, 469.00
+<NOTEBOOK/IMAGENES_CLUSTERING/3_TNSE_Mean_Shift_Clustering.png, id=7936, 469.00
 218pt x 426.09187pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/3_TNSE_Mean_Shift_Clustering.png Graphic fil
 e (type png)
@@ -3702,7 +3904,7 @@ e (type png)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/3_TNSE_Mean_Shift_Cluster
 ing.png  used on input line 58.
 (pdftex.def)             Requested size: 213.39568pt x 193.8656pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/4_TNSE_Spectral_ Clustering.png, id=7941, 461.474
+<NOTEBOOK/IMAGENES_CLUSTERING/4_TNSE_Spectral_ Clustering.png, id=7937, 461.474
 06pt x 418.56375pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/4_TNSE_Spectral_ Clustering.png Graphic file
  (type png)
@@ -3717,17 +3919,17 @@ Overfull \hbox (13.19998pt too wide) in paragraph at lines 48--62
 
 LaTeX Info: Redefining \. on input line 63.
 LaTeX Info: Redefining \% on input line 63.
-[117]
+[116]
 Overfull \vbox (70.52321pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 63.
 LaTeX Info: Redefining \% on input line 63.
 
-[118 <./NOTEBOOK/IMAGENES_CLUSTERING/1_TNSE_Kmeans.png> <./NOTEBOOK/IMAGENES_CL
+[117 <./NOTEBOOK/IMAGENES_CLUSTERING/1_TNSE_Kmeans.png> <./NOTEBOOK/IMAGENES_CL
 USTERING/2_TNSE_Affinity_Propagation.png> <./NOTEBOOK/IMAGENES_CLUSTERING/3_TNS
 E_Mean_Shift_Clustering.png> <./NOTEBOOK/IMAGENES_CLUSTERING/4_TNSE_Spectral_ C
 lustering.png>]
-<NOTEBOOK/IMAGENES_CLUSTERING/5_TNSE_Agglomerative_Clustering.png, id=7956, 451
+<NOTEBOOK/IMAGENES_CLUSTERING/5_TNSE_Agglomerative_Clustering.png, id=7952, 451
 .6875pt x 426.84468pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/5_TNSE_Agglomerative_Clustering.png Graphic 
 file (type png)
@@ -3736,14 +3938,14 @@ Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/5_TNSE_Agglomerative_Clus
 tering.png  used on input line 71.
 (pdftex.def)             Requested size: 213.39568pt x 201.65912pt.
 <NOTEBOOK/IMAGENES_CLUSTERING/6_TNSE_Density_Based_Spatial_Clustering.png, id=7
-957, 450.18187pt x 419.31656pt>
+953, 450.18187pt x 419.31656pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/6_TNSE_Density_Based_Spatial_Clustering.png 
 Graphic file (type png)
 <use NOTEBOOK/IMAGENES_CLUSTERING/6_TNSE_Density_Based_Spatial_Clustering.png>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/6_TNSE_Density_Based_Spat
 ial_Clustering.png  used on input line 72.
 (pdftex.def)             Requested size: 213.39568pt x 198.76793pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/7_TNSE_OPTICS_Clustering.png, id=7958, 461.47406p
+<NOTEBOOK/IMAGENES_CLUSTERING/7_TNSE_OPTICS_Clustering.png, id=7954, 461.47406p
 t x 420.82219pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/7_TNSE_OPTICS_Clustering.png Graphic file (t
 ype png)
@@ -3751,7 +3953,7 @@ ype png)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/7_TNSE_OPTICS_Clustering.
 png  used on input line 76.
 (pdftex.def)             Requested size: 213.39568pt x 194.59511pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/8_TNSE_Birch_Clustering.png, id=7959, 488.57532pt
+<NOTEBOOK/IMAGENES_CLUSTERING/8_TNSE_Birch_Clustering.png, id=7955, 488.57532pt
  x 423.08063pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/8_TNSE_Birch_Clustering.png Graphic file (ty
 pe png)
@@ -3759,7 +3961,7 @@ pe png)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/8_TNSE_Birch_Clustering.p
 ng  used on input line 77.
 (pdftex.def)             Requested size: 213.39568pt x 184.78745pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/9_TNSE_Kmodes.png, id=7960, 449.42906pt x 422.327
+<NOTEBOOK/IMAGENES_CLUSTERING/9_TNSE_Kmodes.png, id=7956, 449.42906pt x 422.327
 82pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/9_TNSE_Kmodes.png Graphic file (type png)
 <use NOTEBOOK/IMAGENES_CLUSTERING/9_TNSE_Kmodes.png>
@@ -3777,19 +3979,19 @@ Overfull \vbox (64.79808pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 87.
 LaTeX Info: Redefining \% on input line 87.
 
-[119 <./NOTEBOOK/IMAGENES_CLUSTERING/5_TNSE_Agglomerative_Clustering.png> <./NO
+[118 <./NOTEBOOK/IMAGENES_CLUSTERING/5_TNSE_Agglomerative_Clustering.png> <./NO
 TEBOOK/IMAGENES_CLUSTERING/6_TNSE_Density_Based_Spatial_Clustering.png> <./NOTE
 BOOK/IMAGENES_CLUSTERING/7_TNSE_OPTICS_Clustering.png> <./NOTEBOOK/IMAGENES_CLU
 STERING/8_TNSE_Birch_Clustering.png> <./NOTEBOOK/IMAGENES_CLUSTERING/9_TNSE_Kmo
 des.png>]
-<NOTEBOOK/IMAGENES_CLUSTERING/1_MAP_Kmeans.png, id=7971, 371.3875pt x 266.9975p
+<NOTEBOOK/IMAGENES_CLUSTERING/1_MAP_Kmeans.png, id=7967, 371.3875pt x 266.9975p
 t>
 File: NOTEBOOK/IMAGENES_CLUSTERING/1_MAP_Kmeans.png Graphic file (type png)
 <use NOTEBOOK/IMAGENES_CLUSTERING/1_MAP_Kmeans.png>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/1_MAP_Kmeans.png  used on
  input line 98.
 (pdftex.def)             Requested size: 213.39568pt x 153.41643pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/2_MAP_Affinity_Propagation.png, id=7972, 371.3875
+<NOTEBOOK/IMAGENES_CLUSTERING/2_MAP_Affinity_Propagation.png, id=7968, 371.3875
 pt x 266.9975pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/2_MAP_Affinity_Propagation.png Graphic file 
 (type png)
@@ -3797,7 +3999,7 @@ File: NOTEBOOK/IMAGENES_CLUSTERING/2_MAP_Affinity_Propagation.png Graphic file
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/2_MAP_Affinity_Propagatio
 n.png  used on input line 99.
 (pdftex.def)             Requested size: 213.39568pt x 153.41643pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/3_MAP_Meanshift_Distance.png, id=7973, 371.3875pt
+<NOTEBOOK/IMAGENES_CLUSTERING/3_MAP_Meanshift_Distance.png, id=7969, 371.3875pt
  x 266.9975pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/3_MAP_Meanshift_Distance.png Graphic file (t
 ype png)
@@ -3813,7 +4015,7 @@ Overfull \hbox (13.19998pt too wide) in paragraph at lines 94--108
 )
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
- [120 <./NOTEBOOK/IMAGENES_CLUSTERING/1_MAP_Kmeans.png> <./NOTEBOOK/IMAGENES_CL
+ [119 <./NOTEBOOK/IMAGENES_CLUSTERING/1_MAP_Kmeans.png> <./NOTEBOOK/IMAGENES_CL
 USTERING/2_MAP_Affinity_Propagation.png> <./NOTEBOOK/IMAGENES_CLUSTERING/3_MAP_
 Meanshift_Distance.png>]
 \openout2 = `FASES/FASE_6_EVALUACION.aux'.
@@ -3826,7 +4028,7 @@ la efi-cien-cia espacio-temporal,
 
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
-[121
+[120
 
 
 
@@ -3837,7 +4039,7 @@ pe png)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/8_TNSE_Birch_Clustering.p
 ng  used on input line 14.
 (pdftex.def)             Requested size: 213.39568pt x 184.78745pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/8_PCA_Birch_Clustering.png, id=7991, 1313.90875pt
+<NOTEBOOK/IMAGENES_CLUSTERING/8_PCA_Birch_Clustering.png, id=7986, 1313.90875pt
  x 421.575pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/8_PCA_Birch_Clustering.png Graphic file (typ
 e png)
@@ -3847,15 +4049,15 @@ g  used on input line 22.
 (pdftex.def)             Requested size: 426.79135pt x 136.93948pt.
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
- [122 <./NOTEBOOK/IMAGENES_CLUSTERING/8_PCA_Birch_Clustering.png>]
+ [121 <./NOTEBOOK/IMAGENES_CLUSTERING/8_PCA_Birch_Clustering.png>]
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
 
-[123]
+[122]
 LaTeX Info: Redefining \. on input line 76.
 LaTeX Info: Redefining \% on input line 76.
- [124]
-<NOTEBOOK/IMAGENES_CLUSTERING/8_SILHOUTETTE_Birch_Clustering.png, id=8024, 383.
+ [123]
+<NOTEBOOK/IMAGENES_CLUSTERING/8_SILHOUTETTE_Birch_Clustering.png, id=8020, 383.
 4325pt x 276.03125pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/8_SILHOUTETTE_Birch_Clustering.png Graphic f
 ile (type png)
@@ -3863,7 +4065,7 @@ ile (type png)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_CLUSTERING/8_SILHOUTETTE_Birch_Clust
 ering.png  used on input line 97.
 (pdftex.def)             Requested size: 213.39568pt x 153.62454pt.
-<NOTEBOOK/IMAGENES_CLUSTERING/8_ELBOW_Birch_Clustering.png, id=8025, 398.48875p
+<NOTEBOOK/IMAGENES_CLUSTERING/8_ELBOW_Birch_Clustering.png, id=8021, 398.48875p
 t x 276.03125pt>
 File: NOTEBOOK/IMAGENES_CLUSTERING/8_ELBOW_Birch_Clustering.png Graphic file (t
 ype png)
@@ -3873,282 +4075,282 @@ png  used on input line 98.
 (pdftex.def)             Requested size: 213.39568pt x 147.81635pt.
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [125 <./NOTEBOOK/IMAGENES_CLUSTERING/8_SILHOUTETTE_Birch_Clustering.png> <./NO
+ [124 <./NOTEBOOK/IMAGENES_CLUSTERING/8_SILHOUTETTE_Birch_Clustering.png> <./NO
 TEBOOK/IMAGENES_CLUSTERING/8_ELBOW_Birch_Clustering.png>]
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/1.pdf, id=8036, 436.60616pt x 358.43831pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/1.pdf, id=8032, 436.60616pt x 358.43831pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/1.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/1.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/1.pdf  used on in
 put line 111.
 (pdftex.def)             Requested size: 89.62904pt x 73.57877pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/2.pdf, id=8037, 436.60616pt x 382.95244pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/2.pdf, id=8033, 436.60616pt x 382.95244pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/2.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/2.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/2.pdf  used on in
 put line 112.
 (pdftex.def)             Requested size: 89.62904pt x 78.61093pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/3.pdf, id=8038, 436.60616pt x 388.93799pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/3.pdf, id=8034, 436.60616pt x 388.93799pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/3.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/3.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/3.pdf  used on in
 put line 113.
 (pdftex.def)             Requested size: 89.62904pt x 79.83963pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/4.pdf, id=8039, 436.60616pt x 385.90436pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/4.pdf, id=8035, 436.60616pt x 385.90436pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/4.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/4.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/4.pdf  used on in
 put line 114.
 (pdftex.def)             Requested size: 89.62904pt x 79.21689pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/5.pdf, id=8040, 436.60616pt x 361.08781pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/5.pdf, id=8036, 436.60616pt x 361.08781pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/5.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/5.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/5.pdf  used on in
 put line 116.
 (pdftex.def)             Requested size: 89.62904pt x 74.12265pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/41.pdf, id=8041, 436.60616pt x 392.19997p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/41.pdf, id=8037, 436.60616pt x 392.19997p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/41.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/41.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/41.pdf  used on i
 nput line 117.
 (pdftex.def)             Requested size: 89.62904pt x 80.50923pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/7.pdf, id=8042, 436.4807pt x 363.84712pt>
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/7.pdf, id=8038, 436.4807pt x 363.84712pt>
 
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/7.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/7.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/7.pdf  used on in
 put line 118.
 (pdftex.def)             Requested size: 89.62904pt x 74.71127pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/8.pdf, id=8043, 436.60616pt x 397.79643pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/8.pdf, id=8039, 436.60616pt x 397.79643pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/8.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/8.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/8.pdf  used on in
 put line 119.
 (pdftex.def)             Requested size: 89.62904pt x 81.65805pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/9.pdf, id=8044, 436.60616pt x 384.22014pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/9.pdf, id=8040, 436.60616pt x 384.22014pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/9.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/9.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/9.pdf  used on in
 put line 121.
 (pdftex.def)             Requested size: 89.62904pt x 78.87115pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/10.pdf, id=8045, 436.60616pt x 381.00397p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/10.pdf, id=8041, 436.60616pt x 381.00397p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/10.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/10.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/10.pdf  used on i
 nput line 122.
 (pdftex.def)             Requested size: 89.62904pt x 78.21095pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/11.pdf, id=8046, 436.60616pt x 436.54594p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/11.pdf, id=8042, 436.60616pt x 436.54594p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/11.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/11.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/11.pdf  used on i
 nput line 123.
 (pdftex.def)             Requested size: 89.62904pt x 89.6124pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/12.pdf, id=8047, 436.4807pt x 361.22897pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/12.pdf, id=8043, 436.4807pt x 361.22897pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/12.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/12.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/12.pdf  used on i
 nput line 124.
 (pdftex.def)             Requested size: 89.62904pt x 74.17368pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/13.pdf, id=8048, 436.60616pt x 384.3613pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/13.pdf, id=8044, 436.60616pt x 384.3613pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/13.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/13.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/13.pdf  used on i
 nput line 126.
 (pdftex.def)             Requested size: 89.62904pt x 78.90013pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/14.pdf, id=8049, 436.60616pt x 380.93005p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/14.pdf, id=8045, 436.60616pt x 380.93005p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/14.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/14.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/14.pdf  used on i
 nput line 127.
 (pdftex.def)             Requested size: 89.62904pt x 78.19579pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/15.pdf, id=8050, 436.60616pt x 366.43387p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/15.pdf, id=8046, 436.60616pt x 366.43387p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/15.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/15.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/15.pdf  used on i
 nput line 128.
 (pdftex.def)             Requested size: 89.62904pt x 75.22006pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/16.pdf, id=8051, 436.60616pt x 468.37874p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/16.pdf, id=8047, 436.60616pt x 468.37874p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/16.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/16.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/16.pdf  used on i
 nput line 129.
 (pdftex.def)             Requested size: 89.62904pt x 96.1469pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/17.pdf, id=8052, 436.60616pt x 362.69365p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/17.pdf, id=8048, 436.60616pt x 362.69365p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/17.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/17.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/17.pdf  used on i
 nput line 139.
 (pdftex.def)             Requested size: 93.8946pt x 77.99974pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/18.pdf, id=8053, 436.60616pt x 406.30653p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/18.pdf, id=8049, 436.60616pt x 406.30653p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/18.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/18.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/18.pdf  used on i
 nput line 140.
 (pdftex.def)             Requested size: 93.8946pt x 87.379pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/19.pdf, id=8054, 436.4807pt x 369.17749pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/19.pdf, id=8050, 436.4807pt x 369.17749pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/19.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/19.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/19.pdf  used on i
 nput line 141.
 (pdftex.def)             Requested size: 93.8946pt x 79.41667pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/20.pdf, id=8055, 436.60616pt x 362.69365p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/20.pdf, id=8051, 436.60616pt x 362.69365p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/20.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/20.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/20.pdf  used on i
 nput line 142.
 (pdftex.def)             Requested size: 93.8946pt x 77.99974pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/21.pdf, id=8056, 436.60616pt x 358.39125p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/21.pdf, id=8052, 436.60616pt x 358.39125p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/21.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/21.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/21.pdf  used on i
 nput line 144.
 (pdftex.def)             Requested size: 93.8946pt x 77.07448pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/22.pdf, id=8057, 436.4807pt x 358.43831pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/22.pdf, id=8053, 436.4807pt x 358.43831pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/22.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/22.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/22.pdf  used on i
 nput line 145.
 (pdftex.def)             Requested size: 93.8946pt x 77.10648pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/23.pdf, id=8058, 436.60616pt x 365.81009p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/23.pdf, id=8054, 436.60616pt x 365.81009p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/23.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/23.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/23.pdf  used on i
 nput line 146.
 (pdftex.def)             Requested size: 93.8946pt x 78.66995pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/24.pdf, id=8059, 436.60616pt x 362.61522p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/24.pdf, id=8055, 436.60616pt x 362.61522p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/24.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/24.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/24.pdf  used on i
 nput line 147.
 (pdftex.def)             Requested size: 93.8946pt x 77.98288pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/25.pdf, id=8060, 436.60616pt x 470.44989p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/25.pdf, id=8056, 436.60616pt x 470.44989p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/25.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/25.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/25.pdf  used on i
 nput line 149.
 (pdftex.def)             Requested size: 93.8946pt x 101.17346pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/26.pdf, id=8061, 436.60616pt x 362.61522p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/26.pdf, id=8057, 436.60616pt x 362.61522p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/26.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/26.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/26.pdf  used on i
 nput line 150.
 (pdftex.def)             Requested size: 93.8946pt x 77.98288pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/27.pdf, id=8062, 436.4807pt x 369.09908pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/27.pdf, id=8058, 436.4807pt x 369.09908pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/27.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/27.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/27.pdf  used on i
 nput line 151.
 (pdftex.def)             Requested size: 93.8946pt x 79.3998pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/28.pdf, id=8063, 436.60616pt x 371.42203p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/28.pdf, id=8059, 436.60616pt x 371.42203p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/28.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/28.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/28.pdf  used on i
 nput line 152.
 (pdftex.def)             Requested size: 93.8946pt x 79.87685pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/29.pdf, id=8064, 436.60616pt x 367.99316p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/29.pdf, id=8060, 436.60616pt x 367.99316p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/29.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/29.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/29.pdf  used on i
 nput line 154.
 (pdftex.def)             Requested size: 93.8946pt x 79.13943pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/30.pdf, id=8065, 436.4807pt x 363.70596pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/30.pdf, id=8061, 436.4807pt x 363.70596pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/30.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/30.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/30.pdf  used on i
 nput line 155.
 (pdftex.def)             Requested size: 93.8946pt x 78.23965pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/31.pdf, id=8066, 436.60616pt x 389.58078p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/31.pdf, id=8062, 436.60616pt x 389.58078p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/31.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/31.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/31.pdf  used on i
 nput line 156.
 (pdftex.def)             Requested size: 93.8946pt x 83.782pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/32.pdf, id=8067, 436.60616pt x 384.29855p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/32.pdf, id=8063, 436.60616pt x 384.29855p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/32.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/32.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/32.pdf  used on i
 nput line 157.
 (pdftex.def)             Requested size: 93.8946pt x 82.64603pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/33.pdf, id=8068, 436.4807pt x 384.26608pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/33.pdf, id=8064, 436.4807pt x 384.26608pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/33.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/33.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/33.pdf  used on i
 nput line 159.
 (pdftex.def)             Requested size: 93.8946pt x 82.66249pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/34.pdf, id=8069, 436.60616pt x 402.9862pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/34.pdf, id=8065, 436.60616pt x 402.9862pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/34.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/34.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/34.pdf  used on i
 nput line 160.
 (pdftex.def)             Requested size: 93.8946pt x 86.66493pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/35.pdf, id=8070, 436.60616pt x 384.1731pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/35.pdf, id=8066, 436.60616pt x 384.1731pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/35.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/35.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/35.pdf  used on i
 nput line 161.
 (pdftex.def)             Requested size: 93.8946pt x 82.61905pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/36.pdf, id=8071, 436.60616pt x 486.71672p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/36.pdf, id=8067, 436.60616pt x 486.71672p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/36.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/36.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/36.pdf  used on i
 nput line 162.
 (pdftex.def)             Requested size: 93.8946pt x 104.67175pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/37.pdf, id=8072, 436.60616pt x 376.6282pt
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/37.pdf, id=8068, 436.60616pt x 376.6282pt
 >
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/37.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/37.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/37.pdf  used on i
 nput line 164.
 (pdftex.def)             Requested size: 93.8946pt x 80.99648pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/38.pdf, id=8073, 436.60616pt x 563.75584p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/38.pdf, id=8069, 436.60616pt x 563.75584p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/38.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/38.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/38.pdf  used on i
 nput line 165.
 (pdftex.def)             Requested size: 93.8946pt x 121.23955pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/39.pdf, id=8074, 436.60616pt x 470.67105p
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/39.pdf, id=8070, 436.60616pt x 470.67105p
 t>
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/39.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/39.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/39.pdf  used on i
 nput line 166.
 (pdftex.def)             Requested size: 93.8946pt x 101.22102pt.
-<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/40.pdf, id=8075, 436.4807pt x 363.7844pt>
+<NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/40.pdf, id=8071, 436.4807pt x 363.7844pt>
 
 File: NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/40.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/40.pdf>
@@ -4161,7 +4363,7 @@ LaTeX Warning: Float too large for page by 51.78568pt on input line 173.
 
 LaTeX Info: Redefining \. on input line 174.
 LaTeX Info: Redefining \% on input line 174.
-[126
+[125
 
  <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/1.pdf> <./NOTEBOOK/IMAGENES_BIRCH_DESC
 RIPTIVAS/2.pdf> <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/3.pdf> <./NOTEBOOK/IMAG
@@ -4175,7 +4377,7 @@ GENES_BIRCH_DESCRIPTIVAS/14.pdf> <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/15.pdf
 > <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/16.pdf>]
 LaTeX Info: Redefining \. on input line 174.
 LaTeX Info: Redefining \% on input line 174.
- [127 <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/17.pdf> <./NOTEBOOK/IMAGENES_BIRC
+ [126 <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/17.pdf> <./NOTEBOOK/IMAGENES_BIRC
 H_DESCRIPTIVAS/18.pdf> <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/19.pdf> <./NOTEB
 OOK/IMAGENES_BIRCH_DESCRIPTIVAS/20.pdf> <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS
 /21.pdf> <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/22.pdf> <./NOTEBOOK/IMAGENES_B
@@ -4190,7 +4392,7 @@ ENES_BIRCH_DESCRIPTIVAS/33.pdf> <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/34.pdf>
 CRIPTIVAS/36.pdf> <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/37.pdf> <./NOTEBOOK/I
 MAGENES_BIRCH_DESCRIPTIVAS/38.pdf> <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/39.p
 df> <./NOTEBOOK/IMAGENES_BIRCH_DESCRIPTIVAS/40.pdf>]
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_0_oncotree_code.pdf, id=9316, 390
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_0_oncotree_code.pdf, id=9311, 390
 .40857pt x 295.06819pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_0_oncotree_code.pdf Graphic 
 file (type pdf)
@@ -4198,7 +4400,7 @@ file (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_0_oncotre
 e_code.pdf  used on input line 180.
 (pdftex.def)             Requested size: 213.39568pt x 161.27946pt.
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_1_oncotree_code.pdf, id=9317, 390
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_1_oncotree_code.pdf, id=9312, 390
 .40857pt x 295.06819pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_1_oncotree_code.pdf Graphic 
 file (type pdf)
@@ -4206,7 +4408,7 @@ file (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_1_oncotre
 e_code.pdf  used on input line 181.
 (pdftex.def)             Requested size: 213.39568pt x 161.27946pt.
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_2_oncotree_code.pdf, id=9318, 387
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_2_oncotree_code.pdf, id=9313, 387
 .22481pt x 285.61513pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_2_oncotree_code.pdf Graphic 
 file (type pdf)
@@ -4214,7 +4416,7 @@ file (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_2_oncotre
 e_code.pdf  used on input line 183.
 (pdftex.def)             Requested size: 213.39568pt x 157.39822pt.
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_3_oncotree_code.pdf, id=9319, 384
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_3_oncotree_code.pdf, id=9314, 384
 .02534pt x 295.06819pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_3_oncotree_code.pdf Graphic 
 file (type pdf)
@@ -4242,16 +4444,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 \OT1/cmr/m/n/10 Lymph No-de
  []
 
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_0_neoplasm_lymph_code.pdf, id=932
-1, 390.40857pt x 305.2333pt>
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_0_neoplasm_lymph_code.pdf, id=931
+6, 390.40857pt x 305.2333pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_0_neoplasm_lymph_code.pdf Gr
 aphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_0_neoplasm_lymph_code.pdf>
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_0_neoplas
 m_lymph_code.pdf  used on input line 205.
 (pdftex.def)             Requested size: 184.9429pt x 144.59143pt.
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_3_neoplasm_lymph_code.pdf, id=932
-2, 384.02534pt x 289.90231pt>
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_3_neoplasm_lymph_code.pdf, id=931
+7, 384.02534pt x 289.90231pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_3_neoplasm_lymph_code.pdf Gr
 aphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_3_neoplasm_lymph_code.pdf>
@@ -4269,7 +4471,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--211
  []
 
 <NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/3_Cluster_0_neoplasm_disease_stage_code.pdf
-, id=9323, 390.40857pt x 315.68623pt>
+, id=9318, 390.40857pt x 315.68623pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/3_Cluster_0_neoplasm_disease_stage_cod
 e.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/3_Cluster_0_neoplasm_disease_stage_code
@@ -4278,7 +4480,7 @@ Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/3_Cluster_0_neoplas
 m_disease_stage_code.pdf  used on input line 214.
 (pdftex.def)             Requested size: 184.9429pt x 149.54306pt.
 <NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/3_Cluster_3_neoplasm_disease_stage_code.pdf
-, id=9324, 393.60803pt x 315.68623pt>
+, id=9319, 393.60803pt x 315.68623pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/3_Cluster_3_neoplasm_disease_stage_cod
 e.pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/3_Cluster_3_neoplasm_disease_stage_code
@@ -4299,7 +4501,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--228
 []|\OT1/cmr/m/n/10 AJCC Tu-mor
  []
 
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/4_Cluster_0_tumor_stage_code.pdf, id=9325, 
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/4_Cluster_0_tumor_stage_code.pdf, id=9320, 
 390.40857pt x 287.55421pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/4_Cluster_0_tumor_stage_code.pdf Graph
 ic file (type pdf)
@@ -4307,7 +4509,7 @@ ic file (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/4_Cluster_0_tumor_s
 tage_code.pdf  used on input line 231.
 (pdftex.def)             Requested size: 184.9429pt x 136.2167pt.
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/4_Cluster_3_tumor_stage_code.pdf, id=9326, 
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/4_Cluster_3_tumor_stage_code.pdf, id=9321, 
 384.02534pt x 287.55421pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/4_Cluster_3_tumor_stage_code.pdf Graph
 ic file (type pdf)
@@ -4321,7 +4523,7 @@ Underfull \hbox (badness 1132) in paragraph at lines 236--237
  []
 
 <NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/5_Cluster_0_her_2_ihc_percent_positive.pdf,
- id=9327, 390.40857pt x 308.80852pt>
+ id=9322, 390.40857pt x 308.80852pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/5_Cluster_0_her_2_ihc_percent_positive
 .pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/5_Cluster_0_her_2_ihc_percent_positive.
@@ -4330,7 +4532,7 @@ Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/5_Cluster_0_her_2_i
 hc_percent_positive.pdf  used on input line 240.
 (pdftex.def)             Requested size: 184.9429pt x 146.28503pt.
 <NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/5_Cluster_3_her_2_ihc_percent_positive.pdf,
- id=9328, 393.60803pt x 308.80852pt>
+ id=9323, 393.60803pt x 308.80852pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/5_Cluster_3_her_2_ihc_percent_positive
 .pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/5_Cluster_3_her_2_ihc_percent_positive.
@@ -4351,7 +4553,7 @@ Underfull \hbox (badness 1342) in paragraph at lines 252--253
 \OT1/cmr/m/n/10 No-de Pre-sen-ta-
  []
 
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/6_Cluster_0_lymph_presentation.pdf, id=9329
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/6_Cluster_0_lymph_presentation.pdf, id=9324
 , 390.40857pt x 288.20561pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/6_Cluster_0_lymph_presentation.pdf Gra
 phic file (type pdf)
@@ -4359,7 +4561,7 @@ phic file (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/6_Cluster_0_lymph_p
 resentation.pdf  used on input line 255.
 (pdftex.def)             Requested size: 184.9429pt x 136.52527pt.
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/6_Cluster_3_lymph_presentation.pdf, id=9330
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/6_Cluster_3_lymph_presentation.pdf, id=9325
 , 384.02534pt x 288.20561pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/6_Cluster_3_lymph_presentation.pdf Gra
 phic file (type pdf)
@@ -4378,7 +4580,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--261
  []
 
 <NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/7_Cluster_0_positive_lymph_hematoxylin.pdf,
- id=9331, 390.40857pt x 293.02307pt>
+ id=9326, 390.40857pt x 293.02307pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/7_Cluster_0_positive_lymph_hematoxylin
 .pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/7_Cluster_0_positive_lymph_hematoxylin.
@@ -4387,7 +4589,7 @@ Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/7_Cluster_0_positiv
 e_lymph_hematoxylin.pdf  used on input line 264.
 (pdftex.def)             Requested size: 184.9429pt x 138.80734pt.
 <NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/7_Cluster_3_positive_lymph_hematoxylin.pdf,
- id=9332, 377.64214pt x 283.7669pt>
+ id=9327, 377.64214pt x 283.7669pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/7_Cluster_3_positive_lymph_hematoxylin
 .pdf Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/7_Cluster_3_positive_lymph_hematoxylin.
@@ -4403,7 +4605,7 @@ Overfull \hbox (64.45271pt too wide) in paragraph at lines 250--270
 
 LaTeX Warning: Float too large for page by 31.89221pt on input line 270.
 
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_0_mutation_count.pdf, id=9333, 39
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_0_mutation_count.pdf, id=9328, 39
 0.40857pt x 296.09834pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_0_mutation_count.pdf Graphic
  file (type pdf)
@@ -4411,7 +4613,7 @@ File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_0_mutation_count.pdf Graphic
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_0_mutatio
 n_count.pdf  used on input line 280.
 (pdftex.def)             Requested size: 184.9429pt x 140.26413pt.
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_3_mutation_count.pdf, id=9334, 39
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_3_mutation_count.pdf, id=9329, 39
 0.46478pt x 289.93265pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_3_mutation_count.pdf Graphic
  file (type pdf)
@@ -4420,7 +4622,7 @@ Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_3_mutatio
 n_count.pdf  used on input line 281.
 (pdftex.def)             Requested size: 184.9429pt x 137.3257pt.
 <NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/9_Cluster_0_overall_survival_months.pdf, id
-=9335, 390.40857pt x 289.93265pt>
+=9330, 390.40857pt x 289.93265pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/9_Cluster_0_overall_survival_months.pd
 f Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/9_Cluster_0_overall_survival_months.pdf
@@ -4429,7 +4631,7 @@ Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/9_Cluster_0_overall
 _survival_months.pdf  used on input line 289.
 (pdftex.def)             Requested size: 184.9429pt x 137.34338pt.
 <NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/9_Cluster_3_overall_survival_months.pdf, id
-=9336, 377.64214pt x 289.93265pt>
+=9331, 377.64214pt x 289.93265pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/9_Cluster_3_overall_survival_months.pd
 f Graphic file (type pdf)
 <use NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/9_Cluster_3_overall_survival_months.pdf
@@ -4447,7 +4649,7 @@ LaTeX Warning: Float too large for page by 32.4899pt on input line 295.
 
 LaTeX Info: Redefining \. on input line 296.
 LaTeX Info: Redefining \% on input line 296.
-[128 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_0_oncotree_code.pdf> <./NO
+[127 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_0_oncotree_code.pdf> <./NO
 TEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Cluster_1_oncotree_code.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/1_Clust
@@ -4466,7 +4668,7 @@ in a single page
 >]
 LaTeX Info: Redefining \. on input line 296.
 LaTeX Info: Redefining \% on input line 296.
- [129 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_0_neoplasm_lymph_code.pdf
+ [128 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_0_neoplasm_lymph_code.pdf
 > <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Cluster_3_neoplasm_lymph_code.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/2_Clust
@@ -4487,7 +4689,7 @@ roup included in a single page
 >]
 LaTeX Info: Redefining \. on input line 296.
 LaTeX Info: Redefining \% on input line 296.
- [130 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/4_Cluster_0_tumor_stage_code.pdf> <
+ [129 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/4_Cluster_0_tumor_stage_code.pdf> <
 ./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/4_Cluster_3_tumor_stage_code.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/4_Clust
@@ -4508,7 +4710,7 @@ oup included in a single page
 >]
 LaTeX Info: Redefining \. on input line 296.
 LaTeX Info: Redefining \% on input line 296.
- [131 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/6_Cluster_0_lymph_presentation.pdf>
+ [130 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/6_Cluster_0_lymph_presentation.pdf>
  <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/6_Cluster_3_lymph_presentation.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/6_Clust
@@ -4529,7 +4731,7 @@ oup included in a single page
 >]
 LaTeX Info: Redefining \. on input line 296.
 LaTeX Info: Redefining \% on input line 296.
- [132 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_0_mutation_count.pdf> <./
+ [131 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_0_mutation_count.pdf> <./
 NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Cluster_3_mutation_count.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/8_Clust
@@ -4548,7 +4750,7 @@ pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/9_Clust
 er_3_overall_survival_months.pdf): PDF inclusion: multiple pdfs with page group
  included in a single page
 >]
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/10_Cluster_0_tmb_nonsynonymous.pdf, id=9961
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/10_Cluster_0_tmb_nonsynonymous.pdf, id=9957
 , 390.40857pt x 283.7669pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/10_Cluster_0_tmb_nonsynonymous.pdf Gra
 phic file (type pdf)
@@ -4556,7 +4758,7 @@ phic file (type pdf)
 Package pdftex.def Info: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/10_Cluster_0_tmb_no
 nsynonymous.pdf  used on input line 306.
 (pdftex.def)             Requested size: 184.9429pt x 134.42262pt.
-<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/10_Cluster_3_tmb_nonsynonymous.pdf, id=9962
+<NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/10_Cluster_3_tmb_nonsynonymous.pdf, id=9958
 , 384.02534pt x 286.85735pt>
 File: NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/10_Cluster_3_tmb_nonsynonymous.pdf Gra
 phic file (type pdf)
@@ -4571,7 +4773,7 @@ Overfull \hbox (64.45271pt too wide) in paragraph at lines 300--314
 
 LaTeX Info: Redefining \. on input line 315.
 LaTeX Info: Redefining \% on input line 315.
-[133 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/10_Cluster_0_tmb_nonsynonymous.pdf> 
+[132 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/10_Cluster_0_tmb_nonsynonymous.pdf> 
 <./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/10_Cluster_3_tmb_nonsynonymous.pdf
 
 pdfTeX warning: pdflatex.exe (file ./NOTEBOOK/IMAGENES_BIRCH_CLUSTERING/10_Clus
@@ -4632,7 +4834,7 @@ Overfull \hbox (5.32082pt too wide) in paragraph at lines 10--146
 
 LaTeX Info: Redefining \. on input line 149.
 LaTeX Info: Redefining \% on input line 149.
-[134
+[133
 
 
 
@@ -4641,15 +4843,15 @@ LaTeX Info: Redefining \% on input line 149.
 ]
 LaTeX Info: Redefining \. on input line 149.
 LaTeX Info: Redefining \% on input line 149.
- [135]
-<img/alertmessage-info.png, id=10036, 32.57239pt x 32.57239pt>
+ [134]
+<img/alertmessage-info.png, id=10032, 32.57239pt x 32.57239pt>
 File: img/alertmessage-info.png Graphic file (type png)
 <use img/alertmessage-info.png>
 Package pdftex.def Info: img/alertmessage-info.png  used on input line 150.
 (pdftex.def)             Requested size: 16.28615pt x 16.28615pt.
 LaTeX Info: Redefining \. on input line 157.
 LaTeX Info: Redefining \% on input line 157.
- [136
+ [135
 
  <C:/Users/jamil/AppData/Roaming/MiKTeX/tex/latex/alertmessage/img/alertmessage
 -info.png>]
@@ -4659,7 +4861,7 @@ Package pdftex.def Info: img/alertmessage-info.png  used on input line 158.
 (pdftex.def)             Requested size: 16.28615pt x 16.28615pt.
 LaTeX Info: Redefining \. on input line 168.
 LaTeX Info: Redefining \% on input line 168.
- [137
+ [136
 
 ]
 File: img/alertmessage-info.png Graphic file (type png)
@@ -4668,12 +4870,12 @@ Package pdftex.def Info: img/alertmessage-info.png  used on input line 169.
 (pdftex.def)             Requested size: 16.28615pt x 16.28615pt.
 LaTeX Info: Redefining \. on input line 176.
 LaTeX Info: Redefining \% on input line 176.
- [138
+ [137
 
 ])
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
- [139]
+ [138]
 \openout2 = `FASES/FASE_8_BCDL.aux'.
 
  (FASES/FASE_8_BCDL.tex
@@ -4684,7 +4886,13 @@ er
 
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
-[140
+
+Overfull \hbox (55.09006pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 4.8.  FASE 9: BIT[]ACORA PARA EL DIAGN[]OSTICO DEL C[]ANCER DE
+ MAMA (BCDL)  \OT1/cmr/m/n/12 139
+ []
+
+[139
 
 
 
@@ -4721,7 +4929,7 @@ LaTeX Info: Redefining \% on input line 9.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<MER/IMAGENES_MER/0_MER_BCDL.png, id=10064, 1630.59187pt x 1105.12875pt>
+<MER/IMAGENES_MER/0_MER_BCDL.png, id=10060, 1630.59187pt x 1105.12875pt>
 File: MER/IMAGENES_MER/0_MER_BCDL.png Graphic file (type png)
 <use MER/IMAGENES_MER/0_MER_BCDL.png>
 Package pdftex.def Info: MER/IMAGENES_MER/0_MER_BCDL.png  used on input line 14
@@ -4729,29 +4937,29 @@ Package pdftex.def Info: MER/IMAGENES_MER/0_MER_BCDL.png  used on input line 14
 (pdftex.def)             Requested size: 783.93582pt x 531.3158pt.
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
- [141
+ [140
 
 
  <./MER/IMAGENES_MER/0_MER_BCDL.png (PNG copy)>]
-<MER/IMAGENES_MER/1_INVESTIGADOR.png, id=10069, 1409.265pt x 782.925pt>
+<MER/IMAGENES_MER/1_INVESTIGADOR.png, id=10065, 1409.265pt x 782.925pt>
 File: MER/IMAGENES_MER/1_INVESTIGADOR.png Graphic file (type png)
 <use MER/IMAGENES_MER/1_INVESTIGADOR.png>
 Package pdftex.def Info: MER/IMAGENES_MER/1_INVESTIGADOR.png  used on input lin
 e 29.
 (pdftex.def)             Requested size: 199.16928pt x 110.64809pt.
-<MER/IMAGENES_MER/2_DEPARTAMENTO.png, id=10070, 1081.03876pt x 794.97pt>
+<MER/IMAGENES_MER/2_DEPARTAMENTO.png, id=10066, 1081.03876pt x 794.97pt>
 File: MER/IMAGENES_MER/2_DEPARTAMENTO.png Graphic file (type png)
 <use MER/IMAGENES_MER/2_DEPARTAMENTO.png>
 Package pdftex.def Info: MER/IMAGENES_MER/2_DEPARTAMENTO.png  used on input lin
 e 34.
 (pdftex.def)             Requested size: 199.16928pt x 146.46063pt.
-<MER/IMAGENES_MER/3_UNIVERSIDAD.png, id=10071, 1093.08376pt x 807.015pt>
+<MER/IMAGENES_MER/3_UNIVERSIDAD.png, id=10067, 1093.08376pt x 807.015pt>
 File: MER/IMAGENES_MER/3_UNIVERSIDAD.png Graphic file (type png)
 <use MER/IMAGENES_MER/3_UNIVERSIDAD.png>
 Package pdftex.def Info: MER/IMAGENES_MER/3_UNIVERSIDAD.png  used on input line
  39.
 (pdftex.def)             Requested size: 199.16928pt x 147.04196pt.
-<MER/IMAGENES_MER/4_PAIS.png, id=10072, 1081.03876pt x 575.14874pt>
+<MER/IMAGENES_MER/4_PAIS.png, id=10068, 1081.03876pt x 575.14874pt>
 File: MER/IMAGENES_MER/4_PAIS.png Graphic file (type png)
 <use MER/IMAGENES_MER/4_PAIS.png>
 Package pdftex.def Info: MER/IMAGENES_MER/4_PAIS.png  used on input line 44.
@@ -4764,25 +4972,25 @@ Overfull \hbox (21.77357pt too wide) in paragraph at lines 24--48
 
 LaTeX Warning: Float too large for page by 66.82523pt on input line 48.
 
-<MER/IMAGENES_MER/5_PREGUNTA.png, id=10073, 975.645pt x 680.5425pt>
+<MER/IMAGENES_MER/5_PREGUNTA.png, id=10069, 975.645pt x 680.5425pt>
 File: MER/IMAGENES_MER/5_PREGUNTA.png Graphic file (type png)
 <use MER/IMAGENES_MER/5_PREGUNTA.png>
 Package pdftex.def Info: MER/IMAGENES_MER/5_PREGUNTA.png  used on input line 56
 .
 (pdftex.def)             Requested size: 199.16928pt x 138.92021pt.
-<MER/IMAGENES_MER/6_RESPUESTA.png, id=10074, 1008.76875pt x 686.565pt>
+<MER/IMAGENES_MER/6_RESPUESTA.png, id=10070, 1008.76875pt x 686.565pt>
 File: MER/IMAGENES_MER/6_RESPUESTA.png Graphic file (type png)
 <use MER/IMAGENES_MER/6_RESPUESTA.png>
 Package pdftex.def Info: MER/IMAGENES_MER/6_RESPUESTA.png  used on input line 6
 1.
 (pdftex.def)             Requested size: 199.16928pt x 135.55057pt.
-<MER/IMAGENES_MER/7_DECISION.png, id=10075, 975.645pt x 680.5425pt>
+<MER/IMAGENES_MER/7_DECISION.png, id=10071, 975.645pt x 680.5425pt>
 File: MER/IMAGENES_MER/7_DECISION.png Graphic file (type png)
 <use MER/IMAGENES_MER/7_DECISION.png>
 Package pdftex.def Info: MER/IMAGENES_MER/7_DECISION.png  used on input line 66
 .
 (pdftex.def)             Requested size: 199.16928pt x 138.92021pt.
-<MER/IMAGENES_MER/8_CANCER.png, id=10076, 1141.26375pt x 656.4525pt>
+<MER/IMAGENES_MER/8_CANCER.png, id=10072, 1141.26375pt x 656.4525pt>
 File: MER/IMAGENES_MER/8_CANCER.png Graphic file (type png)
 <use MER/IMAGENES_MER/8_CANCER.png>
 Package pdftex.def Info: MER/IMAGENES_MER/8_CANCER.png  used on input line 72.
@@ -4795,19 +5003,19 @@ Overfull \hbox (21.77357pt too wide) in paragraph at lines 53--76
 
 LaTeX Warning: Float too large for page by 50.31943pt on input line 76.
 
-<MER/IMAGENES_MER/9_TIPO_CANCER.png, id=10077, 1047.915pt x 800.9925pt>
+<MER/IMAGENES_MER/9_TIPO_CANCER.png, id=10073, 1047.915pt x 800.9925pt>
 File: MER/IMAGENES_MER/9_TIPO_CANCER.png Graphic file (type png)
 <use MER/IMAGENES_MER/9_TIPO_CANCER.png>
 Package pdftex.def Info: MER/IMAGENES_MER/9_TIPO_CANCER.png  used on input line
  84.
 (pdftex.def)             Requested size: 199.16928pt x 152.23904pt.
-<MER/IMAGENES_MER/10_SUBTIPO_CANCER.png, id=10078, 1035.87pt x 810.02625pt>
+<MER/IMAGENES_MER/10_SUBTIPO_CANCER.png, id=10074, 1035.87pt x 810.02625pt>
 File: MER/IMAGENES_MER/10_SUBTIPO_CANCER.png Graphic file (type png)
 <use MER/IMAGENES_MER/10_SUBTIPO_CANCER.png>
 Package pdftex.def Info: MER/IMAGENES_MER/10_SUBTIPO_CANCER.png  used on input 
 line 89.
 (pdftex.def)             Requested size: 199.16928pt x 155.73586pt.
-<MER/IMAGENES_MER/11_TECNICA_DIAGNOSTICO.png, id=10079, 1017.8025pt x 834.11626
+<MER/IMAGENES_MER/11_TECNICA_DIAGNOSTICO.png, id=10075, 1017.8025pt x 834.11626
 pt>
 File: MER/IMAGENES_MER/11_TECNICA_DIAGNOSTICO.png Graphic file (type png)
 <use MER/IMAGENES_MER/11_TECNICA_DIAGNOSTICO.png>
@@ -4822,26 +5030,26 @@ Overfull \hbox (21.77357pt too wide) in paragraph at lines 81--99
 
 LaTeX Warning: Float too large for page by 35.4255pt on input line 99.
 
-<MER/IMAGENES_MER/12_CONJUNTO_DATOS.png, id=10080, 1565.85pt x 909.3975pt>
+<MER/IMAGENES_MER/12_CONJUNTO_DATOS.png, id=10076, 1565.85pt x 909.3975pt>
 File: MER/IMAGENES_MER/12_CONJUNTO_DATOS.png Graphic file (type png)
 <use MER/IMAGENES_MER/12_CONJUNTO_DATOS.png>
 Package pdftex.def Info: MER/IMAGENES_MER/12_CONJUNTO_DATOS.png  used on input 
 line 108.
 (pdftex.def)             Requested size: 199.16928pt x 115.6587pt.
-<MER/IMAGENES_MER/13_TECNICA_COMPUTACIONAL.png, id=10081, 1102.1175pt x 632.362
+<MER/IMAGENES_MER/13_TECNICA_COMPUTACIONAL.png, id=10077, 1102.1175pt x 632.362
 5pt>
 File: MER/IMAGENES_MER/13_TECNICA_COMPUTACIONAL.png Graphic file (type png)
 <use MER/IMAGENES_MER/13_TECNICA_COMPUTACIONAL.png>
 Package pdftex.def Info: MER/IMAGENES_MER/13_TECNICA_COMPUTACIONAL.png  used on
  input line 113.
 (pdftex.def)             Requested size: 199.16928pt x 114.27383pt.
-<MER/IMAGENES_MER/14_MODELO.png, id=10082, 1340.00626pt x 632.3625pt>
+<MER/IMAGENES_MER/14_MODELO.png, id=10078, 1340.00626pt x 632.3625pt>
 File: MER/IMAGENES_MER/14_MODELO.png Graphic file (type png)
 <use MER/IMAGENES_MER/14_MODELO.png>
 Package pdftex.def Info: MER/IMAGENES_MER/14_MODELO.png  used on input line 118
 .
 (pdftex.def)             Requested size: 199.16928pt x 93.98186pt.
-<MER/IMAGENES_MER/15_ALGORITMO.png, id=10083, 1629.08624pt x 659.46375pt>
+<MER/IMAGENES_MER/15_ALGORITMO.png, id=10079, 1629.08624pt x 659.46375pt>
 File: MER/IMAGENES_MER/15_ALGORITMO.png Graphic file (type png)
 <use MER/IMAGENES_MER/15_ALGORITMO.png>
 Package pdftex.def Info: MER/IMAGENES_MER/15_ALGORITMO.png  used on input line 
@@ -4852,13 +5060,13 @@ Overfull \hbox (21.77357pt too wide) in paragraph at lines 104--128
 [] 
  []
 
-<MER/IMAGENES_MER/16_LIBRERIA.png, id=10084, 1571.8725pt x 662.475pt>
+<MER/IMAGENES_MER/16_LIBRERIA.png, id=10080, 1571.8725pt x 662.475pt>
 File: MER/IMAGENES_MER/16_LIBRERIA.png Graphic file (type png)
 <use MER/IMAGENES_MER/16_LIBRERIA.png>
 Package pdftex.def Info: MER/IMAGENES_MER/16_LIBRERIA.png  used on input line 1
 36.
 (pdftex.def)             Requested size: 199.16928pt x 83.94133pt.
-<MER/IMAGENES_MER/17_LENGUAJE_PROGRAMACION.png, id=10085, 1391.1975pt x 623.328
+<MER/IMAGENES_MER/17_LENGUAJE_PROGRAMACION.png, id=10081, 1391.1975pt x 623.328
 75pt>
 File: MER/IMAGENES_MER/17_LENGUAJE_PROGRAMACION.png Graphic file (type png)
 <use MER/IMAGENES_MER/17_LENGUAJE_PROGRAMACION.png>
@@ -4873,8 +5081,19 @@ Overfull \hbox (21.77357pt too wide) in paragraph at lines 132--148
 )
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
- [142 <./MER/IMAGENES_MER/1_INVESTIGADOR.png> <./MER/IMAGENES_MER/2_DEPARTAMENT
-O.png> <./MER/IMAGENES_MER/3_UNIVERSIDAD.png> <./MER/IMAGENES_MER/4_PAIS.png>]
+
+Overfull \hbox (55.09006pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 4.8.  FASE 9: BIT[]ACORA PARA EL DIAGN[]OSTICO DEL C[]ANCER DE
+ MAMA (BCDL)  \OT1/cmr/m/n/12 141
+ []
+
+[141 <./MER/IMAGENES_MER/1_INVESTIGADOR.png> <./MER/IMAGENES_MER/2_DEPARTAMENTO
+.png> <./MER/IMAGENES_MER/3_UNIVERSIDAD.png> <./MER/IMAGENES_MER/4_PAIS.png>]
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+
+[142 <./MER/IMAGENES_MER/5_PREGUNTA.png> <./MER/IMAGENES_MER/6_RESPUESTA.png> <
+./MER/IMAGENES_MER/7_DECISION.png> <./MER/IMAGENES_MER/8_CANCER.png>]
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 
@@ -4883,12 +5102,13 @@ Overfull \hbox (55.09006pt too wide) has occurred while \output is active
  MAMA (BCDL)  \OT1/cmr/m/n/12 143
  []
 
-[143 <./MER/IMAGENES_MER/5_PREGUNTA.png> <./MER/IMAGENES_MER/6_RESPUESTA.png> <
-./MER/IMAGENES_MER/7_DECISION.png> <./MER/IMAGENES_MER/8_CANCER.png>]
+[143 <./MER/IMAGENES_MER/9_TIPO_CANCER.png> <./MER/IMAGENES_MER/10_SUBTIPO_CANC
+ER.png> <./MER/IMAGENES_MER/11_TECNICA_DIAGNOSTICO.png>]
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
- [144 <./MER/IMAGENES_MER/9_TIPO_CANCER.png> <./MER/IMAGENES_MER/10_SUBTIPO_CAN
-CER.png> <./MER/IMAGENES_MER/11_TECNICA_DIAGNOSTICO.png>]
+ [144 <./MER/IMAGENES_MER/12_CONJUNTO_DATOS.png> <./MER/IMAGENES_MER/13_TECNICA
+_COMPUTACIONAL.png> <./MER/IMAGENES_MER/14_MODELO.png> <./MER/IMAGENES_MER/15_A
+LGORITMO.png>]
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 
@@ -4897,13 +5117,8 @@ Overfull \hbox (55.09006pt too wide) has occurred while \output is active
  MAMA (BCDL)  \OT1/cmr/m/n/12 145
  []
 
-[145 <./MER/IMAGENES_MER/12_CONJUNTO_DATOS.png> <./MER/IMAGENES_MER/13_TECNICA_
-COMPUTACIONAL.png> <./MER/IMAGENES_MER/14_MODELO.png> <./MER/IMAGENES_MER/15_AL
-GORITMO.png>]
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
- [146 <./MER/IMAGENES_MER/16_LIBRERIA.png> <./MER/IMAGENES_MER/17_LENGUAJE_PROG
-RAMACION.png>]) [147
+[145 <./MER/IMAGENES_MER/16_LIBRERIA.png> <./MER/IMAGENES_MER/17_LENGUAJE_PROGR
+AMACION.png>]) [146
 
 
 
@@ -4914,14 +5129,14 @@ RAMACION.png>]) [147
 
  (ARQUITECTURA/ORGANIZACION.tex
 Cap\'{\i }tulo 5.
-[148
+[147
 
 
 ]
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
- [149]
-<ARQUITECTURA/imgs/organizacion.pdf, id=10129, 660.4675pt x 468.75125pt>
+ [148]
+<ARQUITECTURA/imgs/organizacion.pdf, id=10125, 660.4675pt x 468.75125pt>
 File: ARQUITECTURA/imgs/organizacion.pdf Graphic file (type pdf)
 <use ARQUITECTURA/imgs/organizacion.pdf>
 Package pdftex.def Info: ARQUITECTURA/imgs/organizacion.pdf  used on input line
@@ -4929,22 +5144,22 @@ Package pdftex.def Info: ARQUITECTURA/imgs/organizacion.pdf  used on input line
 (pdftex.def)             Requested size: 426.79135pt x 302.91801pt.
 LaTeX Info: Redefining \. on input line 40.
 LaTeX Info: Redefining \% on input line 40.
- [150 <./ARQUITECTURA/imgs/organizacion.pdf>])
-LaTeX Info: Redefining \. on input line 156.
-LaTeX Info: Redefining \% on input line 156.
- [151]
+ [149 <./ARQUITECTURA/imgs/organizacion.pdf>])
+LaTeX Info: Redefining \. on input line 237.
+LaTeX Info: Redefining \% on input line 237.
+ [150]
 \openout2 = `ARQUITECTURA/MOTIVACION.aux'.
 
 
 (ARQUITECTURA/MOTIVACION.tex
 Cap\'{\i }tulo 6.
-[152
+[151
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaMotivacion/1_PvInteresados.pdf, id=10151, 399.4925pt x 2
+<ARQUITECTURA/imgs/CapaMotivacion/1_PvInteresados.pdf, id=10147, 399.4925pt x 2
 42.9075pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/1_PvInteresados.pdf Graphic file (type p
 df)
@@ -4954,11 +5169,11 @@ used on input line 22.
 (pdftex.def)             Requested size: 426.79135pt x 259.51926pt.
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
- [153 <./ARQUITECTURA/imgs/CapaMotivacion/1_PvInteresados.pdf>]
+ [152 <./ARQUITECTURA/imgs/CapaMotivacion/1_PvInteresados.pdf>]
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
- [154]
-<ARQUITECTURA/imgs/CapaMotivacion/2_PvRealizacionObj.pdf, id=10190, 552.0625pt 
+ [153]
+<ARQUITECTURA/imgs/CapaMotivacion/2_PvRealizacionObj.pdf, id=10186, 552.0625pt 
 x 223.83624pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/2_PvRealizacionObj.pdf Graphic file (typ
 e pdf)
@@ -4969,11 +5184,11 @@ f  used on input line 57.
 LaTeX Info: Redefining \. on input line 69.
 LaTeX Info: Redefining \% on input line 69.
 
-[155 <./ARQUITECTURA/imgs/CapaMotivacion/2_PvRealizacionObj.pdf>]
+[154 <./ARQUITECTURA/imgs/CapaMotivacion/2_PvRealizacionObj.pdf>]
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
- [156]
-<ARQUITECTURA/imgs/CapaMotivacion/3_PvContribucionObj.pdf, id=10229, 700.6175pt
+ [155]
+<ARQUITECTURA/imgs/CapaMotivacion/3_PvContribucionObj.pdf, id=10225, 700.6175pt
  x 242.9075pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/3_PvContribucionObj.pdf Graphic file (ty
 pe pdf)
@@ -4984,11 +5199,11 @@ df  used on input line 87.
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
 
-[157 <./ARQUITECTURA/imgs/CapaMotivacion/3_PvContribucionObj.pdf>]
+[156 <./ARQUITECTURA/imgs/CapaMotivacion/3_PvContribucionObj.pdf>]
 LaTeX Info: Redefining \. on input line 116.
 LaTeX Info: Redefining \% on input line 116.
- [158]
-<ARQUITECTURA/imgs/CapaMotivacion/4_PvPrincipios.pdf, id=10259, 386.44376pt x 1
+ [157]
+<ARQUITECTURA/imgs/CapaMotivacion/4_PvPrincipios.pdf, id=10255, 386.44376pt x 1
 41.52875pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/4_PvPrincipios.pdf Graphic file (type pd
 f)
@@ -4999,8 +5214,8 @@ sed on input line 125.
 LaTeX Info: Redefining \. on input line 143.
 LaTeX Info: Redefining \% on input line 143.
 
-[159 <./ARQUITECTURA/imgs/CapaMotivacion/4_PvPrincipios.pdf>]
-<ARQUITECTURA/imgs/CapaMotivacion/5_PvRealizacionReq.pdf, id=10282, 837.1275pt 
+[158 <./ARQUITECTURA/imgs/CapaMotivacion/4_PvPrincipios.pdf>]
+<ARQUITECTURA/imgs/CapaMotivacion/5_PvRealizacionReq.pdf, id=10278, 837.1275pt 
 x 212.795pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/5_PvRealizacionReq.pdf Graphic file (typ
 e pdf)
@@ -5010,11 +5225,11 @@ f  used on input line 152.
 (pdftex.def)             Requested size: 426.79135pt x 108.48828pt.
 LaTeX Info: Redefining \. on input line 167.
 LaTeX Info: Redefining \% on input line 167.
- [160 <./ARQUITECTURA/imgs/CapaMotivacion/5_PvRealizacionReq.pdf>]
+ [159 <./ARQUITECTURA/imgs/CapaMotivacion/5_PvRealizacionReq.pdf>]
 LaTeX Info: Redefining \. on input line 184.
 LaTeX Info: Redefining \% on input line 184.
- [161]
-<ARQUITECTURA/imgs/CapaMotivacion/6_PvMotivacion.pdf, id=10312, 582.175pt x 204
+ [160]
+<ARQUITECTURA/imgs/CapaMotivacion/6_PvMotivacion.pdf, id=10308, 582.175pt x 204
 .765pt>
 File: ARQUITECTURA/imgs/CapaMotivacion/6_PvMotivacion.pdf Graphic file (type pd
 f)
@@ -5024,21 +5239,21 @@ sed on input line 194.
 (pdftex.def)             Requested size: 426.79135pt x 150.11458pt.
 LaTeX Info: Redefining \. on input line 207.
 LaTeX Info: Redefining \% on input line 207.
- [162 <./ARQUITECTURA/imgs/CapaMotivacion/6_PvMotivacion.pdf>])
-LaTeX Info: Redefining \. on input line 157.
-LaTeX Info: Redefining \% on input line 157.
- [163]
+ [161 <./ARQUITECTURA/imgs/CapaMotivacion/6_PvMotivacion.pdf>])
+LaTeX Info: Redefining \. on input line 238.
+LaTeX Info: Redefining \% on input line 238.
+ [162]
 \openout2 = `ARQUITECTURA/ESTRATEGICA.aux'.
 
  (ARQUITECTURA/ESTRATEGICA.tex
 Cap\'{\i }tulo 7.
-[164
+[163
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaEstrategica/1_PvEstrategia.pdf, id=10364, 226.8475pt x 2
+<ARQUITECTURA/imgs/CapaEstrategica/1_PvEstrategia.pdf, id=10360, 226.8475pt x 2
 33.87375pt>
 File: ARQUITECTURA/imgs/CapaEstrategica/1_PvEstrategia.pdf Graphic file (type p
 df)
@@ -5048,11 +5263,11 @@ used on input line 20.
 (pdftex.def)             Requested size: 320.0935pt x 330.0118pt.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- [165 <./ARQUITECTURA/imgs/CapaEstrategica/1_PvEstrategia.pdf>]
+ [164 <./ARQUITECTURA/imgs/CapaEstrategica/1_PvEstrategia.pdf>]
 LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
- [166]
-<ARQUITECTURA/imgs/CapaEstrategica/2_PvMapaCapacidad.pdf, id=10407, 226.8475pt 
+ [165]
+<ARQUITECTURA/imgs/CapaEstrategica/2_PvMapaCapacidad.pdf, id=10403, 226.8475pt 
 x 170.6375pt>
 File: ARQUITECTURA/imgs/CapaEstrategica/2_PvMapaCapacidad.pdf Graphic file (typ
 e pdf)
@@ -5063,11 +5278,11 @@ f  used on input line 51.
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
 
-[167 <./ARQUITECTURA/imgs/CapaEstrategica/2_PvMapaCapacidad.pdf>]
+[166 <./ARQUITECTURA/imgs/CapaEstrategica/2_PvMapaCapacidad.pdf>]
 LaTeX Info: Redefining \. on input line 72.
 LaTeX Info: Redefining \% on input line 72.
- [168]
-<ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf, id=10442, 438.63875pt x
+ [167]
+<ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf, id=10438, 438.63875pt x
  195.73125pt>
 File: ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf Graphic file (type 
 pdf)
@@ -5078,11 +5293,11 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
 
-[169 <./ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf>]
+[168 <./ARQUITECTURA/imgs/CapaEstrategica/3_PvRealizacion.pdf>]
 LaTeX Info: Redefining \. on input line 108.
 LaTeX Info: Redefining \% on input line 108.
- [170]
-<ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf, id=10480, 233.87375pt x
+ [169]
+<ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf, id=10476, 233.87375pt x
  172.645pt>
 File: ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf Graphic file (type 
 pdf)
@@ -5092,22 +5307,22 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf
 (pdftex.def)             Requested size: 328.63115pt x 242.62335pt.
 LaTeX Info: Redefining \. on input line 130.
 LaTeX Info: Redefining \% on input line 130.
- [171 <./ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf>])
-LaTeX Info: Redefining \. on input line 158.
-LaTeX Info: Redefining \% on input line 158.
- [172]
+ [170 <./ARQUITECTURA/imgs/CapaEstrategica/4_PvMapaRecurso.pdf>])
+LaTeX Info: Redefining \. on input line 239.
+LaTeX Info: Redefining \% on input line 239.
+ [171]
 \openout2 = `ARQUITECTURA/NEGOCIO.aux'.
 
 
 (ARQUITECTURA/NEGOCIO.tex
 Cap\'{\i }tulo 8.
-[173
+[172
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaNegocio/1_PvOrganizacion.pdf, id=10514, 297.11pt x 134.5
+<ARQUITECTURA/imgs/CapaNegocio/1_PvOrganizacion.pdf, id=10510, 297.11pt x 134.5
 025pt>
 File: ARQUITECTURA/imgs/CapaNegocio/1_PvOrganizacion.pdf Graphic file (type pdf
 )
@@ -5117,11 +5332,11 @@ ed on input line 19.
 (pdftex.def)             Requested size: 426.79135pt x 193.21959pt.
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
- [174 <./ARQUITECTURA/imgs/CapaNegocio/1_PvOrganizacion.pdf>]
+ [173 <./ARQUITECTURA/imgs/CapaNegocio/1_PvOrganizacion.pdf>]
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
- [175]
-<ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf, id=10529, 411.5375pt x
+ [174]
+<ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf, id=10524, 411.5375pt x
  277.035pt>
 File: ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf Graphic file (type
  pdf)
@@ -5132,11 +5347,11 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
 
-[176 <./ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf>]
+[175 <./ARQUITECTURA/imgs/CapaNegocio/2_PvCooperacionActor.pdf>]
 LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
- [177]
-<ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf, id=10543, 518.93875pt x 205.768
+ [176]
+<ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf, id=10539, 518.93875pt x 205.768
 75pt>
 File: ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf Graphic file (type pdf)
 <use ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf>
@@ -5145,11 +5360,11 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf  used on
 (pdftex.def)             Requested size: 426.79135pt x 169.2401pt.
 LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
- [178 <./ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf>]
+ [177 <./ARQUITECTURA/imgs/CapaNegocio/3_PvFuncion.pdf>]
 LaTeX Info: Redefining \. on input line 106.
 LaTeX Info: Redefining \% on input line 106.
- [179]
-<ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf, id=10557, 498.86375pt x 215.806
+ [178]
+<ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf, id=10553, 498.86375pt x 215.806
 24pt>
 File: ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf Graphic file (type pdf)
 <use ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf>
@@ -5158,14 +5373,14 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf  used on
 (pdftex.def)             Requested size: 426.79135pt x 184.6348pt.
 LaTeX Info: Redefining \. on input line 123.
 LaTeX Info: Redefining \% on input line 123.
- [180 <./ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf>]
+ [179 <./ARQUITECTURA/imgs/CapaNegocio/4_PvProceso.pdf>]
 LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
- [181]
+ [180]
 LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
- [182]
-<ARQUITECTURA/imgs/CapaNegocio/5_PvCooperacionProceso.pdf, id=10583, 237.88875p
+ [181]
+<ARQUITECTURA/imgs/CapaNegocio/5_PvCooperacionProceso.pdf, id=10579, 237.88875p
 t x 152.57pt>
 File: ARQUITECTURA/imgs/CapaNegocio/5_PvCooperacionProceso.pdf Graphic file (ty
 pe pdf)
@@ -5175,11 +5390,11 @@ df  used on input line 150.
 (pdftex.def)             Requested size: 320.0935pt x 205.30177pt.
 LaTeX Info: Redefining \. on input line 159.
 LaTeX Info: Redefining \% on input line 159.
- [183 <./ARQUITECTURA/imgs/CapaNegocio/5_PvCooperacionProceso.pdf>]
+ [182 <./ARQUITECTURA/imgs/CapaNegocio/5_PvCooperacionProceso.pdf>]
 LaTeX Info: Redefining \. on input line 167.
 LaTeX Info: Redefining \% on input line 167.
- [184]
-<ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf, id=10607, 631.35875pt x 414.54
+ [183]
+<ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf, id=10603, 631.35875pt x 414.54
 875pt>
 File: ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf Graphic file (type pdf)
 <use ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf>
@@ -5188,7 +5403,7 @@ n input line 177.
 (pdftex.def)             Requested size: 426.79135pt x 280.23213pt.
 LaTeX Info: Redefining \. on input line 188.
 LaTeX Info: Redefining \% on input line 188.
- [185 <./ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf>]
+ [184 <./ARQUITECTURA/imgs/CapaNegocio/6_PvProducto.pdf>]
 Overfull \hbox (10.82571pt too wide) in paragraph at lines 193--194
 []\OT1/cmr/bx/it/12 Implementar Mi-ner^^S^^Pa de Da-tos: \OT1/cmr/m/n/12 Es-te 
 ser-vi-cio co-rres-pon-de a la b^^Susque-
@@ -5196,21 +5411,21 @@ ser-vi-cio co-rres-pon-de a la b^^Susque-
 
 LaTeX Info: Redefining \. on input line 206.
 LaTeX Info: Redefining \% on input line 206.
-[186])
-LaTeX Info: Redefining \. on input line 159.
-LaTeX Info: Redefining \% on input line 159.
- [187]
+[185])
+LaTeX Info: Redefining \. on input line 240.
+LaTeX Info: Redefining \% on input line 240.
+ [186]
 \openout2 = `ARQUITECTURA/APLICACION.aux'.
 
  (ARQUITECTURA/APLICACION.tex
 Cap\'{\i }tulo 9.
-[188
+[187
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp.pdf, id=10636, 456.7062
+<ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp.pdf, id=10632, 456.7062
 5pt x 354.32375pt>
 File: ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp.pdf Graphic file (
 type pdf)
@@ -5220,15 +5435,15 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp
 (pdftex.def)             Requested size: 426.79135pt x 331.12341pt.
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
- [189 <./ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp.pdf>]
+ [188 <./ARQUITECTURA/imgs/CapaAplicacion/1_PvComportamientoApp.pdf>]
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
 
-[190]
+[189]
 LaTeX Info: Redefining \. on input line 77.
 LaTeX Info: Redefining \% on input line 77.
- [191]
-<ARQUITECTURA/imgs/CapaAplicacion/2_PvCooperacionApp.pdf, id=10659, 363.3575pt 
+ [190]
+<ARQUITECTURA/imgs/CapaAplicacion/2_PvCooperacionApp.pdf, id=10655, 363.3575pt 
 x 288.07625pt>
 File: ARQUITECTURA/imgs/CapaAplicacion/2_PvCooperacionApp.pdf Graphic file (typ
 e pdf)
@@ -5238,12 +5453,12 @@ f  used on input line 85.
 (pdftex.def)             Requested size: 426.79135pt x 338.37534pt.
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
- [192 <./ARQUITECTURA/imgs/CapaAplicacion/2_PvCooperacionApp.pdf>]
+ [191 <./ARQUITECTURA/imgs/CapaAplicacion/2_PvCooperacionApp.pdf>]
 LaTeX Info: Redefining \. on input line 109.
 LaTeX Info: Redefining \% on input line 109.
 
-[193]
-<ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf, id=10679, 376.40625pt 
+[192]
+<ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf, id=10674, 376.40625pt 
 x 200.75pt>
 File: ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf Graphic file (type
  pdf)
@@ -5253,11 +5468,11 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf
 (pdftex.def)             Requested size: 426.79135pt x 227.63821pt.
 LaTeX Info: Redefining \. on input line 128.
 LaTeX Info: Redefining \% on input line 128.
- [194 <./ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf>]
+ [193 <./ARQUITECTURA/imgs/CapaAplicacion/3_PvEstructuraApp.pdf>]
 LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
- [195]
-<ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf, id=10698, 703.62875pt x 205.7
+ [194]
+<ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf, id=10694, 703.62875pt x 205.7
 6875pt>
 File: ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf Graphic file (type pdf)
 <use ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf>
@@ -5265,22 +5480,22 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf  used
 on input line 148.
 (pdftex.def)             Requested size: 426.79135pt x 124.80916pt.
 )
-LaTeX Info: Redefining \. on input line 160.
-LaTeX Info: Redefining \% on input line 160.
+LaTeX Info: Redefining \. on input line 241.
+LaTeX Info: Redefining \% on input line 241.
 
-[196 <./ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf>]
+[195 <./ARQUITECTURA/imgs/CapaAplicacion/4_PvUsoApp.pdf>]
 \openout2 = `ARQUITECTURA/TECNOLOGIA.aux'.
 
 
 (ARQUITECTURA/TECNOLOGIA.tex
 Cap\'{\i }tulo 10.
-[197
+[196
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaTecnologia/1_PvInfraestructuraTec.pdf, id=10718, 505.89p
+<ARQUITECTURA/imgs/CapaTecnologia/1_PvInfraestructuraTec.pdf, id=10714, 505.89p
 t x 233.87375pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/1_PvInfraestructuraTec.pdf Graphic file 
 (type pdf)
@@ -5290,12 +5505,12 @@ c.pdf  used on input line 20.
 (pdftex.def)             Requested size: 426.79135pt x 197.30905pt.
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
- [198 <./ARQUITECTURA/imgs/CapaTecnologia/1_PvInfraestructuraTec.pdf>]
+ [197 <./ARQUITECTURA/imgs/CapaTecnologia/1_PvInfraestructuraTec.pdf>]
 LaTeX Info: Redefining \. on input line 61.
 LaTeX Info: Redefining \% on input line 61.
 
-[199]
-<ARQUITECTURA/imgs/CapaTecnologia/2_PvUsoInfraestructuraTec.pdf, id=10743, 335.
+[198]
+<ARQUITECTURA/imgs/CapaTecnologia/2_PvUsoInfraestructuraTec.pdf, id=10738, 335.
 2525pt x 254.9525pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/2_PvUsoInfraestructuraTec.pdf Graphic fi
 le (type pdf)
@@ -5305,13 +5520,13 @@ aTec.pdf  used on input line 70.
 (pdftex.def)             Requested size: 426.79135pt x 324.5641pt.
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
- [200 <./ARQUITECTURA/imgs/CapaTecnologia/2_PvUsoInfraestructuraTec.pdf>]
+ [199 <./ARQUITECTURA/imgs/CapaTecnologia/2_PvUsoInfraestructuraTec.pdf>]
 LaTeX Info: Redefining \. on input line 99.
 LaTeX Info: Redefining \% on input line 99.
 
-[201]
+[200]
 <ARQUITECTURA/imgs/CapaTecnologia/3_PvImplementacionOrganizacionTec.pdf, id=107
-57, 289.08pt x 356.33125pt>
+53, 289.08pt x 356.33125pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/3_PvImplementacionOrganizacionTec.pdf Gr
 aphic file (type pdf)
 <use ARQUITECTURA/imgs/CapaTecnologia/3_PvImplementacionOrganizacionTec.pdf>
@@ -5320,12 +5535,12 @@ anizacionTec.pdf  used on input line 107.
 (pdftex.def)             Requested size: 277.41176pt x 341.96536pt.
 LaTeX Info: Redefining \. on input line 118.
 LaTeX Info: Redefining \% on input line 118.
- [202 <./ARQUITECTURA/imgs/CapaTecnologia/3_PvImplementacionOrganizacionTec.pdf
+ [201 <./ARQUITECTURA/imgs/CapaTecnologia/3_PvImplementacionOrganizacionTec.pdf
 >]
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
- [203]
-<ARQUITECTURA/imgs/CapaTecnologia/4_PvEstructuraInformacionTec.pdf, id=10773, 4
+ [202]
+<ARQUITECTURA/imgs/CapaTecnologia/4_PvEstructuraInformacionTec.pdf, id=10769, 4
 56.70625pt x 281.05pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/4_PvEstructuraInformacionTec.pdf Graphic
  file (type pdf)
@@ -5335,11 +5550,11 @@ cionTec.pdf  used on input line 153.
 (pdftex.def)             Requested size: 426.79135pt x 262.64746pt.
 LaTeX Info: Redefining \. on input line 167.
 LaTeX Info: Redefining \% on input line 167.
- [204 <./ARQUITECTURA/imgs/CapaTecnologia/4_PvEstructuraInformacionTec.pdf>]
+ [203 <./ARQUITECTURA/imgs/CapaTecnologia/4_PvEstructuraInformacionTec.pdf>]
 LaTeX Info: Redefining \. on input line 174.
 LaTeX Info: Redefining \% on input line 174.
- [205]
-<ARQUITECTURA/imgs/CapaTecnologia/5_PvRealizacionServicioTec.pdf, id=10792, 363
+ [204]
+<ARQUITECTURA/imgs/CapaTecnologia/5_PvRealizacionServicioTec.pdf, id=10787, 363
 .3575pt x 262.9825pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/5_PvRealizacionServicioTec.pdf Graphic f
 ile (type pdf)
@@ -5349,11 +5564,11 @@ ioTec.pdf  used on input line 182.
 (pdftex.def)             Requested size: 426.79135pt x 308.90013pt.
 LaTeX Info: Redefining \. on input line 193.
 LaTeX Info: Redefining \% on input line 193.
- [206 <./ARQUITECTURA/imgs/CapaTecnologia/5_PvRealizacionServicioTec.pdf>]
+ [205 <./ARQUITECTURA/imgs/CapaTecnologia/5_PvRealizacionServicioTec.pdf>]
 LaTeX Info: Redefining \. on input line 207.
 LaTeX Info: Redefining \% on input line 207.
- [207]
-<ARQUITECTURA/imgs/CapaTecnologia/6_PvCapasTec.pdf, id=10809, 471.7625pt x 538.
+ [206]
+<ARQUITECTURA/imgs/CapaTecnologia/6_PvCapasTec.pdf, id=10805, 471.7625pt x 538.
 01pt>
 File: ARQUITECTURA/imgs/CapaTecnologia/6_PvCapasTec.pdf Graphic file (type pdf)
 
@@ -5363,25 +5578,25 @@ d on input line 215.
 (pdftex.def)             Requested size: 341.43437pt x 389.3864pt.
 LaTeX Info: Redefining \. on input line 225.
 LaTeX Info: Redefining \% on input line 225.
- [208 <./ARQUITECTURA/imgs/CapaTecnologia/6_PvCapasTec.pdf>]
+ [207 <./ARQUITECTURA/imgs/CapaTecnologia/6_PvCapasTec.pdf>]
 LaTeX Info: Redefining \. on input line 253.
 LaTeX Info: Redefining \% on input line 253.
 
-[209])
-LaTeX Info: Redefining \. on input line 161.
-LaTeX Info: Redefining \% on input line 161.
- [210]
+[208])
+LaTeX Info: Redefining \. on input line 242.
+LaTeX Info: Redefining \% on input line 242.
+ [209]
 \openout2 = `ARQUITECTURA/IMPLEMENTACION.aux'.
 
  (ARQUITECTURA/IMPLEMENTACION.tex
 Cap\'{\i }tulo 11.
-[211
+[210
 
 
 
 
 ]
-<ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf, id=10843, 506.89375pt x
+<ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf, id=10838, 506.89375pt x
  303.1325pt>
 File: ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf Graphic file (type 
 pdf)
@@ -5391,15 +5606,15 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf
 (pdftex.def)             Requested size: 426.79135pt x 255.23549pt.
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
- [212 <./ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf>]
+ [211 <./ARQUITECTURA/imgs/CapaImplementacion/1_PvProyecto.pdf>]
 LaTeX Info: Redefining \. on input line 53.
 LaTeX Info: Redefining \% on input line 53.
- [213]
+ [212]
 LaTeX Info: Redefining \. on input line 61.
 LaTeX Info: Redefining \% on input line 61.
 
-[214]
-<ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf, id=10872, 215.80624pt 
+[213]
+<ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf, id=10868, 215.80624pt 
 x 96.36pt>
 File: ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf Graphic file (type
  pdf)
@@ -5409,8 +5624,8 @@ Package pdftex.def Info: ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf
 (pdftex.def)             Requested size: 320.0935pt x 142.94135pt.
 LaTeX Info: Redefining \. on input line 85.
 LaTeX Info: Redefining \% on input line 85.
- [215 <./ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf>]
-<ARQUITECTURA/imgs/CapaImplementacion/3_PvMigracionImplementacion.pdf, id=10891
+ [214 <./ARQUITECTURA/imgs/CapaImplementacion/2_PvMigracion.pdf>]
+<ARQUITECTURA/imgs/CapaImplementacion/3_PvMigracionImplementacion.pdf, id=10887
 , 489.83pt x 407.5225pt>
 File: ARQUITECTURA/imgs/CapaImplementacion/3_PvMigracionImplementacion.pdf Grap
 hic file (type pdf)
@@ -5420,14 +5635,14 @@ ementacion.pdf  used on input line 93.
 (pdftex.def)             Requested size: 392.64725pt x 326.67757pt.
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [216 <./ARQUITECTURA/imgs/CapaImplementacion/3_PvMigracionImplementacion.pdf>]
+ [215 <./ARQUITECTURA/imgs/CapaImplementacion/3_PvMigracionImplementacion.pdf>]
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
- [217])
-LaTeX Info: Redefining \. on input line 162.
-LaTeX Info: Redefining \% on input line 162.
+ [216])
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
 
-[218] [219
+[217] [218
 
 
 
@@ -5436,47 +5651,47 @@ LaTeX Info: Redefining \% on input line 162.
 
  (TESIS/CONCLUSIONES.tex
 Cap\'{\i }tulo 12.
-[220
+[219
 
 
 ])
-LaTeX Info: Redefining \. on input line 166.
-LaTeX Info: Redefining \% on input line 166.
- [221] (TESIS_MCIC.bbl [222
+LaTeX Info: Redefining \. on input line 247.
+LaTeX Info: Redefining \% on input line 247.
+ [220] (TESIS_MCIC.bbl [221
 
 
 
 ]
 LaTeX Info: Redefining \. on input line 133.
 LaTeX Info: Redefining \% on input line 133.
- [223]
+ [222]
 LaTeX Info: Redefining \. on input line 197.
 LaTeX Info: Redefining \% on input line 197.
- [224]
+ [223]
 LaTeX Info: Redefining \. on input line 276.
 LaTeX Info: Redefining \% on input line 276.
- [225]
+ [224]
 LaTeX Info: Redefining \. on input line 346.
 LaTeX Info: Redefining \% on input line 346.
- [226]
+ [225]
 LaTeX Info: Redefining \. on input line 408.
 LaTeX Info: Redefining \% on input line 408.
- [227]
+ [226]
 LaTeX Info: Redefining \. on input line 481.
 LaTeX Info: Redefining \% on input line 481.
- [228]
+ [227]
 LaTeX Info: Redefining \. on input line 551.
 LaTeX Info: Redefining \% on input line 551.
- [229]
+ [228]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 551.
 LaTeX Info: Redefining \% on input line 551.
- [230])
-LaTeX Info: Redefining \. on input line 174.
-LaTeX Info: Redefining \% on input line 174.
+ [229])
+LaTeX Info: Redefining \. on input line 255.
+LaTeX Info: Redefining \% on input line 255.
 
-[231] (TESIS_MCIC.aux
+[230] (TESIS_MCIC.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
  (FASES/FASE_1_BCQM.aux) (FASES/FASE_2_PLANEACION.aux)
@@ -5491,13 +5706,13 @@ Package rerunfilecheck Info: File `TESIS_MCIC.out' has not changed.
 (rerunfilecheck)             Checksum: 8C9054450F2B7300F9E7ECFA82E9B836;20642.
  ) 
 Here is how much of TeX's memory you used:
- 36777 strings out of 478552
- 761582 string characters out of 2851753
- 1477708 words of memory out of 3000000
- 52477 multiletter control sequences out of 15000+600000
+ 38857 strings out of 478552
+ 794252 string characters out of 2851753
+ 1536770 words of memory out of 3000000
+ 54501 multiletter control sequences out of 15000+600000
  483288 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,18n,133p,4200b,2221s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 85i,18n,133p,4200b,2220s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\jamil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 0600.pk> <C:\Users\jamil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm0800.pk> <C:\Users\jamil\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbdi
@@ -5517,9 +5732,9 @@ pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
 am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TESIS_MCIC.pdf (231 pages, 14063538 bytes).
+Output written on TESIS_MCIC.pdf (230 pages, 14061874 bytes).
 PDF statistics:
- 11385 PDF objects out of 12825 (max. 8388607)
- 1499 named destinations out of 1728 (max. 500000)
+ 11381 PDF objects out of 12825 (max. 8388607)
+ 1498 named destinations out of 1728 (max. 500000)
  2275 words of extra memory for PDF output out of 10000 (max. 10000000)
 

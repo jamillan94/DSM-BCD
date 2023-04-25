@@ -1,6 +1,6 @@
 \newpage
 \subsection{Transformación de variables genómicas}
-En este parte del análisis exploratorio de datos oncológicos, se procesaron las variables por medio de algoritmos en \textit{Python} para que la información quedara estandarizada y así garantizar que los resultados generados por los modelos de ML fueran consistentes y veraces. Cabe resaltar, que aunque en la fase anterior se detectaron las variables que por su falta de datos o poco aporte en el análisis requerido tuvieron que ser eliminadas, en esta fase aun así se reajustaron para garantizar que no se presentara un falso positivo por falta de estandarización y así garantizar que no se eliminara variable por equivocación.
+En este parte del análisis exploratorio de datos oncológicos, se procesaron las variables por medio de algoritmos en \textit{Python} para que la información quedara estandarizada y así garantizar que los resultados generados por los modelos de ML fueran consistentes y veraces. Cabe resaltar, que aunque en la fase anterior se detectaron las variables que por su falta de datos o poco aporte en el análisis requerido tuvieron que ser eliminadas, en esta fase aun así se reajustaron para garantizar que no se presentara un falso positivo por falta de estandarización y así garantizar que no se eliminara una variable por equivocación.
 
 \subsubsection{Renombramiento de columnas}
 En esta parte de la transformación de datos, se renombraron los nombres de las variables, ya que como observamos anteriormente presentaban una longitud extensa. Esto se realizó con el propósito de garantizar el desempeño de los modelos de ML. Para lograrlo, se utilizó la función $clean\_headers()$ de la librería \textit{dataprep.eda}, lo cual permitió limpiar los encabezados y estandarizarlos en el formato \textit{snake} que tiene la estructura \textit{“nombre\_columna”}. En el algoritmo \ref{renombramiento} se puede observar el código implementado.
@@ -413,7 +413,7 @@ En esta parte de la transformación de datos, se estandarizaron los registros de
 \end{lstlisting}
 
 \subsubsection{Re-ajuste del tipo de variable }
-En esta parte de la transformación de datos, se ajustaron los tipos de variables para que quedara en el formato correspondiente y así poder determinar si su origen es \textit{categórico} o \textit{numérico}. En el algoritmo \ref{tipo_variable} se puede observar el código implementado. 
+En esta parte de la transformación de datos, se ajustaron los tipos de variables para que quedaran en el formato correspondiente y así poder determinar si su origen es \textit{categórico} o \textit{numérico}. En el algoritmo \ref{tipo_variable} se puede observar el código implementado. 
 
 \begin{lstlisting}[basicstyle=\scriptsize,language=Python, label=tipo_variable, caption=Re-ajustar tipo de variables en Python.]
 	# Crear vector con las variables a transformar

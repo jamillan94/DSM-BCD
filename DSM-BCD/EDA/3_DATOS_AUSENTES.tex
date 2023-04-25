@@ -3,10 +3,10 @@
 En este parte del análisis exploratorio de datos oncológicos, se detectaron, imputaron y posteriormente se eliminaron las variables innecesarias identificadas en el análisis parcial de datos genómicos crudos, por medio de algoritmos en \textit{Python}.
 
 \subsubsection{Detección de datos ausentes}
-En esta parte del tratamiento de datos ausentes, se identificaron si las \textit{69 variables} identificadas anteriormente seguían presentando inconsistencias o datos faltantes. Dado lo anterior, se realizó nuevamente un análisis de la cantidad de \textbf{datos ausentes} pero esto vez a través del \textit{mapa espectral} que se observa en la figura \ref{Missing_Spectrum}. Este tipo de gráfico se utilizó debido a que permite visualizar la trama de datos que faltan en un registro determinado, por lo cual fue posible conocer que datos debían ser imputados.
+En esta parte del tratamiento de datos ausentes, se identificaron si las \textit{69 variables} detectadas anteriormente seguían presentando inconsistencias o datos faltantes. Dado lo anterior, se realizó nuevamente un análisis de la cantidad de \textit{datos ausentes} pero esta vez a través del \textit{mapa espectral} que se observa en la figura \ref{Missing_Spectrum}. Este tipo de gráfico se utilizó debido a que permite visualizar la trama de datos que faltaban en un registro determinado, por lo cual fue posible conocer que datos debían ser imputados.
 
 \subsubsection{Imputación de datos ausentes}
-En esta parte del tratamiento de datos ausentes, se completaron los datos faltantes haciendo uso de la librería \textit{sklearn.impute} la cual proporciona algoritmos de ML para la imputación de datos. 
+En esta parte del tratamiento de datos ausentes, se completaron los datos faltantes haciendo uso de la librería \textit{sklearn.impute}, la cual proporciona algoritmos de ML para la imputación de datos. 
 
 Dado lo anterior, en este caso se utilizó la función \textit{impute.KNNImputer()} para tratar los datos de tipo \textit{numérico}. Este modelo detecta los valores faltantes de cada muestra y los imputa utilizando el valor medio de vecinos más cercanos que se encuentran en el conjunto de entrenamiento. En el algoritmo \ref{imputacion_num} se puede observar el código implementado.
 
@@ -150,7 +150,7 @@ En esta parte del tratamiento de datos ausentes, se eliminaron \textit{69 variab
 \end{lstlisting}
 
 \subsubsection{Consistencia de datos}
-En esta parte del tratamiento de datos ausentes, se comprobó que las variables que se quedaran correctamente imputadas y si ningún dato incompleto. Dado lo anterior, los resultados obtenidos de la estandarización de los datos se pueden observar en el \textit{mapa espectral} que se observa en la figura \ref{impute_Spectrum}. Para una mayor trazabilidad en la tabla \ref{data_limpia} se observan las 41 variables que fueron seleccionadas para realizar el análisis descriptivo de datos.
+En esta parte del tratamiento de datos ausentes, se comprobó que las variables quedaran correctamente imputadas y si ningún dato incompleto. Dado lo anterior, los resultados obtenidos de la estandarización de los datos se pueden observar en el \textit{mapa espectral} que se observa en la figura \ref{impute_Spectrum}. Para una mayor trazabilidad en la tabla \ref{data_limpia} se observan las 41 variables que fueron seleccionadas para realizar el análisis descriptivo de datos.
 \begin{figure}[htb!]
 	\centering
 	\includegraphics[width=0.85

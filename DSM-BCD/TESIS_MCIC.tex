@@ -44,6 +44,13 @@
 \usepackage{subfig}
 \usepackage{alertmessage}
 \usepackage{afterpage}
+\usepackage{float}
+\usepackage{pict2e}
+\usepackage{epic}
+\usepackage{eepic}
+\usepackage{pstricks}
+\usepackage{tikz}
+\usepackage[absolute]{textpos} 
 	
 %------------------LISTA ALGORITMOS------------------------------------------
 
@@ -107,33 +114,107 @@
 }
 
 %--------------------AUTORES--------------------------------------
-\title{METODOLOGÍA PARA LA APLICACIÓN DE LA CIENCIA DE DATOS EN EL DIAGNÓSTICO DEL CÁNCER DE MAMA }
-\author{Jorge Armando Millán Gomez}
+\title{\Large{\textbf{METODOLOGÍA PARA LA APLICACIÓN DE LA CIENCIA DE DATOS EN EL DIAGNÓSTICO DEL CÁNCER DE MAMA}}}
+\author{
+	\large{ESPECIALISTA EN INGENIERÍA DE SOFTWARE}\\ \Large{Jorge Armando Millán Gómez} \\ \\ \large{DOCTORA EN CIENCIAS TÉCNICAS} \\ \Large{Lilia Edith Aparicio Pico} }
 
-%--------------------TABLAS---------------------------------------
 \begin{document}
-	\maketitle
-	%titlepage
-	\thispagestyle{empty}
-	\begin{center}
-		\begin{minipage}{0.75\linewidth}
-			\centering
-			%University logo
-			\includegraphics[width=0.3\linewidth]{IMAGENES/LogoUdistrital}
-			\par\vspace{2cm}
-			%Thesis title
-			{\uppercase{\Large METODOLOGÍA PARA LA APLICACIÓN DE LA CIENCIA DE DATOS EN EL DIAGNÓSTICO DEL CÁNCER DE MAMA \par}}
-			\vspace{3cm}
-			%Author's name
-			{\Large Jorge Armando Millán Gómez \par}
-			\vspace{3cm}
-			%Degree
-			{\Large Maestría en Ciencias de la Información y las Comunicaciones énfasis en Ingeniería de Software\par}
-			\vspace{3cm}
-			%Date
-			{\Large \today}
-		\end{minipage}
-	\end{center}
+	
+\maketitle
+%titlepage
+\thispagestyle{empty}
+
+
+\thispagestyle{empty}
+\begin{textblock}{6}(0.11,1)
+	\includegraphics[scale=0.95]{IMAGENES/LogoUdistrital}
+\end{textblock}
+
+\begin{center}	
+	\begin{textblock} {9}(4.9,1.8)
+		\Large{\textbf{UNIVERSIDAD DISTRITAL ``FRANCISCO JOSÉ DE CALDAS''}}
+	\end{textblock}
+\end{center}
+
+\begin{textblock}{10}(4.5,1.9) 
+	
+	\begin{flushleft}
+		\rule{13.5cm}{1.0mm}
+	\end{flushleft}
+\end{textblock}
+
+\begin{textblock}{10}(4.5,2.0) 
+	
+	\begin{flushleft}
+		\rule{13.5cm}{0.5mm}
+	\end{flushleft}
+\end{textblock}
+
+
+\begin{picture}(-200,-500)(46,-250) 
+	
+	\thicklines
+	\put(-8,-370){\line(0,-1){550}} 
+	\put(-7,-370){\line(0,-1){550}}
+	\put(-6,-370){\line(0,-1){550}}
+	\put(-4.5,-370){\line(0,-1){550}}
+	
+	\put(10,-380){\line(0,-1){550}} 
+	\put(11,-380){\line(0,-1){550}}
+	\put(12,-380){\line(0,-1){550}} 
+	\put(14.5,-380){\line(0,-1){550}}
+	
+	\put(30,-370){\line(0,-1){550}} 
+	\put(31,-370){\line(0,-1){550}}
+	\put(32,-370){\line(0,-1){550}} 
+	\put(34.5,-370){\line(0,-1){550}}
+\end{picture}
+
+\begin{textblock}{10}(4.5,2.8)
+	\begin{center} \large{\textbf{FACULTAD DE INGENIERÍA}} \end{center}
+	\end{textblock}
+	\begin{textblock}{10}(4.5,5.1)
+		\begin{center} \Large{\bf{``METODOLOGÍA PARA LA APLICACIÓN DE LA CIENCIA DE DATOS EN EL DIAGNÓSTICO DEL CÁNCER DE MAMA''}}
+		\end{center}
+	\end{textblock}
+	
+	\begin{textblock}{12}(3.45,4.5)
+		\begin{center} \Large{\textbf{TESIS PROFESIONAL}} \end{center}
+	\end{textblock}
+	
+	\begin{textblock}{12}(3.45,8.2)
+		\begin{center} \normalsize{\bf{QUE PARA OBTENER EL TÍTULO DE:}} \end{center}
+	\end{textblock}
+	
+	\begin{textblock}{12}(3,8.6)
+		\begin{center} \large{\textbf{MAGÍSTER EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES CON ÉNFASIS EN INGENIERÍA DE SOFTWARE}}\end{center}
+	\end{textblock}
+	
+	\begin{textblock}{12}(3.6,10.1)
+		\begin{center} \textbf{PRESENTA}: \end{center}
+	\end{textblock}
+	
+	\begin{textblock}{12}(3.45,10.6)
+		\begin{center} \Large{\textbf{ESP. JORGE ARMANDO MILLÁN GÓMEZ}} \end{center}
+	\end{textblock}
+	
+	\begin{textblock}{12}(3.45,12.0)
+		\begin{center} \textbf{ASESORES}: \end{center}
+	\end{textblock}
+	
+	\begin{textblock}{12}(3.45,12.4)
+		\begin{center} 
+			\large{\textbf{DRA. LILIA EDITH APARICIO PICO}} 
+		\end{center}
+	\end{textblock}
+	
+	\begin{textblock}{9.5}(4.4,14)
+		\begin{center} \textbf{BOGOTÁ, COLOMBIA}\hspace{1in} \textbf{\today} \end{center}
+	\end{textblock}
+	\newpage
+
+	%--------------------TABLAS DE CONTENIDO---------------------------------------
+	
 	\clearpage
 	\tableofcontents
 	\listoffigures

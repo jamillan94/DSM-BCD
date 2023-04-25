@@ -2,22 +2,22 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Características de las metodologías en ciencia de datos.\relax }}{53}{table.caption.13}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Características de las metodologías en ciencia de datos.\relax }}{52}{table.caption.13}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{72}{table.caption.33}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Estadísticas del conjunto de datos crudos del carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{77}{table.caption.41}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Análisis parcial de datos crudos realizado en el conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{78}{table.caption.42}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Estadísticas de variables no relevantes.\relax }}{85}{table.caption.48}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Estadísticas de variables procesadas para el análisis descriptivo.\relax }}{98}{table.caption.58}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{113}{table.caption.88}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Análisis generando a partir de la correlación de Spearman.\relax }}{115}{table.caption.91}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Modelos Machine Learning para agrupamiento (Clustering).\relax }}{118}{table.caption.93}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces Indice de Davies-Bouldien del modelo BIRCH.\relax }}{125}{table.caption.103}%
-\contentsline {table}{\numberline {4.10}{\ignorespaces Clusters con características genómicas de 818 pacientes.\relax }}{127}{table.caption.106}%
-\contentsline {table}{\numberline {4.11}{\ignorespaces Clusters por tipo de carcinoma de mama.\relax }}{128}{table.caption.107}%
-\contentsline {table}{\numberline {4.12}{\ignorespaces Interpretación de los clusters obtenidos con el modelo BIRCH a partir del conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{133}{table.caption.117}%
-\contentsline {table}{\numberline {4.13}{\ignorespaces Colaboradores de la investigación \textit {“Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer”}.\relax }}{135}{table.caption.119}%
-\contentsline {table}{\numberline {4.14}{\ignorespaces Entidades y atributos para el dominio oncológico enfocado en el diagnóstico del cáncer de mama.\relax }}{146}{table.caption.130}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{71}{table.caption.33}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Estadísticas del conjunto de datos crudos del carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{76}{table.caption.41}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Análisis parcial de datos crudos realizado en el conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{77}{table.caption.42}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Estadísticas de variables no relevantes.\relax }}{84}{table.caption.48}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Estadísticas de variables procesadas para el análisis descriptivo.\relax }}{97}{table.caption.58}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{112}{table.caption.88}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Análisis generando a partir de la correlación de Spearman.\relax }}{114}{table.caption.91}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Modelos Machine Learning para agrupamiento (Clustering).\relax }}{117}{table.caption.93}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Indice de Davies-Bouldien del modelo BIRCH.\relax }}{124}{table.caption.103}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Clusters con características genómicas de 818 pacientes.\relax }}{126}{table.caption.106}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Clusters por tipo de carcinoma de mama.\relax }}{127}{table.caption.107}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Interpretación de los clusters obtenidos con el modelo BIRCH a partir del conjunto de datos del Carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{132}{table.caption.117}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces Colaboradores de la investigación \textit {“Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer”}.\relax }}{134}{table.caption.119}%
+\contentsline {table}{\numberline {4.14}{\ignorespaces Entidades y atributos para el dominio oncológico enfocado en el diagnóstico del cáncer de mama.\relax }}{145}{table.caption.130}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

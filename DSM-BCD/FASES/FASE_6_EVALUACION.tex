@@ -6,7 +6,7 @@ Con base a los resultados obtenidos en la fase anterior, el modelo \textit{BIRCH
 \subsection{Agrupamiento BIRCH}
 El método de agrupación de datos \textit{BIRCH}(Balanced, Iterative Reducing , and Clustering using Hierarchies) reúne de forma incremental y dinámica puntos de datos métricos multidimensionales entrantes para intentar producir una agrupación de mejor calidad con los recursos disponibles, es decir, la memoria disponible y las limitaciones de tiempo. Por lo general, BIRCH puede encontrar una buena agrupación con una sola exploración de los datos y mejorar aún más la calidad con unas pocas exploraciones adicionales. BIRCH es también el primer algoritmo de clustering propuesto en el área de bases de datos que maneja eficazmente el \textit{“ruido”}, es decir puntos de datos que no forman parte del patrón subyacente \cite{Zhang1996}. 
 
-Este modelo, presentó un mayor desempeño al medir la eficiencia espacio-temporal, la sensibilidad al orden de entrada de los datos y la calidad de la agrupación mediante varias iteraciones. El resultado obtenido puede ser observado en la figura \ref{BIRCH_TSNE} generada con el método T-SNE que permite visualizar las similitudes entre vecinos en un espacio multidimensional y la figura \ref{BIRCH_PCA} que permite visualizar la distancia entre clusters según el análisis de componentes principales (PCA\footnote{PCA: Principal Component Analysis}). Dado lo anterior, en la gráfica se visualiza que los clusters presentan una métrica de cohesión y separación que permite identificar las 4 agrupaciones generadas por el modelo BIRCH .
+Este modelo, presentó un mayor desempeño al medir la eficiencia espacio-temporal, la sensibilidad al orden de entrada de los datos y la calidad de la agrupación mediante varias iteraciones. El resultado obtenido puede ser observado en la figura \ref{BIRCH_TSNE} generada con el método T-SNE que permite visualizar las similitudes entre vecinos en un espacio multidimensional y la figura \ref{BIRCH_PCA} que permite visualizar la distancia entre clusters según el análisis de componentes principales (PCA\footnote{PCA: Principal Component Analysis}). Dado lo anterior, en las gráficas se visualizo que los clusters presentaban una métrica de cohesión y separación que permitió identificar las 4 agrupaciones generadas por el modelo BIRCH.
 
 \begin{figure}
 	\centering
@@ -45,7 +45,7 @@ Este índice representa el promedio de las distancias que pertenecen a un determ
 \end{itemize}
 %-------------------------------------------
 \subsubsection{Coeficiente de silhouette} 
-Esta métrica permite identificar cual es el numero óptimo de agrupamientos. Dado lo anterior, está definido como:
+Esta métrica permite identificar cual es el número óptimo de agrupamientos. Dado lo anterior, está definido como:
 \begin{itemize}[label=]
 	\item $a(x)=$ distancia promedio de $x$ a todos los demás puntos en el mismo cluster.
 	\item $b(x)=$ distancia promedio de $x$ a todos los demás puntos en el cluster más cercano.
@@ -72,7 +72,7 @@ Una vez obtenidos los valores, se representa en una gráfica lineal la inercia r
 
 %-------------------------------------------
 \subsection{Evaluación del modelo BIRCH}
-Con base a las métricas de validación internas aplicadas al modelo BIRCH, se obtuvo un índice de Davies-Bouldien del $1.8703$, valor que ratifica que lo centros están separados correctamente, tal y como se observa en la tabla \ref{Davies-Bouldien}. Adicionalmente, en la figura \ref{a} se observan los 4 clusters generados por el modelo para un coeficiente de Silhouette del $0.1286$. Por último, en la figura \ref{b} se observa que la inercia se produce en $k = 5 $, corroborando el resultado del coeficiente de Silhouette obtenido anteriormente y confirmando que el modelo tiene el número de clusters adecuado. Por consiguiente, se infiere que el modelo presenta clústeres compactos con centros considerablemente separados los unos de los otros lo cual indica que el agrupamiento generado para el conjunto de datos del carcinoma invasivo de mama es aceptable. 
+Con base a las métricas de validación internas aplicadas al modelo BIRCH, se obtuvo un índice de Davies-Bouldien del $1.8703$, valor que ratifico que lo centros estaban separados correctamente, tal y como se observa en la tabla \ref{Davies-Bouldien}. Adicionalmente, en la figura \ref{a} se observa los 4 clusters generados por el modelo para un coeficiente de Silhouette del $0.1286$. Por último, en la figura \ref{b} se observa que la inercia se produce en $k = 5 $, corroborando el resultado del coeficiente de Silhouette obtenido anteriormente y confirmando que el modelo tenia un número de clusters adecuado. Por consiguiente, se infirió que el modelo presentaba clústeres compactos con centros considerablemente separados los unos de los otros lo cual indico que el agrupamiento generado para el conjunto de datos del carcinoma invasivo de mama era aceptable. 
 
 \begin{table*}[!htb]
 	\footnotesize
@@ -103,7 +103,7 @@ Con base a las métricas de validación internas aplicadas al modelo BIRCH, se o
 \clearpage
 %-------------------------------------------
 \subsection{Interpretación de los resultados}
-Con base a los 4 \textit{clusters} generados por el modelo \textit{BIRCH}, se procedió a identificar las características de origen genómico compartidas por 818 pacientes para analizar su comportamiento y así dar respuesta a las preguntas generadas en el BCQM. Dado lo anterior, se generó un análisis diagnostico para determinar las causas de las tendencias y las correlaciones de dichas variables con los tipos de cáncer de mama Lobulillar Invasivo (ILC), Ductal Invasivo (IDC) y Tumores Mixtos (MDLC). Se debe agregar que los clusters están conformados por 41 variables distribuidas en 9 variables numéricas y 33 variables categóricas, en donde el \textit{Cluster 0} agrupo 615 pacientes, el \textit{Cluster 1} agrupo 180 pacientes, el \textit{Cluster 2} agrupo 1 paciente y el \textit{Cluster 3} agrupo 22 pacientes. Los detalles de lo agrupación de los clusters por variable se pueden observar en la tabla \ref{clusters}:
+Con base a los 4 \textit{clusters} generados por el modelo \textit{BIRCH}, se procedió a identificar las características de origen genómico compartidas por 818 pacientes para analizar su comportamiento y así dar respuesta a las preguntas generadas en el BCQM. Dado lo anterior, se generó un análisis diagnostico para determinar las causas de las tendencias y las correlaciones de dichas variables con los tipos de cáncer de mama Lobulillar Invasivo (ILC), Ductal Invasivo (IDC) y Tumores Mixtos (MDLC). Se debe agregar que los clusters estaban conformados por 41 variables distribuidas en 9 variables numéricas y 33 variables categóricas, en donde el \textit{Cluster 0} agrupo 615 pacientes, el \textit{Cluster 1} agrupo 180 pacientes, el \textit{Cluster 2} agrupo 1 paciente y el \textit{Cluster 3} agrupo 22 pacientes. Los detalles de lo agrupación de los clusters por variable se pueden observar en la tabla \ref{clusters}:
 \begin{table}[!htb]
 	\begin{center} 
 		\begin{tabular}{ |c|c|c|c| }
@@ -172,7 +172,7 @@ Con base a los 4 \textit{clusters} generados por el modelo \textit{BIRCH}, se pr
 	\end{center} 
 \end{table}
 \break
-Una vez analizados los resultados obtenidos, se observa que en los \textit {Cluster 0, 1 y 2} el Carcinoma Ductal Invasivo (IDC) es predominante en la mayoría de los pacientes, sin embargo, esta tendencia cambio en el \textit{Cluster 3} en donde el Carcinoma Lobulillar Invasivo (ILC) se presentó en la mayoría de los pacientes, tal y como se puede observar en la tabla \ref{carcinoma_cluster}. 
+Una vez analizados los resultados obtenidos, se observo que en los \textit {Cluster 0, 1 y 2} el Carcinoma Ductal Invasivo (IDC) era predominante en la mayoría de los pacientes, sin embargo, esta tendencia cambio en el \textit{Cluster 3} en donde el Carcinoma Lobulillar Invasivo (ILC) se presentó en la mayoría de los pacientes, tal y como se puede observar en la tabla \ref{carcinoma_cluster}. 
 \begin{table}[!htb]
 	\begin{center} 
 		\begin{tabular}{ |c|c| }
@@ -189,7 +189,7 @@ Una vez analizados los resultados obtenidos, se observa que en los \textit {Clus
 	\end{center} 
 \end{table}
 
-Hay que mencionar que para poder determinar los atributos característicos se compararon las 41 variables de origen genómico de los 4 clusters. Se obtuvo como resultado, que 30 variables no presentaron cambio en ninguno de los clusters con respecto al análisis descriptivo realizado en las fases previas, sin embargo 9 variables presentaron diferencias en el \textit{Cluster 3} con respecto a los demás clusters, permitiéndonos identificar atributos genómicos inherentes del cáncer ILC con respecto al IDC. Llegados a este punto se infiere, según el comportamiento de los datos, las apreciaciones que se observan en la tabla \ref{interpretacion_BIRCH}:
+Hay que mencionar que para poder determinar los atributos característicos se compararon las 41 variables de origen genómico de los 4 clusters. Se obtuvo como resultado, que 30 variables no presentaron cambio en ninguno de los clusters con respecto al análisis descriptivo realizado en las fases previas, sin embargo 9 variables presentaron diferencias en el \textit{Cluster 3} con respecto a los demás clusters, permitiéndonos identificar atributos genómicos inherentes del cáncer ILC con respecto al IDC. Llegados a este punto se infirió, según el comportamiento de los datos, las apreciaciones que se observan en la tabla \ref{interpretacion_BIRCH}:
 \begin{table*}[htb!]
 	\footnotesize
 	\begin{threeparttable}
