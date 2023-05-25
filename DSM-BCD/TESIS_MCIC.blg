@@ -67,11 +67,11 @@ Warning--entry type for "planning023" isn't style-file defined
 --line 2609 of file REFERENCIAS/articulos.bib
 Warning--entry type for "planningDSM2023" isn't style-file defined
 --line 2625 of file REFERENCIAS/articulos.bib
+Warning--empty author in Turin2020
 Warning--can't use both author and editor fields in Brunicardi2010
 Warning--empty booktitle in Safhi2019
 Warning--empty journal in Pacheco2014
 Warning--there's a number but no volume in Shen2019
-Warning--empty author in Turin2020
 Warning--empty publisher in ArchiMate3.0.1
 You've used 89 entries,
             1791 wiz_defined-function locations,

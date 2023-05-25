@@ -55,6 +55,29 @@ Ritse~M. Mann, Regina Hooley, Richard~G. Barr, and Linda Moy.
 \newblock {Novel approaches to screening for breast cancer}.
 \newblock {\em Radiology}, 297(2):266--285, 2020.
 
+\bibitem{Troyanskaya2020}
+Olga Troyanskaya, Zlatko Trajanoski, Anne Carpenter, Sebastian Thrun, Narges
+  Razavian, and Nuria Oliver.
+\newblock {Artificial intelligence and cancer}.
+\newblock {\em Nature Reviews Cancer}, 1(February):149--152, 2020.
+
+\bibitem{Turin2020}
+{A Turing test for artificial intelligence in cancer}.
+\newblock {\em Nature Reviews Cancer}, 1(2):137--138, 2020.
+
+\bibitem{Duarte2021}
+Carlos Duarte, Alejandro Salazar, Kathrin Strasser-Weippl, Esther de~Vries,
+  Carolina Wiesner, Ang{\'{e}}lica Arango-Guti{\'{e}}rrez, Lindsay Krush, and
+  Paul~E. Goss.
+\newblock {Breast cancer in Colombia: a growing challenge for the healthcare
+  system}.
+\newblock {\em Breast Cancer Research and Treatment}, 186(1):15--24, 2021.
+
+\bibitem{InternationalAgencyGlobal2020}
+{International Agency for Research on Cancer}.
+\newblock {20 Breast fact sheet}.
+\newblock {\em Globocan 2020}, 419:3--4, 2020.
+
 \bibitem{Bland2009}
 K.~I. Bland and Edward~M. Copeland.
 \newblock {\em The Breast : comprehensive management of benign and malignant
@@ -420,29 +443,6 @@ Farzin Negahbani, Rasool Sabzi, Bita {Pakniyat Jahromi}, Dena Firouzabadi,
 \newblock {PathoNet introduced as a deep neural network backend for evaluation
   of Ki-67 and tumor-infiltrating lymphocytes in breast cancer}.
 \newblock {\em Nature Scientific Reports}, 11(1):1--13, 2021.
-
-\bibitem{Troyanskaya2020}
-Olga Troyanskaya, Zlatko Trajanoski, Anne Carpenter, Sebastian Thrun, Narges
-  Razavian, and Nuria Oliver.
-\newblock {Artificial intelligence and cancer}.
-\newblock {\em Nature Reviews Cancer}, 1(February):149--152, 2020.
-
-\bibitem{Turin2020}
-{A Turing test for artificial intelligence in cancer}.
-\newblock {\em Nature Reviews Cancer}, 1(2):137--138, 2020.
-
-\bibitem{Duarte2021}
-Carlos Duarte, Alejandro Salazar, Kathrin Strasser-Weippl, Esther de~Vries,
-  Carolina Wiesner, Ang{\'{e}}lica Arango-Guti{\'{e}}rrez, Lindsay Krush, and
-  Paul~E. Goss.
-\newblock {Breast cancer in Colombia: a growing challenge for the healthcare
-  system}.
-\newblock {\em Breast Cancer Research and Treatment}, 186(1):15--24, 2021.
-
-\bibitem{InternationalAgencyGlobal2020}
-{International Agency for Research on Cancer}.
-\newblock {20 Breast fact sheet}.
-\newblock {\em Globocan 2020}, 419:3--4, 2020.
 
 \bibitem{Ciriello2015}
 Giovanni Ciriello, Michael~L. Gatza, Andrew~H. Beck, Matthew~D. Wilkerson,
