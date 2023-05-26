@@ -20,11 +20,11 @@
 %---------------INICIO--------------------------------------------
 \begin{document}
 
-%----------------FRAME---------------------------------------------------------------
+%----------------FRAME----------------------------------------------------
 \begin{frame}
 	\titlepage
 \end{frame}
-%----------------FRAME--------------------------------------------------------------
+%----------------FRAME----------------------------------------------------
 \begin{frame}
 	\frametitle{Elementos principales de la investigación}
 	\begin{block}{Planteamiento del Problema}\justifying
@@ -43,7 +43,7 @@
 \end{frame}
 
 
-%----------------FRAME--------------------------------------------------------------
+%----------------FRAME----------------------------------------------------
 \begin{frame}
 	\frametitle{Elementos principales de la investigación}
 	\begin{block}{Planteamiento de la Hipótesis} \justifying
@@ -53,207 +53,85 @@
 
 	\end{block}
 \end{frame}
-%----------------FRAME--------------------------------------------------------------
+%----------------FRAME----------------------------------------------------
 \begin{frame}
 	\frametitle{Objetivos}
 	\begin{block}{Objetivo General}
 		\justifying		
-		Desarrollar un sistema con modelos de Machine Learning para diagnosticar el padecimiento de cáncer de mama.
+		Diseñar una metodología para diagnosticar el padecimiento del cáncer mama aplicando la ciencia de datos. 
+	\end{block}
+	
+	\begin{alertblock}{Resultado}
+	\justifying	
+	Creación de la metodología \textit{DSM-BCD (Data Science Methodology for Breast Cancer Diagnosis)} con el proposito de generar valor a los datos oncológicos en el tiempo más corto posible para que los médicos diagnostiquen de manera ágil el cáncer de mama. Para lograrlo DSM-BCD integra la perspicacia médica y los resultados obtenidos por las técnicas de ML y DL en una retroalimentación continúa generada en cada \textit{Release} para producir mayor eficacia en la toma de decisiones.
+	\end{alertblock}
+
+\end{frame}
+
+%----------------FRAME----------------------------------------------------
+\begin{frame}
+	\frametitle{Objetivos}
+	\begin{block}{Objetivos Específicos}\justifying
+		Evaluar data-Sets con la información obtenida de técnicas médicas para la detección del cáncer de mama y realizar el Análisis exploratorio de Datos (EDA) de los mismos.		
+	\end{block}
+	
+	\begin{alertblock}{Resultado}
+	\justifying	
+	Implementación del Análisis Exploratorio de datos (EDA) con el data-set \textit{“Breast Invasive Carcinoma”}, el cual contiene un total de 817 muestras de tumores de mama y 110 variables genéticas características de marcadores tumorales obtenidas a partir de la Biopsia por aspiración con aguja fina (FNA) y Biopsia con aguja gruesa (CNB) del Carcinoma ductal invasivo (IDC), el Carcinoma lobulillar invasivo (ILC) y el Carcinoma de tumores mixtos (MDLC).
+	\end{alertblock}
+
+\end{frame}
+
+%----------------FRAME----------------------------------------------------
+\begin{frame}
+	\frametitle{Objetivos}
+	\begin{block}{Objetivos Específicos}\justifying
+		Validar la exactitud de la metodología con base en la aplicación de la ciencia de datos para el diagnóstico del cáncer de mama.	
 	\end{block}
 	
 	\begin{alertblock}{Resultado}
 		\justifying	
-		Desarrollo de una aplicación web para el diagnóstico del cáncer de mama donde se utilizaron modelos de Machine Learning seleccionados a partir de la exploración y comparación de los modelos más utilizados por diferentes investigadores y la precisión de dichos modelos  en el diagnóstico de este tipo de Cáncer. 
-	\end{alertblock}
-
-\end{frame}
-
-%----------------FRAME--------------------------------------------------------------
-\begin{frame}
-	\frametitle{Objetivos}
-	\begin{block}{Objetivos Especificos}\justifying
-		Efectuar el entrenamiento de los modelos en Machine Learning que apliquen para el diagnostico de cáncer de mama.	
-	\end{block}
-	\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.55\linewidth]{PROYECTO/imgs/ModelosUsados}
-	\end{figure}
-\end{frame}
-
-%----------------FRAME--------------------------------------------------------------
-\begin{frame}
-	\frametitle{Objetivos}
-	\begin{alertblock} {Resultado}
-		\justifying
-		Para realizar el entrenamiento de los modelos de Machine Learning seleccionados, se utilizó el data set  de cáncer de mama, elaborado por la Universidad de Wisconsin y se utilizó la librería Scikit-Learn para el  procesamiento de datos  y el posterior entrenamiento de dichos modelos. 
+		Comprobación de la metodología con base a la comparación del análisis descriptivo obtenido aplicando DSM-BCD  y los resultados de la investigación realizada por el Ph.D Giovanni Ciriello, en donde se confirmo que el cáncer ILC presenta características genéticas molecularmente diferentes a los demás tipos de cáncer de mama, que  la proteína HER2 positiva es un rasgo genético necesario para diagnosticar el cáncer IDC pero no suficiente para diagnosticar el cáncer ILC y adicional que es posible clasificar el cáncer MDLC en subgrupos de tipo LBC o IDC según sus propiedades genéticas.
 	\end{alertblock}
 \end{frame}
 
-%----------------FRAME--------------------------------------------------------------
-\begin{frame}
-	\frametitle{Objetivos}
-	\begin{block}{Objetivos Especificos}\justifying
-		Realizar un análisis comparativo de la precisión de los modelos existentes utilizados en el diagnostico de cáncer de mama.	
-	\end{block}
-	
-	\begin{alertblock}{Resultado}
-		\justifying	
-		La determinación de la precisión de los modelos es expresada como la relación entre los diagnósticos realizados correctamente y el número total de diagnósticos. 
-	\end{alertblock}
-	
-	\begin{table}[ht]
-		\begin{center}	
-			\begin{tabular}{lc}
-				\hline
-				\rowcolor[HTML]{DADADA} 
-				\multicolumn{1}{c}{\cellcolor[HTML]{DADADA}\textbf{Modelo}} & \textbf{Presición} \\ \hline
-				Decision Trees                                              & 1.0                \\ \hline
-				Random Forest                                               & 0.9953             \\ \hline
-				Support Vector Machines(SVM)                                & 0.9647             \\ \hline
-				Logistic Regression                                         & 0.9600             \\ \hline
-				Gaussian Naive Bayes                                        & 0.9507             \\ \hline
-				K-Nearest Neighbor (KNN)                                    & 0.9413             \\ \hline
-			\end{tabular}
-		\end{center}
-	\end{table}
-\end{frame}
 
-
-%----------------FRAME--------------------------------------------------------------
-\begin{frame}
-	\frametitle{Objetivos}
-	\begin{block}{Objetivos Especificos}\justifying
-	Elaborar un aplicativo que sea capaz de diagnosticar el padecimiento de cáncer de mama de un paciente en particular. 
-	\end{block}
-	
-	\begin{alertblock}{Resultado}
-		\justifying	
-		Implementación de la aplicación web llamada BreastApp V1.0 la cual está conformada por dos componentes: El Back-End de la aplicación el cual fue realizado en Python y el Front-End de la aplicación el cual fue realizado en Angular.Esta aplicación brinda  un dictamen del padecimiento de cáncer de mama soportado en datos y gráficas proporcionados por los modelos de Machine Learning utilizados.
-	\end{alertblock}
-\end{frame}
-%----------------FRAME--------------------------------------------------------------
+%----------------FRAME---------------------------------------------------
 \begin{frame}
 	\frametitle{Desarrollo de la Investigación}
-	
-	\justifying
-	\begin{block}{Recolección de datos}\justifying
-		En la investigación se identificaron nueve características evaluadas visualmente de una muestra obtenida por el método de aspiración por aguja fina (FNA)que se consideraron relevantes para el diagnóstico.El conjunto de datos resultante es conocido como el Data-Set de cáncer de mama de Wisconsin\cite{b2}.
-	\end{block}
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.4\linewidth]{PROYECTO/imgs/fnaTest}
+		\includegraphics[width=0.87\linewidth]{PROYECTO/imgs/DSM-BCD_SPANISH}
 	\end{figure}
 \end{frame}
 
-%----------------FRAME--------------------------------------------------------------
+%----------------FRAME---------------------------------------------------
 \begin{frame}
 	\frametitle{Desarrollo de la Investigación}
-	\begin{block}{Verificación de datos}\justifying
-		La verificación de los datos extraídos por medio de la muestra FNA y la veracidad del Data-Set  de cáncer de mama de Wisconsin se realiza con base a los resultados  del proceso realizado por el software conocido como Xcyt.Este sistema ha diagnosticado correctamente 176 nuevos pacientes consecutivos (119 benignos, 57 malignos)\cite{b3}.
-	\end{block}
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.5\linewidth]{PROYECTO/imgs/fna}
+		\includegraphics[width=0.56\linewidth]{PROYECTO/imgs/BCQM_SPANISH}
 	\end{figure}
 \end{frame}
 
-%----------------FRAME--------------------------------------------------------------
-\begin{frame}
-	\frametitle{Desarrollo de la Investigación}
-	\begin{block}{Clasificación de datos}\justifying
-		El Sistema de enfoque de visión por computadora extrae diez características diferentes de los límites (snakes) de los núcleos celulares de la muestra FNA.  Las características extraídas son:
-		\textit{Radius, Perimeter, Area, Texture, Smoothness, Concavity, Concave Points, Symmetry, Compactness y Fractal Dimension} \cite{b3}.
-	\end{block}
-	\begin{figure}[!htb]
-		\minipage{0.24\textwidth}
-		\includegraphics[width=1\linewidth]{PROYECTO/imgs/FnaClassification/Concavity}
-		\endminipage\hfill
-		\minipage{0.24\textwidth}
-		\includegraphics[width=1\linewidth]{PROYECTO/imgs/FnaClassification/FractalDimension}
-		\endminipage\hfill
-		\minipage{0.24\textwidth}
-		\includegraphics[width=1\linewidth]{PROYECTO/imgs/FnaClassification/Smothness}
-		\endminipage\hfill
-		\minipage{0.24\textwidth}%
-	    \includegraphics[width=1\linewidth]{PROYECTO/imgs/FnaClassification/Symmetry}
-		\endminipage
-	\end{figure}
-\end{frame}
 
-%----------------FRAME--------------------------------------------------------------
+
+%----------------FRAME----------------------------------------------------
 \begin{frame}
 	\frametitle{Desarrollo de la Investigación}
-	\begin{block}{Limpieza de datos}\justifying
-		Para el correcto entrenamiento de los modelos con el Data-Set es relevante tener alta calidad  en los datos, para ello fue necesario la corrección de los errores de los mismos para el posterior procesamiento con  los algoritmos de Machine Learning.
+	\begin{block}{Fase 1: BCQM}\justifying
+	Para este caso de estudio, se plantearon las siguientes preguntas  basados en el atlas del Genoma del Cáncer con la finalidad de catalogar cambios moleculares de importancia biológica responsables de la aparición de cáncer haciendo uso de la secuenciación genómica y la bioinformática.
+
 	\end{block}
 	
-	\begin{block}{Formateo de datos}\justifying
-		Para la comprobación de los tipos de datos del  Data-Set de cáncer de mama de la Universidad de Wisconsin se utilizo  la librería \textit{Pandas} la cual cuenta con la propiedad \textit{dtypes} que describe los tipos de datos de las variables de dicho Data-Set.
-	\end{block}
-\end{frame}
-
-
-%----------------FRAME--------------------------------------------------------------
-\begin{frame}
-	\frametitle{Desarrollo de la Investigación}
-	\begin{block}{Comprobación de datos faltantes}\justifying
-		Para la comprobación de datos faltantes se utilizo la librería \textit{Pandas} la cual cuenta con la función \textit{isna()} que valida si las variables contienen valores \textit{Nulos(Nan)}. En este caso en especifico el Data-Set de cáncer de mama de la Universidad de Wisconsin no contiene ningún valor nulo.
-	\end{block}
-	\begin{block}{Eliminación de datos Innecesarios}\justifying
-		Para la eliminación de datos innecesarios se utilizo a la librería \textit{Pandas} la cual cuenta con la función \textit{dropna()} con la cual se eliminaron datos que no aportaban informacion necesaria para el diagnostico.
-	\end{block}
-\end{frame}
-%----------------FRAME--------------------------------------------------------------
-\begin{frame}
-	\frametitle{Desarrollo de la Investigación}
-	\begin{block}{Procesamiento de los Datos}\justifying
-		El Data-Set se encuentran en formato .csv que es leído y cargado en memoria con la ayuda de las librerías de Python para luego ser asignado a una variable que hace que la información sea manejable. Dentro del Data-Set se encuentran  357 registros  de personas con tumores diagnosticados  como Benignos  y 212 como Malignos, esta información fue utilizada para entrenar y testear el modelo \cite{b4}.
-	\end{block}
 	\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.5\linewidth]{PROYECTO/imgs/output}
+		\centering
+		\includegraphics[width=0.93\linewidth]{PROYECTO/imgs/BCQM_TCGA}
 	\end{figure}
-
 \end{frame}
 
-%----------------FRAME--------------------------------------------------------------
-\begin{frame}
-	\frametitle{Desarrollo de la Investigación}
-	\begin{block}{Modelos de Machine Learning}\justifying
-		Para la implementación técnica se utilizo la librería para \textit{Python} llamada \textit{Scikit-Learn} la cual contiene un conjunto de funciones para aplicar dichos modelos. Los modelos  seleccionados fueron: \textit{Logistic Regression}, \textit{Decision Trees},\textit{Gaussian Naive Bayes},\textit{K-Nearest Neighbors(KNN)},\textit{Random Forest},y \textit{Support Vector Machines(SVM)}\cite{b4}.
-	\end{block}
-\end{frame}
 
-%----------------FRAME--------------------------------------------------------------
-\begin{frame}
-	\frametitle{Desarrollo de la Investigación}
-	\begin{figure}[!htb]
-		\minipage{0.32\textwidth}
-		\includegraphics[width=1\linewidth]{PROYECTO/imgs/metodos/1_LogisticRegression}
-		\endminipage\hfill
-		\minipage{0.32\textwidth}
-		\includegraphics[width=1\linewidth]{PROYECTO/imgs/metodos/2_DecisionTreeClassifier}
-		\endminipage\hfill
-		\minipage{0.32\textwidth}
-		\includegraphics[width=1\linewidth]{PROYECTO/imgs/metodos/3_GaussianNB}
-		\endminipage\hfill
-	\end{figure}
-	
-	\begin{figure}[!htb]
-		\minipage{0.32\textwidth}
-		\includegraphics[width=1\linewidth]{PROYECTO/imgs/metodos/4_KNeighborsClassifier}
-		\endminipage\hfill
-		\minipage{0.32\textwidth}
-		\includegraphics[width=1\linewidth]{PROYECTO/imgs/metodos/5_RandomForestClassifier}
-		\endminipage\hfill
-		\minipage{0.32\textwidth}
-		\includegraphics[width=1\linewidth]{PROYECTO/imgs/metodos/6_SupportVectorMachinesRBF}
-		\endminipage\hfill
-	\end{figure}
-	
-\end{frame}
-
-%----------------FRAME--------------------------------------------------------------
+%----------------FRAME----------------------------------------------------
 \begin{frame}
 	\frametitle{Conclusiones}
 	\begin{itemize}\justifying

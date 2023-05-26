@@ -5,48 +5,47 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 Database file #1: REFERENCIAS/articulos.bib
-Warning--I didn't find a database entry for "b2"
-Warning--I didn't find a database entry for "b3"
-Warning--I didn't find a database entry for "b4"
-You've used 1 entry,
+Warning--entry type for "TCGA2023" isn't style-file defined
+--line 2073 of file REFERENCIAS/articulos.bib
+You've used 2 entries,
             1791 wiz_defined-function locations,
-            456 strings with 3728 characters,
-and the built_in function-call counts, 201 in all, are:
-= -- 19
-> -- 4
+            459 strings with 3902 characters,
+and the built_in function-call counts, 337 in all, are:
+= -- 28
+> -- 12
 < -- 0
-+ -- 2
-- -- 1
-* -- 12
-:= -- 39
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 1
++ -- 5
+- -- 3
+* -- 15
+:= -- 59
+add.period$ -- 5
+call.type$ -- 2
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 9
-empty$ -- 20
-format.name$ -- 1
-if$ -- 40
+cite$ -- 2
+duplicate$ -- 14
+empty$ -- 38
+format.name$ -- 3
+if$ -- 72
 int.to.chr$ -- 0
-int.to.str$ -- 1
+int.to.str$ -- 2
 missing$ -- 1
-newline$ -- 8
-num.names$ -- 1
-pop$ -- 1
+newline$ -- 12
+num.names$ -- 2
+pop$ -- 8
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3
+skip$ -- 8
 stack$ -- 0
 substring$ -- 13
-swap$ -- 1
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 3
-width$ -- 2
-write$ -- 13
-(There were 3 warnings)
+while$ -- 4
+width$ -- 3
+write$ -- 21
+(There was 1 warning)
