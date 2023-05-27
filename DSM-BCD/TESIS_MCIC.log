@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  25 MAY 2023 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  27 MAY 2023 01:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4880,7 +4880,7 @@ LaTeX Info: Redefining \% on input line 26.
 
  (FASES/FASE_8_BCDL.tex
 Overfull \hbox (3.02094pt too wide) in paragraph at lines 1--1
-[]\OT1/cmr/bx/n/17.28 Fase 9: Bit^^Saco-ra pa-ra el diagn^^Sosti-co del c^^Sanc
+[]\OT1/cmr/bx/n/17.28 Fase 8: Bit^^Saco-ra pa-ra el diagn^^Sosti-co del c^^Sanc
 er
  []
 
@@ -4888,7 +4888,7 @@ LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 
 Overfull \hbox (55.09006pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 4.8.  FASE 9: BIT[]ACORA PARA EL DIAGN[]OSTICO DEL C[]ANCER DE
+\OT1/cmr/m/sl/12 4.8.  FASE 8: BIT[]ACORA PARA EL DIAGN[]OSTICO DEL C[]ANCER DE
  MAMA (BCDL)  \OT1/cmr/m/n/12 139
  []
 
@@ -5083,7 +5083,7 @@ LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 
 Overfull \hbox (55.09006pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 4.8.  FASE 9: BIT[]ACORA PARA EL DIAGN[]OSTICO DEL C[]ANCER DE
+\OT1/cmr/m/sl/12 4.8.  FASE 8: BIT[]ACORA PARA EL DIAGN[]OSTICO DEL C[]ANCER DE
  MAMA (BCDL)  \OT1/cmr/m/n/12 141
  []
 
@@ -5098,7 +5098,7 @@ LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 
 Overfull \hbox (55.09006pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 4.8.  FASE 9: BIT[]ACORA PARA EL DIAGN[]OSTICO DEL C[]ANCER DE
+\OT1/cmr/m/sl/12 4.8.  FASE 8: BIT[]ACORA PARA EL DIAGN[]OSTICO DEL C[]ANCER DE
  MAMA (BCDL)  \OT1/cmr/m/n/12 143
  []
 
@@ -5113,7 +5113,7 @@ LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 
 Overfull \hbox (55.09006pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 4.8.  FASE 9: BIT[]ACORA PARA EL DIAGN[]OSTICO DEL C[]ANCER DE
+\OT1/cmr/m/sl/12 4.8.  FASE 8: BIT[]ACORA PARA EL DIAGN[]OSTICO DEL C[]ANCER DE
  MAMA (BCDL)  \OT1/cmr/m/n/12 145
  []
 
@@ -5703,12 +5703,12 @@ LaTeX Info: Redefining \% on input line 26.
 (ARQUITECTURA/APLICACION.aux) (ARQUITECTURA/TECNOLOGIA.aux)
 (ARQUITECTURA/IMPLEMENTACION.aux) (TESIS/CONCLUSIONES.aux))
 Package rerunfilecheck Info: File `TESIS_MCIC.out' has not changed.
-(rerunfilecheck)             Checksum: 8C9054450F2B7300F9E7ECFA82E9B836;20642.
+(rerunfilecheck)             Checksum: 0E57C6E3A0C77B27A2E2BB2348A7F4C1;20565.
  ) 
 Here is how much of TeX's memory you used:
- 38857 strings out of 478552
- 794252 string characters out of 2851753
- 1536770 words of memory out of 3000000
+ 38856 strings out of 478552
+ 794244 string characters out of 2851753
+ 1536757 words of memory out of 3000000
  54501 multiletter control sequences out of 15000+600000
  483288 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5732,9 +5732,9 @@ pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
 am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TESIS_MCIC.pdf (230 pages, 14061839 bytes).
+Output written on TESIS_MCIC.pdf (230 pages, 14061663 bytes).
 PDF statistics:
- 11381 PDF objects out of 12825 (max. 8388607)
- 1498 named destinations out of 1728 (max. 500000)
+ 11380 PDF objects out of 12825 (max. 8388607)
+ 1497 named destinations out of 1728 (max. 500000)
  2275 words of extra memory for PDF output out of 10000 (max. 10000000)
 

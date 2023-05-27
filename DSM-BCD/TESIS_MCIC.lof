@@ -19,7 +19,7 @@
 \contentsline {figure}{\numberline {4.14}{\ignorespaces Mapas de distancia entre clusters de los modelos aplicados al conjunto de datos del carcinoma invasivo de mama (TCGA, Cell 2015).\relax }}{119}{figure.caption.96}%
 \contentsline {figure}{\numberline {4.15}{\ignorespaces T-SNE generado por el modelo BIRCH.\relax }}{121}{figure.caption.97}%
 \contentsline {figure}{\numberline {4.16}{\ignorespaces PCA generado por el modelo BIRCH.\relax }}{121}{figure.caption.98}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Métricas de validación internas modelo de agrupamiento BIRCH\relax }}{124}{figure.caption.104}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Métricas de validación internas del modelo BIRCH\relax }}{124}{figure.caption.104}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de Silhouette}}}{124}{subfigure.17.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Método del codo}}}{124}{subfigure.17.2}%
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Modelo Entidad Relación (MER) para el dominio oncológico enfocado en el diagnostico del cáncer de mama.\relax }}{140}{figure.caption.120}%

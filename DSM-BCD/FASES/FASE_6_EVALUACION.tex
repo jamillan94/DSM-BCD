@@ -1,4 +1,4 @@
-\section{Fase 7: Evaluación e Interpretación}
+\section{Fase 6: Evaluación e Interpretación}
 En esta fase, el \textit{Data Analysis Team} evalúa el modelo para comprender su calidad y garantizar que este aborda las preguntas generadas en el \textit{BCQM} de manera adecuada y completa. Es necesario que para realizar la evaluación se utilicen medidas especializadas basadas en el rendimiento, sensibilidad y especificidad del modelo. Adicionalmente, los resultados obtenidos deben ser entendibles por el medico experto en oncología, en donde se garantice que dichos resultados sean interpretados correctamente y estén relacionados a la estadificación y los biomarcadores del cáncer de mama. Es importante que el medico junto al científico de datos ajusten el modelo según las necesidades. Dado que se está trabajando con datos médicos sensibles, es necesario que al modelo final se aplique a un conjunto de validación para realizar una evaluación final. Además, el \textit{Data Analysis Team} puede asignar al modelo pruebas de \textit{significancia estadística} como prueba adicional para comprobar la respuesta obtenida a la pregunta generada. Esta prueba adicional es fundamental para justificar la implementación del modelo. Finalmente, dado que en el \textit{BCQM} se pueden plantear múltiples preguntas relacionadas a diferentes tipos de cáncer de mama y técnicas de diagnóstico durante el \textit{Release}, es necesario que los científicos con ayuda del ingeniero de datos unan, si es posible, los resultados obtenidos en una matriz o mapa de calor para identificar el coeficiente de correlación entre dos o más variables oncológicas. Esta matriz resultante debe ser analizada por el medico experto en oncología para determinar si existe una relación significativa entre los diferentes tipos de cáncer de mama.
 
 Con base a los resultados obtenidos en la fase anterior, el modelo \textit{BIRCH} fue el seleccionado para agrupar los datos genómicos del conjunto de datos del carcinoma invasivo de mama (TCGA, Cell 2015) en \textit{clusters} basados en los tipos de cáncer lobulillar invasivo(ILC), ductal invasivo(IDC) o de tumores mixtos(MDLC).
@@ -96,7 +96,7 @@ Con base a las métricas de validación internas aplicadas al modelo BIRCH, se o
 	\centering
 	\subfloat[Coeficiente de Silhouette]{\label{a}\includegraphics[width=0.5\linewidth]{NOTEBOOK/IMAGENES_CLUSTERING/8_SILHOUTETTE_Birch_Clustering}}\hfill
 	\subfloat[Método del codo]{\label{b}\includegraphics[width=0.5\linewidth]{NOTEBOOK/IMAGENES_CLUSTERING/8_ELBOW_Birch_Clustering}}\par 
-	\caption{Métricas de validación internas modelo de agrupamiento BIRCH}
+	\caption{Métricas de validación internas del modelo BIRCH}
 	\label{Silhouette_Elbow}
 \end{figure}
 

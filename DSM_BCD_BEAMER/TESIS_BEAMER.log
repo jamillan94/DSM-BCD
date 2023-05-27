@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  25 MAY 2023 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  27 MAY 2023 01:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -163,8 +163,8 @@ cs.code.tex)))
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count285
 )))
-(C:\Program Files\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
@@ -746,8 +746,102 @@ Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \RaggedRightParindent=\skip79
 \JustifyingParindent=\skip80
 )
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write5
+
+Excluding comment 'comment')
 (C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/bbding\bbding.sty
 Package: bbding 1999/04/15 v1.01 Dingbats symbols
+)
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/alertmessage\alertmessage.sty
+Package: alertmessage 2005/08/04 v1.1 Alert messages
+
+(C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/picture\picture.sty
+Package: picture 2020-04-22 v1.6 Dimens for picture macros (HO)
+Package picture Info: Calculation method: etex.
+)
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count337
+\calc@Bcount=\count338
+\calc@Adimen=\dimen295
+\calc@Bdimen=\dimen296
+\calc@Askip=\skip81
+\calc@Bskip=\skip82
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count339
+\calc@Cskip=\skip83
+)
+(C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box77
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen297
+\pgf@nodesepend=\dimen298
+)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
+\pgffor@iter=\dimen299
+\pgffor@skip=\dimen300
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
+tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count340
+\pgfplotmarksize=\dimen301
+)
+\tikz@lastx=\dimen302
+\tikz@lasty=\dimen303
+\tikz@lastxsaved=\dimen304
+\tikz@lastysaved=\dimen305
+\tikz@lastmovetox=\dimen306
+\tikz@lastmovetoy=\dimen307
+\tikzleveldistance=\dimen308
+\tikzsiblingdistance=\dimen309
+\tikz@figbox=\box78
+\tikz@figbox@bg=\box79
+\tikz@tempbox=\box80
+\tikz@tempbox@bg=\box81
+\tikztreelevel=\count341
+\tikznumberofchildren=\count342
+\tikznumberofcurrentchild=\count343
+\tikz@fig@count=\count344
+ (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count345
+\pgfmatrixcurrentcolumn=\count346
+\pgf@matrix@numberofcolumns=\count347
+)
+\tikz@expandcount=\count348
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+\alertmessage@textlength=\skip84
 )
 (C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/beamer\beamerinnerthemecircles
 .sty)
@@ -755,37 +849,53 @@ Package: bbding 1999/04/15 v1.01 Dingbats symbols
 re.sty)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 15.
+(hyperref)                removing `\\' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 17.
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count337
-\l__pdf_internal_box=\box77
+\l__color_backend_stack_int=\count349
+\l__pdf_internal_box=\box82
 )
 (TESIS_BEAMER.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
+
+
+LaTeX Warning: Label `TSNE' multiply defined.
+
 )
 \openout1 = `TESIS_BEAMER.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -795,23 +905,23 @@ LaTeX Font Info:    ... okay on input line 21.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* h-part:(L,W,R)=(10.00002pt, 344.19533pt, 10.00002pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=342.2953pt
+* \textwidth=344.19533pt
 * \textheight=244.6939pt
-* \oddsidemargin=-61.31996pt
-* \evensidemargin=-61.31996pt
+* \oddsidemargin=-62.26997pt
+* \evensidemargin=-62.26997pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=14.22636pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=3.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -823,17 +933,17 @@ LaTeX Font Info:    ... okay on input line 21.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
-\scratchdimen=\dimen295
-\scratchbox=\box78
-\nofMPsegments=\count339
-\nofMParguments=\count340
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count341
-\MPscratchDim=\dimen296
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count350
+\scratchdimen=\dimen310
+\scratchbox=\box83
+\nofMPsegments=\count351
+\nofMParguments=\count352
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count353
+\MPscratchDim=\dimen311
+\MPnumerator=\count354
+\makeMPintoPDFobject=\count355
+\everyMPtoPDFconversion=\toks51
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -842,7 +952,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 31.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -854,67 +964,67 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 g.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count344
+\c@section@level=\count356
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
  (TESIS_BEAMER.out) (TESIS_BEAMER.out)
-\@outlinefile=\write5
-\openout5 = `TESIS_BEAMER.out'.
+\@outlinefile=\write6
+\openout6 = `TESIS_BEAMER.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 21.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 21.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 21.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 21.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 21.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 21.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 21.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 21.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 21.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 21.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 21.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 21.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 21.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 21.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 21.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 2
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
 1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 2
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 3
 1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 21.
+ut line 31.
 
 (C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/translator\translator-basic-di
 ctionary-English.dict
@@ -940,206 +1050,382 @@ Dictionary: translator-numbers-dictionary, Language: English
 dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
  (TESIS_BEAMER.nav)
-<PROYECTO/imgs/LogoUdistrital.pdf, id=25, 115.43124pt x 175.65625pt>
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 2
-6.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
+<IMAGENES/LogoMCIC.png, id=25, 1022.82124pt x 829.0975pt>
+File: IMAGENES/LogoMCIC.png Graphic file (type png)
+<use IMAGENES/LogoMCIC.png>
+Package pdftex.def Info: IMAGENES/LogoMCIC.png  used on input line 36.
+(pdftex.def)             Requested size: 42.67912pt x 34.58781pt.
+<IMAGENES/LogoGitem.png, id=26, 546.54187pt x 308.65312pt>
+File: IMAGENES/LogoGitem.png Graphic file (type png)
+<use IMAGENES/LogoGitem.png>
+Package pdftex.def Info: IMAGENES/LogoGitem.png  used on input line 36.
+(pdftex.def)             Requested size: 71.13188pt x 40.16869pt.
+<IMAGENES/LogoUdistrital.pdf, id=28, 115.43124pt x 175.65625pt>
+File: IMAGENES/LogoUdistrital.pdf Graphic file (type pdf)
+<use IMAGENES/LogoUdistrital.pdf>
+Package pdftex.def Info: IMAGENES/LogoUdistrital.pdf  used on input line 36.
+(pdftex.def)             Requested size: 28.45274pt x 43.29747pt.
  [1
 
-{C:/Users/jamil/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./PROYECTO/i
-mgs/LogoUdistrital.pdf>]
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 3
-3.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
- [2
+{C:/Users/jamil/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./IMAGENES/L
+ogoMCIC.png> <./IMAGENES/LogoGitem.png> <./IMAGENES/LogoUdistrital.pdf>] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 43.
+ut line 53.
 
 (C:\Users\jamil\AppData\Roaming\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss
 .fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 4
-3.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
- [3
+) [3
+
+] [4
+
+] [5
+
+] [6
+
+] [7
+
+] [8
 
 ]
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 5
-5.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
- [4
+<IMAGENES/DSM-BCD_SPANISH.pdf, id=421, 845.15248pt x 597.58253pt>
+File: IMAGENES/DSM-BCD_SPANISH.pdf Graphic file (type pdf)
+<use IMAGENES/DSM-BCD_SPANISH.pdf>
+Package pdftex.def Info: IMAGENES/DSM-BCD_SPANISH.pdf  used on input line 130.
+(pdftex.def)             Requested size: 299.44824pt x 211.7284pt.
 
-]
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 6
-9.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
- [5
-
-]
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 8
-3.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
- [6
-
-]
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 9
-6.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
- [7
-
-]
-<PROYECTO/imgs/DSM-BCD_SPANISH.pdf, id=369, 845.15248pt x 597.58253pt>
-File: PROYECTO/imgs/DSM-BCD_SPANISH.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/DSM-BCD_SPANISH.pdf>
-Package pdftex.def Info: PROYECTO/imgs/DSM-BCD_SPANISH.pdf  used on input line 
-106.
-(pdftex.def)             Requested size: 297.79524pt x 210.56125pt.
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 1
-06.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
- [8
-
- <./PROYECTO/imgs/DSM-BCD_SPANISH.pdf>]
-<PROYECTO/imgs/BCQM_SPANISH.pdf, id=399, 421.575pt x 486.81876pt>
-File: PROYECTO/imgs/BCQM_SPANISH.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/BCQM_SPANISH.pdf>
-Package pdftex.def Info: PROYECTO/imgs/BCQM_SPANISH.pdf  used on input line 115
-.
-(pdftex.def)             Requested size: 191.68452pt x 221.35431pt.
-
-Overfull \vbox (0.28372pt too high) detected at line 115
+Overfull \vbox (3.47586pt too high) detected at line 130
  []
 
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 1
-15.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
 [9
 
- <./PROYECTO/imgs/BCQM_SPANISH.pdf>]
-<PROYECTO/imgs/BCQM_TCGA.pdf, id=437, 529.98pt x 173.64874pt>
-File: PROYECTO/imgs/BCQM_TCGA.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/BCQM_TCGA.pdf>
-Package pdftex.def Info: PROYECTO/imgs/BCQM_TCGA.pdf  used on input line 131.
-(pdftex.def)             Requested size: 318.33212pt x 104.30133pt.
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 1
-31.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
+ <./IMAGENES/DSM-BCD_SPANISH.pdf>]
+<IMAGENES/BCQM_SPANISH.pdf, id=451, 421.575pt x 486.81876pt>
+File: IMAGENES/BCQM_SPANISH.pdf Graphic file (type pdf)
+<use IMAGENES/BCQM_SPANISH.pdf>
+Package pdftex.def Info: IMAGENES/BCQM_SPANISH.pdf  used on input line 139.
+(pdftex.def)             Requested size: 172.09766pt x 198.7353pt.
  [10
 
- <./PROYECTO/imgs/BCQM_TCGA.pdf>]
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 1
-40.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
+ <./IMAGENES/BCQM_SPANISH.pdf>]
+<IMAGENES/BCQM_TCGA.pdf, id=492, 529.98pt x 173.64874pt>
+File: IMAGENES/BCQM_TCGA.pdf Graphic file (type pdf)
+<use IMAGENES/BCQM_TCGA.pdf>
+Package pdftex.def Info: IMAGENES/BCQM_TCGA.pdf  used on input line 153.
+(pdftex.def)             Requested size: 320.09912pt x 104.8816pt.
 
 [11
 
-]
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 1
-47.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
- [12
+ <./IMAGENES/BCQM_TCGA.pdf>]
 
-]
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 1
-56.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
- [13
+pdfTeX warning: pdflatex.exe (file ./IMAGENES/Data_Analysis_Team.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<IMAGENES/Data_Analysis_Team.pdf, id=530, 336.25626pt x 357.335pt>
+File: IMAGENES/Data_Analysis_Team.pdf Graphic file (type pdf)
+<use IMAGENES/Data_Analysis_Team.pdf>
+Package pdftex.def Info: IMAGENES/Data_Analysis_Team.pdf  used on input line 16
+7.
+(pdftex.def)             Requested size: 144.5614pt x 153.62378pt.
+[12
 
-]
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 1
-66.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
+ <./IMAGENES/Data_Analysis_Team.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./IMAGENES/Activity_Planning.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+<IMAGENES/Activity_Planning.pdf, id=567, 731.73375pt x 433.62pt>
+File: IMAGENES/Activity_Planning.pdf Graphic file (type pdf)
+<use IMAGENES/Activity_Planning.pdf>
+Package pdftex.def Info: IMAGENES/Activity_Planning.pdf  used on input line 176
+.
+(pdftex.def)             Requested size: 296.00818pt x 175.41002pt.
+[13
+
+ <./IMAGENES/Activity_Planning.pdf>]
+<IMAGENES/Planning_TCGA.pdf, id=632, 835.12pt x 463.7325pt>
+File: IMAGENES/Planning_TCGA.pdf Graphic file (type pdf)
+<use IMAGENES/Planning_TCGA.pdf>
+Package pdftex.def Info: IMAGENES/Planning_TCGA.pdf  used on input line 185.
+(pdftex.def)             Requested size: 299.44824pt x 166.27843pt.
  [14
 
-] (TESIS_BEAMER.bbl)
-File: PROYECTO/imgs/LogoUdistrital.pdf Graphic file (type pdf)
-<use PROYECTO/imgs/LogoUdistrital.pdf>
-Package pdftex.def Info: PROYECTO/imgs/LogoUdistrital.pdf  used on input line 1
-75.
-(pdftex.def)             Requested size: 28.04576pt x 42.67912pt.
- [15
+ <./IMAGENES/Planning_TCGA.pdf>]
+<IMAGENES/Adquisicion_datos.pdf, id=851, 293.095pt x 214.8025pt>
+File: IMAGENES/Adquisicion_datos.pdf Graphic file (type pdf)
+<use IMAGENES/Adquisicion_datos.pdf>
+Package pdftex.def Info: IMAGENES/Adquisicion_datos.pdf  used on input line 198
+.
+(pdftex.def)             Requested size: 189.30847pt x 138.73828pt.
 
- <C:/Users/jamil/AppData/Roaming/MiKTeX/tex/latex/beamer/beamericonarticle.pdf>
+[15
+
+ <./IMAGENES/Adquisicion_datos.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./IMAGENES/EDA_Beamer.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<IMAGENES/EDA_Beamer.pdf, id=891, 827.09pt x 442.65375pt>
+File: IMAGENES/EDA_Beamer.pdf Graphic file (type pdf)
+<use IMAGENES/EDA_Beamer.pdf>
+Package pdftex.def Info: IMAGENES/EDA_Beamer.pdf  used on input line 212.
+(pdftex.def)             Requested size: 299.44824pt x 160.26706pt.
+[16
+
+ <./IMAGENES/EDA_Beamer.pdf>]
+<IMAGENES/Clustering_Beamer.pdf, id=947, 416.55624pt x 143.53625pt>
+File: IMAGENES/Clustering_Beamer.pdf Graphic file (type pdf)
+<use IMAGENES/Clustering_Beamer.pdf>
+Package pdftex.def Info: IMAGENES/Clustering_Beamer.pdf  used on input line 225
+.
+(pdftex.def)             Requested size: 299.44824pt x 103.18831pt.
+ [17
+
+ <./IMAGENES/Clustering_Beamer.pdf>]
+<IMAGENES/CLUSTERING/1_TNSE_Kmeans.png, id=982, 452.4403pt x 423.08063pt>
+File: IMAGENES/CLUSTERING/1_TNSE_Kmeans.png Graphic file (type png)
+<use IMAGENES/CLUSTERING/1_TNSE_Kmeans.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/1_TNSE_Kmeans.png  used on input l
+ine 256.
+(pdftex.def)             Requested size: 72.28333pt x 67.59099pt.
+<IMAGENES/CLUSTERING/2_TNSE_Affinity_Propagation.png, id=983, 469.755pt x 423.8
+3344pt>
+File: IMAGENES/CLUSTERING/2_TNSE_Affinity_Propagation.png Graphic file (type pn
+g)
+<use IMAGENES/CLUSTERING/2_TNSE_Affinity_Propagation.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/2_TNSE_Affinity_Propagation.png  u
+sed on input line 256.
+(pdftex.def)             Requested size: 72.28333pt x 65.21492pt.
+<IMAGENES/CLUSTERING/3_TNSE_Mean_Shift_Clustering.png, id=984, 469.00218pt x 42
+6.09187pt>
+File: IMAGENES/CLUSTERING/3_TNSE_Mean_Shift_Clustering.png Graphic file (type p
+ng)
+<use IMAGENES/CLUSTERING/3_TNSE_Mean_Shift_Clustering.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/3_TNSE_Mean_Shift_Clustering.png  
+used on input line 256.
+(pdftex.def)             Requested size: 72.28333pt x 65.66646pt.
+<IMAGENES/CLUSTERING/4_TNSE_Spectral_ Clustering.png, id=985, 461.47406pt x 418
+.56375pt>
+File: IMAGENES/CLUSTERING/4_TNSE_Spectral_ Clustering.png Graphic file (type pn
+g)
+<use IMAGENES/CLUSTERING/4_TNSE_Spectral_ Clustering.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/4_TNSE_Spectral_ Clustering.png  u
+sed on input line 256.
+(pdftex.def)             Requested size: 72.28333pt x 65.56009pt.
+<IMAGENES/CLUSTERING/5_TNSE_Agglomerative_Clustering.png, id=986, 451.6875pt x 
+426.84468pt>
+File: IMAGENES/CLUSTERING/5_TNSE_Agglomerative_Clustering.png Graphic file (typ
+e png)
+<use IMAGENES/CLUSTERING/5_TNSE_Agglomerative_Clustering.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/5_TNSE_Agglomerative_Clustering.pn
+g  used on input line 256.
+(pdftex.def)             Requested size: 72.28333pt x 68.30305pt.
+<IMAGENES/CLUSTERING/6_TNSE_Density_Based_Spatial_Clustering.png, id=987, 450.1
+8187pt x 419.31656pt>
+File: IMAGENES/CLUSTERING/6_TNSE_Density_Based_Spatial_Clustering.png Graphic f
+ile (type png)
+<use IMAGENES/CLUSTERING/6_TNSE_Density_Based_Spatial_Clustering.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/6_TNSE_Density_Based_Spatial_Clust
+ering.png  used on input line 256.
+(pdftex.def)             Requested size: 72.28333pt x 67.32234pt.
+<IMAGENES/CLUSTERING/7_TNSE_OPTICS_Clustering.png, id=988, 461.47406pt x 420.82
+219pt>
+File: IMAGENES/CLUSTERING/7_TNSE_OPTICS_Clustering.png Graphic file (type png)
+<use IMAGENES/CLUSTERING/7_TNSE_OPTICS_Clustering.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/7_TNSE_OPTICS_Clustering.png  used
+ on input line 256.
+(pdftex.def)             Requested size: 72.28333pt x 65.91383pt.
+<IMAGENES/CLUSTERING/9_TNSE_Kmodes.png, id=989, 449.42906pt x 422.32782pt>
+File: IMAGENES/CLUSTERING/9_TNSE_Kmodes.png Graphic file (type png)
+<use IMAGENES/CLUSTERING/9_TNSE_Kmodes.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/9_TNSE_Kmodes.png  used on input l
+ine 256.
+(pdftex.def)             Requested size: 72.28333pt x 67.92181pt.
+
+[18
+
+ <./IMAGENES/CLUSTERING/1_TNSE_Kmeans.png> <./IMAGENES/CLUSTERING/2_TNSE_Affini
+ty_Propagation.png> <./IMAGENES/CLUSTERING/3_TNSE_Mean_Shift_Clustering.png> <.
+/IMAGENES/CLUSTERING/4_TNSE_Spectral_ Clustering.png> <./IMAGENES/CLUSTERING/5_
+TNSE_Agglomerative_Clustering.png> <./IMAGENES/CLUSTERING/6_TNSE_Density_Based_
+Spatial_Clustering.png> <./IMAGENES/CLUSTERING/7_TNSE_OPTICS_Clustering.png> <.
+/IMAGENES/CLUSTERING/9_TNSE_Kmodes.png>]
+<IMAGENES/CLUSTERING/8_TNSE_Birch_Clustering.png, id=1037, 488.57532pt x 423.08
+063pt>
+File: IMAGENES/CLUSTERING/8_TNSE_Birch_Clustering.png Graphic file (type png)
+<use IMAGENES/CLUSTERING/8_TNSE_Birch_Clustering.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/8_TNSE_Birch_Clustering.png  used 
+on input line 269.
+(pdftex.def)             Requested size: 154.88684pt x 134.12325pt.
+ [19
+
+ <./IMAGENES/CLUSTERING/8_TNSE_Birch_Clustering.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{TSNE}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.293 \end{frame}
+                 
+<IMAGENES/CLUSTERING/8_PCA_Birch_Clustering.png, id=1066, 1313.90875pt x 421.57
+5pt>
+File: IMAGENES/CLUSTERING/8_PCA_Birch_Clustering.png Graphic file (type png)
+<use IMAGENES/CLUSTERING/8_PCA_Birch_Clustering.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/8_PCA_Birch_Clustering.png  used o
+n input line 293.
+(pdftex.def)             Requested size: 247.82104pt x 79.5147pt.
+<IMAGENES/CLUSTERING/8_SILHOUTETTE_Birch_Clustering.png, id=1067, 383.4325pt x 
+276.03125pt>
+File: IMAGENES/CLUSTERING/8_SILHOUTETTE_Birch_Clustering.png Graphic file (type
+ png)
+<use IMAGENES/CLUSTERING/8_SILHOUTETTE_Birch_Clustering.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/8_SILHOUTETTE_Birch_Clustering.png
+  used on input line 293.
+(pdftex.def)             Requested size: 120.47046pt x 86.72285pt.
+<IMAGENES/CLUSTERING/8_ELBOW_Birch_Clustering.png, id=1068, 398.48875pt x 276.0
+3125pt>
+File: IMAGENES/CLUSTERING/8_ELBOW_Birch_Clustering.png Graphic file (type png)
+<use IMAGENES/CLUSTERING/8_ELBOW_Birch_Clustering.png>
+Package pdftex.def Info: IMAGENES/CLUSTERING/8_ELBOW_Birch_Clustering.png  used
+ on input line 293.
+(pdftex.def)             Requested size: 120.47046pt x 83.446pt.
+ [20
+
+ <./IMAGENES/CLUSTERING/8_PCA_Birch_Clustering.png> <./IMAGENES/CLUSTERING/8_SI
+LHOUTETTE_Birch_Clustering.png> <./IMAGENES/CLUSTERING/8_ELBOW_Birch_Clustering
+.png>]
+<IMAGENES/BIRCH_CLUSTERING/1_Cluster_0_oncotree_code.pdf, id=1110, 390.40857pt 
+x 295.06819pt>
+File: IMAGENES/BIRCH_CLUSTERING/1_Cluster_0_oncotree_code.pdf Graphic file (typ
+e pdf)
+<use IMAGENES/BIRCH_CLUSTERING/1_Cluster_0_oncotree_code.pdf>
+Package pdftex.def Info: IMAGENES/BIRCH_CLUSTERING/1_Cluster_0_oncotree_code.pd
+f  used on input line 316.
+(pdftex.def)             Requested size: 79.16345pt x 59.82751pt.
+<IMAGENES/BIRCH_CLUSTERING/1_Cluster_1_oncotree_code.pdf, id=1111, 390.40857pt 
+x 295.06819pt>
+File: IMAGENES/BIRCH_CLUSTERING/1_Cluster_1_oncotree_code.pdf Graphic file (typ
+e pdf)
+<use IMAGENES/BIRCH_CLUSTERING/1_Cluster_1_oncotree_code.pdf>
+Package pdftex.def Info: IMAGENES/BIRCH_CLUSTERING/1_Cluster_1_oncotree_code.pd
+f  used on input line 316.
+(pdftex.def)             Requested size: 79.16345pt x 59.82751pt.
+<IMAGENES/BIRCH_CLUSTERING/1_Cluster_2_oncotree_code.pdf, id=1112, 387.22481pt 
+x 285.61513pt>
+File: IMAGENES/BIRCH_CLUSTERING/1_Cluster_2_oncotree_code.pdf Graphic file (typ
+e pdf)
+<use IMAGENES/BIRCH_CLUSTERING/1_Cluster_2_oncotree_code.pdf>
+Package pdftex.def Info: IMAGENES/BIRCH_CLUSTERING/1_Cluster_2_oncotree_code.pd
+f  used on input line 316.
+(pdftex.def)             Requested size: 79.16345pt x 58.39023pt.
+<IMAGENES/BIRCH_CLUSTERING/1_Cluster_3_oncotree_code.pdf, id=1113, 384.02534pt 
+x 295.06819pt>
+File: IMAGENES/BIRCH_CLUSTERING/1_Cluster_3_oncotree_code.pdf Graphic file (typ
+e pdf)
+<use IMAGENES/BIRCH_CLUSTERING/1_Cluster_3_oncotree_code.pdf>
+Package pdftex.def Info: IMAGENES/BIRCH_CLUSTERING/1_Cluster_3_oncotree_code.pd
+f  used on input line 316.
+(pdftex.def)             Requested size: 79.16345pt x 60.82254pt.
+ [21
+
+ <./IMAGENES/BIRCH_CLUSTERING/1_Cluster_0_oncotree_code.pdf> <./IMAGENES/BIRCH_
+CLUSTERING/1_Cluster_1_oncotree_code.pdf
+
+pdfTeX warning: pdflatex.exe (file ./IMAGENES/BIRCH_CLUSTERING/1_Cluster_1_onco
+tree_code.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+> <./IMAGENES/BIRCH_CLUSTERING/1_Cluster_2_oncotree_code.pdf
+
+pdfTeX warning: pdflatex.exe (file ./IMAGENES/BIRCH_CLUSTERING/1_Cluster_2_onco
+tree_code.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+> <./IMAGENES/BIRCH_CLUSTERING/1_Cluster_3_oncotree_code.pdf
+
+pdfTeX warning: pdflatex.exe (file ./IMAGENES/BIRCH_CLUSTERING/1_Cluster_3_onco
+tree_code.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+>] [22
+
 ]
-\tf@nav=\write6
-\openout6 = `TESIS_BEAMER.nav'.
+<IMAGENES/0_MER_BCDL.png, id=1290, 1630.59187pt x 1105.12875pt>
+File: IMAGENES/0_MER_BCDL.png Graphic file (type png)
+<use IMAGENES/0_MER_BCDL.png>
+Package pdftex.def Info: IMAGENES/0_MER_BCDL.png  used on input line 333.
+(pdftex.def)             Requested size: 309.77368pt x 209.94292pt.
+ [23
 
-\tf@toc=\write7
-\openout7 = `TESIS_BEAMER.toc'.
+ <./IMAGENES/0_MER_BCDL.png (PNG copy)>] [24
 
-\tf@snm=\write8
-\openout8 = `TESIS_BEAMER.snm'.
+] [25
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/b/it' instead on input line 356.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/it' undefined
+(Font)              using `OT1/cmss/b/n' instead on input line 356.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 356.
+
+[26
+
+] Excluding 'comment' comment.
+\tf@nav=\write7
+\openout7 = `TESIS_BEAMER.nav'.
+
+\tf@toc=\write8
+\openout8 = `TESIS_BEAMER.toc'.
+
+\tf@snm=\write9
+\openout9 = `TESIS_BEAMER.snm'.
 
  (TESIS_BEAMER.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `TESIS_BEAMER.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23782 strings out of 478552
- 466516 string characters out of 2851753
- 727605 words of memory out of 3000000
- 41462 multiletter control sequences out of 15000+600000
- 476672 words of font info for 54 fonts, out of 8000000 for 9000
+ 27400 strings out of 478552
+ 555765 string characters out of 2851753
+ 800514 words of memory out of 3000000
+ 44975 multiletter control sequences out of 15000+600000
+ 475211 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,122p,740b,585s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,16n,122p,1083b,589s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb>
-Output written on TESIS_BEAMER.pdf (15 pages, 1290393 bytes).
+1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb>
+Output written on TESIS_BEAMER.pdf (26 pages, 4193949 bytes).
 PDF statistics:
- 633 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 459 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1433 PDF objects out of 1440 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 902 words of extra memory for PDF output out of 10000 (max. 10000000)
 
