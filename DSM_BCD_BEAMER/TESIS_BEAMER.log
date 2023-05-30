@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  27 MAY 2023 01:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  30 MAY 2023 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1372,19 +1372,23 @@ Package pdftex.def Info: IMAGENES/0_MER_BCDL.png  used on input line 333.
 
 ] [25
 
+] [26
+
+] [27
+
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/b/it' instead on input line 356.
+(Font)              using `OT1/cmss/b/it' instead on input line 374.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/it' undefined
-(Font)              using `OT1/cmss/b/n' instead on input line 356.
+(Font)              using `OT1/cmss/b/n' instead on input line 374.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 356.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 374.
 
-[26
+[28
 
 ] Excluding 'comment' comment.
 \tf@nav=\write7
@@ -1410,22 +1414,22 @@ Package rerunfilecheck Info: File `TESIS_BEAMER.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27400 strings out of 478552
- 555765 string characters out of 2851753
- 800514 words of memory out of 3000000
- 44975 multiletter control sequences out of 15000+600000
+ 27408 strings out of 478552
+ 555835 string characters out of 2851753
+ 800515 words of memory out of 3000000
+ 44979 multiletter control sequences out of 15000+600000
  475211 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,122p,1083b,589s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,16n,122p,1146b,589s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb>
-Output written on TESIS_BEAMER.pdf (26 pages, 4193949 bytes).
+Output written on TESIS_BEAMER.pdf (28 pages, 4207398 bytes).
 PDF statistics:
- 1433 PDF objects out of 1440 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
+ 1486 PDF objects out of 1728 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
  902 words of extra memory for PDF output out of 10000 (max. 10000000)
 
